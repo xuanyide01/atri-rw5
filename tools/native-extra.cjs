@@ -15,5 +15,5 @@ async function shot(name){await sleep(700);fs.writeFileSync(path.join(out,name+'
   await click(216,477,/ATRI_RW5 menu/);await click(216,327);await click(216,385);
   for(let i=29;i<=32;i++)await click(370,477,new RegExp('ATRI_RW5 frame b101:\\*start '+i+'(?:\\s|$)'));
   await shot('portrait-face');await click(216,477,/ATRI_RW5 menu/);await click(216,443,/ATRI_RW5 title ready/);
-  const extra={passed:true,packageSha256:crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'dist/com.codex.atri.rw5.debug.'+version+'.rpk'))).digest('hex'),dialogueDragDoesNotAdvance:true,dialogueScrollChangesVisibleContent:true,largeFontChecked:true,portraitFaceChecked:true};fs.writeFileSync(path.join(out,'extra-report.json'),JSON.stringify(extra,null,2));console.log('NATIVE_EXTRA_PASS',JSON.stringify(extra));
+  const extra={passed:true,packageSha256:crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'dist/com.codex.atri.rw5.debug.'+version+'.rpk'))).digest('hex'),dialogueDragDoesNotAdvance:true,dialogueScrollChangesVisibleContent:true,largeFontChecked:true,nonAtriPortraitRemovedScreenshot:'portrait-face.png'};fs.writeFileSync(path.join(out,'extra-report.json'),JSON.stringify(extra,null,2));console.log('NATIVE_EXTRA_PASS',JSON.stringify(extra));
 })().catch(e=>{console.error(e);process.exitCode=1;});

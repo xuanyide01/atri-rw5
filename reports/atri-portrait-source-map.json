@@ -1,0 +1,10812 @@
+{
+  "common/images/c5a10217fc3fc173.png": {
+    "id": "0f079b374132d65e",
+    "base": "tatr03",
+    "canvas": [
+      511,
+      1152
+    ],
+    "crop": [
+      53,
+      204,
+      437,
+      1074
+    ],
+    "selectedLayers": [
+      231
+    ],
+    "size": [
+      177,
+      400
+    ]
+  },
+  "common/images/0641920b04aa73de.png": {
+    "id": "5d1c19773163c85a",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      812,
+      835,
+      858
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/83f7a29e9f4aacf4.png": {
+    "id": "791d3f6dd031c955",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      805,
+      828,
+      851
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/45a9da5ca486f1b9.png": {
+    "id": "77ef81c9868ab938",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1633,
+      1657,
+      1681,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/6d16189bfea3b91c.png": {
+    "id": "8fbe6722c80bc816",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1634,
+      1658,
+      1701,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/6462374ee2696af5.png": {
+    "id": "8a96f02795922b41",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1635,
+      1659,
+      1702,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/ab966bad109cbf3c.png": {
+    "id": "a83563658353ac15",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      808,
+      831,
+      854
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/ad195eb83ee0e051.png": {
+    "id": "14a5c084c1b2b375",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      808,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/03202ebc29987430.png": {
+    "id": "0526f107e1ee6947",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      814,
+      837,
+      860
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/6fb764c5e081a107.png": {
+    "id": "0bc16d8bd62a068f",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      812,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/2e55594b2f9862ba.png": {
+    "id": "5e5345a1a0df82fd",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      821,
+      840,
+      867
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/eba4fa1ba64e9804.png": {
+    "id": "24af13e6f264dce6",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      814,
+      832,
+      860
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/1f722fdb60e971c1.png": {
+    "id": "ecab65c49de5c571",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      807,
+      830,
+      853
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/fb2270034510f5c7.png": {
+    "id": "19fdb686a501877b",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1631,
+      1655,
+      1680,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/cccb7a8bebf94a0f.png": {
+    "id": "638421d5c1cdfcfa",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      811,
+      834,
+      857
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/1d0aaff00232a24c.png": {
+    "id": "f9bec8d7827bf3e2",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      804,
+      836,
+      850
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/9447acbe1ef7dca7.png": {
+    "id": "250b32905e653ce5",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      810,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/c8558967db60238b.png": {
+    "id": "01f7540347e7e6ba",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1638,
+      1662,
+      1686,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/28dff57dc9452260.png": {
+    "id": "495ba623fa2cb0c8",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1629,
+      1653,
+      1677,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/a4ed1ae65890391b.png": {
+    "id": "eb0d5c7573b00370",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      806,
+      829,
+      852
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/f9298ee58ec10030.png": {
+    "id": "67610cfb5bde6b18",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      809,
+      832,
+      850
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/69134b2d55956509.png": {
+    "id": "0448e4619c1f901b",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      805,
+      829,
+      852
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/fa6b52636bff3eea.png": {
+    "id": "5ed6f79b7c2c0c82",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1630,
+      1654,
+      1699,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/6805aee8b8afab7c.png": {
+    "id": "7a0253f417460c6c",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1630,
+      1654,
+      1677,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/ffdd0d12aab75742.png": {
+    "id": "4a146bbb1cb1fe5b",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1628,
+      1652,
+      1676,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/5c46d07e67b720be.png": {
+    "id": "f0976c9cd579c171",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1149
+    ],
+    "selectedLayers": [
+      694,
+      712,
+      715,
+      804,
+      827,
+      850
+    ],
+    "size": [
+      171,
+      400
+    ]
+  },
+  "common/images/0b3d90660d39d989.png": {
+    "id": "59026040460fd39c",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1636,
+      1660,
+      1703,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/bc25b46fcbfa14ce.png": {
+    "id": "6f94daf5584986ca",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      46,
+      225,
+      754,
+      1085
+    ],
+    "selectedLayers": [
+      1611,
+      1628,
+      1652,
+      1676,
+      1708
+    ],
+    "size": [
+      329,
+      400
+    ]
+  },
+  "common/images/58a0a506671cd0e2.png": {
+    "id": "1608e79a0b53d665",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      804,
+      827,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/6ba46d56d3f0991b.png": {
+    "id": "ad43ac63d6795c1b",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      811,
+      831,
+      854
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/34b368095c864397.png": {
+    "id": "d16edcf0ffdc0b2c",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      804,
+      834,
+      857
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/a7bd511fe9bc04df.png": {
+    "id": "59c1609fbc7135aa",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      804,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/de39855033a7092d.png": {
+    "id": "fc22411875885973",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      805,
+      832,
+      851
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/ed4fdae4a30f84e1.png": {
+    "id": "2b123066f4891daa",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1634,
+      1658,
+      1676,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/cf7db275b311ad64.png": {
+    "id": "30ee3b91e9a86156",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      809,
+      832,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/2400b9ef2b1ba243.png": {
+    "id": "5232089be8afb28e",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      811,
+      832,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/e1a6c1a8f8a472b7.png": {
+    "id": "3f37f4c96abcdd6b",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1634,
+      1658,
+      1704,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/1b76512a9b6bdb02.png": {
+    "id": "b752616cd1d9881f",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1633,
+      1654,
+      1677,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/57d65be3b92af6a0.png": {
+    "id": "45e3fb331b28698a",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      805,
+      828,
+      851
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/7239a038fd1efe4d.png": {
+    "id": "6cc233085d800e17",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1614,
+      1636,
+      1660,
+      1703,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/7b3c5835353e3386.png": {
+    "id": "ab24cfa823b5ef9c",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      808,
+      831,
+      854
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/698d3f5e11333240.png": {
+    "id": "8eb00ef178a2299d",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      812,
+      835,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/1268b0110881e6bc.png": {
+    "id": "5800864850f4dd59",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      809,
+      832,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/6ee6dd74e0e93ee1.png": {
+    "id": "84191c0908662a81",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      805,
+      832,
+      860
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/cb1922dd8237c48c.png": {
+    "id": "29b6093f1ca13d89",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      807,
+      830,
+      853,
+      884
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/9875e0a11112b801.png": {
+    "id": "bc1f4d6a67404ab4",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      808,
+      830,
+      853
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/e4f4b78817b67f11.png": {
+    "id": "50de78a3eb3f4791",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      805,
+      829,
+      852
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/6c3db7504084396c.png": {
+    "id": "89377612b990eec3",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      812,
+      835,
+      858
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/94c45e780287ebb8.png": {
+    "id": "a70a47801c84b271",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      804,
+      836,
+      859
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/26d3b20a97366e62.png": {
+    "id": "bc2cea955c9b5378",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      810,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/6f291c457a1dea2f.png": {
+    "id": "138d93d94bd55bdd",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      813,
+      836,
+      859
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/9bbac3af7a93b899.png": {
+    "id": "48ded9071adabba5",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      811,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/c9179881caeabe66.png": {
+    "id": "899a2b4a0b5b57e8",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1614,
+      1631,
+      1655,
+      1700,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/19dfaee08ba5de9d.png": {
+    "id": "460577deb0d700ce",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      811,
+      830,
+      853
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/761e6ba240a9a8dc.png": {
+    "id": "a193d55e2d8bc9f2",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1614,
+      1638,
+      1662,
+      1686,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/e34f541f83168217.png": {
+    "id": "8da9bac2e34ffaa9",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1614,
+      1635,
+      1659,
+      1702,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/043401e05fe51b37.png": {
+    "id": "c7e8cf071ecf5c23",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      814,
+      837,
+      860
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/602d16254eea2eb4.png": {
+    "id": "ecb9599aab2286eb",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      806,
+      829,
+      852
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/d3db6bb818bf8fa0.png": {
+    "id": "d7db4920b44cf6ee",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      801,
+      814,
+      832,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/6ecb7dd659df8459.png": {
+    "id": "f7e9f2107c70b77c",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      815,
+      838,
+      861
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/8fc6c5a93b27385c.png": {
+    "id": "b26da5f84595b411",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      810,
+      847,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/b244810c6e990ac6.png": {
+    "id": "bb0e984a1f7bd696",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      811,
+      834,
+      857
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/0ccebbd0242a39ca.png": {
+    "id": "588f9c2a433a56c7",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      805,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/b0150401a1e0a98c.png": {
+    "id": "4581dd678a4aa33d",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1614,
+      1633,
+      1657,
+      1681,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/dbbbdd8bd054459e.png": {
+    "id": "ed97ed5b28fca007",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1614,
+      1634,
+      1658,
+      1701,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/2b61c1c19e83f12b.png": {
+    "id": "23da8dddc401237b",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      814,
+      837,
+      860
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/0a57bafaf028e783.png": {
+    "id": "918ce01c56be3f28",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      811,
+      847,
+      857
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/2305728d4c4b7e6f.png": {
+    "id": "5617fb34a3c3b94a",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      805,
+      829,
+      851
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/f33be5dbf065da43.png": {
+    "id": "792d67dfdca55837",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      806,
+      829,
+      852,
+      877
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/d07b852f9ff30ef9.png": {
+    "id": "dcdb7cd95e812aeb",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      805,
+      829,
+      852,
+      877
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/ba76d638da01b08e.png": {
+    "id": "4121e704f601648e",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      808,
+      836,
+      859
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/bdfe950bc1dc411d.png": {
+    "id": "f5c7980f6d0cb6a7",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      805,
+      847,
+      866
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/a0a44f3d0ecf325e.png": {
+    "id": "adc22547cb45fadb",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      805,
+      828,
+      859
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/2299ca4170d6eca9.png": {
+    "id": "467c68a829c5e74c",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      824,
+      847,
+      860
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/102ca2dd5bd77ff2.png": {
+    "id": "073672588223ea19",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      819,
+      830,
+      853
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/93613f80c308f548.png": {
+    "id": "bce71d4922fcf809",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      811,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/512574ab8f3ad6ad.png": {
+    "id": "bf9bd66109e315f9",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      811,
+      834,
+      864
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/8921e366a6a7e4b0.png": {
+    "id": "5a4f68da7a1d9e6f",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      805,
+      832,
+      850
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/e44dd002a88264e3.png": {
+    "id": "ba02e685a355f1c8",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      810,
+      834,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/b9f69d5caabf049a.png": {
+    "id": "41ba841f0a999ebf",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1631,
+      1655,
+      1700,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/2310adb28d15fd1a.png": {
+    "id": "78b39da201fe5c22",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      811,
+      835,
+      858,
+      877
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/3c6772302210f03b.png": {
+    "id": "906ccdb810f6a45d",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      814,
+      837,
+      860,
+      877
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/80d59f38e2902265.png": {
+    "id": "89db4565a5a5bcc5",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      810,
+      833,
+      856,
+      877
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/744e969f712cc0d5.png": {
+    "id": "c8896847181117a8",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      824,
+      847,
+      853
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/3ee20e98ede97e6a.png": {
+    "id": "5bd7820ae640d891",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      811,
+      834,
+      857,
+      877
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/93688023ef21ee0b.png": {
+    "id": "34ab960b0de280a5",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      807,
+      830,
+      853,
+      877
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/407493ae66ccb288.png": {
+    "id": "04639ce244cefc12",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      823,
+      846,
+      869,
+      877
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/39ca93bdf4e05b2d.png": {
+    "id": "8a0e6fd5ae76a5b7",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      816,
+      829,
+      855,
+      877
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/979c59827166fbb1.png": {
+    "id": "cd794aea0e3f8d25",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      816,
+      829,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/1fb7e8c8a667998b.png": {
+    "id": "192feb4f270de128",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      810,
+      832,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/f508ebd17581c293.png": {
+    "id": "ce0b03b3de9b4a82",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      808,
+      832,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/d60c3e5dfd5f9b90.png": {
+    "id": "60a7469282d04973",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      805,
+      828,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/e0b84ef1675cd6f4.png": {
+    "id": "791e56a21c4a31a5",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      806,
+      827,
+      852
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/aa7a1a07e05465a7.png": {
+    "id": "40fc913036c8e053",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      809,
+      832,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/ece1c32e13e0b629.png": {
+    "id": "7bcba697c82ec1b5",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      822,
+      845,
+      868
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/72bcfb291a856ce1.png": {
+    "id": "4e9993502eefa248",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      819,
+      842,
+      865
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/0a92374340aae864.png": {
+    "id": "5e4824beb962e93b",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      808,
+      831,
+      854,
+      877
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/c066cdb1f3505451.png": {
+    "id": "4c84c1d4ff9e4ce2",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      805,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/cbeffe8177c8f49d.png": {
+    "id": "4d515478d2e1ee98",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1615,
+      1629,
+      1653,
+      1677,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/5bcce7e44cd890be.png": {
+    "id": "aabd717822bc9b42",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1615,
+      1630,
+      1654,
+      1699,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/4ae4a76cb98ad6b4.png": {
+    "id": "985c351703f75550",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      806,
+      829,
+      852,
+      888
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/2733bf873d331ec2.png": {
+    "id": "bfe2fdd412456404",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      805,
+      828,
+      851,
+      888
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/b33462dbae7d086a.png": {
+    "id": "b3ad00b0bfdd1cd9",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      809,
+      832,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/d227efa23c645346.png": {
+    "id": "3bff924835ed8f96",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      805,
+      828,
+      851
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/4da8dada8158af2a.png": {
+    "id": "d35138b9346106b9",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      815,
+      838,
+      861
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/ebeca63895267ecb.png": {
+    "id": "55948f307d1fe204",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      813,
+      843,
+      866
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/df1c1dcc671629ca.png": {
+    "id": "76c7ce945d0409e8",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      805,
+      843,
+      866
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/de9aed14a9788614.png": {
+    "id": "7c92c9717d95caa9",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      808,
+      831,
+      854
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/9278ebd725ab8acc.png": {
+    "id": "9ef9a99fafdc6aba",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      811,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/952972f84dc88b37.png": {
+    "id": "6aa82f2d5e77219c",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      806,
+      829,
+      852
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/be76b89eed681a7d.png": {
+    "id": "95aed7605857e298",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      801,
+      809,
+      832,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/5b39a5803441b081.png": {
+    "id": "c60d674aea9ef4ec",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      807,
+      830,
+      853,
+      888
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/d78f4951d674dd21.png": {
+    "id": "1d3dfde2748ea1e7",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      811,
+      834,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/7d77273e4da2f422.png": {
+    "id": "3e027d5d1bff840b",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      811,
+      830,
+      853
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/d28b4c1dbd39ccd7.png": {
+    "id": "0f25443bea52ce52",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1631,
+      1655,
+      1691,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/39a983a914d62b53.png": {
+    "id": "1efe594d09e9ccb2",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      819,
+      827,
+      865,
+      877
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/5b4756e642d56e0a.png": {
+    "id": "c855f1cfb65dfe48",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      809,
+      830,
+      853,
+      877
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/eef2a76093d412e1.png": {
+    "id": "79a3bc38b6dbcbda",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      804,
+      847,
+      850
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/0b523f8d24fddf49.png": {
+    "id": "504d3a3631cea991",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      805,
+      828,
+      851,
+      877
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/77be8c8f86dcde5a.png": {
+    "id": "0031246aac46bffd",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      816,
+      835,
+      859,
+      877
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/f0e176c8b9568951.png": {
+    "id": "8719564ceb2e2afa",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      811,
+      836,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/54a88aa68751d8ae.png": {
+    "id": "97d183eb70ff0f6e",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      815,
+      835,
+      858
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/7d1c48f59af684a3.png": {
+    "id": "066eb0bbd6b4d8a9",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      810,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/31ab3ec4a7a6f6d0.png": {
+    "id": "d2300851c6916932",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      823,
+      846,
+      869,
+      888
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/2909fe936efa7c57.png": {
+    "id": "8d7e8673c0ec8ce8",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      804,
+      827,
+      850
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/0e5ca374ea8c30f5.png": {
+    "id": "0a02b84486a5b18a",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      811,
+      834,
+      857
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/9e5009a2874dc0aa.png": {
+    "id": "2280da7face7a8cf",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      807,
+      830,
+      853
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/a347d30c4895d144.png": {
+    "id": "339a235876851c03",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      812,
+      835,
+      858
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/36d65eec176c424d.png": {
+    "id": "dd28f407a3f50a90",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      819,
+      831,
+      854
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/af20461fc0086669.png": {
+    "id": "e5177c67778a2620",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      809,
+      827,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/d822c4c499578d36.png": {
+    "id": "6aa92bd8ecc4ce59",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      168,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      818,
+      841,
+      864
+    ],
+    "size": [
+      155,
+      400
+    ]
+  },
+  "common/images/10415e04f6b08fd9.png": {
+    "id": "affe801b49e80afb",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      809,
+      832,
+      855,
+      877
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/b5da440796232ff2.png": {
+    "id": "10cb44a9d0955e30",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1638,
+      1654,
+      1699,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/53fe00dab5806f5c.png": {
+    "id": "a8ae1c141003f117",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      697,
+      716,
+      801,
+      805,
+      828,
+      851
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/fa4fff827785640a.png": {
+    "id": "e79ac210e0ccb460",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      697,
+      716,
+      801,
+      805,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/53b5ee6d3261daa8.png": {
+    "id": "411094af2348f295",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1616,
+      1630,
+      1654,
+      1699,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/a0bf3f50a8ef6d12.png": {
+    "id": "5da24802c50215ef",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      168,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      697,
+      716,
+      820,
+      833,
+      856
+    ],
+    "size": [
+      155,
+      400
+    ]
+  },
+  "common/images/4a55fe209915b6ef.png": {
+    "id": "a726d6b4d213feff",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      697,
+      716,
+      819,
+      842,
+      865
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/d726dbc0a8d87d2d.png": {
+    "id": "f3ea25ede6d40df6",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      697,
+      716,
+      804,
+      827,
+      850
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/e60c1c3ad3623255.png": {
+    "id": "c012441bbcf6a53d",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      697,
+      814,
+      837,
+      860,
+      880
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/12c70123060eae67.png": {
+    "id": "6b86cfe24f54444c",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      697,
+      806,
+      829,
+      852,
+      880
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/218a83dca2bb1471.png": {
+    "id": "62daf2fabff83eed",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1616,
+      1638,
+      1662,
+      1686,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/1ad9638dbd1e18e4.png": {
+    "id": "9209ae903ff24320",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1616,
+      1628,
+      1652,
+      1676,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/1d03dacf3163e4eb.png": {
+    "id": "cdc626e570a801e3",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1616,
+      1630,
+      1654,
+      1677,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/264065b756d635ba.png": {
+    "id": "f30c683b15a5166e",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1616,
+      1629,
+      1653,
+      1677,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/4e6ea6b73e7d4ae6.png": {
+    "id": "20c01bd3a72e9ed4",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      697,
+      716,
+      805,
+      828,
+      851
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/401905d558fded9f.png": {
+    "id": "d515a5fc6679399a",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      697,
+      716,
+      814,
+      837,
+      860
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/0e40623506c433e2.png": {
+    "id": "5afefde388ec16b7",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1630,
+      1652,
+      1699,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/647ecf1a725b5f52.png": {
+    "id": "59447c7a2a6cab97",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      168,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      820,
+      843,
+      866
+    ],
+    "size": [
+      155,
+      400
+    ]
+  },
+  "common/images/75fe890a84d672ba.png": {
+    "id": "246ffd955cdb4860",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      813,
+      841,
+      861
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/a7e95a3cfc172800.png": {
+    "id": "4c2cdfddf23c7565",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      809,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/d3b57b6fc26993bc.png": {
+    "id": "8f4c070b50fd43a8",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1632,
+      1656,
+      1703,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/52957b6b638034ba.png": {
+    "id": "bb366bca02640521",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1634,
+      1658,
+      1681,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/34e073ca0d9c2b16.png": {
+    "id": "45f36935b1a00b5f",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      805,
+      832,
+      852
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/b2481df0b0919236.png": {
+    "id": "83d5c86483343b5f",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      823,
+      846,
+      869
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/9b7f7d406fe7ca79.png": {
+    "id": "0e5b91ec5e7e7b70",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      809,
+      830,
+      853
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/08d9f7d5bcf98591.png": {
+    "id": "53256722d0e3fe4c",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1638,
+      1662,
+      1699,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/d48dfa11e1699d4b.png": {
+    "id": "66bb787c4c073b62",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      805,
+      829,
+      852
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/e0e11f68fa8e93da.png": {
+    "id": "4fd9735afc0837ac",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      808,
+      830,
+      853
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/3883b49296bb3a4e.png": {
+    "id": "47954551b840a94f",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      808,
+      837,
+      860
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/ea1fcb5611a36781.png": {
+    "id": "16233e5dd70dd963",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      813,
+      836,
+      859
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/ecb6a5f2c3dbc241.png": {
+    "id": "c9b9963f2408c328",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1643,
+      1667,
+      1691,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/a4a8914944d4ab6f.png": {
+    "id": "19c66a293316f2c7",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      812,
+      830,
+      853
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/ded3513567aad755.png": {
+    "id": "f8087dd64beb3369",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1634,
+      1658,
+      1677,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/8be9e284daf7ea57.png": {
+    "id": "40ad828aabc8951b",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      812,
+      834,
+      857
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/ab589e63c64cdd39.png": {
+    "id": "e6d25fbd8be5b70f",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      812,
+      830,
+      853,
+      877
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/c18556992e47a96c.png": {
+    "id": "e5a592a477134195",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1647,
+      1671,
+      1695,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/06cc904e57637f8b.png": {
+    "id": "2be62f42063f304d",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1615,
+      1631,
+      1655,
+      1700,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/7beb7bb33c363fc8.png": {
+    "id": "224338db0b6762e5",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      816,
+      833,
+      856,
+      888
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/5a81938531b7e1cd.png": {
+    "id": "5a4e4a580b66f951",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      807,
+      843,
+      866
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/e7256a50dbc690bb.png": {
+    "id": "ef05c959a56246ad",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      819,
+      832,
+      853
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/aa8f7ba1b275b98d.png": {
+    "id": "40d7b7873036457d",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      807,
+      830,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/41d338ac07432ba1.png": {
+    "id": "aac416b827b287f2",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      812,
+      836,
+      859
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/edbc7b6d6f6561b2.png": {
+    "id": "a7b2ff8ab0221653",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      811,
+      835,
+      858
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/07d144333027f77a.png": {
+    "id": "f97044d3b504a45d",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      804,
+      836,
+      859
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/9338a2933b7befa8.png": {
+    "id": "9e0de951f87d16c4",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      805,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/1c966237cf456d4b.png": {
+    "id": "5fe1ae74c945405b",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      168,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      820,
+      832,
+      855
+    ],
+    "size": [
+      155,
+      400
+    ]
+  },
+  "common/images/db8ffce4feb931a9.png": {
+    "id": "5a02cdc0d26a3845",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      804,
+      828,
+      859
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/078efdbf68c21c98.png": {
+    "id": "d368a4f04ca80f9c",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1616,
+      1631,
+      1655,
+      1702,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/6549d5cb747fbc87.png": {
+    "id": "a63209f33c098cd7",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      697,
+      716,
+      812,
+      835,
+      858
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/37511c5a9ab1fba7.png": {
+    "id": "17039aee46751ae4",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      697,
+      805,
+      828,
+      851,
+      880
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/cf7277cdaa5c46c7.png": {
+    "id": "2de8c522ba5b3bdb",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      804,
+      838,
+      861
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/edf1a66245152784.png": {
+    "id": "6f2b475a3f7c6045",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      812,
+      838,
+      861
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/29a677adbdb2131a.png": {
+    "id": "29925852d02ff439",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      817,
+      840,
+      863
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/cace4b3c1b6e3acf.png": {
+    "id": "9b39ee885f8135f0",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      817,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/fea7e87820ab417b.png": {
+    "id": "21d388d97d738f30",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      819,
+      842,
+      865,
+      877
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/baf4e8e73ac99287.png": {
+    "id": "7ddb05fd47c5ff0c",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1632,
+      1656,
+      1702,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/5e32842c352d7b2a.png": {
+    "id": "343f00a0caaf4954",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      806,
+      828,
+      851
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/d9f8381bdc064715.png": {
+    "id": "9cf37bc21062a504",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1637,
+      1661,
+      1704,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/7dc44ccdf9816547.png": {
+    "id": "32dc9fc320095230",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1647,
+      1657,
+      1704,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/246eb822ea68c8b9.png": {
+    "id": "f66dff22f06fd8d2",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      815,
+      827,
+      851
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/3c47a169f7c86ae7.png": {
+    "id": "8c55c7cf48ce42ed",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      815,
+      832,
+      851
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/306088047d29f0d1.png": {
+    "id": "5bb95b59ed077a40",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      804,
+      837,
+      860
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/e05ceb972cc630e3.png": {
+    "id": "f8acda2dd9687834",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      809,
+      837,
+      860
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/57878719bc517821.png": {
+    "id": "04a2ea469e363f56",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      816,
+      834,
+      859,
+      877
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/8ac16d5e193b2654.png": {
+    "id": "8443fd589eea09ec",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      821,
+      844,
+      867
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/6e0b8397b5e5cbb1.png": {
+    "id": "3b1264302f120d7d",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      805,
+      838,
+      861
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/cafbb8c99ea100b9.png": {
+    "id": "08d739248b6a4aaa",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      816,
+      834,
+      857
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/f72376e9d33fd2bc.png": {
+    "id": "4863f02a9d136f47",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      819,
+      827,
+      865,
+      888
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/49e8d5ea8b7c22ca.png": {
+    "id": "803f94739b5536dc",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      819,
+      842,
+      865
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/4b3766da3b581172.png": {
+    "id": "0d52ca0d8d0ecf99",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      815,
+      843,
+      861
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/af7b75cb4aac6fd5.png": {
+    "id": "a4818a391ebc3c9b",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      805,
+      843,
+      861
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/65e50b7a9ce46f06.png": {
+    "id": "88ac12d44be15874",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      805,
+      829,
+      861
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/aa2e4c136ee1e654.png": {
+    "id": "e0ad2f0a96144ac2",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      812,
+      828,
+      851
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/3ce9330dca47586c.png": {
+    "id": "c81eb7f755edcb01",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1616,
+      1648,
+      1672,
+      1696,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/ba4eb41d0fc585ae.png": {
+    "id": "23d37f87ebe39a72",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      697,
+      716,
+      810,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/a52d30d909da1461.png": {
+    "id": "ebd1ee082d417f21",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      697,
+      716,
+      809,
+      832,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/96d450c487c069a6.png": {
+    "id": "0287bdb40c0cdf75",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      697,
+      819,
+      827,
+      865,
+      880
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/609e2777d35a03d1.png": {
+    "id": "f73ca1e37d9df80f",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      697,
+      716,
+      807,
+      830,
+      853
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/be815893112acd92.png": {
+    "id": "aa79397aa9845be2",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1616,
+      1632,
+      1656,
+      1680,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/5fe20d57e319c18c.png": {
+    "id": "004c91fd69482079",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      697,
+      716,
+      806,
+      829,
+      852
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/56450ebed4d747f8.png": {
+    "id": "a294d92e2f33089a",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      697,
+      807,
+      830,
+      853,
+      880
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/d66b5816241524f7.png": {
+    "id": "2e462ec814bb7aed",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      697,
+      716,
+      811,
+      830,
+      853
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/96a32f9ea71a30a5.png": {
+    "id": "590dfa6ad08ba637",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      697,
+      716,
+      808,
+      830,
+      853
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/ac098e3b92548a5c.png": {
+    "id": "b061c31b47bd176f",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      808,
+      842,
+      853
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/d2e406b1e512f844.png": {
+    "id": "efc3a46cce6d7a24",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      808,
+      832,
+      853
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/6af12349c63d2801.png": {
+    "id": "2a825a37ed108574",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      811,
+      827,
+      867
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/3e15f3a01b04dd23.png": {
+    "id": "394542099660d601",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      812,
+      828,
+      851
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/4f9b9aa23f54545c.png": {
+    "id": "055fc1786d04726d",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      804,
+      837,
+      865
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/fb7cd9d482e64551.png": {
+    "id": "2f71b77be37ce189",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1636,
+      1660,
+      1691,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/6fcf25be039cdd34.png": {
+    "id": "694fc2995e8dea1f",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1638,
+      1657,
+      1686,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/07202c7d6b700243.png": {
+    "id": "26fd22a905f086ad",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      817,
+      832,
+      863
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/c48f96ff603da898.png": {
+    "id": "21855c41e49a26af",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1066
+    ],
+    "selectedLayers": [
+      694,
+      715
+    ],
+    "size": [
+      188,
+      400
+    ]
+  },
+  "common/images/f4890c1e6024c5ef.png": {
+    "id": "ca66d76a26acced7",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1615,
+      1633,
+      1657,
+      1703,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/96762c2257c25363.png": {
+    "id": "6112027a19ecf470",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1615,
+      1628,
+      1657,
+      1676,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/c5f40d9ffed20c22.png": {
+    "id": "ebe6d377631f3bcd",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1615,
+      1633,
+      1657,
+      1681,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/08b19fa68127ea82.png": {
+    "id": "6418e352d0893f77",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      804,
+      832,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/7b641b6a6a1c0987.png": {
+    "id": "a2bdf58d5c047de6",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      809,
+      827,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/9d14ab1220b84ad6.png": {
+    "id": "515dd1600f317888",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      804,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/ad326383d8ae0ab8.png": {
+    "id": "319581d57303fe3d",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      812,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/8db53ed64035137f.png": {
+    "id": "fd455074eb71452d",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      819,
+      830,
+      853
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/9a3d65624835171f.png": {
+    "id": "b95a1e607a9a38b6",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      809,
+      842,
+      865
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/8948688ff1eb5b0f.png": {
+    "id": "e47df00bcdee7fef",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      811,
+      832,
+      850
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/3360a64e4ba86303.png": {
+    "id": "6703084af053dda7",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      806,
+      837,
+      860,
+      877
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/ff7b747ef9640e8d.png": {
+    "id": "0e64a75a25733dce",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      812,
+      836,
+      858
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/1ae700cd47fa7f80.png": {
+    "id": "5e5ee4935d01bde7",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      819,
+      828,
+      865
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/11c0e78856eeaf96.png": {
+    "id": "70fe6933ab38490e",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      804,
+      827,
+      852
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/1a068974a0dbd06f.png": {
+    "id": "d3c1740847325889",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1153
+    ],
+    "selectedLayers": [
+      694,
+      696,
+      715,
+      804,
+      827,
+      850
+    ],
+    "size": [
+      170,
+      400
+    ]
+  },
+  "common/images/78b61ce110c234bb.png": {
+    "id": "4488f3bbbdcad000",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      812,
+      829,
+      851
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/c04ad37a613075ee.png": {
+    "id": "a957b84a8334deb0",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      168,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      820,
+      843,
+      866
+    ],
+    "size": [
+      155,
+      400
+    ]
+  },
+  "common/images/d849132ed773e6fb.png": {
+    "id": "8e979e5cd0b6a098",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      812,
+      835,
+      858
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/4b437db96e22c623.png": {
+    "id": "5cfd2a8454246d69",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      805,
+      843,
+      866
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/830ca7367d4c9fc8.png": {
+    "id": "1da0c7614b944f59",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      812,
+      832,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/4957f641a24a81db.png": {
+    "id": "cae15bd3149b365c",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      805,
+      828,
+      851
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/944cbd1ad7f44f70.png": {
+    "id": "f7cf4ff04e776e34",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      804,
+      832,
+      850
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/702866fca519a544.png": {
+    "id": "1fd8249471f84302",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      819,
+      830,
+      853,
+      877
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/0adca9e0fe267cab.png": {
+    "id": "784b099310ab1c5f",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      808,
+      827,
+      850
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/e4c9a370c0abd7f0.png": {
+    "id": "e9761292f241d0e1",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      808,
+      832,
+      850
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/d74dd785592f2c5a.png": {
+    "id": "1ae83de0d625504b",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      821,
+      833,
+      861
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/70527c88cad88f63.png": {
+    "id": "5b2519eb0f3d236b",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      812,
+      827,
+      850
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/1b8571a056b697ab.png": {
+    "id": "e0bfcd2a6d49cd6c",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      804,
+      832,
+      850
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/76dcfea2ffabe6be.png": {
+    "id": "868bb057351b7ccd",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      824,
+      847,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/89cf91b33cfdf252.png": {
+    "id": "3fadc9b3298fc46f",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      805,
+      832,
+      851
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/51bb67beceff18c5.png": {
+    "id": "2210396e342d2d98",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1615,
+      1639,
+      1663,
+      1687,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/510e50262d1f41c9.png": {
+    "id": "076e3e4b73cf1b15",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      805,
+      829,
+      852
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/0e074d4e79459382.png": {
+    "id": "2128c34f3604eb37",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      815,
+      838,
+      861
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/0f6dfafea471cbe6.png": {
+    "id": "00ab98e51d52954d",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      801,
+      807,
+      830,
+      853,
+      877
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/fb2756e92398bd5f.png": {
+    "id": "b666cadf5e74c4c2",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      808,
+      827,
+      852
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/b2137983e124ff11.png": {
+    "id": "2d3b165d054da631",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1616,
+      1641,
+      1665,
+      1680,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/7e736ccd94c441b4.png": {
+    "id": "be9bfe89e63c97b7",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1616,
+      1641,
+      1665,
+      1689,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/d9b69dd5b42ef6ed.png": {
+    "id": "92e60b90c006a5dd",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      697,
+      716,
+      817,
+      840,
+      863
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/4b0951c291d9821b.png": {
+    "id": "d4b5d201aa2648bb",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      697,
+      716,
+      808,
+      840,
+      863
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/5c840dacdaf806ba.png": {
+    "id": "56fb65e3b8940d0c",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      810,
+      830,
+      853,
+      877
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/32367f659984c122.png": {
+    "id": "5ff42daf1e798716",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      804,
+      850,
+      891
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/ef270c7ec72eac99.png": {
+    "id": "214a979669718ad0",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      811,
+      840,
+      863
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/cc27648c2c739572.png": {
+    "id": "ac24b535054372f3",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      817,
+      832,
+      863
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/80c1d1d358126595.png": {
+    "id": "3b83c33e2e4aac03",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      808,
+      840,
+      863
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/e3c47b334a45bd5a.png": {
+    "id": "25603985f14614f7",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      804,
+      831,
+      854
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/74dbdc7b07b300a3.png": {
+    "id": "91d9d04a94dc4f32",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      808,
+      832,
+      863
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/894ea090b26337de.png": {
+    "id": "fbafb684f9510a78",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      817,
+      840,
+      863
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/79ed4cbdcfd8ed1a.png": {
+    "id": "e866ef94e379a4f7",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      808,
+      832,
+      863
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/a10d144b0307128d.png": {
+    "id": "9afab4c7f339f955",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      811,
+      840,
+      863
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/969d962019ebe104.png": {
+    "id": "1e866b3f9079ff0b",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1614,
+      1641,
+      1665,
+      1689,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/34487c17fff6bc2d.png": {
+    "id": "293876330a0ab995",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      808,
+      827,
+      850
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/458549e2fd9c0a39.png": {
+    "id": "04e7280452047fc9",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      808,
+      832,
+      850
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/a07d840e6cd769bb.png": {
+    "id": "fcf6b4e2103fcdc1",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      811,
+      831,
+      854
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/7cac43b14184f9c2.png": {
+    "id": "f80faaaf54393496",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      811,
+      827,
+      850
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/9fa6e10268af351c.png": {
+    "id": "3be49cac8665b05e",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      808,
+      831,
+      864
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/25449d64980472a3.png": {
+    "id": "1425bb7898391e8f",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      810,
+      832,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/6758673d78294509.png": {
+    "id": "156f437d79484dfe",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      804,
+      827,
+      850
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/19877b4d1ac414fb.png": {
+    "id": "82f0181122b6b35a",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      809,
+      832,
+      850
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/3a7ed5fafb7c6719.png": {
+    "id": "8e0723b37729cedc",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      805,
+      840,
+      863
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/770e308b9f9e35b5.png": {
+    "id": "dd0b10647101aee9",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      805,
+      832,
+      851
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/59717463658ddcbe.png": {
+    "id": "ae7280887618ab66",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      811,
+      832,
+      851
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/a2d55fe9205d2aaf.png": {
+    "id": "506724a40bb09dda",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      698,
+      719,
+      809,
+      832,
+      863
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/58ee471406fc9f3d.png": {
+    "id": "a3dc0a46a689885b",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1641,
+      1665,
+      1689,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/8ffe20a2ef8e7fbd.png": {
+    "id": "3e410d9b545f113e",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      809,
+      840,
+      863
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/4e1cc3d7f0b6cf42.png": {
+    "id": "bfb1112309c94621",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      811,
+      832,
+      863
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/9b2a66907cc8db83.png": {
+    "id": "46ca92c5ce8af7e2",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      809,
+      832,
+      863
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/a9f1370b3b6641a0.png": {
+    "id": "291058258d659db2",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1641,
+      1665,
+      1680,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/6e97793e467137c4.png": {
+    "id": "1c6eb576573673b0",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1641,
+      1665,
+      1702,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/93275a4962732f1d.png": {
+    "id": "eccfdcb183f50a96",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      811,
+      834,
+      862
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/96edceba3241be40.png": {
+    "id": "11caac5441127a47",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      808,
+      840,
+      863
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/a35d69dc1d10ddfc.png": {
+    "id": "5d55af15d1ed5c83",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1615,
+      1641,
+      1665,
+      1689,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/679782ee21c36391.png": {
+    "id": "5e0a11aee0993d7c",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      808,
+      832,
+      850
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/137a2091729932a0.png": {
+    "id": "e031fd80e5e20eb5",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      808,
+      832,
+      863
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/e5893e70ca9bcb6e.png": {
+    "id": "385efcb0e5b0b93e",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      812,
+      827,
+      850
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/3744d4db4ed35298.png": {
+    "id": "07b344b6730cddcc",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      811,
+      840,
+      863
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/31b05e4c8a4a90de.png": {
+    "id": "3f327cd39826e122",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      817,
+      840,
+      863
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/ffe8fa70e9958b43.png": {
+    "id": "8ab85af7478f6688",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      811,
+      827,
+      850
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/dd37549e8f5a92fb.png": {
+    "id": "062d63fe27821f7c",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1615,
+      1641,
+      1665,
+      1701,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/73c467772a88efaa.png": {
+    "id": "bc12b133f490aa42",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1615,
+      1641,
+      1665,
+      1681,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/2ef8e4fff186438a.png": {
+    "id": "9ce6043b37d80425",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1615,
+      1641,
+      1665,
+      1703,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/b07d66481d632559.png": {
+    "id": "afc835aeb6cf1f8b",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1615,
+      1630,
+      1654,
+      1702,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/79388410afe9c1b3.png": {
+    "id": "a09d0f2eae5aef3d",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1615,
+      1641,
+      1665,
+      1680,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/3c83f3f2c72005c8.png": {
+    "id": "4ffe48e69ae7d8cf",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1615,
+      1641,
+      1665,
+      1702,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/8f7611f50e906c3c.png": {
+    "id": "146f6e1ff7392b9a",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1615,
+      1641,
+      1665,
+      1677,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/cecccf3e1123c439.png": {
+    "id": "a24eafbae53d4d10",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1638,
+      1654,
+      1686,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/5501d5a51e580263.png": {
+    "id": "23a61c654d1a98b6",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1634,
+      1658,
+      1680,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/ec04e0611b381b7f.png": {
+    "id": "7100fee7cf2ac71f",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1628,
+      1657,
+      1676,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/189c974185672b93.png": {
+    "id": "efa7271698f55b7e",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1628,
+      1652,
+      1680,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/d90b0fcf41dffda4.png": {
+    "id": "a18c12ec931d9572",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1635,
+      1659,
+      1676,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/73beee48455d8dc1.png": {
+    "id": "213b92b0b9db04e2",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1636,
+      1660,
+      1702,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/bc616464e38b828f.png": {
+    "id": "6caa8ff169804859",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      809,
+      832,
+      863
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/546fdd7e699b1606.png": {
+    "id": "5097effe29304413",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1615,
+      1636,
+      1660,
+      1703,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/da499420203298af.png": {
+    "id": "4cd486f8a5e728ef",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      812,
+      832,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/6a486d89046eae5c.png": {
+    "id": "0151c2c9cf5dd513",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      808,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/f6ef37c769b8a4a5.png": {
+    "id": "2a05a809d7471d74",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      811,
+      832,
+      850
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/faec39f1286c7e89.png": {
+    "id": "4df106fdc8df5c7b",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      821,
+      844,
+      867
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/2c0228b8a6ecdca7.png": {
+    "id": "4b5f1c7c0eb63979",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      808,
+      827,
+      850
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/b6926bdc4b506be2.png": {
+    "id": "4a42acfcb4356c77",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1615,
+      1628,
+      1652,
+      1676,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/e0408469f5b605a8.png": {
+    "id": "43b4ab2aaf33e22e",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1615,
+      1628,
+      1652,
+      1702,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/1690b9240df955d3.png": {
+    "id": "9b899d26090859a4",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1615,
+      1641,
+      1657,
+      1681,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/287ad3f7331e8b12.png": {
+    "id": "2d1356cc6a8a578d",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      809,
+      832,
+      850
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/83364c3ba0401664.png": {
+    "id": "dae279c5073b26f8",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      809,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/a2bd14955551e518.png": {
+    "id": "e8c6e111c3e161ee",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1615,
+      1639,
+      1657,
+      1676,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/adc88850bbce1873.png": {
+    "id": "ae211fabea89ffa8",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      808,
+      831,
+      869
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/8208d57235c5155e.png": {
+    "id": "c6f4e0bb049aaa2c",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      813,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/86dadef443d73526.png": {
+    "id": "cbda8212c04f45af",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      821,
+      844,
+      865
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/9a42727c71c43839.png": {
+    "id": "a54d63e7e0b161e3",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      808,
+      844,
+      869
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/b118738511c01706.png": {
+    "id": "55549492c19d593f",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      804,
+      862,
+      891
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/d0321777be59c46e.png": {
+    "id": "23d10c18b5c5f044",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      810,
+      862,
+      891
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/9ec17307e40ed4a3.png": {
+    "id": "6f8e8e73e47d6745",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      809,
+      862,
+      891
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/85fa374d27ae2914.png": {
+    "id": "53aee9241047f815",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      817,
+      832,
+      859
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/d415a35705fa5ab2.png": {
+    "id": "c6225fe82f292003",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      168,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      818,
+      841,
+      864
+    ],
+    "size": [
+      155,
+      400
+    ]
+  },
+  "common/images/f5a839ded1cd0590.png": {
+    "id": "469c4a019f4458d8",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      808,
+      841,
+      864
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/1045b0090c29d6c6.png": {
+    "id": "77f04ea166b378e0",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      808,
+      841,
+      864
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/42a096b108b1758c.png": {
+    "id": "14c325a49a4fd36d",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1642,
+      1666,
+      1703,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/8b282564a88f1ba3.png": {
+    "id": "af450fa7613ea6d3",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1642,
+      1666,
+      1677,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/0f02c852baee27d6.png": {
+    "id": "32f8443c3734c773",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      805,
+      841,
+      864
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/0fb197f7e4106cc6.png": {
+    "id": "eabf0888ea45d907",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      805,
+      841,
+      864
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/7913f420b10ff70a.png": {
+    "id": "39b4c41e97c525cb",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1629,
+      1657,
+      1677,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/1003a664f6ab6a79.png": {
+    "id": "89f10f886fdd86bb",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      805,
+      840,
+      863
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/b34024eab72f419f.png": {
+    "id": "577306a6a55b06ed",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      804,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/7cfb05f347e6eee8.png": {
+    "id": "6957f09ecd43c03c",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      812,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/1e76d7617abc61a0.png": {
+    "id": "45d0ee376ad47083",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      810,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/fa57e8d0f5860162.png": {
+    "id": "5680217b53f5d1cd",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      804,
+      836,
+      859
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/6db9834d5189aa19.png": {
+    "id": "cd4814e7241688e7",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      819,
+      842,
+      865
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/cc0d09680866d816.png": {
+    "id": "766c01a22cea11f7",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      168,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      818,
+      843,
+      864
+    ],
+    "size": [
+      155,
+      400
+    ]
+  },
+  "common/images/cfc2a6255025d999.png": {
+    "id": "803bad997e5ea728",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      810,
+      829,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/95ea3682ade34a71.png": {
+    "id": "daccdd52571201dd",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1642,
+      1666,
+      1690,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/7447fe44ac19a5b5.png": {
+    "id": "9e7510dc8dbff488",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      805,
+      832,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/8d1a742105b7c8bc.png": {
+    "id": "06cf36b5b8c67c6c",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      804,
+      841,
+      864
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/1f25f4377022a9b4.png": {
+    "id": "880e1cf4a6ce1cc1",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      168,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      820,
+      830,
+      853
+    ],
+    "size": [
+      155,
+      400
+    ]
+  },
+  "common/images/fd84ef924efecc52.png": {
+    "id": "f4acc6014ebd9aaf",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1646,
+      1670,
+      1694,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/e74e6396db05044f.png": {
+    "id": "e9f2bb182470e1d8",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      808,
+      836,
+      859
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/e31d3aab9f8c4d77.png": {
+    "id": "701f9438276c2d27",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      805,
+      832,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/276a409588eed3c8.png": {
+    "id": "076b13bb0199ebca",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      808,
+      843,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/6c84dbf13a80d5f3.png": {
+    "id": "0142d3b80f85ef14",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      808,
+      843,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/d11b5847fede658b.png": {
+    "id": "ead0b716cabd778a",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1633,
+      1657,
+      1702,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/df27d8da7218b9d8.png": {
+    "id": "06a491efb130334e",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      810,
+      843,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/9290d29b9f86065d.png": {
+    "id": "dca8d6f43274f82e",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      809,
+      843,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/c4a472c0765058b3.png": {
+    "id": "bdbde5c031be4a10",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      805,
+      840,
+      863
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/a42de4fc0432c787.png": {
+    "id": "f8505a4fa6b32b18",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      804,
+      843,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/91a0dfd553d87965.png": {
+    "id": "bd49aa13c848911d",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      811,
+      836,
+      859
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/51b9a1fe44596ac2.png": {
+    "id": "a4760f7713b81a29",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      804,
+      832,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/a180428aeae2595a.png": {
+    "id": "eb06b159bd1cb42b",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      805,
+      829,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/452a6ef2de938c19.png": {
+    "id": "92b6e8adc4105f1b",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      168,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      820,
+      843,
+      866
+    ],
+    "size": [
+      155,
+      400
+    ]
+  },
+  "common/images/24d26ac2249c2e93.png": {
+    "id": "403ff12da258a895",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1633,
+      1657,
+      1700,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/4253b30ecc9808e4.png": {
+    "id": "752748a67dcc50e1",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1642,
+      1666,
+      1676,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/ba1c006623a08c58.png": {
+    "id": "9a688a4f9809c78c",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1634,
+      1658,
+      1703,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/9598a4b1b36aa7a6.png": {
+    "id": "ef42ebd26d3559d8",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      810,
+      843,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/ea32325603ce36ed.png": {
+    "id": "7f0cc84bbd62a7c4",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1634,
+      1654,
+      1699,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/ebc6b0a373bdb63a.png": {
+    "id": "9ff3e9fbeb0a2263",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      808,
+      862,
+      891
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/fb279e6c13c044ec.png": {
+    "id": "1245ef4fc9e45742",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      810,
+      841,
+      864
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/d96d86edcaac9e95.png": {
+    "id": "f4b1e45f5ef70263",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      805,
+      862,
+      891
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/afcca854c91ea8bc.png": {
+    "id": "977a6ceb4f0ca9d4",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      816,
+      862,
+      891
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/47806737b665cec5.png": {
+    "id": "dfbe139b7582118c",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      168,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      820,
+      862,
+      891
+    ],
+    "size": [
+      155,
+      400
+    ]
+  },
+  "common/images/7f33310db1e3c081.png": {
+    "id": "54aa49cc9589b557",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      168,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      820,
+      830,
+      853,
+      877
+    ],
+    "size": [
+      167,
+      400
+    ]
+  },
+  "common/images/e56cb127eb26eecf.png": {
+    "id": "51d84395e6c826f5",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1645,
+      1669,
+      1693,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/aee57253627f7fa0.png": {
+    "id": "16980d995bab3bb4",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      809,
+      843,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/0a9702c07bca7ee0.png": {
+    "id": "5e4361e871f4a193",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      805,
+      828,
+      855
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/ad2866f0ba888128.png": {
+    "id": "c9650f0b205c477c",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      819,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/2ce2787fde3ff953.png": {
+    "id": "29f2af9d77d786b8",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      822,
+      836,
+      859
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/0e3b329eb19e05ec.png": {
+    "id": "4220079c3a6b2837",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1644,
+      1668,
+      1692,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/cecb89bff1c4465a.png": {
+    "id": "299df9ff64bcff5d",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      815,
+      841,
+      861
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/a64aeef5caad5039.png": {
+    "id": "3a9ca0781d996752",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1639,
+      1663,
+      1687,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/d403e41ca673a6d6.png": {
+    "id": "fa3cf4fd0e40556d",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1630,
+      1657,
+      1677,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/dec128302ee54306.png": {
+    "id": "f0483ecb35817f14",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      805,
+      843,
+      866
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/7f30ad312f702161.png": {
+    "id": "f2b2e434b0273c84",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1634,
+      1654,
+      1677,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/f0e9cf53ef76e998.png": {
+    "id": "2e9a3c54f0fc8c69",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1634,
+      1653,
+      1677,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/b0a6f9fd5bbe7b82.png": {
+    "id": "e23af489f5d71079",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1633,
+      1652,
+      1681,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/07261a3b52d45c5c.png": {
+    "id": "9a162b0583b447b8",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      819,
+      829,
+      852
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/f9935ae3ad8c72a4.png": {
+    "id": "22e00a03b77d4a8b",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1630,
+      1654,
+      1696,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/dde32d47a680cb52.png": {
+    "id": "83efa8c33ea99a50",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1641,
+      1665,
+      1677,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/e819e06fc3131ac7.png": {
+    "id": "548ba68015b34638",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      805,
+      832,
+      863
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/c63acf74c47ed9f7.png": {
+    "id": "48380038d4c9579c",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      805,
+      829,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/c5232918e9b6dd85.png": {
+    "id": "4d781067be7d0f43",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1633,
+      1653,
+      1677,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/2f205a1c704319fc.png": {
+    "id": "bbdd8516655e9a2f",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      807,
+      833,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/edeb6a94215f6e26.png": {
+    "id": "919a95b9ab2adaef",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      805,
+      828,
+      861
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/8285997cb8b1ca42.png": {
+    "id": "62932787e2bb77a1",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      801,
+      821,
+      843,
+      859
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/8f3792d2eba06f90.png": {
+    "id": "27c30af5c43e40ae",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      168,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      801,
+      820,
+      843,
+      866
+    ],
+    "size": [
+      155,
+      400
+    ]
+  },
+  "common/images/134cfa1d9fddac3a.png": {
+    "id": "745ac5f8c0e19d53",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      801,
+      809,
+      832,
+      862
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/4d36cb2c009909f1.png": {
+    "id": "a749c99805a1c302",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1615,
+      1633,
+      1668,
+      1676,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/fe923815d257d2ad.png": {
+    "id": "db6e192c4d6183d6",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      801,
+      823,
+      846,
+      862
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/d37ad8b4ca3c88bf.png": {
+    "id": "5aed45a9702fa7e7",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      801,
+      807,
+      830,
+      853
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/0420e39cc5730fbe.png": {
+    "id": "06b2da86eadf761c",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1615,
+      1631,
+      1655,
+      1691,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/09368f6155c8fcc0.png": {
+    "id": "c53d691e420e7e21",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      801,
+      821,
+      843,
+      862
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/ba842d8ff6d03d13.png": {
+    "id": "faff3c9012242811",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      176,
+      621,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      801,
+      811,
+      833,
+      856,
+      888
+    ],
+    "size": [
+      168,
+      400
+    ]
+  },
+  "common/images/0f9fd8e45ec0de4f.png": {
+    "id": "5d84d9dc7b462b41",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      699,
+      720,
+      801,
+      812,
+      836,
+      856
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/b60ea315028160ad.png": {
+    "id": "bada5dd304af2c36",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      806,
+      832,
+      852
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/388d995e5faf684f.png": {
+    "id": "a183cbd8e5549c97",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      695,
+      697,
+      716,
+      805,
+      829,
+      852
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/504a1ecc23e8309f.png": {
+    "id": "79406e0123984601",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1641,
+      1657,
+      1689,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/caf0b9b5c2474525.png": {
+    "id": "5d6ae7e52c753b63",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1633,
+      1668,
+      1692,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/9111fb42991b68b8.png": {
+    "id": "ae394e354383cc78",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1642,
+      1666,
+      1686,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/25daa9dbaeeb1b3f.png": {
+    "id": "aac07a44fb49e2f0",
+    "base": "tatr02",
+    "canvas": [
+      810,
+      1152
+    ],
+    "crop": [
+      49,
+      225,
+      754,
+      1079
+    ],
+    "selectedLayers": [
+      1611,
+      1639,
+      1657,
+      1677,
+      1706
+    ],
+    "size": [
+      330,
+      400
+    ]
+  },
+  "common/images/8e7e07f404bec3fe.png": {
+    "id": "cb7bcc1f07a87b4e",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      801,
+      805,
+      864,
+      891
+    ],
+    "size": [
+      169,
+      400
+    ]
+  },
+  "common/images/016b4570821368fe.png": {
+    "id": "3f9c0b1ea5668dc8",
+    "base": "tatr01",
+    "canvas": [
+      887,
+      1258
+    ],
+    "crop": [
+      208,
+      250,
+      592,
+      1157
+    ],
+    "selectedLayers": [
+      694,
+      695,
+      715,
+      805,
+      844,
+      867
+    ],
+    "size": [
+      169,
+      400
+    ]
+  }
+}

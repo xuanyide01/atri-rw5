@@ -1,0 +1,274 @@
+{
+  "spriteReferences": 5065,
+  "uniquePortraits": 418,
+  "maxGap": 0.895,
+  "referencesWithGapOver2": 0,
+  "worst": [
+    {
+      "gap": 0.895,
+      "file": "/common/images/c5a10217fc3fc173.png",
+      "size": [
+        133,
+        216
+      ],
+      "bbox": [
+        0,
+        0,
+        133,
+        216
+      ],
+      "box": {
+        "width": 175,
+        "height": 286,
+        "top": 0,
+        "left": 128
+      },
+      "story": "src\\common\\story\\b101\\start-005.txt",
+      "index": 35
+    },
+    {
+      "gap": 0.895,
+      "file": "/common/images/c5a10217fc3fc173.png",
+      "size": [
+        133,
+        216
+      ],
+      "bbox": [
+        0,
+        0,
+        133,
+        216
+      ],
+      "box": {
+        "width": 175,
+        "height": 286,
+        "top": 0,
+        "left": 128
+      },
+      "story": "src\\common\\story\\b102\\start-003.txt",
+      "index": 11
+    },
+    {
+      "gap": 0.895,
+      "file": "/common/images/c5a10217fc3fc173.png",
+      "size": [
+        133,
+        216
+      ],
+      "bbox": [
+        0,
+        0,
+        133,
+        216
+      ],
+      "box": {
+        "width": 175,
+        "height": 286,
+        "top": 0,
+        "left": 128
+      },
+      "story": "src\\common\\story\\b102\\start-003.txt",
+      "index": 12
+    },
+    {
+      "gap": 0.895,
+      "file": "/common/images/c5a10217fc3fc173.png",
+      "size": [
+        133,
+        216
+      ],
+      "bbox": [
+        0,
+        0,
+        133,
+        216
+      ],
+      "box": {
+        "width": 175,
+        "height": 286,
+        "top": 0,
+        "left": 128
+      },
+      "story": "src\\common\\story\\b102\\start-003.txt",
+      "index": 13
+    }
+  ],
+  "worstUnique": [
+    {
+      "gap": 0.895,
+      "file": "/common/images/c5a10217fc3fc173.png",
+      "size": [
+        133,
+        216
+      ],
+      "bbox": [
+        0,
+        0,
+        133,
+        216
+      ],
+      "box": {
+        "width": 175,
+        "height": 286,
+        "top": 0,
+        "left": 128
+      },
+      "story": "src\\common\\story\\b101\\start-005.txt",
+      "index": 35
+    },
+    {
+      "gap": 0.714,
+      "file": "/common/images/cb1922dd8237c48c.png",
+      "size": [
+        126,
+        216
+      ],
+      "bbox": [
+        0,
+        0,
+        126,
+        216
+      ],
+      "box": {
+        "width": 166,
+        "height": 286,
+        "top": 0,
+        "left": 133
+      },
+      "story": "src\\common\\story\\b102\\102_c-002.txt",
+      "index": 24
+    },
+    {
+      "gap": 0.714,
+      "file": "/common/images/f33be5dbf065da43.png",
+      "size": [
+        126,
+        216
+      ],
+      "bbox": [
+        0,
+        0,
+        126,
+        216
+      ],
+      "box": {
+        "width": 166,
+        "height": 286,
+        "top": 0,
+        "left": 133
+      },
+      "story": "src\\common\\story\\b111\\start-001.txt",
+      "index": 27
+    },
+    {
+      "gap": 0.714,
+      "file": "/common/images/d07b852f9ff30ef9.png",
+      "size": [
+        126,
+        216
+      ],
+      "bbox": [
+        0,
+        0,
+        126,
+        216
+      ],
+      "box": {
+        "width": 166,
+        "height": 286,
+        "top": 0,
+        "left": 133
+      },
+      "story": "src\\common\\story\\b111\\start-001.txt",
+      "index": 30
+    },
+    {
+      "gap": 0.714,
+      "file": "/common/images/2310adb28d15fd1a.png",
+      "size": [
+        126,
+        216
+      ],
+      "bbox": [
+        0,
+        0,
+        126,
+        216
+      ],
+      "box": {
+        "width": 166,
+        "height": 286,
+        "top": 0,
+        "left": 133
+      },
+      "story": "src\\common\\story\\b111\\start-006.txt",
+      "index": 12
+    },
+    {
+      "gap": 0.714,
+      "file": "/common/images/3c6772302210f03b.png",
+      "size": [
+        126,
+        216
+      ],
+      "bbox": [
+        0,
+        0,
+        126,
+        216
+      ],
+      "box": {
+        "width": 166,
+        "height": 286,
+        "top": 0,
+        "left": 133
+      },
+      "story": "src\\common\\story\\b112\\start-000.txt",
+      "index": 30
+    },
+    {
+      "gap": 0.714,
+      "file": "/common/images/80d59f38e2902265.png",
+      "size": [
+        126,
+        216
+      ],
+      "bbox": [
+        0,
+        0,
+        126,
+        216
+      ],
+      "box": {
+        "width": 166,
+        "height": 286,
+        "top": 0,
+        "left": 133
+      },
+      "story": "src\\common\\story\\b112\\start-001.txt",
+      "index": 9
+    },
+    {
+      "gap": 0.714,
+      "file": "/common/images/3ee20e98ede97e6a.png",
+      "size": [
+        126,
+        216
+      ],
+      "bbox": [
+        0,
+        0,
+        126,
+        216
+      ],
+      "box": {
+        "width": 166,
+        "height": 286,
+        "top": 0,
+        "left": 133
+      },
+      "story": "src\\common\\story\\b112\\start-001.txt",
+      "index": 15
+    }
+  ]
+}

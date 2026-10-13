@@ -23,7 +23,7 @@ async function chapter(id){
  await title();await chapter('b123');await shot('b123-0');await click(370,477,/ATRI_RW5 frame b123:\*start 1(?:\s|$)/);await shot('b123-1');await title();
  await chapter('b102');for(let i=1;i<=21;i++)await click(370,477,new RegExp('ATRI_RW5 frame b102:\\*start '+i+'(?:\\s|$)'));await shot('atri-portrait');await title();
  assert(!/ATRI_RW5 error|ATRI_RW5 image failed|ASSERTION FAILED|PANIC!!!/.test(logs().slice(begin)));
- await click(216,461,/ATRI_RW5 exit requested/);await sleep(1000);assert(/ATRI_RW5 destroyed/.test(logs().slice(begin)),'EXIT did not destroy the application page');
+ await click(216,461,/ATRI_RW5 exit requested/);await sleep(2000);assert(/ATRI_RW5 destroyed/.test(logs().slice(begin)),'EXIT did not destroy the application page');
  const at=logs().length;await request('/start');for(let i=0;i<100&&!/ATRI_RW5 title ready/.test(logs().slice(at));i++)await sleep(200);assert(/ATRI_RW5 title ready/.test(logs().slice(at)));await sleep(1600);await shot('title-final');
  const report={passed:true,packageSha256:sha,realUIClicks:true,reportedScenes:['b701:*start/1','b701:*start/13','b701:*start/16','b123:*start/0','b123:*start/1'],atriPortrait:'b102:*start/21',titleUsesOriginalSprites:true,noChapterPreview:true,titleExitClosesApplication:true,restartedAfterExit:true};fs.writeFileSync(path.join(out,'visual-report.json'),JSON.stringify(report,null,2));console.log('NATIVE_VISUAL_PASS',JSON.stringify(report));
 })().catch(e=>{console.error(e);process.exitCode=1;});

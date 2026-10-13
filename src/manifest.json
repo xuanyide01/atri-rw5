@@ -1,8 +1,8 @@
 {
   "package": "com.codex.atri.rw5",
   "name": "ATRI",
-  "versionName": "0.1.3",
-  "versionCode": 9,
+  "versionName": "0.1.5",
+  "versionCode": 11,
   "minPlatformVersion": 1000,
   "minAPILevel": 1,
   "icon": "/common/logo.png",

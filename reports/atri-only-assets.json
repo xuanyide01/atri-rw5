@@ -1,0 +1,1363 @@
+{
+  "baselineVersion": "0.1.3",
+  "baselineSha256": "f4bf643a6c24b46617ea6f61dee63e66dd06d25bf8c80855635f9bb03658a468",
+  "variant": "Atri standing portraits only",
+  "maximumPackageBytes": 10500000,
+  "target": "approximately 10 MB",
+  "removedOtherCharacterAssets": 334,
+  "removedOtherCharacterBytes": 2813626,
+  "retainedAtriAssets": 418,
+  "atriSourceMaximumHeight": 216,
+  "atriPaletteMaximumColors": 192,
+  "atriBytesBefore": 5437622,
+  "atriBytesAfter": 4259734,
+  "singleResizeFromOriginalIntermediate": true,
+  "originalBackgroundAndCGBytesUnchanged": true,
+  "backgroundAndCGAssets": 469,
+  "galleryGroups": 31,
+  "galleryVariants": 71,
+  "speakerAndDialoguePreserved": true,
+  "passages": 12172,
+  "portraitReferencesBefore": 10719,
+  "portraitReferencesAfter": 5065,
+  "remainingPortraitsCenteredAndDialogueAligned": true,
+  "graphFontIconAndTitleBytesUnchanged": true,
+  "removedAssets": [
+    {
+      "file": "common/images/00b02ddccf1c9785.png",
+      "bytes": 7574
+    },
+    {
+      "file": "common/images/00bcbf1854b6282e.png",
+      "bytes": 7258
+    },
+    {
+      "file": "common/images/02b2ecca22ec14d4.png",
+      "bytes": 7757
+    },
+    {
+      "file": "common/images/02b8216d4235ea99.png",
+      "bytes": 7638
+    },
+    {
+      "file": "common/images/03b433c7fb698f6a.png",
+      "bytes": 8605
+    },
+    {
+      "file": "common/images/04b0daf70718c562.png",
+      "bytes": 8106
+    },
+    {
+      "file": "common/images/04e5d13571e8b061.png",
+      "bytes": 7752
+    },
+    {
+      "file": "common/images/0629ff7eb87a0009.png",
+      "bytes": 7563
+    },
+    {
+      "file": "common/images/07e430bf1928d6d6.png",
+      "bytes": 7565
+    },
+    {
+      "file": "common/images/096013396556e00b.png",
+      "bytes": 7749
+    },
+    {
+      "file": "common/images/098e208aee670496.png",
+      "bytes": 7571
+    },
+    {
+      "file": "common/images/0b09cbb2ffb964d6.png",
+      "bytes": 8129
+    },
+    {
+      "file": "common/images/0b1b57fa11e5fa9c.png",
+      "bytes": 7733
+    },
+    {
+      "file": "common/images/0b6430a28e2e6a2d.png",
+      "bytes": 8105
+    },
+    {
+      "file": "common/images/0c04abd39df636f6.png",
+      "bytes": 7249
+    },
+    {
+      "file": "common/images/0cb2cc8b067cb770.png",
+      "bytes": 8111
+    },
+    {
+      "file": "common/images/0dc76890ea5ceda7.png",
+      "bytes": 8127
+    },
+    {
+      "file": "common/images/0e72b622386a08c0.png",
+      "bytes": 7396
+    },
+    {
+      "file": "common/images/0fff4b8005eb8797.png",
+      "bytes": 8391
+    },
+    {
+      "file": "common/images/107e85384f4cdbd0.png",
+      "bytes": 7584
+    },
+    {
+      "file": "common/images/10cd43ea51e7a2dd.png",
+      "bytes": 13753
+    },
+    {
+      "file": "common/images/11a7f9755677ba24.png",
+      "bytes": 7744
+    },
+    {
+      "file": "common/images/131a0c94c9c1ad63.png",
+      "bytes": 8114
+    },
+    {
+      "file": "common/images/13771e4c6ae889bd.png",
+      "bytes": 7568
+    },
+    {
+      "file": "common/images/13b9ef5fc749f84c.png",
+      "bytes": 7228
+    },
+    {
+      "file": "common/images/13cfef72aac960dd.png",
+      "bytes": 13748
+    },
+    {
+      "file": "common/images/14ac890f0c8f128d.png",
+      "bytes": 7253
+    },
+    {
+      "file": "common/images/151c11ed384430ba.png",
+      "bytes": 8120
+    },
+    {
+      "file": "common/images/155bf25d60a3e670.png",
+      "bytes": 6721
+    },
+    {
+      "file": "common/images/1715b0cd5c96ff3f.png",
+      "bytes": 8099
+    },
+    {
+      "file": "common/images/17da9ed3a370d097.png",
+      "bytes": 8643
+    },
+    {
+      "file": "common/images/1851c1cc79b45692.png",
+      "bytes": 13744
+    },
+    {
+      "file": "common/images/199b05a96cb48151.png",
+      "bytes": 7579
+    },
+    {
+      "file": "common/images/199f9402684dc796.png",
+      "bytes": 8140
+    },
+    {
+      "file": "common/images/1b2e0b38c0b40f53.png",
+      "bytes": 7713
+    },
+    {
+      "file": "common/images/1b74603713d13c3a.png",
+      "bytes": 8118
+    },
+    {
+      "file": "common/images/1d6cfcdaf224a848.png",
+      "bytes": 7770
+    },
+    {
+      "file": "common/images/1db3273edbb5b93c.png",
+      "bytes": 8089
+    },
+    {
+      "file": "common/images/1df037931c7addd3.png",
+      "bytes": 7752
+    },
+    {
+      "file": "common/images/1e00562749b007ad.png",
+      "bytes": 6715
+    },
+    {
+      "file": "common/images/1e3859777adf4f13.png",
+      "bytes": 7246
+    },
+    {
+      "file": "common/images/1e558e6ea9757e56.png",
+      "bytes": 8140
+    },
+    {
+      "file": "common/images/1f2d51389c1a836b.png",
+      "bytes": 13774
+    },
+    {
+      "file": "common/images/21edadc18b737292.png",
+      "bytes": 7570
+    },
+    {
+      "file": "common/images/2420645d8cbe0dc7.png",
+      "bytes": 13780
+    },
+    {
+      "file": "common/images/24d9b1489a22815c.png",
+      "bytes": 7248
+    },
+    {
+      "file": "common/images/261481980e2e407d.png",
+      "bytes": 7252
+    },
+    {
+      "file": "common/images/2646bc565dfe53e4.png",
+      "bytes": 7597
+    },
+    {
+      "file": "common/images/2748525c9ee81b28.png",
+      "bytes": 7769
+    },
+    {
+      "file": "common/images/276c6ae680a19f0a.png",
+      "bytes": 7753
+    },
+    {
+      "file": "common/images/285d52c1e1394969.png",
+      "bytes": 7595
+    },
+    {
+      "file": "common/images/28e44a651d003904.png",
+      "bytes": 7596
+    },
+    {
+      "file": "common/images/29d3c362237e2ad8.png",
+      "bytes": 8661
+    },
+    {
+      "file": "common/images/2a4c31d03e98cdbb.png",
+      "bytes": 7575
+    },
+    {
+      "file": "common/images/2b9fcebf66c239b7.png",
+      "bytes": 7747
+    },
+    {
+      "file": "common/images/2bea622a75eafa22.png",
+      "bytes": 7593
+    },
+    {
+      "file": "common/images/2c0978ef8d08fb58.png",
+      "bytes": 7414
+    },
+    {
+      "file": "common/images/2c60c6ba57c2a5ad.png",
+      "bytes": 8578
+    },
+    {
+      "file": "common/images/2c6c17d9a4804e45.png",
+      "bytes": 8128
+    },
+    {
+      "file": "common/images/2d9bb413bffcf23b.png",
+      "bytes": 7576
+    },
+    {
+      "file": "common/images/2ec4bc5d47281344.png",
+      "bytes": 8112
+    },
+    {
+      "file": "common/images/2f06c90cf58ea32c.png",
+      "bytes": 7569
+    },
+    {
+      "file": "common/images/2f47613e7a6bd178.png",
+      "bytes": 8598
+    },
+    {
+      "file": "common/images/2f99cd4ad9cd518a.png",
+      "bytes": 7602
+    },
+    {
+      "file": "common/images/2fd12666c9e63f56.png",
+      "bytes": 7265
+    },
+    {
+      "file": "common/images/3051f61d583d4fbc.png",
+      "bytes": 7578
+    },
+    {
+      "file": "common/images/30568e16baac3889.png",
+      "bytes": 8606
+    },
+    {
+      "file": "common/images/315845b8c7f6c165.png",
+      "bytes": 7764
+    },
+    {
+      "file": "common/images/326451f13fa4e3da.png",
+      "bytes": 8111
+    },
+    {
+      "file": "common/images/329ace717b6c2019.png",
+      "bytes": 8112
+    },
+    {
+      "file": "common/images/32bf8497ba1c22dc.png",
+      "bytes": 7607
+    },
+    {
+      "file": "common/images/32f785b79fc7871c.png",
+      "bytes": 8609
+    },
+    {
+      "file": "common/images/3388aca0f3fcb16f.png",
+      "bytes": 7604
+    },
+    {
+      "file": "common/images/33eacfd20fc00947.png",
+      "bytes": 8129
+    },
+    {
+      "file": "common/images/356cc5aaa6c8be2f.png",
+      "bytes": 7600
+    },
+    {
+      "file": "common/images/35ed55a0e3c487e4.png",
+      "bytes": 13797
+    },
+    {
+      "file": "common/images/3633da16c8b89912.png",
+      "bytes": 13814
+    },
+    {
+      "file": "common/images/36e3f992ac0a9058.png",
+      "bytes": 7573
+    },
+    {
+      "file": "common/images/3770aaff1ffc9818.png",
+      "bytes": 7247
+    },
+    {
+      "file": "common/images/3904d8e8cff877ba.png",
+      "bytes": 7753
+    },
+    {
+      "file": "common/images/3be7a394df5d3ac7.png",
+      "bytes": 8177
+    },
+    {
+      "file": "common/images/3c7ed0e4976a2a75.png",
+      "bytes": 7257
+    },
+    {
+      "file": "common/images/3d6c86579c278467.png",
+      "bytes": 7596
+    },
+    {
+      "file": "common/images/3df7784ea63632be.png",
+      "bytes": 6721
+    },
+    {
+      "file": "common/images/3efe589857e66c4e.png",
+      "bytes": 7251
+    },
+    {
+      "file": "common/images/3f6f7a6d9279af9b.png",
+      "bytes": 7757
+    },
+    {
+      "file": "common/images/402acf08e1a0b3bf.png",
+      "bytes": 8363
+    },
+    {
+      "file": "common/images/4058e46c062d3d49.png",
+      "bytes": 7763
+    },
+    {
+      "file": "common/images/40b2ec8e19334926.png",
+      "bytes": 7746
+    },
+    {
+      "file": "common/images/40eda3fb16397f1d.png",
+      "bytes": 13745
+    },
+    {
+      "file": "common/images/4126c6239b670a85.png",
+      "bytes": 7244
+    },
+    {
+      "file": "common/images/439b469bb7848078.png",
+      "bytes": 8108
+    },
+    {
+      "file": "common/images/43afca0bcd2262b7.png",
+      "bytes": 8606
+    },
+    {
+      "file": "common/images/44e1a953c84f6f51.png",
+      "bytes": 8626
+    },
+    {
+      "file": "common/images/453d27f004c80cce.png",
+      "bytes": 13723
+    },
+    {
+      "file": "common/images/466bdf6097d012ed.png",
+      "bytes": 7398
+    },
+    {
+      "file": "common/images/46cb6143c2205b11.png",
+      "bytes": 7255
+    },
+    {
+      "file": "common/images/47da5cf2bf5cb759.png",
+      "bytes": 8106
+    },
+    {
+      "file": "common/images/4832b2157d351623.png",
+      "bytes": 8106
+    },
+    {
+      "file": "common/images/4859775f927f4e28.png",
+      "bytes": 7743
+    },
+    {
+      "file": "common/images/4a34c2a66898f314.png",
+      "bytes": 8114
+    },
+    {
+      "file": "common/images/4a912746299006d8.png",
+      "bytes": 7241
+    },
+    {
+      "file": "common/images/4ae5022102e6e630.png",
+      "bytes": 7561
+    },
+    {
+      "file": "common/images/4d0a004090122010.png",
+      "bytes": 7580
+    },
+    {
+      "file": "common/images/4d8be6ea14a142de.png",
+      "bytes": 7764
+    },
+    {
+      "file": "common/images/4e6f387d202a33b2.png",
+      "bytes": 8107
+    },
+    {
+      "file": "common/images/4ff3f4854b45d6b8.png",
+      "bytes": 7754
+    },
+    {
+      "file": "common/images/4ff97f89008224ff.png",
+      "bytes": 13783
+    },
+    {
+      "file": "common/images/50d87f5fb1ee6529.png",
+      "bytes": 8602
+    },
+    {
+      "file": "common/images/51078f2fee44595e.png",
+      "bytes": 8127
+    },
+    {
+      "file": "common/images/51140b7300271956.png",
+      "bytes": 8594
+    },
+    {
+      "file": "common/images/51cc31adfa7463e8.png",
+      "bytes": 7587
+    },
+    {
+      "file": "common/images/5205a00f75bd8e99.png",
+      "bytes": 7251
+    },
+    {
+      "file": "common/images/520eb506a57866fe.png",
+      "bytes": 8580
+    },
+    {
+      "file": "common/images/524e3288faf52da1.png",
+      "bytes": 8389
+    },
+    {
+      "file": "common/images/53044e38a278ee5f.png",
+      "bytes": 13785
+    },
+    {
+      "file": "common/images/53e1233b4fc61269.png",
+      "bytes": 7577
+    },
+    {
+      "file": "common/images/541ea38e8e66c909.png",
+      "bytes": 13716
+    },
+    {
+      "file": "common/images/54edb317ff7ef94e.png",
+      "bytes": 7403
+    },
+    {
+      "file": "common/images/5591656904fa4903.png",
+      "bytes": 7250
+    },
+    {
+      "file": "common/images/5782527aa2b29a8f.png",
+      "bytes": 7245
+    },
+    {
+      "file": "common/images/5797fc79c9c96db9.png",
+      "bytes": 7588
+    },
+    {
+      "file": "common/images/57f4a96e693a44e1.png",
+      "bytes": 7741
+    },
+    {
+      "file": "common/images/598a9c97f8e27af5.png",
+      "bytes": 7647
+    },
+    {
+      "file": "common/images/5999f5730dab285f.png",
+      "bytes": 8101
+    },
+    {
+      "file": "common/images/5ae5a42fb0b26793.png",
+      "bytes": 8612
+    },
+    {
+      "file": "common/images/5b3f54236204e6a0.png",
+      "bytes": 8104
+    },
+    {
+      "file": "common/images/5d5312502dda26dc.png",
+      "bytes": 13782
+    },
+    {
+      "file": "common/images/5d973c31f71f7e63.png",
+      "bytes": 7592
+    },
+    {
+      "file": "common/images/5e3eda810b735d5f.png",
+      "bytes": 7718
+    },
+    {
+      "file": "common/images/5eaaceb1b6206443.png",
+      "bytes": 8102
+    },
+    {
+      "file": "common/images/5eee2031d0db6a35.png",
+      "bytes": 8101
+    },
+    {
+      "file": "common/images/5fcdd0c33236991d.png",
+      "bytes": 8109
+    },
+    {
+      "file": "common/images/602627892f295b8b.png",
+      "bytes": 8150
+    },
+    {
+      "file": "common/images/60896196d309138a.png",
+      "bytes": 7594
+    },
+    {
+      "file": "common/images/61a5f61ef2a70203.png",
+      "bytes": 8100
+    },
+    {
+      "file": "common/images/62bdace56733fa65.png",
+      "bytes": 7566
+    },
+    {
+      "file": "common/images/634c235913ac8ab6.png",
+      "bytes": 7572
+    },
+    {
+      "file": "common/images/63abf10f1f894886.png",
+      "bytes": 8101
+    },
+    {
+      "file": "common/images/64d6db261677b0f1.png",
+      "bytes": 7588
+    },
+    {
+      "file": "common/images/655e79227e0687fc.png",
+      "bytes": 13761
+    },
+    {
+      "file": "common/images/6762e96fbbdb47bc.png",
+      "bytes": 7734
+    },
+    {
+      "file": "common/images/6869586d3d6c85a9.png",
+      "bytes": 8615
+    },
+    {
+      "file": "common/images/69ae362cd74340aa.png",
+      "bytes": 7762
+    },
+    {
+      "file": "common/images/69e1f60f2f2319c7.png",
+      "bytes": 7753
+    },
+    {
+      "file": "common/images/69fd73ddf9a3fd8b.png",
+      "bytes": 7254
+    },
+    {
+      "file": "common/images/6ac4dc56c46d7bf4.png",
+      "bytes": 8103
+    },
+    {
+      "file": "common/images/6b776a777f32cd8e.png",
+      "bytes": 7594
+    },
+    {
+      "file": "common/images/6c1601b371cc4918.png",
+      "bytes": 7763
+    },
+    {
+      "file": "common/images/6cb713e0da188566.png",
+      "bytes": 7387
+    },
+    {
+      "file": "common/images/6d09f81b27af28d6.png",
+      "bytes": 7595
+    },
+    {
+      "file": "common/images/6d7360c18ef443b7.png",
+      "bytes": 8072
+    },
+    {
+      "file": "common/images/6dcf9fa844551969.png",
+      "bytes": 8599
+    },
+    {
+      "file": "common/images/6e69a227ab258bf0.png",
+      "bytes": 7252
+    },
+    {
+      "file": "common/images/6e966328f1df5b8d.png",
+      "bytes": 7760
+    },
+    {
+      "file": "common/images/6eb9b7ca6051460b.png",
+      "bytes": 7759
+    },
+    {
+      "file": "common/images/6fe1cea588cc7d6e.png",
+      "bytes": 7712
+    },
+    {
+      "file": "common/images/725553d769b63ddc.png",
+      "bytes": 7575
+    },
+    {
+      "file": "common/images/72f3d8e55027bfd0.png",
+      "bytes": 7730
+    },
+    {
+      "file": "common/images/749450f27dd231e8.png",
+      "bytes": 7578
+    },
+    {
+      "file": "common/images/751a570c49ec61fc.png",
+      "bytes": 7573
+    },
+    {
+      "file": "common/images/7532a17026b1174c.png",
+      "bytes": 7611
+    },
+    {
+      "file": "common/images/77781f6833ffa269.png",
+      "bytes": 7398
+    },
+    {
+      "file": "common/images/78ade823d5364e08.png",
+      "bytes": 8133
+    },
+    {
+      "file": "common/images/78aed0e96b6bfdf6.png",
+      "bytes": 7738
+    },
+    {
+      "file": "common/images/799f30ae80511ac4.png",
+      "bytes": 13732
+    },
+    {
+      "file": "common/images/79f7deec5214f980.png",
+      "bytes": 8104
+    },
+    {
+      "file": "common/images/7bc6a4f9ef050db6.png",
+      "bytes": 7244
+    },
+    {
+      "file": "common/images/7c5ee2c064d08c9c.png",
+      "bytes": 8600
+    },
+    {
+      "file": "common/images/7cb05545de024f68.png",
+      "bytes": 7565
+    },
+    {
+      "file": "common/images/7d3523c55930dae4.png",
+      "bytes": 7402
+    },
+    {
+      "file": "common/images/7e9a134fc9b1695c.png",
+      "bytes": 7755
+    },
+    {
+      "file": "common/images/7ed5b9ccb99718c3.png",
+      "bytes": 7588
+    },
+    {
+      "file": "common/images/7f7fe46da6529f32.png",
+      "bytes": 8106
+    },
+    {
+      "file": "common/images/805e37917351bb62.png",
+      "bytes": 7570
+    },
+    {
+      "file": "common/images/81e7b2a1601dbc2b.png",
+      "bytes": 7747
+    },
+    {
+      "file": "common/images/82ddc79cde860173.png",
+      "bytes": 8369
+    },
+    {
+      "file": "common/images/84798c4858885f15.png",
+      "bytes": 13761
+    },
+    {
+      "file": "common/images/8593634eb56e1af5.png",
+      "bytes": 7588
+    },
+    {
+      "file": "common/images/8baaaf0493a913d6.png",
+      "bytes": 6597
+    },
+    {
+      "file": "common/images/8c514f6a01898992.png",
+      "bytes": 7568
+    },
+    {
+      "file": "common/images/8cebd63daa89808e.png",
+      "bytes": 7598
+    },
+    {
+      "file": "common/images/8d0128f47b5ef91e.png",
+      "bytes": 13737
+    },
+    {
+      "file": "common/images/8d0220deafc68c27.png",
+      "bytes": 7747
+    },
+    {
+      "file": "common/images/8d0bb92c4c7b658e.png",
+      "bytes": 11627
+    },
+    {
+      "file": "common/images/8d16ca6355c19c62.png",
+      "bytes": 8107
+    },
+    {
+      "file": "common/images/8d3705ad54a5b973.png",
+      "bytes": 11635
+    },
+    {
+      "file": "common/images/8d417425577465ec.png",
+      "bytes": 8127
+    },
+    {
+      "file": "common/images/8df684e69b32d424.png",
+      "bytes": 8573
+    },
+    {
+      "file": "common/images/8e0763228b6abb54.png",
+      "bytes": 7247
+    },
+    {
+      "file": "common/images/8f4663a38fc10fec.png",
+      "bytes": 7247
+    },
+    {
+      "file": "common/images/90a05a44df5d2d7a.png",
+      "bytes": 7762
+    },
+    {
+      "file": "common/images/9154673cc0f69ec6.png",
+      "bytes": 7573
+    },
+    {
+      "file": "common/images/9177fcfeb1e82f89.png",
+      "bytes": 7766
+    },
+    {
+      "file": "common/images/91e7c78a05d874f3.png",
+      "bytes": 8629
+    },
+    {
+      "file": "common/images/933473ba84727412.png",
+      "bytes": 7567
+    },
+    {
+      "file": "common/images/94e2cda13a7a9f78.png",
+      "bytes": 8115
+    },
+    {
+      "file": "common/images/956855ea7f98d416.png",
+      "bytes": 8387
+    },
+    {
+      "file": "common/images/9658e77a34a24d97.png",
+      "bytes": 7580
+    },
+    {
+      "file": "common/images/98dcfdf962f4ffc4.png",
+      "bytes": 7575
+    },
+    {
+      "file": "common/images/9c8ece7db2bab0c5.png",
+      "bytes": 7769
+    },
+    {
+      "file": "common/images/9d5dd7514c554230.png",
+      "bytes": 13756
+    },
+    {
+      "file": "common/images/9df9ab6a3217bc3f.png",
+      "bytes": 7593
+    },
+    {
+      "file": "common/images/9f45f93cf92dcf95.png",
+      "bytes": 7576
+    },
+    {
+      "file": "common/images/9f9c505adbffa26e.png",
+      "bytes": 8073
+    },
+    {
+      "file": "common/images/a0b995c61651f142.png",
+      "bytes": 8107
+    },
+    {
+      "file": "common/images/a0d9299867061963.png",
+      "bytes": 8082
+    },
+    {
+      "file": "common/images/a24bad9349d8f59a.png",
+      "bytes": 13747
+    },
+    {
+      "file": "common/images/a2671677980abc94.png",
+      "bytes": 7563
+    },
+    {
+      "file": "common/images/a382e6d89e47e751.png",
+      "bytes": 7255
+    },
+    {
+      "file": "common/images/a4acbc4e71135ede.png",
+      "bytes": 13833
+    },
+    {
+      "file": "common/images/a4c7a5d4573bb27d.png",
+      "bytes": 7747
+    },
+    {
+      "file": "common/images/a4fc6a88d0730c24.png",
+      "bytes": 7756
+    },
+    {
+      "file": "common/images/a711565f804992a8.png",
+      "bytes": 7574
+    },
+    {
+      "file": "common/images/a718888499ccb050.png",
+      "bytes": 7255
+    },
+    {
+      "file": "common/images/a7de5aa509b44669.png",
+      "bytes": 7394
+    },
+    {
+      "file": "common/images/a8f956dfe5431cc4.png",
+      "bytes": 7769
+    },
+    {
+      "file": "common/images/a9059af4dc8d8ae9.png",
+      "bytes": 7753
+    },
+    {
+      "file": "common/images/a9f744758f8fee62.png",
+      "bytes": 6718
+    },
+    {
+      "file": "common/images/aa18756ee097f70d.png",
+      "bytes": 7724
+    },
+    {
+      "file": "common/images/aa726afee7d004bf.png",
+      "bytes": 8623
+    },
+    {
+      "file": "common/images/aaa127237cd872a0.png",
+      "bytes": 8119
+    },
+    {
+      "file": "common/images/ab33e3caab9ad166.png",
+      "bytes": 13732
+    },
+    {
+      "file": "common/images/ab4db21304fa47df.png",
+      "bytes": 7253
+    },
+    {
+      "file": "common/images/ab70892534e8fd3b.png",
+      "bytes": 8582
+    },
+    {
+      "file": "common/images/ac364b39db2a7298.png",
+      "bytes": 7247
+    },
+    {
+      "file": "common/images/ac751dc9f83a4d50.png",
+      "bytes": 7573
+    },
+    {
+      "file": "common/images/ae2fbd867db33ebb.png",
+      "bytes": 8117
+    },
+    {
+      "file": "common/images/ae7342a75dde9282.png",
+      "bytes": 8100
+    },
+    {
+      "file": "common/images/af2bcea1036662cd.png",
+      "bytes": 7734
+    },
+    {
+      "file": "common/images/af3f790c8f4f1efe.png",
+      "bytes": 8114
+    },
+    {
+      "file": "common/images/b01f0401cf24e3a6.png",
+      "bytes": 7610
+    },
+    {
+      "file": "common/images/b1ee488cd1fe9bd7.png",
+      "bytes": 13795
+    },
+    {
+      "file": "common/images/b27cd1ea6f2fc71f.png",
+      "bytes": 7728
+    },
+    {
+      "file": "common/images/b3272f9de80a2b2e.png",
+      "bytes": 7240
+    },
+    {
+      "file": "common/images/b32ba66d94a87fdb.png",
+      "bytes": 8082
+    },
+    {
+      "file": "common/images/b4743481d8899606.png",
+      "bytes": 13723
+    },
+    {
+      "file": "common/images/b4bc51597b1cb0bc.png",
+      "bytes": 8115
+    },
+    {
+      "file": "common/images/b4d391a4fb8ed600.png",
+      "bytes": 8610
+    },
+    {
+      "file": "common/images/b502c811cc1f2186.png",
+      "bytes": 7264
+    },
+    {
+      "file": "common/images/b621093d8088df29.png",
+      "bytes": 7748
+    },
+    {
+      "file": "common/images/b7f198f6c0013f6e.png",
+      "bytes": 8145
+    },
+    {
+      "file": "common/images/b81a66754fa5bfd1.png",
+      "bytes": 8369
+    },
+    {
+      "file": "common/images/b942de33d4f730dd.png",
+      "bytes": 7397
+    },
+    {
+      "file": "common/images/b967058946167628.png",
+      "bytes": 8080
+    },
+    {
+      "file": "common/images/ba08dce7c0e79c11.png",
+      "bytes": 13710
+    },
+    {
+      "file": "common/images/baa6ddf1283a3234.png",
+      "bytes": 13791
+    },
+    {
+      "file": "common/images/bb898d4bb1bc40ad.png",
+      "bytes": 7747
+    },
+    {
+      "file": "common/images/bd2e2a871901d865.png",
+      "bytes": 7763
+    },
+    {
+      "file": "common/images/be0a8efcffab03f4.png",
+      "bytes": 7573
+    },
+    {
+      "file": "common/images/be0d12dd7c54ee56.png",
+      "bytes": 7246
+    },
+    {
+      "file": "common/images/be665c1f23a3cd30.png",
+      "bytes": 13788
+    },
+    {
+      "file": "common/images/be9901788d12ce31.png",
+      "bytes": 7593
+    },
+    {
+      "file": "common/images/becfbbfe93a3220d.png",
+      "bytes": 13800
+    },
+    {
+      "file": "common/images/c06546e87d73d781.png",
+      "bytes": 7765
+    },
+    {
+      "file": "common/images/c3dc611ae21f4af1.png",
+      "bytes": 8612
+    },
+    {
+      "file": "common/images/c6f0d13adfbc0553.png",
+      "bytes": 8373
+    },
+    {
+      "file": "common/images/c72e3aafd57076f1.png",
+      "bytes": 7766
+    },
+    {
+      "file": "common/images/c74be85a8fab048d.png",
+      "bytes": 7585
+    },
+    {
+      "file": "common/images/c93d0c69a974fd7c.png",
+      "bytes": 8111
+    },
+    {
+      "file": "common/images/cacd16514137d2ca.png",
+      "bytes": 8074
+    },
+    {
+      "file": "common/images/cb3582fdb42e1fc6.png",
+      "bytes": 8106
+    },
+    {
+      "file": "common/images/cbbf46b3293350c7.png",
+      "bytes": 7567
+    },
+    {
+      "file": "common/images/cbd42d2de9cd2192.png",
+      "bytes": 13709
+    },
+    {
+      "file": "common/images/cc01e6db273bc907.png",
+      "bytes": 8102
+    },
+    {
+      "file": "common/images/cc577d3de84d43fd.png",
+      "bytes": 7242
+    },
+    {
+      "file": "common/images/cd9412a4034e5e68.png",
+      "bytes": 7251
+    },
+    {
+      "file": "common/images/ce262cdc6d0a0490.png",
+      "bytes": 8600
+    },
+    {
+      "file": "common/images/ce6c26fd7cedea7f.png",
+      "bytes": 8118
+    },
+    {
+      "file": "common/images/cf0370ebd6b4951b.png",
+      "bytes": 7245
+    },
+    {
+      "file": "common/images/cf8e17a789b3d7d7.png",
+      "bytes": 8578
+    },
+    {
+      "file": "common/images/cf971d13f638fef1.png",
+      "bytes": 7579
+    },
+    {
+      "file": "common/images/d01efeb0fe07fa56.png",
+      "bytes": 7594
+    },
+    {
+      "file": "common/images/d0874755b3561704.png",
+      "bytes": 8622
+    },
+    {
+      "file": "common/images/d0d8812c4dc158a4.png",
+      "bytes": 7584
+    },
+    {
+      "file": "common/images/d1372b799a34bb00.png",
+      "bytes": 13753
+    },
+    {
+      "file": "common/images/d261e4fa101d7e40.png",
+      "bytes": 8611
+    },
+    {
+      "file": "common/images/d32c9936539f4e09.png",
+      "bytes": 7751
+    },
+    {
+      "file": "common/images/d3b815e06cd07b47.png",
+      "bytes": 7567
+    },
+    {
+      "file": "common/images/d661ebc4c2eda706.png",
+      "bytes": 13796
+    },
+    {
+      "file": "common/images/d6dcaa00ed3e0abd.png",
+      "bytes": 7244
+    },
+    {
+      "file": "common/images/d6e13d2db45df51f.png",
+      "bytes": 7568
+    },
+    {
+      "file": "common/images/d712a738fe718ccb.png",
+      "bytes": 7760
+    },
+    {
+      "file": "common/images/d79b35aefd6e3147.png",
+      "bytes": 7594
+    },
+    {
+      "file": "common/images/d803baa28f263b4d.png",
+      "bytes": 7252
+    },
+    {
+      "file": "common/images/d87fb84ffd3a0fa6.png",
+      "bytes": 7402
+    },
+    {
+      "file": "common/images/d8f885ceb08b83fa.png",
+      "bytes": 7572
+    },
+    {
+      "file": "common/images/d9f3fecbbd639f8f.png",
+      "bytes": 8097
+    },
+    {
+      "file": "common/images/db7a9cfffcdc30f7.png",
+      "bytes": 7564
+    },
+    {
+      "file": "common/images/dc73cc29f5aec223.png",
+      "bytes": 13771
+    },
+    {
+      "file": "common/images/deaff28d78b2fe12.png",
+      "bytes": 7745
+    },
+    {
+      "file": "common/images/decffb4a5c22ebc7.png",
+      "bytes": 8622
+    },
+    {
+      "file": "common/images/dee91641010ece86.png",
+      "bytes": 7727
+    },
+    {
+      "file": "common/images/dffc7da1e44eb94a.png",
+      "bytes": 7591
+    },
+    {
+      "file": "common/images/e026c968cd89575c.png",
+      "bytes": 7250
+    },
+    {
+      "file": "common/images/e1c665ebc84908d0.png",
+      "bytes": 8366
+    },
+    {
+      "file": "common/images/e50f2aaf48e62676.png",
+      "bytes": 7744
+    },
+    {
+      "file": "common/images/e57bb9b18b31428d.png",
+      "bytes": 13791
+    },
+    {
+      "file": "common/images/e6af7dedb24695c7.png",
+      "bytes": 7556
+    },
+    {
+      "file": "common/images/e6b82079b44df966.png",
+      "bytes": 7590
+    },
+    {
+      "file": "common/images/e6ba9fce097e102f.png",
+      "bytes": 6721
+    },
+    {
+      "file": "common/images/e77ddce06381c4de.png",
+      "bytes": 7563
+    },
+    {
+      "file": "common/images/e83b139b93cc8df0.png",
+      "bytes": 13787
+    },
+    {
+      "file": "common/images/e8e759184e6f1645.png",
+      "bytes": 8608
+    },
+    {
+      "file": "common/images/ea4127e647fa16de.png",
+      "bytes": 7583
+    },
+    {
+      "file": "common/images/ea8500726e97a6c5.png",
+      "bytes": 8354
+    },
+    {
+      "file": "common/images/eb1770f87e8ab467.png",
+      "bytes": 7602
+    },
+    {
+      "file": "common/images/eb5bd05d35308235.png",
+      "bytes": 8581
+    },
+    {
+      "file": "common/images/ec33b48886b4c726.png",
+      "bytes": 8105
+    },
+    {
+      "file": "common/images/ed0a7f4dc77bdbc0.png",
+      "bytes": 7596
+    },
+    {
+      "file": "common/images/ed49fb7e02247339.png",
+      "bytes": 8354
+    },
+    {
+      "file": "common/images/f070830b828c822d.png",
+      "bytes": 7560
+    },
+    {
+      "file": "common/images/f1556d89313e907d.png",
+      "bytes": 7574
+    },
+    {
+      "file": "common/images/f15bd93924d96432.png",
+      "bytes": 7591
+    },
+    {
+      "file": "common/images/f19fb3fdf8c3e8be.png",
+      "bytes": 7562
+    },
+    {
+      "file": "common/images/f25897fb8128936a.png",
+      "bytes": 7719
+    },
+    {
+      "file": "common/images/f3b6a21a3634112b.png",
+      "bytes": 7733
+    },
+    {
+      "file": "common/images/f454ecfe9c341bac.png",
+      "bytes": 7757
+    },
+    {
+      "file": "common/images/f4935e3d86f2a830.png",
+      "bytes": 8621
+    },
+    {
+      "file": "common/images/f5368c76f55c7c4c.png",
+      "bytes": 7254
+    },
+    {
+      "file": "common/images/f601c6680f4ef726.png",
+      "bytes": 8113
+    },
+    {
+      "file": "common/images/f6560b2b988c53ac.png",
+      "bytes": 7572
+    },
+    {
+      "file": "common/images/f85d5be8274fc831.png",
+      "bytes": 7571
+    },
+    {
+      "file": "common/images/f8d8282d0a343595.png",
+      "bytes": 7247
+    },
+    {
+      "file": "common/images/f959b4cf279f0c52.png",
+      "bytes": 7247
+    },
+    {
+      "file": "common/images/f9b971c3e49b684e.png",
+      "bytes": 8627
+    },
+    {
+      "file": "common/images/faf9d5b14905182b.png",
+      "bytes": 8603
+    },
+    {
+      "file": "common/images/fc04d05171e6e008.png",
+      "bytes": 8630
+    },
+    {
+      "file": "common/images/fd1470ef70bbaa88.png",
+      "bytes": 7592
+    },
+    {
+      "file": "common/images/fdd42048037ad364.png",
+      "bytes": 8099
+    },
+    {
+      "file": "common/images/fec771cf4237a5c6.png",
+      "bytes": 7258
+    },
+    {
+      "file": "common/images/ff72335f309e0ed8.png",
+      "bytes": 7764
+    },
+    {
+      "file": "common/images/ffbd060a442e05a2.png",
+      "bytes": 13793
+    },
+    {
+      "file": "common/images/ffed8f2c0d362012.png",
+      "bytes": 7572
+    }
+  ]
+}

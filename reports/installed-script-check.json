@@ -1,6 +1,12 @@
 {
   "installedScriptMatchesPackage": true,
-  "packageSha256": "f908461d57415aab93f9c5c64640912c99316e4dac1249b897d8ab58992f808b",
+  "installedManifestAndChangedAssetsMatch": true,
+  "verifiedManifestAndAssets": [
+    "manifest-watch.json",
+    "common/story/b101/start-000.txt",
+    "common/images/016b4570821368fe.png"
+  ],
+  "packageSha256": "96be13097273fa2a25373269d5984f57384bae29acdaec2c454afb660f178d78",
   "expectedSHA256": "d1f1fdaa6900ff3cc797d4c0b09cf6c8fdf62dc9ecb4587be64c0231084d5bc4",
   "actualSHA256": "d1f1fdaa6900ff3cc797d4c0b09cf6c8fdf62dc9ecb4587be64c0231084d5bc4"
 }

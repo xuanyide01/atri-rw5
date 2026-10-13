@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "packageSha256": "96be13097273fa2a25373269d5984f57384bae29acdaec2c454afb660f178d78",
+  "realUIClicks": true,
+  "sceneInjection": false,
+  "capturedScenes": [
+    "b102:*start/21",
+    "b102:*start/80",
+    "b102:*start/155",
+    "b102:*start/28"
+  ],
+  "portraitHeight": 310,
+  "dialogueBoundary": 286,
+  "noRuntimeImageErrors": true,
+  "physicalDeviceTested": false,
+  "pixelComparison": [
+    {
+      "scene": "b102:*start/21",
+      "meanChannelError": 5.53,
+      "dialogueEdgeForegroundPixels": 37,
+      "dialogueEdgeForegroundError": 6.667,
+      "dialogueBackdropError": 2.6
+    },
+    {
+      "scene": "b102:*start/28",
+      "meanChannelError": 6.294,
+      "dialogueEdgeForegroundPixels": 143,
+      "dialogueEdgeForegroundError": 7.406,
+      "dialogueBackdropError": 2.6
+    },
+    {
+      "scene": "b102:*start/155",
+      "meanChannelError": 7.205,
+      "dialogueEdgeForegroundPixels": 100,
+      "dialogueEdgeForegroundError": 6.78,
+      "dialogueBackdropError": 2.6
+    }
+  ],
+  "visualAlignmentVerified": true,
+  "noPortraitLeakIntoDialogue": true
+}

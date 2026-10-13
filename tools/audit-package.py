@@ -4,10 +4,11 @@ import json,zipfile,io,hashlib
 from PIL import Image
 from fontTools.ttLib import TTFont
 from rpk_signature import audit
+from portrait_layout import visible_bottom,SCENE_HEIGHT
 ROOT=Path(__file__).resolve().parents[1]
 manifest=json.loads((ROOT/'src/manifest.json').read_text('utf8'))
 package=ROOT/('dist/'+manifest['package']+'.debug.'+manifest['versionName']+'.rpk');report=audit(package)
-assert report['bytes']<=15000000
+assert report['bytes']<=10500000
 manifest=json.loads((ROOT/'src/manifest.json').read_text('utf8'))
 font=TTFont(ROOT/'src/common/atri-text.otf').getBestCmap()
 images=0;maxdecode=0;maxplaydecode=0;passages=0;maxchunk=0;original_reference=True
@@ -40,7 +41,9 @@ with zipfile.ZipFile(package) as z:
                 assert frame['art']['background'].lstrip('/') in z.namelist()
                 for sprite in frame['art']['sprites']:
                     assert sprite['src'].lstrip('/') in z.namelist()
-                    assert sprite['top']+sprite['height']==286
+                    portrait=Image.open(io.BytesIO(z.read(sprite['src'].lstrip('/')))).convert('RGBA')
+                    bbox=portrait.getchannel('A').getbbox();assert bbox
+                    assert visible_bottom(sprite,portrait.size,bbox)>=SCENE_HEIGHT+16
             passages+=len(frames)
     logo=Image.open(io.BytesIO(z.read('common/logo.png')))
     assert logo.size==(192,192) and logo.mode=='RGBA'

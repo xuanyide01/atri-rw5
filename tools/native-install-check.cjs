@@ -31,10 +31,17 @@ async function confirmY(){
   const escape=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
   await click(216,369,/ATRI_RW5 slots ready load/);await shot('load-page-one');
   await slot30(new RegExp('ATRI_RW5 slot loaded 30 '+prepared.position.map(escape).join(' ')+'(?:\\s|$)'));await shot('cold-loaded-dialogue');
-  await click(370,477,/ATRI_RW5 frame b999:\*start 2/);await title();
+  await click(370,477,/ATRI_RW5 frame b999:\*start 2/);
+  let legacySlot1Restored=false;const legacyFile=path.join(root,'native-test-results/v010/save-preparation.json');
+  if(fs.existsSync(legacyFile)){
+   const position=JSON.parse(fs.readFileSync(legacyFile,'utf8')).positions[0];
+   await click(216,477,/ATRI_RW5 menu/);await click(216,153,/ATRI_RW5 slots ready load/);
+   await click(216,123,new RegExp('ATRI_RW5 slot loaded 1 '+position.map(escape).join(' ')+'(?:\\s|$)'));legacySlot1Restored=true;await shot('legacy-slot1-dialogue');
+  }
+  await title();
   await click(216,415);await sleep(600);await shot('font-gallery-list');await click(100,160,/ATRI_RW5 cg 0 0/);await click(216,200,/ATRI_RW5 cg 0 1/);await shot('install-cg-variant');await click(216,487);await click(216,477,/ATRI_RW5 title ready/);
   assert(!/ATRI_RW5 error|ATRI_RW5 image failed|ASSERTION FAILED|PANIC!!!/.test(logs().slice(begin)));
-  const result={passed:true,packageSha256:sha,physicalDeviceTested:false,runtime:'official Vela Watch 5 SDK emulator, not physical REDMI Watch 5 firmware',freshInstallVerified:true,coldBootSlot30Restored:true,dialogueTapAndAdvance:true,pagedSaveAndLoad:true,galleryVariantCycle:true,all30SlotsRetested:false,scope:'Font-only revision: focused fresh install, cold start, actual UI save/load and CJK rendering; full route/save baseline retained under its original hash.'};
+  const result={passed:true,packageSha256:sha,physicalDeviceTested:false,runtime:'official Vela Watch 5 SDK emulator, not physical REDMI Watch 5 firmware',freshInstallVerified:true,coldBootSlot30Restored:true,legacySlot1Restored,dialogueTapAndAdvance:true,pagedSaveAndLoad:true,galleryVariantCycle:true,all30SlotsRetested:false,scope:'Asset revision: focused fresh install, cold start, actual UI save/load and CJK rendering; full route/save baseline retained under its original hash.'};
   fs.writeFileSync(path.join(out,'installation-report.json'),JSON.stringify(result,null,2));console.log('INSTALLATION_CHECK_PASS',JSON.stringify(result));
  }
 })().catch(e=>{console.error(e);process.exitCode=1;});

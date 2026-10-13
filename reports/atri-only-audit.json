@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "version": "0.1.4",
+  "packageSha256": "3b971542bb25e78be2d9c0c7fa1b1a88d2ef8074ec3ea210cf2fad813c51252d",
+  "baselineSha256": "f4bf643a6c24b46617ea6f61dee63e66dd06d25bf8c80855635f9bb03658a468",
+  "passages": 12172,
+  "framesWithPortraitChanges": 4320,
+  "retainedAtriPortraits": 418,
+  "allOriginalBackgroundAndCGBytesIdentical": true,
+  "allTextSpeakersAndBranchesIdentical": true,
+  "runtimePageAndSaveEngineByteIdentical": true,
+  "singleAtriCenteredMultiAtriPositionsPreserved": true,
+  "noOtherCharacterPortraitsOrMissingReferences": true,
+  "physicalDeviceTested": false
+}
