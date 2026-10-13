@@ -1,0 +1,21 @@
+{
+  "source": "original post-clear title_base2.png",
+  "sourceSha256": "dba9d929059adf48d3522cf41ca9a47681aed42dd999a2222790a5821c796306",
+  "crop": {
+    "left": 480,
+    "top": 0,
+    "width": 720,
+    "height": 720
+  },
+  "focus": "Atri face and upper shoulders with the original ocean/sky",
+  "size": [
+    192,
+    192
+  ],
+  "circularTransparentCorners": true,
+  "repainted": false,
+  "method": "Original pixels cropped, Lanczos downsampled and circular alpha masked using the existing Sharp asset runtime. No generated artwork used.",
+  "imagegenAttempt": "Stopped after prolonged lack of a returned result; not used as a project asset.",
+  "iconBytes": 75694,
+  "iconSha256": "a80d04cb79db5c04a2fffdf868471ceaacefd7c54bd68c87eb5f62d9553069ce"
+}

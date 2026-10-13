@@ -1,0 +1,13 @@
+{
+  "name": "atri-rw5",
+  "version": "0.1.3",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "node tools/build.cjs",
+    "test": "node tools/test-story-engine.cjs",
+    "test:native": "node tools/native-check.cjs",
+    "emulator:setup": "node tools/setup-emulator.cjs",
+    "emulator": "node tools/emulator-server.cjs"
+  }
+}

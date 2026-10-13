@@ -1,0 +1,35 @@
+{
+  "package": "com.codex.atri.rw5",
+  "name": "ATRI",
+  "versionName": "0.1.3",
+  "versionCode": 9,
+  "minPlatformVersion": 1000,
+  "minAPILevel": 1,
+  "icon": "/common/logo.png",
+  "deviceTypeList": [
+    "watch"
+  ],
+  "features": [
+    {
+      "name": "system.storage"
+    },
+    {
+      "name": "system.file"
+    },
+    {
+      "name": "system.prompt"
+    }
+  ],
+  "config": {
+    "designWidth": 432,
+    "logLevel": "log"
+  },
+  "router": {
+    "entry": "pages/index",
+    "pages": {
+      "pages/index": {
+        "component": "index"
+      }
+    }
+  }
+}

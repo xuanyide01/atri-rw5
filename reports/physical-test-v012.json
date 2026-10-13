@@ -1,0 +1,12 @@
+{
+  "version": "0.1.2",
+  "packageSha256": "f908461d57415aab93f9c5c64640912c99316e4dac1249b897d8ab58992f808b",
+  "device": "REDMI Watch 5",
+  "reportedBy": "user",
+  "reportedOn": "2026-10-13",
+  "installationSucceeded": true,
+  "noBugFoundDuringUserTest": true,
+  "userStatement": "安装成功，暂未发现bug。",
+  "comprehensiveRouteCoverageClaimed": false,
+  "originalInstallationFailureRootCauseConfirmed": false
+}

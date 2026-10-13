@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "choices": [
+        "亚托莉先放在我这",
+        "吻她",
+        "捡起鞋子"
+      ],
+      "normalSteps": 11809,
+      "skipSteps": 38
+    },
+    {
+      "choices": [
+        "亚托莉先放在我这",
+        "吻她",
+        "放着不管"
+      ],
+      "normalSteps": 9512,
+      "skipSteps": 34
+    },
+    {
+      "choices": [
+        "把亚托莉交出去",
+        "吻她",
+        "放着不管"
+      ],
+      "normalSteps": 9509,
+      "skipSteps": 34
+    },
+    {
+      "choices": [
+        "亚托莉先放在我这",
+        "静静地看她",
+        "放着不管"
+      ],
+      "normalSteps": 9493,
+      "skipSteps": 34
+    },
+    {
+      "choices": [
+        "把亚托莉交出去",
+        "静静地看她",
+        "放着不管"
+      ],
+      "normalSteps": 9490,
+      "skipSteps": 34
+    }
+  ],
+  "note": "Pure JavaScript engine, not device performance or UI validation."
+}

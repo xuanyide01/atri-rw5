@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "packageSha256": "77d6dbbf9e6dce1acb191c57e48368e9d7ba1a9634272debcf06521d732be7c7",
+  "baselinePackageSha256": "715f62b8bce59ce08bd89e80ca6197712d7156350e61efbea9a470742df39750",
+  "changedEntries": [
+    "META-INF/CERT",
+    "manifest-watch.json",
+    "manifest.json",
+    "app.js",
+    "common/title_bg.jpg",
+    "META-INF/build.txt"
+  ],
+  "runtimeAndAllGameplayResourcesByteIdentical": true,
+  "bootstrapOnlyVersionCodeUpdated": true,
+  "method": "Only title art, version/build metadata and signatures differ. Main page logic and all gameplay resources are byte-identical. Complete baseline emulator tests retain their original hash; final title and exit are tested separately."
+}

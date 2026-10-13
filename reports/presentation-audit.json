@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "sourceSCNFramesChecked": 12172,
+  "sourceSnapshotsChecked": 4799,
+  "sourceCharacterDepthAndOpacityChecked": true,
+  "literalNewlineControlsDecoded": 2359,
+  "reportedCGRegressions": [
+    {
+      "node": "b123:*start",
+      "index": 0,
+      "originalResource": "bg015l",
+      "generatedResource": "9f4ca5fd65a0a2ac.jpg",
+      "text": "发电机的制造工作开始后，已经过了数天。",
+      "overlappingSceneLayers": false
+    },
+    {
+      "node": "b123:*start",
+      "index": 1,
+      "originalResource": "bg005ll",
+      "generatedResource": "196cdc434c3da778.jpg",
+      "text": "FRP（纤维强化塑料）的制作过程大致如下。",
+      "overlappingSceneLayers": false
+    },
+    {
+      "node": "b701:*start",
+      "index": 1,
+      "originalResource": "ev018a",
+      "generatedResource": "ea405fb34e65eb6e.jpg",
+      "text": "海平面上升与社会局势的动荡，将人类逼入了更加窘迫的境地。但人类并没有安于现状，而是坚持抗争。",
+      "overlappingSceneLayers": false
+    },
+    {
+      "node": "b701:*start",
+      "index": 13,
+      "originalResource": "ev020al",
+      "generatedResource": "9bcff1431735a47d.jpg",
+      "text": "\"真是的，孩子他爸。\n机器人做什么用的你都忘了吗\"",
+      "overlappingSceneLayers": false
+    },
+    {
+      "node": "b701:*start",
+      "index": 16,
+      "originalResource": "bg004ll",
+      "generatedResource": "06c293f7c8bea559.jpg",
+      "text": "以及持续低迷的十年时间。",
+      "overlappingSceneLayers": false
+    }
+  ],
+  "graphMatchesV010": true,
+  "saveStoragePrefixUnchanged": "atri_rw5_",
+  "presentationLimit": "Whole original scene/CG stills with source-registered transparent illustrations; camera movement and masks omitted, not a pixel-identical replay of PC cinematics."
+}

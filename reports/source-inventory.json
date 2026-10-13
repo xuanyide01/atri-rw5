@@ -1,0 +1,353 @@
+{
+  "source": "User supplied Steam ATRI -My Dear Moments-",
+  "originalReadOnly": true,
+  "archives": [
+    {
+      "archive": "bgimage.xp3",
+      "bytes": 998032392,
+      "entries": 662,
+      "extensions": {
+        "": 662
+      },
+      "samples": [
+        {
+          "name": "99eb9b5251ffeb3989b4409e241e2a39",
+          "flags": 2147483648,
+          "bytes": 349,
+          "prefix": "eaea15ebea231406140414871488148214a41488148e148d",
+          "adlerMatches": false
+        },
+        {
+          "name": "33717178d4971391d0793aa7ca654ec2",
+          "flags": 2147483648,
+          "bytes": 145814,
+          "prefix": "09d0cec78d8a9a8a8080808dc9c8c4d28080858080808520",
+          "adlerMatches": false
+        },
+        {
+          "name": "b643a261cc092eba6e4026d0c8b12689",
+          "flags": 2147483648,
+          "bytes": 995,
+          "prefix": "f544bb45448dbaa8baaaba29ba26ba2cba0aba26ba20ba23",
+          "adlerMatches": false
+        },
+        {
+          "name": "b97ab61f25232e21bed0c3356f092f88",
+          "flags": 2147483648,
+          "bytes": 566382,
+          "prefix": "69b0aea7edeafaeae0e0e0eda9a8a4b2e0e0e5e0e0e0f350",
+          "adlerMatches": false
+        }
+      ]
+    },
+    {
+      "archive": "data.xp3",
+      "bytes": 1226585164,
+      "entries": 2303,
+      "extensions": {
+        "": 2302,
+        ".tjs": 1
+      },
+      "samples": [
+        {
+          "name": "startup.tjs",
+          "flags": 2147483648,
+          "bytes": 316,
+          "prefix": "544a5332313030003c01000044415441a800000000000000",
+          "adlerMatches": true
+        },
+        {
+          "name": "70be707b6a772e9a371c8aa01cdfd7a9",
+          "flags": 2147483648,
+          "bytes": 1087,
+          "prefix": "3e3ec13f3edfc0dfc0d0c0b07883640a50f264d47ac66670",
+          "adlerMatches": false
+        },
+        {
+          "name": "a2b987ea067681692637544059e41aa6",
+          "flags": 2147483648,
+          "bytes": 1474913,
+          "prefix": "d6fefeca999b999999999999999918b79999999999998a9a",
+          "adlerMatches": false
+        },
+        {
+          "name": "355fc3c091bac2ac5e61e0117a1b21c3",
+          "flags": 2147483648,
+          "bytes": 1747212,
+          "prefix": "b39b9baffcfefcfcfcfcfcfcfcfc8dfdfcfcfcfcfcfc7ce8",
+          "adlerMatches": false
+        }
+      ]
+    },
+    {
+      "archive": "fgimage.xp3",
+      "bytes": 248885456,
+      "entries": 2658,
+      "extensions": {
+        "": 2658
+      },
+      "samples": [
+        {
+          "name": "5742ef33177e6f15220e435b18b45af3",
+          "flags": 2147483648,
+          "bytes": 215,
+          "prefix": "8d8d728c8d607363732743a2438f430843a8438043fd11ee",
+          "adlerMatches": false
+        },
+        {
+          "name": "fb27b79e101fd9f24e453d4370fb6bde",
+          "flags": 2147483648,
+          "bytes": 120601,
+          "prefix": "e2e21de3e20f1c0c1c482ccd2ce02c672cc72cef2c927e81",
+          "adlerMatches": false
+        },
+        {
+          "name": "06d186cb9e2500693b52bebfe60fc6e5",
+          "flags": 2147483648,
+          "bytes": 271,
+          "prefix": "4b4bb44a4ba6b5a5b51dd1d600a10f3bd7280acaf00d2fd0",
+          "adlerMatches": false
+        },
+        {
+          "name": "fe54174abf1859b5f36cc73651daf487",
+          "flags": 2147483648,
+          "bytes": 389,
+          "prefix": "2bff00feff12011101b201b9019e019801980111017231ec",
+          "adlerMatches": false
+        }
+      ]
+    },
+    {
+      "archive": "steam.xp3",
+      "bytes": 13295,
+      "entries": 3,
+      "extensions": {
+        "": 3
+      },
+      "samples": [
+        {
+          "name": "37548e61432ff83896becd2f0634205c",
+          "flags": 2147483648,
+          "bytes": 19596,
+          "prefix": "415f4627242525159959151551544154550d151513151515",
+          "adlerMatches": false
+        },
+        {
+          "name": "68008bc0eb1033ce55cdd48ab7c1b04d",
+          "flags": 2147483648,
+          "bytes": 13500,
+          "prefix": "322c355457565666da526666222732279e7666666f666666",
+          "adlerMatches": false
+        }
+      ]
+    },
+    {
+      "archive": "voice.xp3",
+      "bytes": 4641997,
+      "entries": 186,
+      "extensions": {
+        "": 186
+      },
+      "samples": [
+        {
+          "name": "9884664932a2b34a6577f254667f0d3a",
+          "flags": 2147483648,
+          "bytes": 18513,
+          "prefix": "5b737347141614141414141414146515141414141414f9b1",
+          "adlerMatches": false
+        },
+        {
+          "name": "86f9f839695e7b26e1e5ace2ab2d8dec",
+          "flags": 2147483648,
+          "bytes": 21712,
+          "prefix": "9cb4b480d3d1d3d3d3d3d3d3d3d3a2d2d3d3d3d3d3d33e76",
+          "adlerMatches": false
+        },
+        {
+          "name": "3709481b8668072081b4a9291e00eba7",
+          "flags": 2147483648,
+          "bytes": 10167,
+          "prefix": "ecc4c4f0a3a1a3a3a3a3a3a3a3a3d2a2a3a3a3a3a3a34e06",
+          "adlerMatches": false
+        },
+        {
+          "name": "860b44a7f9e4ae4aa1aad613bb296730",
+          "flags": 2147483648,
+          "bytes": 30686,
+          "prefix": "49616155060406060606060606067707060606060606eba3",
+          "adlerMatches": false
+        }
+      ]
+    },
+    {
+      "archive": "vol1.xp3",
+      "bytes": 1665410081,
+      "entries": 4984,
+      "extensions": {
+        "": 4984
+      },
+      "samples": [
+        {
+          "name": "e586fb3664efedcff9685c96964d9416",
+          "flags": 2147483648,
+          "bytes": 949,
+          "prefix": "ffff00feff12017e31e83134a20aa04431c8315f317731c5",
+          "adlerMatches": false
+        },
+        {
+          "name": "52923a71e80e18153b45f66b67f74783",
+          "flags": 2147483648,
+          "bytes": 34479,
+          "prefix": "88514f460c0b1b0b0101010c4849455301010331010101dd",
+          "adlerMatches": false
+        },
+        {
+          "name": "523cfa290e50207934b569648cb1c39c",
+          "flags": 2147483648,
+          "bytes": 873,
+          "prefix": "58b8a75958b5a6b6a6c9019b1b6c3694023b961707e39605",
+          "adlerMatches": false
+        },
+        {
+          "name": "640bb74012ca5db745a618d457112afb",
+          "flags": 2147483648,
+          "bytes": 1097,
+          "prefix": "c2c13ec0c1203f203f2f3f4f877c9bf5af0d9b2b8539998f",
+          "adlerMatches": false
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "path": "ATRI-MyDearMoments-.exe",
+      "bytes": 4707608,
+      "sha256": "1c9b98c9d1ef4eb9f07fb8083192dc7b6ca40ccc71534074f46bbb6860ae432a"
+    },
+    {
+      "path": "steam_api.dll",
+      "bytes": 213072,
+      "sha256": "5d58f6ea6d46d44cc8422f3bc0f76b9a95f5e7e14007887a8e1cf54fa77a8eac"
+    },
+    {
+      "path": "plugin/AlphaMovie.dll",
+      "bytes": 174080,
+      "sha256": "c866b3cac4bfb93132eaaa3ab3b191f6bb1dd35b4fa762d642aa000f6267db53"
+    },
+    {
+      "path": "plugin/dmmcloud.dll",
+      "bytes": 97280,
+      "sha256": "51d0fe15fdc952302bfdebb04f5a2667799419edd6e636ef8d8703bb1ad4ab3f"
+    },
+    {
+      "path": "plugin/extNagano.dll",
+      "bytes": 241664,
+      "sha256": "42a69b25baff6cde02d64170950d5bef3f96a5df5750834c33ad722337409f2c"
+    },
+    {
+      "path": "plugin/extrans.dll",
+      "bytes": 237568,
+      "sha256": "9c1890f29c96a1f99bb77ec845421d171c47bd16de478ede5b93c4e9a793afa6"
+    },
+    {
+      "path": "plugin/getLangName.dll",
+      "bytes": 59392,
+      "sha256": "5a0012c4c8d12499d5a346158436029a5399baef4e88660557f06e56e3bc96b6"
+    },
+    {
+      "path": "plugin/getSample.dll",
+      "bytes": 98304,
+      "sha256": "e190ae1b17f82b106fa466e9ab985364e018c8acd46b39b2b33b895133c2f30c"
+    },
+    {
+      "path": "plugin/k2compat.dll",
+      "bytes": 95232,
+      "sha256": "af58a527bd27b6217b12ef3a04cd2c291487488c156d176eb624cb6f30acf7c9"
+    },
+    {
+      "path": "plugin/kagexopt.dll",
+      "bytes": 65536,
+      "sha256": "df17befb8b3252d9b9e7c045a51e2dccc1eda7b53b025ef3b856f7e26e11bf11"
+    },
+    {
+      "path": "plugin/KAGParserEx.dll",
+      "bytes": 200704,
+      "sha256": "a84b79deee82027693ab7bab172a894719bf9b0c14681296fd64bca225b43adc"
+    },
+    {
+      "path": "plugin/krkrsteam.dll",
+      "bytes": 153600,
+      "sha256": "3857ebcb61014e9266b58e8a668cad4ac3a6085883e57e2722c4ec47d19d0a30"
+    },
+    {
+      "path": "plugin/krmovie.dll",
+      "bytes": 278528,
+      "sha256": "4140c86f6e4e1a1e733e9bc2c71803cbe1c436ca9c9844d4f5868e1c2c5a6c1e"
+    },
+    {
+      "path": "plugin/layerExDraw.dll",
+      "bytes": 404480,
+      "sha256": "fe7760906b4ffa0ede8c840b76e8e5b8798131ae7cee4d05ccb13e138a8b5c7d"
+    },
+    {
+      "path": "plugin/lzfs.dll",
+      "bytes": 67072,
+      "sha256": "223f7d33aca38780e63168fc19157f772c21f1c3e27ebbb20a15b9b6f254a438"
+    },
+    {
+      "path": "plugin/menu.dll",
+      "bytes": 139264,
+      "sha256": "ecc8eba384e2dd2bb7ada8655e63bd9a3962b899dbe4fd8efdf6e1734603a49a"
+    },
+    {
+      "path": "plugin/PackinOne.dll",
+      "bytes": 648192,
+      "sha256": "9fe1ebd957247cd5561b8e22b86e12895bb6c03f83d0d0b3b9ce6ed94e58e7d7"
+    },
+    {
+      "path": "plugin/psbfile.dll",
+      "bytes": 197120,
+      "sha256": "fc4fa66cdfbb1a9b2670738d5aa798e97973fbbda0c79da43a37f405e894e464"
+    },
+    {
+      "path": "plugin/psd.dll",
+      "bytes": 728064,
+      "sha256": "8b1ddb13b872104bf8558c1df06969db4b3a763ecd46f44f44fbbe93c11a4f3f"
+    },
+    {
+      "path": "plugin/SteamDrawDevice.dll",
+      "bytes": 150016,
+      "sha256": "34f6ac1a9ed9a788b4f4726c70c9e54aa45766323483da2d922bce75bf46bc8a"
+    },
+    {
+      "path": "plugin/textrender.dll",
+      "bytes": 222208,
+      "sha256": "8551aefefb8335736611136aa606cba2d6894e37c9fc70b0042120b9ca212083"
+    },
+    {
+      "path": "plugin/win32dialog.dll",
+      "bytes": 305664,
+      "sha256": "147238a710cf25910fdcb718861547e7df69984b3cd1a8a5ce1c130a4fc1d3ef"
+    },
+    {
+      "path": "plugin/win32ole.dll",
+      "bytes": 229376,
+      "sha256": "67c95aef41b76d22a58217a750049de8479838d68fe794174cc7cd7f18cbef59"
+    },
+    {
+      "path": "plugin/windowEx.dll",
+      "bytes": 220160,
+      "sha256": "e5ba72ad6a609a221d4e42ecd7e028d09a889791bd234ba65a3c185ca93d2627"
+    },
+    {
+      "path": "plugin/wuopus.dll",
+      "bytes": 281088,
+      "sha256": "80fc765fed848a519a72d7e708cff74f7b0fff0a2723f3917c8a44f41488b592"
+    },
+    {
+      "path": "plugin/wuvorbis.dll",
+      "bytes": 526848,
+      "sha256": "3ffe42a2908d7e27f116fc6a843fd7753a1f50b3f5938a07ce351132ad788549"
+    }
+  ]
+}

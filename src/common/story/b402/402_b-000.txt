@@ -1,0 +1,1 @@
+[{"speaker":"","text":"没时间管这玩意。","art":{"background":"/common/images/b1c9926a6beaadb1.jpg","sprites":[]}},{"speaker":"","text":"我无视掉，冲出了船舱。","art":{"background":"/common/images/e634e850e06fe724.jpg","sprites":[]}}]

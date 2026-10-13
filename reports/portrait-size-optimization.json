@@ -1,0 +1,9 @@
+{
+  "atriMaxHeight": 256,
+  "atriPalette": 256,
+  "otherPortraitMaxHeight": 224,
+  "otherPalette": 160,
+  "displayHeight": 286,
+  "imageBytes": 12813523,
+  "note": "One resize and quantization from original intermediate layers. Do not run the legacy second-pass resize script."
+}

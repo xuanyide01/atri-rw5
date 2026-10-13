@@ -1,0 +1,1 @@
+[{"speaker":"","text":"我捡起鞋子，冲出了船舱。","art":{"background":"/common/images/e634e850e06fe724.jpg","sprites":[]}}]

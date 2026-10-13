@@ -1,0 +1,21 @@
+{
+  "failedVersion": "0.1.1",
+  "device": "REDMI Watch 5",
+  "physicalFailureReported": true,
+  "freshPhysicalInstallation": true,
+  "previousATRIInstalled": false,
+  "otherAppsInstallNormally": true,
+  "rootCauseConfirmed": false,
+  "candidateVersion": "0.1.2",
+  "change": "Remove unused font substitution/vertical glyph closure. 2779 mapped glyph outlines and horizontal metrics retained identically. Application, all pictures, text, choices and save keys unchanged.",
+  "changedEntries": [
+    "META-INF/CERT",
+    "manifest-watch.json",
+    "manifest.json",
+    "app.js",
+    "common/atri-text.otf",
+    "META-INF/build.txt"
+  ],
+  "mainPageAndAllStoryImagesUnchanged": true,
+  "physicalFixConfirmed": false
+}

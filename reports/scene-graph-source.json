@@ -1,0 +1,1876 @@
+[
+  {
+    "file": "b101.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b101.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 725,
+    "title": [
+      "サルベージ",
+      "Salvage",
+      "打捞作业",
+      "打撈作業"
+    ]
+  },
+  {
+    "file": "b101.ks",
+    "firstLine": 2927,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b102.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b101クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "サルベージ",
+      "Salvage",
+      "打捞作业",
+      "打撈作業"
+    ]
+  },
+  {
+    "file": "b102.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b102.ks",
+        "target": "*dummyselect1",
+        "type": 0
+      }
+    ],
+    "spCount": 353,
+    "title": [
+      "足になります！",
+      "I'll Be Your Leg!",
+      "成为你的右腿！",
+      "成為你的右腿！"
+    ]
+  },
+  {
+    "file": "b102.ks",
+    "firstLine": 1582,
+    "label": "*dummyselect1",
+    "selectInfo": {
+      "_line": 1582
+    },
+    "selects": [
+      {
+        "language": [
+          null,
+          {
+            "searchtext": "Let Atri go.",
+            "speechtext": "Let Atri go.",
+            "text": "Let Atri go."
+          },
+          {
+            "searchtext": "把亚托莉交出去",
+            "speechtext": "把亚托莉交出去",
+            "text": "把亚托莉交出去"
+          },
+          {
+            "searchtext": "把亞托莉交出去",
+            "speechtext": "把亞托莉交出去",
+            "text": "把亞托莉交出去"
+          }
+        ],
+        "render": 1,
+        "selidx": 0,
+        "storage": "b102.ks",
+        "storate": "b102.ks",
+        "target": "*102_a",
+        "text": "アトリを行かせる"
+      },
+      {
+        "exp": "f.sen_flag = 1",
+        "language": [
+          null,
+          {
+            "searchtext": "Take care of Atri.",
+            "speechtext": "Take care of Atri.",
+            "text": "Take care of Atri."
+          },
+          {
+            "searchtext": "亚托莉先放在我这",
+            "speechtext": "亚托莉先放在我这",
+            "text": "亚托莉先放在我这"
+          },
+          {
+            "searchtext": "亞托莉先放在我這",
+            "speechtext": "亞托莉先放在我這",
+            "text": "亞托莉先放在我這"
+          }
+        ],
+        "render": 1,
+        "selidx": 1,
+        "storage": "b102.ks",
+        "storate": "b102.ks",
+        "target": "*102_b",
+        "text": "アトリは俺が預かる"
+      }
+    ],
+    "spCount": 1,
+    "title": [
+      "足になります！",
+      "I'll Be Your Leg!",
+      "成为你的右腿！",
+      "成為你的右腿！"
+    ]
+  },
+  {
+    "file": "b102.ks",
+    "firstLine": 1587,
+    "label": "*102_a",
+    "nexts": [
+      {
+        "storage": "b102.ks",
+        "target": "*102_c",
+        "type": 0
+      }
+    ],
+    "spCount": 12,
+    "title": [
+      "足になります！",
+      "I'll Be Your Leg!",
+      "成为你的右腿！",
+      "成為你的右腿！"
+    ]
+  },
+  {
+    "file": "b102.ks",
+    "firstLine": 1643,
+    "label": "*102_b",
+    "nexts": [
+      {
+        "storage": "b102.ks",
+        "target": "*102_c",
+        "type": 0
+      }
+    ],
+    "spCount": 13,
+    "title": [
+      "足になります！",
+      "I'll Be Your Leg!",
+      "成为你的右腿！",
+      "成為你的右腿！"
+    ]
+  },
+  {
+    "file": "b102.ks",
+    "firstLine": 1696,
+    "label": "*102_c",
+    "nexts": [
+      {
+        "storage": "b102.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 283,
+    "title": [
+      "足になります！",
+      "I'll Be Your Leg!",
+      "成为你的右腿！",
+      "成為你的右腿！"
+    ]
+  },
+  {
+    "file": "b102.ks",
+    "firstLine": 2845,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b103.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b102クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "足になります！",
+      "I'll Be Your Leg!",
+      "成为你的右腿！",
+      "成為你的右腿！"
+    ]
+  },
+  {
+    "file": "b103.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b103.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 256,
+    "title": [
+      "穏やかな夜",
+      "A Peaceful Night",
+      "安稳的夜晚",
+      "安穩的夜晚"
+    ]
+  },
+  {
+    "file": "b103.ks",
+    "firstLine": 927,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b111.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b103クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "穏やかな夜",
+      "A Peaceful Night",
+      "安稳的夜晚",
+      "安穩的夜晚"
+    ]
+  },
+  {
+    "file": "b111.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b111.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 512,
+    "title": [
+      "登校\t",
+      "School Time",
+      "上学",
+      "上學"
+    ]
+  },
+  {
+    "file": "b111.ks",
+    "firstLine": 2279,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b112.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b111クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "登校\t",
+      "School Time",
+      "上学",
+      "上學"
+    ]
+  },
+  {
+    "file": "b112.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b112.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 488,
+    "title": [
+      "戦闘ロボアトリ",
+      "Atri the Combat Maid",
+      "战斗机器人亚托莉",
+      "戰鬥機器人亞托莉"
+    ]
+  },
+  {
+    "file": "b112.ks",
+    "firstLine": 2189,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b113.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b112クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "戦闘ロボアトリ",
+      "Atri the Combat Maid",
+      "战斗机器人亚托莉",
+      "戰鬥機器人亞托莉"
+    ]
+  },
+  {
+    "file": "b113.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b113.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 578,
+    "title": [
+      "実験",
+      "Class Meeting",
+      "班委会",
+      "班委會"
+    ]
+  },
+  {
+    "file": "b113.ks",
+    "firstLine": 2333,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b114.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b113クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "実験",
+      "Class Meeting",
+      "班委会",
+      "班委會"
+    ]
+  },
+  {
+    "file": "b114.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b114.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 689,
+    "title": [
+      "夜の学校",
+      "Night School",
+      "夜晚的学校",
+      "夜晚的學校"
+    ]
+  },
+  {
+    "file": "b114.ks",
+    "firstLine": 2759,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b121.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b114クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "夜の学校",
+      "Night School",
+      "夜晚的学校",
+      "夜晚的學校"
+    ]
+  },
+  {
+    "file": "b121.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b121.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 523,
+    "title": [
+      "カニは偉大",
+      "Respect the Crab",
+      "伟大的螃蟹",
+      "偉大的螃蟹"
+    ]
+  },
+  {
+    "file": "b121.ks",
+    "firstLine": 2230,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b122.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b121クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "カニは偉大",
+      "Respect the Crab",
+      "伟大的螃蟹",
+      "偉大的螃蟹"
+    ]
+  },
+  {
+    "file": "b122.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b122.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 467,
+    "title": [
+      "潮汐発電",
+      "Tidal Power",
+      "潮汐发电",
+      "潮汐發電"
+    ]
+  },
+  {
+    "file": "b122.ks",
+    "firstLine": 2121,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b123.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b122クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "潮汐発電",
+      "Tidal Power",
+      "潮汐发电",
+      "潮汐發電"
+    ]
+  },
+  {
+    "file": "b123.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b123.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 613,
+    "title": [
+      "点灯",
+      "Fiat Lux",
+      "点灯",
+      "點燈"
+    ]
+  },
+  {
+    "file": "b123.ks",
+    "firstLine": 2853,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b124.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b123クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "点灯",
+      "Fiat Lux",
+      "点灯",
+      "點燈"
+    ]
+  },
+  {
+    "file": "b124.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b124.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 132,
+    "title": [
+      "エピローグ",
+      "Chapter One Epilogue",
+      "第一章 尾声",
+      "第一章 尾聲"
+    ]
+  },
+  {
+    "file": "b124.ks",
+    "firstLine": 531,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b200.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b124クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "エピローグ",
+      "Chapter One Epilogue",
+      "第一章 尾声",
+      "第一章 尾聲"
+    ]
+  },
+  {
+    "file": "b200.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b200.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 62,
+    "title": [
+      "プロローグ",
+      "Chapter Two Prologue",
+      "第二章 序章",
+      "第二章 序章"
+    ]
+  },
+  {
+    "file": "b200.ks",
+    "firstLine": 238,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b201.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b200クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "プロローグ",
+      "Chapter Two Prologue",
+      "第二章 序章",
+      "第二章 序章"
+    ]
+  },
+  {
+    "file": "b201.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b201.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 543,
+    "title": [
+      "新しい生活",
+      "The New Everyday",
+      "新的生活",
+      "新的生活"
+    ]
+  },
+  {
+    "file": "b201.ks",
+    "firstLine": 2433,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b202.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b201クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "新しい生活",
+      "The New Everyday",
+      "新的生活",
+      "新的生活"
+    ]
+  },
+  {
+    "file": "b202.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b202.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 553,
+    "title": [
+      "初恋のお姉さん",
+      "His First Crush",
+      "初恋的大姐姐",
+      "初戀的大姐姐"
+    ]
+  },
+  {
+    "file": "b202.ks",
+    "firstLine": 2254,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b203.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b202クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "初恋のお姉さん",
+      "His First Crush",
+      "初恋的大姐姐",
+      "初戀的大姐姐"
+    ]
+  },
+  {
+    "file": "b203.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b203.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 572,
+    "title": [
+      "恋煩い",
+      "Lovesick Natsuki",
+      "夏生的相思病",
+      "夏生的相思病"
+    ]
+  },
+  {
+    "file": "b203.ks",
+    "firstLine": 2375,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b204.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b203クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "恋煩い",
+      "Lovesick Natsuki",
+      "夏生的相思病",
+      "夏生的相思病"
+    ]
+  },
+  {
+    "file": "b204.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b204.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 507,
+    "title": [
+      "保健体育",
+      "Sex Education",
+      "保健体育",
+      "保健體育"
+    ]
+  },
+  {
+    "file": "b204.ks",
+    "firstLine": 2129,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b205.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b204クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "保健体育",
+      "Sex Education",
+      "保健体育",
+      "保健體育"
+    ]
+  },
+  {
+    "file": "b205.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b205.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 451,
+    "title": [
+      "デート",
+      "First Date",
+      "约会",
+      "約會"
+    ]
+  },
+  {
+    "file": "b205.ks",
+    "firstLine": 1718,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b206.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b205クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "デート",
+      "First Date",
+      "约会",
+      "約會"
+    ]
+  },
+  {
+    "file": "b206.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b206.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 615,
+    "title": [
+      "恋人の日々",
+      "Days of Love",
+      "恋人的日常",
+      "戀人的日常"
+    ]
+  },
+  {
+    "file": "b206.ks",
+    "firstLine": 2489,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b207.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b206クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "恋人の日々",
+      "Days of Love",
+      "恋人的日常",
+      "戀人的日常"
+    ]
+  },
+  {
+    "file": "b207.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b207.ks",
+        "target": "*dummyselect1",
+        "type": 0
+      }
+    ],
+    "spCount": 362,
+    "title": [
+      "ログ",
+      "The Log",
+      "日志",
+      "日誌"
+    ]
+  },
+  {
+    "file": "b207.ks",
+    "firstLine": 1595,
+    "label": "*dummyselect1",
+    "selectInfo": {
+      "_line": 1595
+    },
+    "selects": [
+      {
+        "language": [
+          null,
+          {
+            "searchtext": "Stare into her eyes",
+            "speechtext": "Stare into her eyes",
+            "text": "Stare into her eyes"
+          },
+          {
+            "searchtext": "静静地看她",
+            "speechtext": "静静地看她",
+            "text": "静静地看她"
+          },
+          {
+            "searchtext": "靜靜地看她",
+            "speechtext": "靜靜地看她",
+            "text": "靜靜地看她"
+          }
+        ],
+        "render": 1,
+        "selidx": 0,
+        "storage": "b207.ks",
+        "storate": "b207.ks",
+        "target": "*207_a",
+        "text": "ジッと見つめる"
+      },
+      {
+        "exp": "f.sen_flag = f.sen_flag + 10 ",
+        "language": [
+          null,
+          {
+            "searchtext": "Kiss her",
+            "speechtext": "Kiss her",
+            "text": "Kiss her"
+          },
+          {
+            "searchtext": "吻她",
+            "speechtext": "吻她",
+            "text": "吻她"
+          },
+          {
+            "searchtext": "吻她",
+            "speechtext": "吻她",
+            "text": "吻她"
+          }
+        ],
+        "render": 1,
+        "selidx": 1,
+        "storage": "b207.ks",
+        "storate": "b207.ks",
+        "target": "*207_b",
+        "text": "キスをする"
+      }
+    ],
+    "spCount": 1,
+    "title": [
+      "ログ",
+      "The Log",
+      "日志",
+      "日誌"
+    ]
+  },
+  {
+    "file": "b207.ks",
+    "firstLine": 1600,
+    "label": "*207_a",
+    "nexts": [
+      {
+        "storage": "b207.ks",
+        "target": "*207_c",
+        "type": 0
+      }
+    ],
+    "spCount": 26,
+    "title": [
+      "ログ",
+      "The Log",
+      "日志",
+      "日誌"
+    ]
+  },
+  {
+    "file": "b207.ks",
+    "firstLine": 1711,
+    "label": "*207_b",
+    "nexts": [
+      {
+        "storage": "b207.ks",
+        "target": "*207_c",
+        "type": 0
+      }
+    ],
+    "spCount": 59,
+    "title": [
+      "ログ",
+      "The Log",
+      "日志",
+      "日誌"
+    ]
+  },
+  {
+    "file": "b207.ks",
+    "firstLine": 1924,
+    "label": "*207_c",
+    "nexts": [
+      {
+        "storage": "b207.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 249,
+    "title": [
+      "ログ",
+      "The Log",
+      "日志",
+      "日誌"
+    ]
+  },
+  {
+    "file": "b207.ks",
+    "firstLine": 2989,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b301.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b207クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "ログ",
+      "The Log",
+      "日志",
+      "日誌"
+    ]
+  },
+  {
+    "file": "b301.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b301.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 160,
+    "title": [
+      "プロローグ",
+      "Chapter Three Prologue",
+      "第三章 序章",
+      "第三章 序章"
+    ]
+  },
+  {
+    "file": "b301.ks",
+    "firstLine": 612,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b302.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b301クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "プロローグ",
+      "Chapter Three Prologue",
+      "第三章 序章",
+      "第三章 序章"
+    ]
+  },
+  {
+    "file": "b302.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b302.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 642,
+    "title": [
+      "期末試験",
+      "Exam Time",
+      "期末考试",
+      "期末考試"
+    ]
+  },
+  {
+    "file": "b302.ks",
+    "firstLine": 2964,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b303.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b302クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "期末試験",
+      "Exam Time",
+      "期末考试",
+      "期末考試"
+    ]
+  },
+  {
+    "file": "b303.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b303.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 534,
+    "title": [
+      "エデン１",
+      "Eden, Part 1",
+      "伊甸 一",
+      "伊甸 一"
+    ]
+  },
+  {
+    "file": "b303.ks",
+    "firstLine": 2152,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b304.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b303クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "エデン１",
+      "Eden, Part 1",
+      "伊甸 一",
+      "伊甸 一"
+    ]
+  },
+  {
+    "file": "b304.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b304.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 578,
+    "title": [
+      "エデン２",
+      "Eden, Part 2",
+      "伊甸 二",
+      "伊甸 二"
+    ]
+  },
+  {
+    "file": "b304.ks",
+    "firstLine": 2253,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b401.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b304クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "エデン２",
+      "Eden, Part 2",
+      "伊甸 二",
+      "伊甸 二"
+    ]
+  },
+  {
+    "file": "b401.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b401.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 743,
+    "title": [
+      "壊れゆく日常",
+      "Crumbling Around Me",
+      "日渐崩塌的生活",
+      "日漸崩塌的生活"
+    ]
+  },
+  {
+    "file": "b401.ks",
+    "firstLine": 3077,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b402.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b401クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "壊れゆく日常",
+      "Crumbling Around Me",
+      "日渐崩塌的生活",
+      "日漸崩塌的生活"
+    ]
+  },
+  {
+    "file": "b402.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b402.ks",
+        "target": "*dummyselect1",
+        "type": 0
+      }
+    ],
+    "spCount": 536,
+    "title": [
+      "学校占拠",
+      "The School Invaded",
+      "被占据的学校",
+      "被佔據的學校"
+    ]
+  },
+  {
+    "file": "b402.ks",
+    "firstLine": 2415,
+    "label": "*dummyselect1",
+    "nexts": [
+      {
+        "storage": "b402.ks",
+        "target": "*402_a",
+        "type": 0
+      }
+    ],
+    "selectInfo": {
+      "_line": 2415
+    },
+    "selects": [
+      {
+        "eval": "f.sen_flag==11",
+        "language": [
+          null,
+          {
+            "searchtext": "Pick up the shoe.",
+            "speechtext": "Pick up the shoe.",
+            "text": "Pick up the shoe."
+          },
+          {
+            "searchtext": "捡起鞋子",
+            "speechtext": "捡起鞋子",
+            "text": "捡起鞋子"
+          },
+          {
+            "searchtext": "撿起鞋子",
+            "speechtext": "撿起鞋子",
+            "text": "撿起鞋子"
+          }
+        ],
+        "render": 1,
+        "selidx": 0,
+        "storage": "b402.ks",
+        "storate": "b402.ks",
+        "target": "*402_a",
+        "text": "靴を拾う"
+      },
+      {
+        "disabled": "true",
+        "eval": "f.sen_flag!=11",
+        "language": [
+          null,
+          {
+            "searchtext": "Pick up the shoe.",
+            "speechtext": "Pick up the shoe.",
+            "text": "Pick up the shoe."
+          },
+          {
+            "searchtext": "捡起鞋子",
+            "speechtext": "捡起鞋子",
+            "text": "捡起鞋子"
+          },
+          {
+            "searchtext": "撿起鞋子",
+            "speechtext": "撿起鞋子",
+            "text": "撿起鞋子"
+          }
+        ],
+        "render": 1,
+        "selidx": 1,
+        "text": "靴を拾う"
+      },
+      {
+        "exp": "f.sen_flag = 0 ",
+        "language": [
+          null,
+          {
+            "searchtext": "Leave the shoe.",
+            "speechtext": "Leave the shoe.",
+            "text": "Leave the shoe."
+          },
+          {
+            "searchtext": "放着不管",
+            "speechtext": "放着不管",
+            "text": "放着不管"
+          },
+          {
+            "searchtext": "放著不管",
+            "speechtext": "放著不管",
+            "text": "放著不管"
+          }
+        ],
+        "render": 1,
+        "selidx": 2,
+        "storage": "b402.ks",
+        "storate": "b402.ks",
+        "target": "*402_b",
+        "text": "そのままにしておく"
+      }
+    ],
+    "spCount": 1,
+    "title": [
+      "学校占拠",
+      "The School Invaded",
+      "被占据的学校",
+      "被佔據的學校"
+    ]
+  },
+  {
+    "file": "b402.ks",
+    "firstLine": 2421,
+    "label": "*402_a",
+    "nexts": [
+      {
+        "storage": "b402.ks",
+        "target": "*402_c",
+        "type": 0
+      }
+    ],
+    "spCount": 4,
+    "title": [
+      "学校占拠",
+      "The School Invaded",
+      "被占据的学校",
+      "被佔據的學校"
+    ]
+  },
+  {
+    "file": "b402.ks",
+    "firstLine": 2442,
+    "label": "*402_b",
+    "nexts": [
+      {
+        "storage": "b402.ks",
+        "target": "*402_c",
+        "type": 0
+      }
+    ],
+    "spCount": 5,
+    "title": [
+      "学校占拠",
+      "The School Invaded",
+      "被占据的学校",
+      "被佔據的學校"
+    ]
+  },
+  {
+    "file": "b402.ks",
+    "firstLine": 2461,
+    "label": "*402_c",
+    "nexts": [
+      {
+        "storage": "b402.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 81,
+    "title": [
+      "学校占拠",
+      "The School Invaded",
+      "被占据的学校",
+      "被佔據的學校"
+    ]
+  },
+  {
+    "file": "b402.ks",
+    "firstLine": 2911,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b403.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b402クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "学校占拠",
+      "The School Invaded",
+      "被占据的学校",
+      "被佔據的學校"
+    ]
+  },
+  {
+    "file": "b403.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "eval": "f.sen_flag!=11",
+        "storage": "b601.ks",
+        "target": "*start",
+        "type": 0
+      },
+      {
+        "storage": "b403.ks",
+        "target": "*dummy1",
+        "type": 0
+      }
+    ],
+    "spCount": 379,
+    "title": [
+      "アトリ",
+      "Atri",
+      "亚托莉",
+      "亞托莉"
+    ]
+  },
+  {
+    "file": "b403.ks",
+    "firstLine": 1783,
+    "label": "*dummy1",
+    "nexts": [
+      {
+        "storage": "b403.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 320,
+    "title": [
+      "アトリ",
+      "Atri",
+      "亚托莉",
+      "亞托莉"
+    ]
+  },
+  {
+    "file": "b403.ks",
+    "firstLine": 3172,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b404.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b403クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "アトリ",
+      "Atri",
+      "亚托莉",
+      "亞托莉"
+    ]
+  },
+  {
+    "file": "b404.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b404.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 580,
+    "title": [
+      "アトリの過去",
+      "Into the Past",
+      "亚托莉的过去",
+      "亞托莉的過去"
+    ]
+  },
+  {
+    "file": "b404.ks",
+    "firstLine": 2779,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b405.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b404クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "アトリの過去",
+      "Into the Past",
+      "亚托莉的过去",
+      "亞托莉的過去"
+    ]
+  },
+  {
+    "file": "b405.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b405.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 803,
+    "title": [
+      "海底デート",
+      "A Date in the Deep",
+      "海底约会",
+      "海底約會"
+    ]
+  },
+  {
+    "file": "b405.ks",
+    "firstLine": 3248,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b406.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b405クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "海底デート",
+      "A Date in the Deep",
+      "海底约会",
+      "海底約會"
+    ]
+  },
+  {
+    "file": "b406.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b406.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 731,
+    "title": [
+      "お別れ会",
+      "The Farewell Party",
+      "离别",
+      "離別"
+    ]
+  },
+  {
+    "file": "b406.ks",
+    "firstLine": 3386,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b407.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b406クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "お別れ会",
+      "The Farewell Party",
+      "离别",
+      "離別"
+    ]
+  },
+  {
+    "file": "b407.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b407.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 626,
+    "title": [
+      "未来の灯火",
+      "The Lights of the Future",
+      "未来的光芒",
+      "未來的光芒"
+    ]
+  },
+  {
+    "file": "b407.ks",
+    "firstLine": 2600,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b501.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b407クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "未来の灯火",
+      "The Lights of the Future",
+      "未来的光芒",
+      "未來的光芒"
+    ]
+  },
+  {
+    "file": "b501.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b501.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 305,
+    "title": [
+      "エンディング１",
+      "Happy Ending",
+      "Happy Ending",
+      "Happy Ending"
+    ]
+  },
+  {
+    "file": "b501.ks",
+    "firstLine": 1275,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b501.ks",
+        "target": "*dummy1",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b501クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "エンディング１",
+      "Happy Ending",
+      "Happy Ending",
+      "Happy Ending"
+    ]
+  },
+  {
+    "file": "b501.ks",
+    "firstLine": 1277,
+    "label": "*dummy1",
+    "nexts": [
+      {
+        "storage": "start.ks",
+        "target": "*gameend_title",
+        "type": 1
+      }
+    ],
+    "spCount": 1,
+    "title": [
+      "エンディング１",
+      "Happy Ending",
+      "Happy Ending",
+      "Happy Ending"
+    ]
+  },
+  {
+    "file": "b601.ks",
+    "firstLine": 2,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b601.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 163,
+    "title": [
+      "エンディング２",
+      "Bad Ending",
+      "Bad Ending",
+      "Bad Ending"
+    ]
+  },
+  {
+    "file": "b601.ks",
+    "firstLine": 613,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "start.ks",
+        "target": "*gameend_title",
+        "type": 1
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b601クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "エンディング２",
+      "Bad Ending",
+      "Bad Ending",
+      "Bad Ending"
+    ]
+  },
+  {
+    "file": "b701.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b701.ks",
+        "target": "*dummy1",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "sf.allcflag=1"
+    ],
+    "spCount": 381,
+    "title": [
+      "約束の日へ",
+      "True Ending",
+      "约定之日",
+      "約定之日"
+    ]
+  },
+  {
+    "file": "b701.ks",
+    "firstLine": 1452,
+    "label": "*dummy1",
+    "nexts": [
+      {
+        "storage": "b701.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 4,
+    "title": [
+      "約束の日へ",
+      "True Ending",
+      "约定之日",
+      "約定之日"
+    ]
+  },
+  {
+    "file": "b701.ks",
+    "firstLine": 1454,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "start.ks",
+        "target": "*gameend_title",
+        "type": 1
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b701クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "約束の日へ",
+      "True Ending",
+      "约定之日",
+      "約定之日"
+    ]
+  },
+  {
+    "file": "b999.ks",
+    "firstLine": 0,
+    "label": "*start",
+    "nexts": [
+      {
+        "storage": "b999.ks",
+        "target": "*end",
+        "type": 0
+      }
+    ],
+    "spCount": 40,
+    "title": [
+      "プロローグ",
+      "Prologue",
+      "沉没的星星",
+      "沉沒的星星"
+    ]
+  },
+  {
+    "file": "b999.ks",
+    "firstLine": 206,
+    "label": "*end",
+    "nexts": [
+      {
+        "storage": "b101.ks",
+        "target": "*start",
+        "type": 0
+      }
+    ],
+    "postevals": [
+      "kag.errorCmd(\"実績:b999クリア\")"
+    ],
+    "spCount": 1,
+    "title": [
+      "プロローグ",
+      "Prologue",
+      "沉没的星星",
+      "沉沒的星星"
+    ]
+  }
+]

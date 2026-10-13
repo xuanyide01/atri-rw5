@@ -1,0 +1,70 @@
+<template>
+  <div class="page" onswipe="swipe">
+    <div if="{{mode === 'title'}}" class="title-art">
+      <image class="title-background" src="/common/title_bg.jpg" onerror="backgroundError"></image>
+      <image class="title-logo" src="/common/title_logo.png"></image>
+    </div>
+    <div if="{{mode === 'play'}}" class="art" onclick="advance">
+      <image class="background" src="{{backgroundSrc}}" onerror="backgroundError" oncomplete="backgroundLoaded"></image>
+      <image if="{{bodySrc !== ''}}" class="body" style="width: {{portraitWidth}}px; height: {{portraitHeight}}px; top: {{portraitTop}}px; left: {{portraitLeft}}px; opacity: {{portraitOpacity}};" src="{{bodySrc}}"></image>
+      <image if="{{bodySecond !== ''}}" class="body" style="width: {{portraitSecondWidth}}px; height: {{portraitSecondHeight}}px; top: {{portraitSecondTop}}px; left: {{portraitSecondLeft}}px; opacity: {{portraitSecondOpacity}};" src="{{bodySecond}}"></image>
+      <image if="{{bodyThird !== ''}}" class="body" style="width: {{portraitThirdWidth}}px; height: {{portraitThirdHeight}}px; top: {{portraitThirdTop}}px; left: {{portraitThirdLeft}}px; opacity: {{portraitThirdOpacity}};" src="{{bodyThird}}"></image>
+    </div>
+    <div if="{{mode === 'title'}}" class="title-panel">
+      <div class="title-slot"><div if="{{trueUnlocked}}" class="title-button" onclick="startTrue"><image class="title-true" src="/common/title_true_end.png"></image></div></div>
+      <div class="title-button" onclick="startNew"><image class="title-start" src="/common/title_start.png"></image></div>
+      <div class="title-button" onclick="continueGame"><image class="title-load" src="/common/title_load.png"></image></div>
+      <div class="title-button" onclick="openGallery"><image class="title-gallery" src="/common/title_gallery.png"></image></div>
+      <div class="title-button" onclick="exitApplication"><image class="title-exit" src="/common/title_exit.png"></image></div>
+    </div>
+    <image if="{{mode === 'play'}}" class="dialogue-backdrop" src="/common/dialogue_bg.jpg"></image>
+    <div if="{{mode === 'play'}}" class="dialogue-panel">
+      <div class="speaker-row"><text class="speaker" style="font-family: {{speakerFont}};">{{speaker}}</text><text class="chapter" style="font-family: {{chapterFont}};">{{chapterLabel}}</text></div>
+      <scroll id="dialogue-scroll" class="dialogue-scroll" scroll-y="true" onclick="advance"><text class="dialogue" style="font-size: {{fontSize}}px;font-family: {{dialogueFont}};height: {{dialogueHeight}}px;">{{displayText}}</text></scroll>
+      <div class="toolbar"><text class="tool" onclick="goBack">上一句</text><text class="tool" onclick="showMenu">菜单</text><text class="tool" onclick="advance">下一句 ›</text></div>
+    </div>
+    <div if="{{mode === 'choice'}}" class="choice-panel">
+      <text class="choice-title">选择下一步</text>
+      <scroll class="choice-list" scroll-y="true"><text for="{{options}}" tid="text" class="choice" style="font-family: {{$item.font}};color: {{$item.disabled ? '#8eaac0' : '#176690'}};" onclick="pick($idx)">{{$item.text}}</text></scroll>
+      <text class="small-action" onclick="showMenu">菜单</text>
+    </div>
+    <div if="{{mode === 'menu'}}" class="overlay">
+      <text class="menu-title">阅读菜单</text>
+      <text class="menu-action" onclick="saveGame">保存进度</text>
+      <text class="menu-action" onclick="loadGame">读取进度</text>
+      <text class="menu-action" style="color: {{hasNextChapter ? '#176690' : '#8eaac0'}};" onclick="goNextChapter">下一章 ›</text>
+      <text class="menu-action" onclick="toggleSpeed">{{speedLabel}}</text>
+      <text class="menu-action" onclick="toggleFont">{{fontLabel}}</text>
+      <text class="menu-action" onclick="resume">返回游戏</text>
+      <text class="menu-action muted" onclick="toTitle">返回标题</text>
+    </div>
+    <div if="{{mode === 'slots'}}" class="full-panel">
+      <text class="panel-title">{{slotTitle}}</text>
+      <text class="panel-subtitle">{{slotPageLabel}}</text>
+      <div class="slot-list">
+        <div for="{{slotRows}}" tid="number" class="slot-card" style="background-color: {{$item.occupied ? '#d8eaf5' : '#e5f1f8'}};" onclick="selectSlot($item.index)">
+          <text class="slot-title">{{$item.title}}</text><text class="slot-meta" style="font-family: {{$item.metaFont}};">{{$item.meta}}</text><text class="slot-preview" style="font-family: {{$item.previewFont}};">{{$item.preview}}</text>
+        </div>
+      </div>
+      <div class="pager"><text class="pager-action" onclick="previousSlotPage">‹ 上一页</text><text class="pager-action" onclick="closeSlots">返回</text><text class="pager-action" onclick="nextSlotPage">下一页 ›</text></div>
+    </div>
+    <div if="{{mode === 'overwrite'}}" class="overlay">
+      <text class="menu-title">{{overwriteTitle}}</text>
+      <text class="confirm-text" style="font-family: {{overwriteFont}};">{{overwriteDetail}}</text>
+      <text class="menu-action" onclick="confirmOverwrite">确认覆盖</text><text class="menu-action muted" onclick="cancelOverwrite">取消</text>
+    </div>
+    <div if="{{mode === 'gallery'}}" class="full-panel">
+      <text class="panel-title">CG 鉴赏</text><text class="panel-subtitle">{{galleryPageLabel}}</text>
+      <div class="gallery-row"><div for="{{galleryTop}}" tid="image" class="gallery-card" onclick="viewCg($item.index)"><image class="gallery-thumb" src="{{$item.src}}"></image><text class="gallery-caption" style="font-family: {{$item.font}};">{{$item.label}}</text></div></div>
+      <div class="gallery-row"><div for="{{galleryBottom}}" tid="image" class="gallery-card" onclick="viewCg($item.index)"><image class="gallery-thumb" src="{{$item.src}}"></image><text class="gallery-caption" style="font-family: {{$item.font}};">{{$item.label}}</text></div></div>
+      <div class="pager"><text class="pager-action" onclick="previousGalleryPage">‹ 上一页</text><text class="pager-action" onclick="toTitle">返回标题</text><text class="pager-action" onclick="nextGalleryPage">下一页 ›</text></div>
+    </div>
+    <div if="{{mode === 'cg'}}" class="cg-panel">
+      <image class="cg-image" src="{{cgSrc}}" onclick="cycleCg"></image><text class="cg-caption" style="font-family: {{cgFont}};">{{cgLabel}}</text>
+      <div class="cg-controls"><text class="pager-action" onclick="previousCg">‹ 上一组</text><text class="pager-action" onclick="backToGallery">返回列表</text><text class="pager-action" onclick="nextCg">下一组 ›</text></div>
+    </div>
+    <div if="{{mode === 'end'}}" class="end-panel"><text class="game-title">{{endingLabel}}</text><text class="subtitle">可返回标题重新开始游戏</text><text class="action" onclick="toTitle">返回标题</text></div>
+    <div if="{{mode === 'error'}}" class="overlay"><text class="menu-title">暂时无法继续</text><text class="error-text">{{errorText}}</text><text class="action" onclick="toTitle">返回标题</text></div>
+    <text if="{{loading}}" class="loading">加载中…</text>
+  </div>
+</template>

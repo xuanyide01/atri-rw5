@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "originalFontBytes": 1234652,
+  "newFontBytes": 655856,
+  "originalGlyphs": 5049,
+  "newGlyphs": 2779,
+  "codepoints": 2779,
+  "allMappedOutlinesAndHorizontalMetricsIdentical": true,
+  "physicalFailureCauseConfirmed": false,
+  "hypothesis": "Large single compressed font entry/installer memory burden. Removing unused shaping and vertical glyphs lowers resource peak; no physical installer logs yet."
+}

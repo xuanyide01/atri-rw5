@@ -1,0 +1,6 @@
+{
+  "name": "watch-compatibility-toolkit",
+  "private": true,
+  "dependencies": {"aiot-toolkit": "1.1.0"},
+  "overrides": {"sharp": "0.34.5"}
+}

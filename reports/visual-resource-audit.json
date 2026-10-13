@@ -1,0 +1,5231 @@
+{
+  "uniqueReferences": 384,
+  "resolved": [
+    {
+      "name": "bg001",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg001.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg001a",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg001a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "bg001c",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg001c.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "bg001cel",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg001cel.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg001cell",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg001cell.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg001cl",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg001cl.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "bg001cll",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg001cll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg001cnl",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg001cnl.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg001cnll",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg001cnll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg001d",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg001d.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "bg001de",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg001de.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg001del",
+      "classes": [
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg001del.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg001dell",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg001dell.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg001dl",
+      "classes": [
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg001dl.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "bg001dll",
+      "classes": [
+        "event",
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg001dll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg001dnl",
+      "classes": [
+        "noevent"
+      ],
+      "files": [
+        "bgimage/L/bg001dnl.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg001dnll",
+      "classes": [
+        "noevent"
+      ],
+      "files": [
+        "bgimage/LL/bg001dnll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg001e",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg001e.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg001ell",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg001ell.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg001l",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg001l.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "bg001ll",
+      "classes": [
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg001ll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg001n",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg001n.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg001n2",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg001n2.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg001n2l",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg001n2l.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg001n2ll",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg001n2ll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg001nll",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg001nll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg002",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg002.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg002e",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg002e.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg002el",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg002el.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg002ell",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg002ell.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg002l",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg002l.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "bg002ll",
+      "classes": [
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg002ll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg002n",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg002n.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg002n2",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg002n2.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg002n2l",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg002n2l.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg002n2ll",
+      "classes": [
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg002n2ll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg002nl",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg002nl.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg002nll",
+      "classes": [
+        "event",
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg002nll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg003",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg003.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg003a",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg003a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg003ae",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg003ae.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg003ael",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg003ael.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg003aell",
+      "classes": [
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg003aell.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg003af",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg003af.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg003afl",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg003afl.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg003afll",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg003afll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg003al",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg003al.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "bg003all",
+      "classes": [
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg003all.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg003an",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg003an.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg003anf",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg003anf.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg003anfl",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg003anfl.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg003anfll",
+      "classes": [
+        "event",
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg003anfll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg003anl",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg003anl.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg003anll",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg003anll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg003ll",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg003ll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg004",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg004.png"
+      ],
+      "size": [
+        1920,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg004e",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg004e.png"
+      ],
+      "size": [
+        1920,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg004el",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg004el.png"
+      ],
+      "size": [
+        3840,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg004ell",
+      "classes": [
+        "noevent"
+      ],
+      "files": [
+        "bgimage/LL/bg004ell.jpg"
+      ],
+      "size": [
+        8000,
+        3000
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg004l",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg004l.png"
+      ],
+      "size": [
+        3840,
+        1440
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "bg004ll",
+      "classes": [
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg004ll.jpg"
+      ],
+      "size": [
+        8000,
+        3000
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg004n",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg004n.png"
+      ],
+      "size": [
+        1920,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg004n2",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg004n2.png"
+      ],
+      "size": [
+        1920,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg004n2l",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg004n2l.png"
+      ],
+      "size": [
+        3840,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg004n2ll",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg004n2ll.jpg"
+      ],
+      "size": [
+        8000,
+        3000
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg004nl",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg004nl.png"
+      ],
+      "size": [
+        3840,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg004nll",
+      "classes": [
+        "noevent"
+      ],
+      "files": [
+        "bgimage/LL/bg004nll.jpg"
+      ],
+      "size": [
+        8000,
+        3000
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg005",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg005.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg005a",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg005a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg005ae",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg005ae.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg005ael",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg005ael.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg005aell",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg005aell.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg005al",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg005al.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg005all",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg005all.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg005b",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg005b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg005be",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg005be.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg005bell",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg005bell.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg005bl",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg005bl.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg005bll",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg005bll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg005e",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg005e.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg005el",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg005el.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg005ell",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg005ell.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg005l",
+      "classes": [
+        "event",
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg005l.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "bg005ll",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg005ll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg005n",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg005n.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg005n2",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg005n2.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg005n2l",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg005n2l.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg005n2ll",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg005n2ll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg005nl",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg005nl.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg005nll",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg005nll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg006",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg006.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg006a",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg006a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg006al",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg006al.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg006b",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg006b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg006bl",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg006bl.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg006bll",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg006bll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg006e",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg006e.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg006l",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg006l.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "bg006ll",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg006ll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg006n",
+      "classes": [
+        "event",
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg006n.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg006nl",
+      "classes": [
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg006nl.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg006nll",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg006nll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg007",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg007.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg007c",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg007c.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg007cl",
+      "classes": [
+        "event",
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg007cl.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg007cll",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg007cll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg007ell",
+      "classes": [
+        "noevent"
+      ],
+      "files": [
+        "bgimage/LL/bg007ell.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg007l",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg007l.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "bg007ll",
+      "classes": [
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg007ll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg007n",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg007n.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg007nl",
+      "classes": [
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg007nl.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg007nll",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg007nll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg008",
+      "classes": [
+        "event",
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg008.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg008e",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg008e.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg008el",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg008el.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg008ell",
+      "classes": [
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg008ell.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg008l",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg008l.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg008ll",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg008ll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg008n",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg008n.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg008nl",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg008nl.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg009",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg009.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg009e",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg009e.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg009el",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg009el.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg009ell",
+      "classes": [
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg009ell.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg009l",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg009l.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "bg009ll",
+      "classes": [
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg009ll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg009n",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg009n.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg009nl",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg009nl.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg009nll",
+      "classes": [
+        "event",
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg009nll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg010",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg010.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg010l",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg010l.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "bg010ll",
+      "classes": [
+        "event",
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg010ll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg011a",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg011a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg011al",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg011al.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg011all",
+      "classes": [
+        "noevent"
+      ],
+      "files": [
+        "bgimage/LL/bg011all.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg011e",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg011e.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg011ell",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg011ell.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg011l",
+      "classes": [
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg011l.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "bg012",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg012.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg012l",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg012l.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg012ll",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg012ll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg012nll",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg012nll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg013",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg013.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "bg013e",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg013e.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg013el",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg013el.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg013ell",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg013ell.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg013l",
+      "classes": [
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg013l.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "bg013ll",
+      "classes": [
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg013ll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg013n",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg013n.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg013nl",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg013nl.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg013nll",
+      "classes": [
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg013nll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg014",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg014.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg014a",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg014a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg014al",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg014al.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg014all",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg014all.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg014l",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg014l.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg014ll",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/LL/bg014ll.jpg"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg015",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg015.png"
+      ],
+      "size": [
+        1280,
+        1440
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "bg015a",
+      "classes": [
+        "event",
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg015a.png"
+      ],
+      "size": [
+        1280,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg015al",
+      "classes": [
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg015al.png"
+      ],
+      "size": [
+        2560,
+        2880
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg015bl",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg015bl.png"
+      ],
+      "size": [
+        2560,
+        2880
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg015c",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg015c.png"
+      ],
+      "size": [
+        1280,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg015cl",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg015cl.png"
+      ],
+      "size": [
+        2560,
+        2880
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg015e",
+      "classes": [
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg015e.png"
+      ],
+      "size": [
+        1280,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg015el",
+      "classes": [
+        "event",
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg015el.png"
+      ],
+      "size": [
+        2560,
+        2880
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg015l",
+      "classes": [
+        "event",
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg015l.png"
+      ],
+      "size": [
+        2560,
+        2880
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg015n",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg015n.png"
+      ],
+      "size": [
+        1280,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg015n2",
+      "classes": [
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg015n2.png"
+      ],
+      "size": [
+        1280,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg015n2l",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg015n2l.png"
+      ],
+      "size": [
+        2560,
+        2880
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg015n3l",
+      "classes": [
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg015n3l.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg015nl",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg015nl.png"
+      ],
+      "size": [
+        2560,
+        2880
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg015s",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg015s.png"
+      ],
+      "size": [
+        1280,
+        2880
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg015tl",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg015tl.png"
+      ],
+      "size": [
+        2560,
+        2880
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg017al",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg017al.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg017b",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg017b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg017c",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg017c.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "bg017c2",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg017c2.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg017cl",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg017cl.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "bg017fl",
+      "classes": [
+        "event",
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg017fl.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg017n",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg017n.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bg017nl",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/L/bg017nl.png"
+      ],
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "bge002",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg2/bge002.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "bge007e",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg2/bge007e.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "bgi_fuan",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg2/bgi_fuan.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "bgi_yokan",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg2/bgi_yokan.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "clip_w",
+      "classes": [
+        "event",
+        "stage"
+      ],
+      "files": [
+        "data/image/clip/clip_w.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "ev000a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev000a.png"
+      ],
+      "size": [
+        2560,
+        1728
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "ev000al",
+      "classes": [
+        "event",
+        "stage"
+      ],
+      "files": [
+        "vol1/ev000al.jpg"
+      ],
+      "size": [
+        7680,
+        5185
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev001a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev001a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev001al",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev001al.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev001b",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev001b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev001bl",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev001bl.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev001c",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev001c.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev002a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev002a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev002al",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev002al.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev002b",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev002b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev002bl",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev002bl.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev003a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev003a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "ev003al",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev003al.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev003b",
+      "classes": [
+        "event",
+        "stage"
+      ],
+      "files": [
+        "vol1/ev003b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "ev003bl",
+      "classes": [
+        "event",
+        "stage"
+      ],
+      "files": [
+        "vol1/ev003bl.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev003cl",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev003cl.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev003dl",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev003dl.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev003e",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev003e.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "ev003el",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev003el.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev003f",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev003f.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "ev003fl",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev003fl.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev004a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev004a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev004al",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev004al.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev004b",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev004b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev004bl",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev004bl.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev005a",
+      "classes": [
+        "event",
+        "stage"
+      ],
+      "files": [
+        "vol1/ev005a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "ev005al",
+      "classes": [
+        "event",
+        "stage"
+      ],
+      "files": [
+        "vol1/ev005al.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev005b",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev005b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "ev005bl",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev005bl.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev005c",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev005c.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "ev006a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev006a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev006al",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev006al.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev006b",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev006b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev006bl",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev006bl.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev007a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev007a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev007al",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev007al.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev007b",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev007b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev007bl",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev007bl.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev008a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev008a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev008b",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev008b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev008bl",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev008bl.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev008c",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev008c.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev008cl",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev008cl.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev009a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev009a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev009b",
+      "classes": [
+        "event",
+        "stage"
+      ],
+      "files": [
+        "vol1/ev009b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev009bl",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev009bl.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev010a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev010a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev010al",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev010al.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev010b",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev010b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev010bl",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev010bl.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev011a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev011a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev011al",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev011al.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev011bl",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev011bl.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev011c",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev011c.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev012a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev012a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev012al",
+      "classes": [
+        "noevent"
+      ],
+      "files": [
+        "vol1/ev012al.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev012b",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev012b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev012bl",
+      "classes": [
+        "noevent"
+      ],
+      "files": [
+        "vol1/ev012bl.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev013a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev013a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev013al",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev013al.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev013b",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev013b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev013bl",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev013bl.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev014a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev014a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev014al",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev014al.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev014b",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev014b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev014bl",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev014bl.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev015a",
+      "classes": [
+        "event",
+        "stage"
+      ],
+      "files": [
+        "vol1/ev015a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev015al",
+      "classes": [
+        "event",
+        "stage"
+      ],
+      "files": [
+        "vol1/ev015al.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev015b",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev015b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev015bl",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev015bl.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev015c",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev015c.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev016a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev016a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev016al",
+      "classes": [
+        "event",
+        "noevent"
+      ],
+      "files": [
+        "vol1/ev016al.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev016bl",
+      "classes": [
+        "noevent"
+      ],
+      "files": [
+        "vol1/ev016bl.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev017a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev017a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev017al",
+      "classes": [
+        "event",
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "vol1/ev017al.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev018a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev018a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev018al",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev018al.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev019a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev019a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev019al",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev019al.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev019b",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev019b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev020a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev020a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev020al",
+      "classes": [
+        "event",
+        "stage"
+      ],
+      "files": [
+        "vol1/ev020al.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev021a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev021a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev021al",
+      "classes": [
+        "noevent"
+      ],
+      "files": [
+        "vol1/ev021al.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev101a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev101a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev101al",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev101al.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev101b",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev101b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev101bl",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev101bl.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev102a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev102a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev102al",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev102al.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev102b",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev102b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev103a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev103a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev103al",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev103al.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev103b",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev103b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev103bl",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev103bl.png"
+      ],
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "ev103c",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/ev103c.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "item011a",
+      "classes": [
+        "event",
+        "stage"
+      ],
+      "files": [
+        "bgimage/item/item011a.png"
+      ],
+      "size": [
+        2000,
+        1000
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "item011b",
+      "classes": [
+        "event",
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/item/item011b.png"
+      ],
+      "size": [
+        2000,
+        1000
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "item020a",
+      "classes": [
+        "event",
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/item/item020a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item028",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "bgimage/item/item028.png"
+      ],
+      "size": [
+        500,
+        500
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item032a_0",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "bgimage/item/item032a_0.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item032a_1",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "bgimage/item/item032a_1.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item032a_14",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "bgimage/item/item032a_14.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item032a_2",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "bgimage/item/item032a_2.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item032b_15",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "bgimage/item/item032b_15.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item032b_16",
+      "classes": [
+        "event",
+        "noevent"
+      ],
+      "files": [
+        "bgimage/item/item032b_16.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item032b_19",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "bgimage/item/item032b_19.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item032b_28",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "bgimage/item/item032b_28.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item032b_30",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "bgimage/item/item032b_30.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item032b_41",
+      "classes": [
+        "event",
+        "stage"
+      ],
+      "files": [
+        "bgimage/item/item032b_41.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item039a",
+      "classes": [
+        "event",
+        "noevent"
+      ],
+      "files": [
+        "bgimage/item/item039a.png"
+      ],
+      "size": [
+        1280,
+        1392
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item039b",
+      "classes": [
+        "event",
+        "noevent"
+      ],
+      "files": [
+        "bgimage/item/item039b.png"
+      ],
+      "size": [
+        1280,
+        960
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item039c",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "bgimage/item/item039c.png"
+      ],
+      "size": [
+        4032,
+        3024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item039d",
+      "classes": [
+        "event",
+        "noevent"
+      ],
+      "files": [
+        "bgimage/item/item039d.png"
+      ],
+      "size": [
+        4032,
+        3024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item039e",
+      "classes": [
+        "noevent"
+      ],
+      "files": [
+        "bgimage/item/item039e.png"
+      ],
+      "size": [
+        4032,
+        3024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item043",
+      "classes": [
+        "event",
+        "noevent"
+      ],
+      "files": [
+        "data/image/item/item043.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item052",
+      "classes": [
+        "event",
+        "stage"
+      ],
+      "files": [
+        "data/image/item/item052.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item059a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "bgimage/item/item059a.png"
+      ],
+      "size": [
+        1280,
+        960
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item059b",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "bgimage/item/item059b.png"
+      ],
+      "size": [
+        1280,
+        960
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item060",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "data/image/item/item060.png"
+      ],
+      "size": [
+        1280,
+        960
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item061",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "bgimage/item/item061.png"
+      ],
+      "size": [
+        500,
+        500
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item069a",
+      "classes": [
+        "event",
+        "noevent"
+      ],
+      "files": [
+        "bgimage/item/item069a.png"
+      ],
+      "size": [
+        889,
+        500
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item069b",
+      "classes": [
+        "event",
+        "noevent"
+      ],
+      "files": [
+        "bgimage/item/item069b.png"
+      ],
+      "size": [
+        889,
+        500
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item070a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "bgimage/item/item070a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item077",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "data/image/item/item077.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item080a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "data/image/item/item080a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item080b",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "data/image/item/item080b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item080c",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "data/image/item/item080c.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item080d",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "data/image/item/item080d.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item080e",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "data/image/item/item080e.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item080f",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "data/image/item/item080f.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item080g",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "data/image/item/item080g.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item080h",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "data/image/item/item080h.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item080i",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "data/image/item/item080i.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item080j",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "data/image/item/item080j.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item080k",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "data/image/item/item080k.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item080m",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "data/image/item/item080m.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item080n",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "data/image/item/item080n.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item080o",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "data/image/item/item080o.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item080p",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "data/image/item/item080p.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item080q",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "data/image/item/item080q.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item080r",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "data/image/item/item080r.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item080s",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "data/image/item/item080s.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "item099",
+      "classes": [
+        "stage"
+      ],
+      "files": [
+        "bgimage/item/item099.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "mask_dageki02ji",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "bgimage/mask/mask_dageki02ji.png"
+      ],
+      "size": [
+        1280,
+        10080
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "mask_dageki04ji",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "bgimage/mask/mask_dageki04ji.png"
+      ],
+      "size": [
+        1280,
+        10080
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "mask_dageki10ji",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "bgimage/mask/mask_dageki10ji.png"
+      ],
+      "size": [
+        1280,
+        10080
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "mask_dageki12ji",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "bgimage/mask/mask_dageki12ji.png"
+      ],
+      "size": [
+        1280,
+        9360
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "mask_kaisoub",
+      "classes": [
+        "event",
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg2/mask_kaisoub.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "mask_kaisouw",
+      "classes": [
+        "event",
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg2/mask_kaisouw.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "mask_kemuri01",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "bgimage/bg2/mask_kemuri01.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "mask_kensen01a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "bgimage/mask/mask_kensen01a.png"
+      ],
+      "size": [
+        1280,
+        6480
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "mask_kensen03d",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "bgimage/mask/mask_kensen03d.png"
+      ],
+      "size": [
+        1280,
+        6480
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "mask_speed01",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "bgimage/mask/mask_speed01.png"
+      ],
+      "size": [
+        1280,
+        2160
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "mask_tv",
+      "classes": [
+        "noevent",
+        "stage"
+      ],
+      "files": [
+        "bgimage/bg2/mask_tv.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "sd001a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/sd001a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "sd002a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/sd002a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "sd002b",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/sd002b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "sd003a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/sd003a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "sd003b",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/sd003b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "sd003c",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/sd003c.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "sd004b",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/sd004b.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "sd005a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/sd005a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "sd005c",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/sd005c.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "sd006a",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "vol1/sd006a.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "str2_line",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "data/image/anim/str2_line.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "str3_liner",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "data/image/anim/str3_liner.png"
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "waku",
+      "classes": [
+        "event"
+      ],
+      "files": [
+        "bgimage/waku/waku.png"
+      ],
+      "size": [
+        389,
+        477
+      ],
+      "mode": "RGBA"
+    }
+  ],
+  "unresolved": [
+    {
+      "name": "13_海底",
+      "classes": [
+        "stage"
+      ]
+    },
+    {
+      "name": "15_沈殿物の煙",
+      "classes": [
+        "event"
+      ]
+    },
+    {
+      "name": "56_霧",
+      "classes": [
+        "event"
+      ]
+    },
+    {
+      "name": "58_灯台",
+      "classes": [
+        "event",
+        "layer"
+      ]
+    },
+    {
+      "name": "63_水しぶき2",
+      "classes": [
+        "event",
+        "layer"
+      ]
+    },
+    {
+      "name": "84_手持ち花火01",
+      "classes": [
+        "noevent"
+      ]
+    },
+    {
+      "name": "84_打ち上げ花火01",
+      "classes": [
+        "noevent"
+      ]
+    },
+    {
+      "name": "94_電脳空間にダイブ",
+      "classes": [
+        "stage"
+      ]
+    },
+    {
+      "name": "bg016a",
+      "classes": [
+        "stage"
+      ]
+    },
+    {
+      "name": "bg016al",
+      "classes": [
+        "stage"
+      ]
+    },
+    {
+      "name": "bgi_moyav",
+      "classes": [
+        "event"
+      ]
+    },
+    {
+      "name": "clip_circles",
+      "classes": [
+        "stage"
+      ]
+    },
+    {
+      "name": "color,0x00000000,width,1280,height,100",
+      "classes": [
+        "event"
+      ]
+    },
+    {
+      "name": "color,0x00000000,width,1280,height,150",
+      "classes": [
+        "event"
+      ]
+    },
+    {
+      "name": "color,0x00000000,width,1280,height,200",
+      "classes": [
+        "event"
+      ]
+    },
+    {
+      "name": "color,0x00000000,width,1280,height,250",
+      "classes": [
+        "event"
+      ]
+    },
+    {
+      "name": "color,0x00000000,width,1280,height,325",
+      "classes": [
+        "event"
+      ]
+    },
+    {
+      "name": "color,0x00000000,width,1280,height,50",
+      "classes": [
+        "event",
+        "stage"
+      ]
+    },
+    {
+      "name": "color,0x00ffffff,width,1280,height,125",
+      "classes": [
+        "event"
+      ]
+    },
+    {
+      "name": "color,0x00ffffff,width,1280,height,50",
+      "classes": [
+        "event"
+      ]
+    },
+    {
+      "name": "color,0xffffff,width,1280,height,50",
+      "classes": [
+        "event"
+      ]
+    },
+    {
+      "name": "lay_black",
+      "classes": [
+        "event",
+        "noevent",
+        "stage"
+      ]
+    },
+    {
+      "name": "lay_white",
+      "classes": [
+        "event",
+        "noevent",
+        "stage"
+      ]
+    },
+    {
+      "name": "mask_blooda",
+      "classes": [
+        "event"
+      ]
+    },
+    {
+      "name": "mask_guna",
+      "classes": [
+        "event"
+      ]
+    },
+    {
+      "name": "mask_gunc",
+      "classes": [
+        "event"
+      ]
+    },
+    {
+      "name": "mask_gund",
+      "classes": [
+        "event"
+      ]
+    },
+    {
+      "name": "ノイズ",
+      "classes": [
+        "event"
+      ]
+    },
+    {
+      "name": "雨",
+      "classes": [
+        "noevent"
+      ]
+    }
+  ],
+  "ambiguous": [],
+  "note": "Exact stem match only. Unresolved names may be procedural/animated effects and require original config evidence before omission."
+}

@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "freshTitleHidesTrueEnd": true,
+  "originalGoodAndBadUnlockPreserved": true,
+  "completedMainProgressShowsTrueEndOnReturn": true,
+  "oldProgressLoads": true
+}

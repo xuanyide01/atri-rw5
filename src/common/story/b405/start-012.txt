@@ -1,0 +1,1 @@
+[{"speaker":"亚托莉","text":"\"明明要是不喜欢的话，就不会这么难受了……\"","art":{"background":"/common/images/5c674bd13e0a7ae0.jpg","sprites":[]}},{"speaker":"","text":"亚托莉抱怨着对命运的不公，埋在我的胸前嚎啕大哭。","art":{"background":"/common/images/5c674bd13e0a7ae0.jpg","sprites":[]}},{"speaker":"","text":"仿佛要将那无边无际的“悲伤”全部倾倒出来。","art":{"background":"/common/images/5c674bd13e0a7ae0.jpg","sprites":[]}}]

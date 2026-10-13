@@ -1,0 +1,11 @@
+{
+  "stage": "hot reinstall in same simulator boot",
+  "result": "native inspector crash; requires cold restart before verification",
+  "stack": [
+    "uv_loop_init",
+    "inspector::server::WorkerImpl::doServer",
+    "inspector::server::WorkerImpl::start"
+  ],
+  "deviceGameFailureProven": false,
+  "next": "cold-start exact same installed artifact and verify actual game features"
+}

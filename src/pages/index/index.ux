@@ -1,0 +1,220 @@
+<template>
+  <div class="page" onswipe="swipe">
+    <div if="{{mode === 'title'}}" class="title-art">
+      <image class="title-background" src="/common/title_bg.jpg" onerror="backgroundError"></image>
+      <image class="title-logo" src="/common/title_logo.png"></image>
+    </div>
+    <div if="{{mode === 'play'}}" class="art" onclick="advance">
+      <image class="background" src="{{backgroundSrc}}" onerror="backgroundError" oncomplete="backgroundLoaded"></image>
+      <image if="{{bodySrc !== ''}}" class="body" style="width: {{portraitWidth}}px; height: {{portraitHeight}}px; top: {{portraitTop}}px; left: {{portraitLeft}}px; opacity: {{portraitOpacity}};" src="{{bodySrc}}"></image>
+      <image if="{{bodySecond !== ''}}" class="body" style="width: {{portraitSecondWidth}}px; height: {{portraitSecondHeight}}px; top: {{portraitSecondTop}}px; left: {{portraitSecondLeft}}px; opacity: {{portraitSecondOpacity}};" src="{{bodySecond}}"></image>
+      <image if="{{bodyThird !== ''}}" class="body" style="width: {{portraitThirdWidth}}px; height: {{portraitThirdHeight}}px; top: {{portraitThirdTop}}px; left: {{portraitThirdLeft}}px; opacity: {{portraitThirdOpacity}};" src="{{bodyThird}}"></image>
+    </div>
+    <div if="{{mode === 'title'}}" class="title-panel">
+      <div class="title-slot"><div if="{{trueUnlocked}}" class="title-button" onclick="startTrue"><image class="title-true" src="/common/title_true_end.png"></image></div></div>
+      <div class="title-button" onclick="startNew"><image class="title-start" src="/common/title_start.png"></image></div>
+      <div class="title-button" onclick="continueGame"><image class="title-load" src="/common/title_load.png"></image></div>
+      <div class="title-button" onclick="openGallery"><image class="title-gallery" src="/common/title_gallery.png"></image></div>
+      <div class="title-button" onclick="exitApplication"><image class="title-exit" src="/common/title_exit.png"></image></div>
+    </div>
+    <image if="{{mode === 'play'}}" class="dialogue-backdrop" src="/common/dialogue_bg.jpg"></image>
+    <div if="{{mode === 'play'}}" class="dialogue-panel">
+      <div class="speaker-row"><text class="speaker" style="font-family: {{speakerFont}};">{{speaker}}</text><text class="chapter" style="font-family: {{chapterFont}};">{{chapterLabel}}</text></div>
+      <scroll id="dialogue-scroll" class="dialogue-scroll" scroll-y="true" onclick="advance"><text class="dialogue" style="font-size: {{fontSize}}px;font-family: {{dialogueFont}};height: {{dialogueHeight}}px;">{{displayText}}</text></scroll>
+      <div class="toolbar"><text class="tool" onclick="goBack">上一句</text><text class="tool" onclick="showMenu">菜单</text><text class="tool" onclick="advance">下一句 ›</text></div>
+    </div>
+    <div if="{{mode === 'choice'}}" class="choice-panel">
+      <text class="choice-title">选择下一步</text>
+      <scroll class="choice-list" scroll-y="true"><text for="{{options}}" tid="text" class="choice" style="font-family: {{$item.font}};color: {{$item.disabled ? '#8eaac0' : '#176690'}};" onclick="pick($idx)">{{$item.text}}</text></scroll>
+      <text class="small-action" onclick="showMenu">菜单</text>
+    </div>
+    <div if="{{mode === 'menu'}}" class="overlay">
+      <text class="menu-title">阅读菜单</text>
+      <text class="menu-action" onclick="saveGame">保存进度</text>
+      <text class="menu-action" onclick="loadGame">读取进度</text>
+      <text class="menu-action" style="color: {{hasNextChapter ? '#176690' : '#8eaac0'}};" onclick="goNextChapter">下一章 ›</text>
+      <text class="menu-action" onclick="toggleSpeed">{{speedLabel}}</text>
+      <text class="menu-action" onclick="toggleFont">{{fontLabel}}</text>
+      <text class="menu-action" onclick="resume">返回游戏</text>
+      <text class="menu-action muted" onclick="toTitle">返回标题</text>
+    </div>
+    <div if="{{mode === 'slots'}}" class="full-panel">
+      <text class="panel-title">{{slotTitle}}</text>
+      <text class="panel-subtitle">{{slotPageLabel}}</text>
+      <div class="slot-list">
+        <div for="{{slotRows}}" tid="number" class="slot-card" style="background-color: {{$item.occupied ? '#d8eaf5' : '#e5f1f8'}};" onclick="selectSlot($item.index)">
+          <text class="slot-title">{{$item.title}}</text><text class="slot-meta" style="font-family: {{$item.metaFont}};">{{$item.meta}}</text><text class="slot-preview" style="font-family: {{$item.previewFont}};">{{$item.preview}}</text>
+        </div>
+      </div>
+      <div class="pager"><text class="pager-action" onclick="previousSlotPage">‹ 上一页</text><text class="pager-action" onclick="closeSlots">返回</text><text class="pager-action" onclick="nextSlotPage">下一页 ›</text></div>
+    </div>
+    <div if="{{mode === 'overwrite'}}" class="overlay">
+      <text class="menu-title">{{overwriteTitle}}</text>
+      <text class="confirm-text" style="font-family: {{overwriteFont}};">{{overwriteDetail}}</text>
+      <text class="menu-action" onclick="confirmOverwrite">确认覆盖</text><text class="menu-action muted" onclick="cancelOverwrite">取消</text>
+    </div>
+    <div if="{{mode === 'gallery'}}" class="full-panel">
+      <text class="panel-title">CG 鉴赏</text><text class="panel-subtitle">{{galleryPageLabel}}</text>
+      <div class="gallery-row"><div for="{{galleryTop}}" tid="image" class="gallery-card" onclick="viewCg($item.index)"><image class="gallery-thumb" src="{{$item.src}}"></image><text class="gallery-caption" style="font-family: {{$item.font}};">{{$item.label}}</text></div></div>
+      <div class="gallery-row"><div for="{{galleryBottom}}" tid="image" class="gallery-card" onclick="viewCg($item.index)"><image class="gallery-thumb" src="{{$item.src}}"></image><text class="gallery-caption" style="font-family: {{$item.font}};">{{$item.label}}</text></div></div>
+      <div class="pager"><text class="pager-action" onclick="previousGalleryPage">‹ 上一页</text><text class="pager-action" onclick="toTitle">返回标题</text><text class="pager-action" onclick="nextGalleryPage">下一页 ›</text></div>
+    </div>
+    <div if="{{mode === 'cg'}}" class="cg-panel">
+      <image class="cg-image" src="{{cgSrc}}" onclick="cycleCg"></image><text class="cg-caption" style="font-family: {{cgFont}};">{{cgLabel}}</text>
+      <div class="cg-controls"><text class="pager-action" onclick="previousCg">‹ 上一组</text><text class="pager-action" onclick="backToGallery">返回列表</text><text class="pager-action" onclick="nextCg">下一组 ›</text></div>
+    </div>
+    <div if="{{mode === 'end'}}" class="end-panel"><text class="game-title">{{endingLabel}}</text><text class="subtitle">可返回标题重新开始游戏</text><text class="action" onclick="toTitle">返回标题</text></div>
+    <div if="{{mode === 'error'}}" class="overlay"><text class="menu-title">暂时无法继续</text><text class="error-text">{{errorText}}</text><text class="action" onclick="toTitle">返回标题</text></div>
+    <text if="{{loading}}" class="loading">加载中…</text>
+  </div>
+</template>
+<script>
+import file from '@system.file';
+import storage from '@system.storage';
+import prompt from '@system.prompt';
+import {graph} from '../../common/graph.js';
+import {create,checkpoint,restore,locate,advance,choose,skipChapter,previous,trueAvailable,startTrue as enterTrue} from '../../common/engine.js';
+const PREFIX='atri_rw5_';
+const FONT='atrifont';
+export default {
+  private:{mode:'title',backgroundSrc:'/common/title_bg.jpg',bodySrc:'',bodySecond:'',bodyThird:'',portraitWidth:200,portraitHeight:286,portraitTop:0,portraitLeft:116,portraitSecondWidth:200,portraitSecondHeight:286,portraitSecondTop:0,portraitSecondLeft:216,portraitThirdWidth:144,portraitThirdHeight:286,portraitThirdTop:0,portraitThirdLeft:288,portraitOpacity:1,portraitSecondOpacity:1,portraitThirdOpacity:1,
+    speaker:'',displayText:'',dialogueHeight:128,chapterLabel:'',speakerFont:FONT,dialogueFont:FONT,chapterFont:FONT,overwriteFont:FONT,cgFont:FONT,options:[],loading:true,errorText:'',hasNextChapter:true,fontSize:24,textSpeed:0,speedLabel:'显示速度：即时',fontLabel:'字号：标准',trueUnlocked:false,slotTitle:'',slotPage:0,slotPageLabel:'',slotRows:[],storageBusy:false,overwriteTitle:'',overwriteDetail:'',endingLabel:'阅读完毕',galleryPage:0,galleryPageLabel:'',galleryTop:[],galleryBottom:[],cgIndex:0,cgVariant:0,cgSrc:'',cgLabel:''},
+  onInit(){
+    this.session=create(graph);this.sequence=0;this.slotSequence=0;this.timer=null;this.fullText='';this.cachedFile='';this.frames=[];this._progress={};this._progressReady=false;this._progressBusy=false;this._progressDirty=false;this._slotData=[];this._gallery=[];this._hidden=false;
+    storage.get({key:PREFIX+'settings_v1',default:'',success:data=>{try{const s=JSON.parse(data);this.fontSize=s.fontSize===28?28:24;this.textSpeed=s.textSpeed===30?30:0;this.refreshSettings();}catch(e){}},fail:()=>{},complete:()=>{}});
+    storage.get({key:PREFIX+'progress_v1',default:'{}',success:data=>{try{const p=JSON.parse(data||'{}');this._progress=p&&typeof p==='object'?p:{};this._progressReady=true;this.loading=false;this.refreshProgress();}catch(e){this.fail('通关记录读取失败');}},fail:()=>{this.fail('通关记录读取失败，请返回标题重试');},complete:()=>{}});
+    console.log('ATRI_RW5 title ready');
+  },
+  onShow(){this._hidden=false;},
+  onHide(){this._hidden=true;this.clearTyping();if(this.mode==='play')this.displayText=this.fullText;},
+  onDestroy(){this.clearTyping();this.sequence++;this.slotSequence++;console.log('ATRI_RW5 destroyed');},
+  exitApplication(){if(this.loading||this.storageBusy)return;this.clearTyping();this.sequence++;this.slotSequence++;console.log('ATRI_RW5 exit requested');this.$app.exit();},
+  backgroundLoaded(){},backgroundError(){console.error('ATRI_RW5 image failed',this.backgroundSrc);},
+  clearTyping(){if(this.timer!==null){clearTimeout(this.timer);this.timer=null;}},
+  refreshProgress(){this.trueUnlocked=trueAvailable(graph,{progress:this._progress});},
+  syncProgress(){if(this.session.progression==='chapter')return;const p=this.session.progress;if(JSON.stringify(p)!==JSON.stringify(this._progress)){this._progress=JSON.parse(JSON.stringify(p));this._progressDirty=true;this.refreshProgress();this.writeProgress();}},
+  writeProgress(){if(this._progressBusy||!this._progressDirty)return;this._progressBusy=true;this._progressDirty=false;storage.set({key:PREFIX+'progress_v1',value:JSON.stringify(this._progress),success:()=>{this._progressBusy=false;this.writeProgress();},fail:()=>{this._progressBusy=false;this._progressDirty=true;this.toast('通关记录保存失败');},complete:()=>{}});},
+  startNew(){if(this.loading||!this._progressReady)return;this.session=create(graph,this._progress);this.session.progression='story';this.cachedFile='';this.renderFrame();},
+  startTrue(){if(this.loading)return;const state=create(graph,this._progress);if(!enterTrue(graph,state)){this.toast('完成好结局和坏结局后解锁');return;}state.history=[];state.progression='story';this.session=state;this.cachedFile='';this.renderFrame();},
+  renderFrame(){
+    this.clearTyping();let location;
+    try{location=locate(graph,this.session);this.syncProgress();}catch(e){this.fail(e.message);return;}
+    if(location.type==='choice'){this.loading=false;this.options=location.items.map(x=>Object.assign({},x,{font:FONT}));this.mode='choice';console.log('ATRI_RW5 choice',this.session.node,this.session.flag);return;}
+    if(location.type==='end'){this.loading=false;this.mode='end';this.endingLabel=(this.chapterLabel||'故事')+' · 阅读完毕';this.cachedFile='';this.frames=[];console.log('ATRI_RW5 ending',this.session.flag,JSON.stringify(this.session.progress),this.endingLabel);return;}
+    this.chapterLabel=location.title;this.hasNextChapter=true;
+    if(this.cachedFile===location.file){this.showFrame(this.frames[location.index]);return;}
+    this.loading=true;const token=++this.sequence;
+    file.readText({uri:'/common/story/'+location.file,success:data=>{if(token!==this.sequence)return;try{const frames=JSON.parse(data.text);if(!Array.isArray(frames)||!frames[location.index])throw Error('剧情数据格式错误');this.frames=frames;this.cachedFile=location.file;this.showFrame(frames[location.index]);}catch(e){this.fail(e.message);}},fail:(data,code)=>{if(token===this.sequence)this.fail('剧情读取失败：'+code);},complete:()=>{}});
+  },
+  showFrame(frame){
+    if(!frame){this.fail('剧情下标无效');return;}this.loading=false;this.mode='play';this.backgroundSrc=frame.art.background;
+    const sprites=frame.art.sprites||[],names=['','Second','Third'];
+    for(let i=0;i<3;i++){const s=sprites[i]||{src:'',width:1,height:1,left:0,top:0},suffix=names[i];this[i===0?'bodySrc':'body'+suffix]=s.src;this['portrait'+suffix+'Width']=s.width;this['portrait'+suffix+'Height']=s.height;this['portrait'+suffix+'Left']=s.left;this['portrait'+suffix+'Top']=s.top;this['portrait'+suffix+'Opacity']=s.opacity===undefined?1:s.opacity;}
+    this.speaker=frame.speaker;this.fullText=frame.text;this.sizeDialogue();this.session.preview=frame.text.slice(0,80);this.displayText='';console.log('ATRI_RW5 frame',this.session.node,this.session.index);
+    // Recreate the scroll content by scene key in the template; scrollTo also
+    // resets firmware versions that retain the previous scroll offset.
+    try{this.$element('dialogue-scroll').scrollTo({index:0});}catch(e){}
+    if(this.textSpeed===0||this._hidden){this.displayText=this.fullText;return;}
+    const tick=()=>{this.displayText=this.fullText.slice(0,this.displayText.length+1);if(this.displayText.length<this.fullText.length)this.timer=setTimeout(tick,this.textSpeed);else this.timer=null;};tick();
+  },
+  sizeDialogue(){const columns=this.fontSize===28?13:15;const lines=String(this.fullText||'').split('\n').reduce((count,line)=>count+Math.max(1,Math.ceil(line.length/columns)),0);this.dialogueHeight=Math.max(128,lines*(this.fontSize===28?38:34));},
+  advance(){if(this.loading||this.mode!=='play')return;if(this.timer!==null){this.clearTyping();this.displayText=this.fullText;return;}try{advance(graph,this.session);this.renderFrame();}catch(e){this.fail(e.message);}},
+  pick(index){if(this.loading||this.mode!=='choice')return;try{choose(graph,this.session,index);this.renderFrame();}catch(e){this.fail(e.message);}},
+  goBack(){if(this.loading||this.mode!=='play')return;try{previous(graph,this.session);this.renderFrame();}catch(e){this.fail(e.message);}},
+  showMenu(){if(this.loading||!this.session)return;this.clearTyping();this.displayText=this.fullText;this.resumeMode=this.mode;this.mode='menu';console.log('ATRI_RW5 menu');},
+  resume(){this.mode=this.resumeMode||'play';},
+  goNextChapter(){if(this.loading||this.mode!=='menu')return;try{skipChapter(graph,this.session);this.renderFrame();}catch(e){this.fail(e.message);}},
+  swipe(event){if(this.mode==='play'&&event.direction==='left')this.advance();},
+  continueGame(){this.openSlots('load');},saveGame(){this.openSlots('save');},loadGame(){this.openSlots('load');},
+  openSlots(role){if(this.loading||this.storageBusy)return;this.clearTyping();this._slotRole=role;this._slotsReturnMode=this.mode==='menu'?(this.resumeMode||'play'):this.mode;this.mode='slots';this.slotPage=0;this.slotTitle=role==='save'?'选择保存栏位':'选择读取栏位';this._slotData=[];this.loading=true;const token=++this.slotSequence;
+    const read=index=>{if(token!==this.slotSequence)return;if(index>=30){this.loading=false;this.refreshSlots();console.log('ATRI_RW5 slots ready',role);return;}storage.get({key:PREFIX+'slot_v1_'+(index+1),default:'',success:data=>{if(token!==this.slotSequence)return;try{this._slotData[index]=data?JSON.parse(data):null;}catch(e){this._slotData[index]={invalid:true};}read(index+1);},fail:()=>{if(token!==this.slotSequence)return;this._slotData[index]=null;read(index+1);},complete:()=>{}});};read(0);
+  },
+  refreshSlots(){this.slotPageLabel='30 个栏位 · 第 '+(this.slotPage+1)+' / 8 页';this.slotRows=[];for(let index=this.slotPage*4;index<Math.min(30,this.slotPage*4+4);index++){const saved=this._slotData[index],node=saved&&saved.state&&graph.nodes[saved.state.node];this.slotRows.push({index,number:index+1,title:'存档 '+('0'+(index+1)).slice(-2),occupied:!!saved,metaFont:FONT,previewFont:FONT,meta:!saved?'空栏位':node?node.title:'存档无法读取',preview:saved&&saved.state?(saved.state.preview||'章节开头').slice(0,20):''});}},
+  previousSlotPage(){if(!this.loading&&this.slotPage>0){this.slotPage--;this.refreshSlots();}},nextSlotPage(){if(!this.loading&&this.slotPage<7){this.slotPage++;this.refreshSlots();}},
+  closeSlots(){if(this.storageBusy)return;this.slotSequence++;this.loading=false;this.mode=this._slotsReturnMode;},
+  selectSlot(index){if(this.loading||this.storageBusy)return;const saved=this._slotData[index];if(this._slotRole==='load'){if(!saved){this.toast('此栏位尚未保存');return;}try{this.session=restore(graph,saved.state);if(this.session.progression!=='chapter')this.session.progress=Object.assign({},this.session.progress,this._progress);this.cachedFile='';this.slotSequence++;console.log('ATRI_RW5 slot loaded',index+1,this.session.node,this.session.index);this.renderFrame();}catch(e){this.toast('此存档无法读取');}return;}this._pendingSlot=index;this._pendingSave={version:1,state:checkpoint(this.session),savedAt:Date.now()};if(saved){this.overwriteTitle='覆盖存档 '+('0'+(index+1)).slice(-2)+'？';this.overwriteDetail=(saved.state&&saved.state.preview||'已有进度').slice(0,45);this.mode='overwrite';console.log('ATRI_RW5 overwrite',index+1);return;}this.commitSlot();},
+  confirmOverwrite(){this.commitSlot();},cancelOverwrite(){if(!this.storageBusy)this.mode='slots';},
+  commitSlot(){if(this.storageBusy)return;this.storageBusy=true;this.loading=true;const index=this._pendingSlot;storage.set({key:PREFIX+'slot_v1_'+(index+1),value:JSON.stringify(this._pendingSave),success:()=>{this._slotData[index]=this._pendingSave;this.storageBusy=false;this.loading=false;this.mode=this._slotsReturnMode;this.toast('已保存到存档 '+('0'+(index+1)).slice(-2));console.log('ATRI_RW5 slot saved',index+1,this.session.node,this.session.index);},fail:()=>{this.storageBusy=false;this.loading=false;this.toast('保存失败，请重试');},complete:()=>{}});},
+  openGallery(){if(this.loading)return;this.mode='gallery';if(this._gallery.length){this.refreshGallery();return;}this.loading=true;const token=++this.sequence;file.readText({uri:'/common/gallery.txt',success:data=>{if(token!==this.sequence)return;try{this._gallery=JSON.parse(data.text);this.galleryPage=0;this.loading=false;this.refreshGallery();}catch(e){this.fail('CG目录读取失败');}},fail:()=>{if(token===this.sequence)this.fail('CG目录读取失败');},complete:()=>{}});},
+  refreshGallery(){const rows=this._gallery.slice(this.galleryPage*4,this.galleryPage*4+4).map((x,i)=>({image:x.variants[0],src:x.variants[0],index:this.galleryPage*4+i,label:x.label+'\n'+x.variants.length+' 张',font:FONT}));this.galleryTop=rows.slice(0,2);this.galleryBottom=rows.slice(2);this.galleryPageLabel=this._gallery.length+' 组 · 第 '+(this.galleryPage+1)+' / '+Math.ceil(this._gallery.length/4)+' 页';},
+  previousGalleryPage(){if(this.galleryPage>0){this.galleryPage--;this.refreshGallery();}},nextGalleryPage(){if(this.galleryPage<Math.ceil(this._gallery.length/4)-1){this.galleryPage++;this.refreshGallery();}},
+  viewCg(index){if(this.loading)return;this.cgIndex=index;this.cgVariant=0;this.mode='cg';this.renderCg();},
+  renderCg(){const group=this._gallery[this.cgIndex];this.cgSrc=group.variants[this.cgVariant];this.cgLabel=group.label+' · '+(this.cgVariant+1)+' / '+group.variants.length+' · 点击切换';console.log('ATRI_RW5 cg',this.cgIndex,this.cgVariant);},cycleCg(){const group=this._gallery[this.cgIndex];this.cgVariant=(this.cgVariant+1)%group.variants.length;this.renderCg();},previousCg(){if(this.cgIndex>0)this.viewCg(this.cgIndex-1);},nextCg(){if(this.cgIndex<this._gallery.length-1)this.viewCg(this.cgIndex+1);},backToGallery(){this.galleryPage=Math.floor(this.cgIndex/4);this.mode='gallery';this.refreshGallery();},
+  refreshSettings(){this.speedLabel=this.textSpeed===0?'显示速度：即时':'显示速度：逐字';this.fontLabel=this.fontSize===28?'字号：大':'字号：标准';},
+  persistSettings(){storage.set({key:PREFIX+'settings_v1',value:JSON.stringify({fontSize:this.fontSize,textSpeed:this.textSpeed}),success:()=>{},fail:()=>{},complete:()=>{}});},toggleSpeed(){this.textSpeed=this.textSpeed===0?30:0;this.refreshSettings();this.persistSettings();},toggleFont(){this.fontSize=this.fontSize===24?28:24;this.sizeDialogue();this.refreshSettings();this.persistSettings();},
+  toTitle(){if(this.storageBusy)return;this.syncProgress();this.writeProgress();this.clearTyping();this.sequence++;this.slotSequence++;this.loading=false;this.mode='title';this.cachedFile='';this.frames=[];this.backgroundSrc='/common/title_bg.jpg';this.bodySrc='';this.bodySecond='';this.bodyThird='';console.log('ATRI_RW5 title ready');},
+  toast(message){prompt.showToast({message,duration:1500,success:()=>{},fail:()=>{},complete:()=>{}});},
+  fail(message){this.clearTyping();this.loading=false;this.mode='error';this.errorText=String(message);console.error('ATRI_RW5 error',message);}
+}
+</script>
+
+<style>
+@font-face {font-family:atrifont;src:url('/common/atri-text.otf');}
+.page{width:432px;height:514px;background-color:#edf7fc;flex-direction:column;}
+.art{position:absolute;top:0px;left:0px;width:432px;height:286px;justify-content:center;align-items:center;background-color:#000000;}
+.background{width:432px;height:286px;object-fit:contain;}
+.body{position:absolute;top:0px;left:116px;width:200px;height:286px;object-fit:contain;}
+.title-panel,.dialogue-panel,.choice-panel,.end-panel{position:absolute;top:286px;left:0px;width:432px;height:228px;flex-direction:column;padding:12px 18px;}
+.dialogue-backdrop{position:absolute;top:286px;left:0px;width:432px;height:228px;}
+.title-art{position:absolute;top:0px;left:0px;width:432px;height:514px;}
+.title-background{width:432px;height:514px;}
+.title-logo{position:absolute;top:12px;left:14px;width:190px;height:84px;object-fit:contain;}
+.title-panel{top:254px;height:240px;padding:0px 48px;}
+.title-slot{width:336px;height:46px;flex-shrink:0;}
+.title-button{width:336px;height:46px;flex-shrink:0;flex-direction:row;justify-content:flex-start;align-items:center;}
+.title-true{width:199px;height:30px;object-fit:contain;}
+.title-start{width:126px;height:30px;object-fit:contain;}
+.title-load{width:106px;height:30px;object-fit:contain;}
+.title-gallery{width:127px;height:30px;object-fit:contain;}
+.title-exit{width:86px;height:30px;object-fit:contain;}
+.title-text{font-size:26px;color:#173f5b;text-align:center;margin-bottom:2px;}
+.title-subtitle{font-size:16px;color:#6d91aa;text-align:center;margin-bottom:4px;}
+.title-action{height:27px;width:396px;margin-bottom:2px;color:#176690;background-color:#d8eaf5;border-radius:10px;text-align:center;font-size:20px;}
+.game-title{font-size:28px;color:#173f5b;text-align:center;margin-bottom:4px;}
+.subtitle{font-size:18px;color:#6d91aa;text-align:center;margin-bottom:8px;}
+.action{height:52px;width:396px;margin-bottom:6px;color:#176690;background-color:#d8eaf5;border-radius:14px;text-align:center;font-size:24px;}
+.secondary{background-color:#e5f1f8;}
+.speaker-row{height:30px;justify-content:space-between;align-items:center;}
+.speaker{font-size:23px;color:#167eae;}
+.chapter{font-size:16px;color:#6d91aa;}
+.dialogue-scroll{width:396px;height:128px;}
+.dialogue{width:396px;flex-shrink:0;color:#173f5b;line-height:34px;}
+.toolbar{height:42px;width:396px;justify-content:space-between;align-items:center;}
+.tool{font-size:20px;color:#185979;padding:8px;}
+.choice-title{font-size:23px;color:#176690;margin-bottom:8px;text-align:center;}
+.choice{height:68px;width:396px;background-color:#d8eaf5;border-radius:12px;font-size:21px;line-height:25px;color:#176690;text-align:center;margin-bottom:6px;}
+.small-action{font-size:18px;color:#6d91aa;text-align:center;}
+.overlay{position:absolute;top:0px;left:0px;width:432px;height:514px;background-color:#edf7fc;flex-direction:column;padding:22px 32px;}
+.menu-title{height:36px;font-size:28px;color:#176690;text-align:left;margin-bottom:12px;}
+.menu-action{height:50px;font-size:22px;color:#176690;background-color:#dfedf6;border-radius:8px;margin-bottom:8px;text-align:left;padding-left:16px;}
+.muted{color:#6d91aa;}
+.full-panel{position:absolute;top:0px;left:0px;width:432px;height:514px;background-color:#edf7fc;flex-direction:column;padding:16px 18px;}
+.panel-title{height:36px;font-size:28px;color:#176690;text-align:left;margin-bottom:4px;}
+.panel-subtitle{height:22px;font-size:16px;color:#6d91aa;text-align:left;margin-bottom:6px;}
+.slot-list{height:368px;width:396px;flex-direction:column;}
+.slot-card{height:84px;width:396px;margin-bottom:8px;padding:7px 12px;flex-direction:column;border-radius:12px;}
+.slot-title{height:26px;font-size:22px;color:#175d85;}
+.slot-meta{height:19px;font-size:16px;color:#6d91aa;}
+.slot-preview{height:22px;font-size:18px;color:#3b769b;}
+.pager{height:44px;width:396px;justify-content:space-between;align-items:center;}
+.pager-action{font-size:20px;color:#2075a4;padding:8px;}
+.gallery-row{height:184px;width:396px;justify-content:space-between;}
+.gallery-card{height:176px;width:192px;padding:6px;flex-direction:column;background-color:#e2eff7;border-radius:12px;}
+.gallery-thumb{height:116px;width:180px;object-fit:contain;background-color:#000000;}
+.gallery-caption{height:48px;width:180px;font-size:18px;line-height:22px;color:#176690;text-align:center;}
+.cg-panel{position:absolute;top:0px;left:0px;width:432px;height:514px;flex-direction:column;background-color:#edf7fc;}
+.cg-image{width:432px;height:432px;object-fit:contain;}
+.cg-caption{width:432px;height:28px;font-size:18px;color:#176690;text-align:center;}
+.cg-controls{width:432px;height:54px;padding:0px 10px;justify-content:space-between;align-items:center;background-color:#edf7fc;}
+.confirm-text{font-size:24px;color:#176690;margin:30px 0px;}
+.error-text{font-size:22px;color:#ac5966;margin-bottom:30px;}
+.loading{position:absolute;top:234px;left:128px;width:176px;height:46px;text-align:center;font-size:23px;color:#176690;background-color:#d2e8f5;border-radius:12px;}
+.choice-panel{top:0px;height:514px;background-color:#edf7fc;padding:18px;}
+.choice-list{width:396px;height:416px;flex-direction:column;}
+
+text{font-family:atrifont;}
+.title-action{height:26px;font-size:18px;}
+.chapter{width:170px;height:30px;text-align:right;}
+.speaker{width:210px;height:30px;}
+.dialogue{width:396px;}
+</style>

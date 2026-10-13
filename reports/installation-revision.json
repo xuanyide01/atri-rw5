@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "version": "0.1.2",
+  "packageSha256": "f908461d57415aab93f9c5c64640912c99316e4dac1249b897d8ab58992f808b",
+  "failedPhysicalPackageSha256": "77d6dbbf9e6dce1acb191c57e48368e9d7ba1a9634272debcf06521d732be7c7",
+  "completeNativeBaselineSha256": "715f62b8bce59ce08bd89e80ca6197712d7156350e61efbea9a470742df39750",
+  "changedEntries": [
+    "META-INF/CERT",
+    "manifest-watch.json",
+    "manifest.json",
+    "app.js",
+    "common/atri-text.otf",
+    "META-INF/build.txt"
+  ],
+  "mainPageAllImagesTextsChoicesAndSaveKeysByteIdenticalToFailedPackage": true,
+  "allNonFontGameplayResourcesByteIdenticalToCompleteNativeBaseline": true,
+  "titleByteIdenticalToFailedPackage": true,
+  "bootstrapOnlyVersionUpdated": true,
+  "fontMappedOutlinesAndMetricsIdentical": true,
+  "physicalFixConfirmed": false
+}

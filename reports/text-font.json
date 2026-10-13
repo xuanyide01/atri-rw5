@@ -1,0 +1,14 @@
+{
+  "font": "AtriTextSubset",
+  "codepoints": 2779,
+  "glyphs": 2779,
+  "fontBytes": 655856,
+  "allStoryTextCovered": true,
+  "horizontalDialogueOnly": true,
+  "removedUnusedFeatures": [
+    "vertical metrics",
+    "vertical positioning",
+    "localized/alternate GSUB closure"
+  ],
+  "license": "SIL OFL 1.1"
+}

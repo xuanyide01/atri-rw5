@@ -1,0 +1,79 @@
+<script>
+import file from '@system.file';
+import storage from '@system.storage';
+import prompt from '@system.prompt';
+import {graph} from '../../common/graph.js';
+import {create,checkpoint,restore,locate,advance,choose,skipChapter,previous,trueAvailable,startTrue as enterTrue} from '../../common/engine.js';
+const PREFIX='atri_rw5_';
+const FONT='atrifont';
+export default {
+  private:{mode:'title',backgroundSrc:'/common/title_bg.jpg',bodySrc:'',bodySecond:'',bodyThird:'',portraitWidth:200,portraitHeight:286,portraitTop:0,portraitLeft:116,portraitSecondWidth:200,portraitSecondHeight:286,portraitSecondTop:0,portraitSecondLeft:216,portraitThirdWidth:144,portraitThirdHeight:286,portraitThirdTop:0,portraitThirdLeft:288,portraitOpacity:1,portraitSecondOpacity:1,portraitThirdOpacity:1,
+    speaker:'',displayText:'',dialogueHeight:128,chapterLabel:'',speakerFont:FONT,dialogueFont:FONT,chapterFont:FONT,overwriteFont:FONT,cgFont:FONT,options:[],loading:true,errorText:'',hasNextChapter:true,fontSize:24,textSpeed:0,speedLabel:'显示速度：即时',fontLabel:'字号：标准',trueUnlocked:false,slotTitle:'',slotPage:0,slotPageLabel:'',slotRows:[],storageBusy:false,overwriteTitle:'',overwriteDetail:'',endingLabel:'阅读完毕',galleryPage:0,galleryPageLabel:'',galleryTop:[],galleryBottom:[],cgIndex:0,cgVariant:0,cgSrc:'',cgLabel:''},
+  onInit(){
+    this.session=create(graph);this.sequence=0;this.slotSequence=0;this.timer=null;this.fullText='';this.cachedFile='';this.frames=[];this._progress={};this._progressReady=false;this._progressBusy=false;this._progressDirty=false;this._slotData=[];this._gallery=[];this._hidden=false;
+    storage.get({key:PREFIX+'settings_v1',default:'',success:data=>{try{const s=JSON.parse(data);this.fontSize=s.fontSize===28?28:24;this.textSpeed=s.textSpeed===30?30:0;this.refreshSettings();}catch(e){}},fail:()=>{},complete:()=>{}});
+    storage.get({key:PREFIX+'progress_v1',default:'{}',success:data=>{try{const p=JSON.parse(data||'{}');this._progress=p&&typeof p==='object'?p:{};this._progressReady=true;this.loading=false;this.refreshProgress();}catch(e){this.fail('通关记录读取失败');}},fail:()=>{this.fail('通关记录读取失败，请返回标题重试');},complete:()=>{}});
+    console.log('ATRI_RW5 title ready');
+  },
+  onShow(){this._hidden=false;},
+  onHide(){this._hidden=true;this.clearTyping();if(this.mode==='play')this.displayText=this.fullText;},
+  onDestroy(){this.clearTyping();this.sequence++;this.slotSequence++;console.log('ATRI_RW5 destroyed');},
+  exitApplication(){if(this.loading||this.storageBusy)return;this.clearTyping();this.sequence++;this.slotSequence++;console.log('ATRI_RW5 exit requested');this.$app.exit();},
+  backgroundLoaded(){},backgroundError(){console.error('ATRI_RW5 image failed',this.backgroundSrc);},
+  clearTyping(){if(this.timer!==null){clearTimeout(this.timer);this.timer=null;}},
+  refreshProgress(){this.trueUnlocked=trueAvailable(graph,{progress:this._progress});},
+  syncProgress(){if(this.session.progression==='chapter')return;const p=this.session.progress;if(JSON.stringify(p)!==JSON.stringify(this._progress)){this._progress=JSON.parse(JSON.stringify(p));this._progressDirty=true;this.refreshProgress();this.writeProgress();}},
+  writeProgress(){if(this._progressBusy||!this._progressDirty)return;this._progressBusy=true;this._progressDirty=false;storage.set({key:PREFIX+'progress_v1',value:JSON.stringify(this._progress),success:()=>{this._progressBusy=false;this.writeProgress();},fail:()=>{this._progressBusy=false;this._progressDirty=true;this.toast('通关记录保存失败');},complete:()=>{}});},
+  startNew(){if(this.loading||!this._progressReady)return;this.session=create(graph,this._progress);this.session.progression='story';this.cachedFile='';this.renderFrame();},
+  startTrue(){if(this.loading)return;const state=create(graph,this._progress);if(!enterTrue(graph,state)){this.toast('完成好结局和坏结局后解锁');return;}state.history=[];state.progression='story';this.session=state;this.cachedFile='';this.renderFrame();},
+  renderFrame(){
+    this.clearTyping();let location;
+    try{location=locate(graph,this.session);this.syncProgress();}catch(e){this.fail(e.message);return;}
+    if(location.type==='choice'){this.loading=false;this.options=location.items.map(x=>Object.assign({},x,{font:FONT}));this.mode='choice';console.log('ATRI_RW5 choice',this.session.node,this.session.flag);return;}
+    if(location.type==='end'){this.loading=false;this.mode='end';this.endingLabel=(this.chapterLabel||'故事')+' · 阅读完毕';this.cachedFile='';this.frames=[];console.log('ATRI_RW5 ending',this.session.flag,JSON.stringify(this.session.progress),this.endingLabel);return;}
+    this.chapterLabel=location.title;this.hasNextChapter=true;
+    if(this.cachedFile===location.file){this.showFrame(this.frames[location.index]);return;}
+    this.loading=true;const token=++this.sequence;
+    file.readText({uri:'/common/story/'+location.file,success:data=>{if(token!==this.sequence)return;try{const frames=JSON.parse(data.text);if(!Array.isArray(frames)||!frames[location.index])throw Error('剧情数据格式错误');this.frames=frames;this.cachedFile=location.file;this.showFrame(frames[location.index]);}catch(e){this.fail(e.message);}},fail:(data,code)=>{if(token===this.sequence)this.fail('剧情读取失败：'+code);},complete:()=>{}});
+  },
+  showFrame(frame){
+    if(!frame){this.fail('剧情下标无效');return;}this.loading=false;this.mode='play';this.backgroundSrc=frame.art.background;
+    const sprites=frame.art.sprites||[],names=['','Second','Third'];
+    for(let i=0;i<3;i++){const s=sprites[i]||{src:'',width:1,height:1,left:0,top:0},suffix=names[i];this[i===0?'bodySrc':'body'+suffix]=s.src;this['portrait'+suffix+'Width']=s.width;this['portrait'+suffix+'Height']=s.height;this['portrait'+suffix+'Left']=s.left;this['portrait'+suffix+'Top']=s.top;this['portrait'+suffix+'Opacity']=s.opacity===undefined?1:s.opacity;}
+    this.speaker=frame.speaker;this.fullText=frame.text;this.sizeDialogue();this.session.preview=frame.text.slice(0,80);this.displayText='';console.log('ATRI_RW5 frame',this.session.node,this.session.index);
+    // Recreate the scroll content by scene key in the template; scrollTo also
+    // resets firmware versions that retain the previous scroll offset.
+    try{this.$element('dialogue-scroll').scrollTo({index:0});}catch(e){}
+    if(this.textSpeed===0||this._hidden){this.displayText=this.fullText;return;}
+    const tick=()=>{this.displayText=this.fullText.slice(0,this.displayText.length+1);if(this.displayText.length<this.fullText.length)this.timer=setTimeout(tick,this.textSpeed);else this.timer=null;};tick();
+  },
+  sizeDialogue(){const columns=this.fontSize===28?13:15;const lines=String(this.fullText||'').split('\n').reduce((count,line)=>count+Math.max(1,Math.ceil(line.length/columns)),0);this.dialogueHeight=Math.max(128,lines*(this.fontSize===28?38:34));},
+  advance(){if(this.loading||this.mode!=='play')return;if(this.timer!==null){this.clearTyping();this.displayText=this.fullText;return;}try{advance(graph,this.session);this.renderFrame();}catch(e){this.fail(e.message);}},
+  pick(index){if(this.loading||this.mode!=='choice')return;try{choose(graph,this.session,index);this.renderFrame();}catch(e){this.fail(e.message);}},
+  goBack(){if(this.loading||this.mode!=='play')return;try{previous(graph,this.session);this.renderFrame();}catch(e){this.fail(e.message);}},
+  showMenu(){if(this.loading||!this.session)return;this.clearTyping();this.displayText=this.fullText;this.resumeMode=this.mode;this.mode='menu';console.log('ATRI_RW5 menu');},
+  resume(){this.mode=this.resumeMode||'play';},
+  goNextChapter(){if(this.loading||this.mode!=='menu')return;try{skipChapter(graph,this.session);this.renderFrame();}catch(e){this.fail(e.message);}},
+  swipe(event){if(this.mode==='play'&&event.direction==='left')this.advance();},
+  continueGame(){this.openSlots('load');},saveGame(){this.openSlots('save');},loadGame(){this.openSlots('load');},
+  openSlots(role){if(this.loading||this.storageBusy)return;this.clearTyping();this._slotRole=role;this._slotsReturnMode=this.mode==='menu'?(this.resumeMode||'play'):this.mode;this.mode='slots';this.slotPage=0;this.slotTitle=role==='save'?'选择保存栏位':'选择读取栏位';this._slotData=[];this.loading=true;const token=++this.slotSequence;
+    const read=index=>{if(token!==this.slotSequence)return;if(index>=30){this.loading=false;this.refreshSlots();console.log('ATRI_RW5 slots ready',role);return;}storage.get({key:PREFIX+'slot_v1_'+(index+1),default:'',success:data=>{if(token!==this.slotSequence)return;try{this._slotData[index]=data?JSON.parse(data):null;}catch(e){this._slotData[index]={invalid:true};}read(index+1);},fail:()=>{if(token!==this.slotSequence)return;this._slotData[index]=null;read(index+1);},complete:()=>{}});};read(0);
+  },
+  refreshSlots(){this.slotPageLabel='30 个栏位 · 第 '+(this.slotPage+1)+' / 8 页';this.slotRows=[];for(let index=this.slotPage*4;index<Math.min(30,this.slotPage*4+4);index++){const saved=this._slotData[index],node=saved&&saved.state&&graph.nodes[saved.state.node];this.slotRows.push({index,number:index+1,title:'存档 '+('0'+(index+1)).slice(-2),occupied:!!saved,metaFont:FONT,previewFont:FONT,meta:!saved?'空栏位':node?node.title:'存档无法读取',preview:saved&&saved.state?(saved.state.preview||'章节开头').slice(0,20):''});}},
+  previousSlotPage(){if(!this.loading&&this.slotPage>0){this.slotPage--;this.refreshSlots();}},nextSlotPage(){if(!this.loading&&this.slotPage<7){this.slotPage++;this.refreshSlots();}},
+  closeSlots(){if(this.storageBusy)return;this.slotSequence++;this.loading=false;this.mode=this._slotsReturnMode;},
+  selectSlot(index){if(this.loading||this.storageBusy)return;const saved=this._slotData[index];if(this._slotRole==='load'){if(!saved){this.toast('此栏位尚未保存');return;}try{this.session=restore(graph,saved.state);if(this.session.progression!=='chapter')this.session.progress=Object.assign({},this.session.progress,this._progress);this.cachedFile='';this.slotSequence++;console.log('ATRI_RW5 slot loaded',index+1,this.session.node,this.session.index);this.renderFrame();}catch(e){this.toast('此存档无法读取');}return;}this._pendingSlot=index;this._pendingSave={version:1,state:checkpoint(this.session),savedAt:Date.now()};if(saved){this.overwriteTitle='覆盖存档 '+('0'+(index+1)).slice(-2)+'？';this.overwriteDetail=(saved.state&&saved.state.preview||'已有进度').slice(0,45);this.mode='overwrite';console.log('ATRI_RW5 overwrite',index+1);return;}this.commitSlot();},
+  confirmOverwrite(){this.commitSlot();},cancelOverwrite(){if(!this.storageBusy)this.mode='slots';},
+  commitSlot(){if(this.storageBusy)return;this.storageBusy=true;this.loading=true;const index=this._pendingSlot;storage.set({key:PREFIX+'slot_v1_'+(index+1),value:JSON.stringify(this._pendingSave),success:()=>{this._slotData[index]=this._pendingSave;this.storageBusy=false;this.loading=false;this.mode=this._slotsReturnMode;this.toast('已保存到存档 '+('0'+(index+1)).slice(-2));console.log('ATRI_RW5 slot saved',index+1,this.session.node,this.session.index);},fail:()=>{this.storageBusy=false;this.loading=false;this.toast('保存失败，请重试');},complete:()=>{}});},
+  openGallery(){if(this.loading)return;this.mode='gallery';if(this._gallery.length){this.refreshGallery();return;}this.loading=true;const token=++this.sequence;file.readText({uri:'/common/gallery.txt',success:data=>{if(token!==this.sequence)return;try{this._gallery=JSON.parse(data.text);this.galleryPage=0;this.loading=false;this.refreshGallery();}catch(e){this.fail('CG目录读取失败');}},fail:()=>{if(token===this.sequence)this.fail('CG目录读取失败');},complete:()=>{}});},
+  refreshGallery(){const rows=this._gallery.slice(this.galleryPage*4,this.galleryPage*4+4).map((x,i)=>({image:x.variants[0],src:x.variants[0],index:this.galleryPage*4+i,label:x.label+'\n'+x.variants.length+' 张',font:FONT}));this.galleryTop=rows.slice(0,2);this.galleryBottom=rows.slice(2);this.galleryPageLabel=this._gallery.length+' 组 · 第 '+(this.galleryPage+1)+' / '+Math.ceil(this._gallery.length/4)+' 页';},
+  previousGalleryPage(){if(this.galleryPage>0){this.galleryPage--;this.refreshGallery();}},nextGalleryPage(){if(this.galleryPage<Math.ceil(this._gallery.length/4)-1){this.galleryPage++;this.refreshGallery();}},
+  viewCg(index){if(this.loading)return;this.cgIndex=index;this.cgVariant=0;this.mode='cg';this.renderCg();},
+  renderCg(){const group=this._gallery[this.cgIndex];this.cgSrc=group.variants[this.cgVariant];this.cgLabel=group.label+' · '+(this.cgVariant+1)+' / '+group.variants.length+' · 点击切换';console.log('ATRI_RW5 cg',this.cgIndex,this.cgVariant);},cycleCg(){const group=this._gallery[this.cgIndex];this.cgVariant=(this.cgVariant+1)%group.variants.length;this.renderCg();},previousCg(){if(this.cgIndex>0)this.viewCg(this.cgIndex-1);},nextCg(){if(this.cgIndex<this._gallery.length-1)this.viewCg(this.cgIndex+1);},backToGallery(){this.galleryPage=Math.floor(this.cgIndex/4);this.mode='gallery';this.refreshGallery();},
+  refreshSettings(){this.speedLabel=this.textSpeed===0?'显示速度：即时':'显示速度：逐字';this.fontLabel=this.fontSize===28?'字号：大':'字号：标准';},
+  persistSettings(){storage.set({key:PREFIX+'settings_v1',value:JSON.stringify({fontSize:this.fontSize,textSpeed:this.textSpeed}),success:()=>{},fail:()=>{},complete:()=>{}});},toggleSpeed(){this.textSpeed=this.textSpeed===0?30:0;this.refreshSettings();this.persistSettings();},toggleFont(){this.fontSize=this.fontSize===24?28:24;this.sizeDialogue();this.refreshSettings();this.persistSettings();},
+  toTitle(){if(this.storageBusy)return;this.syncProgress();this.writeProgress();this.clearTyping();this.sequence++;this.slotSequence++;this.loading=false;this.mode='title';this.cachedFile='';this.frames=[];this.backgroundSrc='/common/title_bg.jpg';this.bodySrc='';this.bodySecond='';this.bodyThird='';console.log('ATRI_RW5 title ready');},
+  toast(message){prompt.showToast({message,duration:1500,success:()=>{},fail:()=>{},complete:()=>{}});},
+  fail(message){this.clearTyping();this.loading=false;this.mode='error';this.errorText=String(message);console.error('ATRI_RW5 error',message);}
+}
+</script>
