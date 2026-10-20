@@ -20,7 +20,7 @@
     <image if="{{mode === 'play'}}" class="dialogue-backdrop" src="/common/dialogue_bg.jpg"></image>
     <div if="{{mode === 'play'}}" class="dialogue-panel">
       <div class="speaker-row"><text class="speaker" style="font-family: {{speakerFont}};">{{speaker}}</text><text class="chapter" style="font-family: {{chapterFont}};">{{chapterLabel}}</text></div>
-      <scroll id="dialogue-scroll" class="dialogue-scroll" scroll-y="true" onclick="advance"><text class="dialogue" style="font-size: {{fontSize}}px;font-family: {{dialogueFont}};height: {{dialogueHeight}}px;">{{displayText}}</text></scroll>
+      <scroll id="dialogue-scroll" class="dialogue-scroll" scroll-y="true" ontouchstart="dialogueTouchStart" ontouchmove="dialogueTouchMove" ontouchend="dialogueTouchEnd" onscroll="dialogueScrolled" onclick="dialogueTap"><text class="dialogue" style="font-size: {{fontSize}}px;font-family: {{dialogueFont}};height: {{dialogueHeight}}px;">{{displayText}}</text></scroll>
       <div class="toolbar"><text class="tool" onclick="goBack">上一句</text><text class="tool" onclick="showMenu">菜单</text><text class="tool" onclick="advance">下一句 ›</text></div>
     </div>
     <div if="{{mode === 'choice'}}" class="choice-panel">
@@ -30,13 +30,15 @@
     </div>
     <div if="{{mode === 'menu'}}" class="overlay">
       <text class="menu-title">阅读菜单</text>
-      <text class="menu-action" onclick="saveGame">保存进度</text>
-      <text class="menu-action" onclick="loadGame">读取进度</text>
-      <text class="menu-action" style="color: {{hasNextChapter ? '#176690' : '#8eaac0'}};" onclick="goNextChapter">下一章 ›</text>
-      <text class="menu-action" onclick="toggleSpeed">{{speedLabel}}</text>
-      <text class="menu-action" onclick="toggleFont">{{fontLabel}}</text>
-      <text class="menu-action" onclick="resume">返回游戏</text>
-      <text class="menu-action muted" onclick="toTitle">返回标题</text>
+      <text class="menu-action reading-action" onclick="saveGame">保存进度</text>
+      <text class="menu-action reading-action" onclick="loadGame">读取进度</text>
+      <text class="menu-action reading-action" style="color: {{hasNextChapter ? '#176690' : '#8eaac0'}};" onclick="goNextChapter">下一章 ›</text>
+      <text class="menu-action reading-action" onclick="toggleAuto">{{autoLabel}}</text>
+      <text class="menu-action reading-action" onclick="cycleAutoSpeed">{{autoSpeedLabel}}</text>
+      <text class="menu-action reading-action" onclick="toggleSpeed">{{speedLabel}}</text>
+      <text class="menu-action reading-action" onclick="toggleFont">{{fontLabel}}</text>
+      <text class="menu-action reading-action" onclick="resume">返回游戏</text>
+      <text class="menu-action reading-action muted" onclick="toTitle">返回标题</text>
     </div>
     <div if="{{mode === 'slots'}}" class="full-panel">
       <text class="panel-title">{{slotTitle}}</text>

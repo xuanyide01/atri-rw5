@@ -20,7 +20,7 @@
     <image if="{{mode === 'play'}}" class="dialogue-backdrop" src="/common/dialogue_bg.jpg"></image>
     <div if="{{mode === 'play'}}" class="dialogue-panel">
       <div class="speaker-row"><text class="speaker" style="font-family: {{speakerFont}};">{{speaker}}</text><text class="chapter" style="font-family: {{chapterFont}};">{{chapterLabel}}</text></div>
-      <scroll id="dialogue-scroll" class="dialogue-scroll" scroll-y="true" onclick="advance"><text class="dialogue" style="font-size: {{fontSize}}px;font-family: {{dialogueFont}};height: {{dialogueHeight}}px;">{{displayText}}</text></scroll>
+      <scroll id="dialogue-scroll" class="dialogue-scroll" scroll-y="true" ontouchstart="dialogueTouchStart" ontouchmove="dialogueTouchMove" ontouchend="dialogueTouchEnd" onscroll="dialogueScrolled" onclick="dialogueTap"><text class="dialogue" style="font-size: {{fontSize}}px;font-family: {{dialogueFont}};height: {{dialogueHeight}}px;">{{displayText}}</text></scroll>
       <div class="toolbar"><text class="tool" onclick="goBack">上一句</text><text class="tool" onclick="showMenu">菜单</text><text class="tool" onclick="advance">下一句 ›</text></div>
     </div>
     <div if="{{mode === 'choice'}}" class="choice-panel">
@@ -30,13 +30,15 @@
     </div>
     <div if="{{mode === 'menu'}}" class="overlay">
       <text class="menu-title">阅读菜单</text>
-      <text class="menu-action" onclick="saveGame">保存进度</text>
-      <text class="menu-action" onclick="loadGame">读取进度</text>
-      <text class="menu-action" style="color: {{hasNextChapter ? '#176690' : '#8eaac0'}};" onclick="goNextChapter">下一章 ›</text>
-      <text class="menu-action" onclick="toggleSpeed">{{speedLabel}}</text>
-      <text class="menu-action" onclick="toggleFont">{{fontLabel}}</text>
-      <text class="menu-action" onclick="resume">返回游戏</text>
-      <text class="menu-action muted" onclick="toTitle">返回标题</text>
+      <text class="menu-action reading-action" onclick="saveGame">保存进度</text>
+      <text class="menu-action reading-action" onclick="loadGame">读取进度</text>
+      <text class="menu-action reading-action" style="color: {{hasNextChapter ? '#176690' : '#8eaac0'}};" onclick="goNextChapter">下一章 ›</text>
+      <text class="menu-action reading-action" onclick="toggleAuto">{{autoLabel}}</text>
+      <text class="menu-action reading-action" onclick="cycleAutoSpeed">{{autoSpeedLabel}}</text>
+      <text class="menu-action reading-action" onclick="toggleSpeed">{{speedLabel}}</text>
+      <text class="menu-action reading-action" onclick="toggleFont">{{fontLabel}}</text>
+      <text class="menu-action reading-action" onclick="resume">返回游戏</text>
+      <text class="menu-action reading-action muted" onclick="toTitle">返回标题</text>
     </div>
     <div if="{{mode === 'slots'}}" class="full-panel">
       <text class="panel-title">{{slotTitle}}</text>
@@ -74,23 +76,34 @@ import storage from '@system.storage';
 import prompt from '@system.prompt';
 import {graph} from '../../common/graph.js';
 import {create,checkpoint,restore,locate,advance,choose,skipChapter,previous,trueAvailable,startTrue as enterTrue} from '../../common/engine.js';
+import {autoSpeeds,autoWait} from '../../common/auto-reader.js';
 const PREFIX='atri_rw5_';
 const FONT='atrifont';
 export default {
   private:{mode:'title',backgroundSrc:'/common/title_bg.jpg',bodySrc:'',bodySecond:'',bodyThird:'',portraitWidth:200,portraitHeight:286,portraitTop:0,portraitLeft:116,portraitSecondWidth:200,portraitSecondHeight:286,portraitSecondTop:0,portraitSecondLeft:216,portraitThirdWidth:144,portraitThirdHeight:286,portraitThirdTop:0,portraitThirdLeft:288,portraitOpacity:1,portraitSecondOpacity:1,portraitThirdOpacity:1,
-    speaker:'',displayText:'',dialogueHeight:128,chapterLabel:'',speakerFont:FONT,dialogueFont:FONT,chapterFont:FONT,overwriteFont:FONT,cgFont:FONT,options:[],loading:true,errorText:'',hasNextChapter:true,fontSize:24,textSpeed:0,speedLabel:'显示速度：即时',fontLabel:'字号：标准',trueUnlocked:false,slotTitle:'',slotPage:0,slotPageLabel:'',slotRows:[],storageBusy:false,overwriteTitle:'',overwriteDetail:'',endingLabel:'阅读完毕',galleryPage:0,galleryPageLabel:'',galleryTop:[],galleryBottom:[],cgIndex:0,cgVariant:0,cgSrc:'',cgLabel:''},
+    speaker:'',displayText:'',dialogueHeight:128,chapterLabel:'',speakerFont:FONT,dialogueFont:FONT,chapterFont:FONT,overwriteFont:FONT,cgFont:FONT,options:[],loading:true,errorText:'',hasNextChapter:true,fontSize:24,textSpeed:0,autoEnabled:false,autoSpeed:1,autoLabel:'自动播放：关闭',autoSpeedLabel:'自动速度：标准',speedLabel:'显示速度：即时',fontLabel:'字号：标准',trueUnlocked:false,slotTitle:'',slotPage:0,slotPageLabel:'',slotRows:[],storageBusy:false,overwriteTitle:'',overwriteDetail:'',endingLabel:'阅读完毕',galleryPage:0,galleryPageLabel:'',galleryTop:[],galleryBottom:[],cgIndex:0,cgVariant:0,cgSrc:'',cgLabel:''},
   onInit(){
-    this.session=create(graph);this.sequence=0;this.slotSequence=0;this.timer=null;this.fullText='';this.cachedFile='';this.frames=[];this._progress={};this._progressReady=false;this._progressBusy=false;this._progressDirty=false;this._slotData=[];this._gallery=[];this._hidden=false;
-    storage.get({key:PREFIX+'settings_v1',default:'',success:data=>{try{const s=JSON.parse(data);this.fontSize=s.fontSize===28?28:24;this.textSpeed=s.textSpeed===30?30:0;this.refreshSettings();}catch(e){}},fail:()=>{},complete:()=>{}});
+    this.session=create(graph);this.sequence=0;this.slotSequence=0;this.timer=null;this._autoTimer=null;this._autoGeneration=0;this._alive=true;this._touchReading=false;this._dialogueDragged=false;this._dialogueTouch=null;this.fullText='';this.cachedFile='';this.frames=[];this._progress={};this._progressReady=false;this._progressBusy=false;this._progressDirty=false;this._slotData=[];this._gallery=[];this._hidden=false;
+    storage.get({key:PREFIX+'settings_v1',default:'',success:data=>{try{const s=JSON.parse(data);this.fontSize=s.fontSize===28?28:24;this.textSpeed=s.textSpeed===30?30:0;this.autoSpeed=s.autoSpeed===0||s.autoSpeed===2?s.autoSpeed:1;this.refreshSettings();}catch(e){}},fail:()=>{},complete:()=>{}});
     storage.get({key:PREFIX+'progress_v1',default:'{}',success:data=>{try{const p=JSON.parse(data||'{}');this._progress=p&&typeof p==='object'?p:{};this._progressReady=true;this.loading=false;this.refreshProgress();}catch(e){this.fail('通关记录读取失败');}},fail:()=>{this.fail('通关记录读取失败，请返回标题重试');},complete:()=>{}});
     console.log('ATRI_RW5 title ready');
   },
-  onShow(){this._hidden=false;},
-  onHide(){this._hidden=true;this.clearTyping();if(this.mode==='play')this.displayText=this.fullText;},
-  onDestroy(){this.clearTyping();this.sequence++;this.slotSequence++;console.log('ATRI_RW5 destroyed');},
-  exitApplication(){if(this.loading||this.storageBusy)return;this.clearTyping();this.sequence++;this.slotSequence++;console.log('ATRI_RW5 exit requested');this.$app.exit();},
+  onShow(){this._hidden=false;this.armAuto();},
+  onHide(){this._hidden=true;this._touchReading=false;this.clearTyping();if(this.mode==='play')this.displayText=this.fullText;},
+  onDestroy(){this._alive=false;this.stopAuto();this.clearTyping();this.sequence++;this.slotSequence++;console.log('ATRI_RW5 destroyed');},
+  exitApplication(){if(this.loading||this.storageBusy)return;this._alive=false;this.stopAuto();this.clearTyping();this.sequence++;this.slotSequence++;console.log('ATRI_RW5 exit requested');this.$app.exit();},
   backgroundLoaded(){},backgroundError(){console.error('ATRI_RW5 image failed',this.backgroundSrc);},
-  clearTyping(){if(this.timer!==null){clearTimeout(this.timer);this.timer=null;}},
+  clearTyping(){this.clearAuto();if(this.timer!==null){clearTimeout(this.timer);this.timer=null;}},
+  clearAuto(){if(this._autoTimer!=null)clearTimeout(this._autoTimer);this._autoTimer=null;this._autoGeneration=(this._autoGeneration||0)+1;},
+  canAuto(){return this.autoEnabled&&this._alive&&!this._hidden&&!this._touchReading&&!this.loading&&!this.storageBusy&&this.mode==='play'&&this.timer===null&&this.displayText===this.fullText;},
+  armAuto(){
+    this.clearAuto();if(!this.canAuto())return;
+    const generation=this._autoGeneration,node=this.session.node,index=this.session.index;
+    this._autoTimer=setTimeout(()=>{if(generation!==this._autoGeneration)return;this._autoTimer=null;if(!this.canAuto()||this.session.node!==node||this.session.index!==index)return;console.log('ATRI_RW5 auto advance',node,index);this.advance();},autoWait(this.autoSpeed,this.fullText.length));
+  },
+  stopAuto(){this.autoEnabled=false;this.clearAuto();this.refreshSettings();},
+  toggleAuto(){if(this.mode!=='menu')return;this.autoEnabled=!this.autoEnabled;this.clearAuto();this.refreshSettings();console.log('ATRI_RW5 auto enabled',this.autoEnabled);},
+  cycleAutoSpeed(){this.autoSpeed=(this.autoSpeed+1)%3;this.refreshSettings();this.persistSettings();console.log('ATRI_RW5 auto speed',this.autoSpeed);},
   refreshProgress(){this.trueUnlocked=trueAvailable(graph,{progress:this._progress});},
   syncProgress(){if(this.session.progression==='chapter')return;const p=this.session.progress;if(JSON.stringify(p)!==JSON.stringify(this._progress)){this._progress=JSON.parse(JSON.stringify(p));this._progressDirty=true;this.refreshProgress();this.writeProgress();}},
   writeProgress(){if(this._progressBusy||!this._progressDirty)return;this._progressBusy=true;this._progressDirty=false;storage.set({key:PREFIX+'progress_v1',value:JSON.stringify(this._progress),success:()=>{this._progressBusy=false;this.writeProgress();},fail:()=>{this._progressBusy=false;this._progressDirty=true;this.toast('通关记录保存失败');},complete:()=>{}});},
@@ -100,7 +113,7 @@ export default {
     this.clearTyping();let location;
     try{location=locate(graph,this.session);this.syncProgress();}catch(e){this.fail(e.message);return;}
     if(location.type==='choice'){this.loading=false;this.options=location.items.map(x=>Object.assign({},x,{font:FONT}));this.mode='choice';console.log('ATRI_RW5 choice',this.session.node,this.session.flag);return;}
-    if(location.type==='end'){this.loading=false;this.mode='end';this.endingLabel=(this.chapterLabel||'故事')+' · 阅读完毕';this.cachedFile='';this.frames=[];console.log('ATRI_RW5 ending',this.session.flag,JSON.stringify(this.session.progress),this.endingLabel);return;}
+    if(location.type==='end'){this.stopAuto();this.loading=false;this.mode='end';this.endingLabel=(this.chapterLabel||'故事')+' · 阅读完毕';this.cachedFile='';this.frames=[];console.log('ATRI_RW5 ending',this.session.flag,JSON.stringify(this.session.progress),this.endingLabel);return;}
     this.chapterLabel=location.title;this.hasNextChapter=true;
     if(this.cachedFile===location.file){this.showFrame(this.frames[location.index]);return;}
     this.loading=true;const token=++this.sequence;
@@ -113,16 +126,23 @@ export default {
     this.speaker=frame.speaker;this.fullText=frame.text;this.sizeDialogue();this.session.preview=frame.text.slice(0,80);this.displayText='';console.log('ATRI_RW5 frame',this.session.node,this.session.index);
     // Recreate the scroll content by scene key in the template; scrollTo also
     // resets firmware versions that retain the previous scroll offset.
+    this._touchReading=false;this._dialogueDragged=false;this._dialogueTouch=null;
     try{this.$element('dialogue-scroll').scrollTo({index:0});}catch(e){}
-    if(this.textSpeed===0||this._hidden){this.displayText=this.fullText;return;}
-    const tick=()=>{this.displayText=this.fullText.slice(0,this.displayText.length+1);if(this.displayText.length<this.fullText.length)this.timer=setTimeout(tick,this.textSpeed);else this.timer=null;};tick();
+    const speed=this.autoEnabled?30:this.textSpeed;
+    if(speed===0||this._hidden){this.displayText=this.fullText;this.armAuto();return;}
+    const tick=()=>{if(!this._alive||this._hidden||this.mode!=='play')return;this.displayText=this.fullText.slice(0,this.displayText.length+1);if(this.displayText.length<this.fullText.length)this.timer=setTimeout(tick,speed);else{this.timer=null;this.armAuto();}};tick();
   },
   sizeDialogue(){const columns=this.fontSize===28?13:15;const lines=String(this.fullText||'').split('\n').reduce((count,line)=>count+Math.max(1,Math.ceil(line.length/columns)),0);this.dialogueHeight=Math.max(128,lines*(this.fontSize===28?38:34));},
-  advance(){if(this.loading||this.mode!=='play')return;if(this.timer!==null){this.clearTyping();this.displayText=this.fullText;return;}try{advance(graph,this.session);this.renderFrame();}catch(e){this.fail(e.message);}},
+  advance(){if(this.loading||this.mode!=='play')return;this.clearAuto();if(this.timer!==null){this.clearTyping();this.displayText=this.fullText;this.armAuto();return;}try{advance(graph,this.session);this.renderFrame();}catch(e){this.fail(e.message);}},
+  dialogueTouchStart(event){this._touchReading=true;this.clearAuto();const touch=event.touches&&event.touches[0];this._dialogueDragged=false;this._dialogueTouch=touch?{x:touch.clientX,y:touch.clientY}:null;},
+  dialogueTouchMove(event){const touch=event.touches&&event.touches[0],start=this._dialogueTouch;if(touch&&start&&(Math.abs(touch.clientX-start.x)>10||Math.abs(touch.clientY-start.y)>10))this._dialogueDragged=true;},
+  dialogueTouchEnd(){this._touchReading=false;this.armAuto();},
+  dialogueTap(){if(!this._dialogueDragged)this.advance();},
+  dialogueScrolled(){if(this.mode==='play')this.armAuto();},
   pick(index){if(this.loading||this.mode!=='choice')return;try{choose(graph,this.session,index);this.renderFrame();}catch(e){this.fail(e.message);}},
-  goBack(){if(this.loading||this.mode!=='play')return;try{previous(graph,this.session);this.renderFrame();}catch(e){this.fail(e.message);}},
+  goBack(){if(this.loading||this.mode!=='play')return;this.stopAuto();try{previous(graph,this.session);this.renderFrame();}catch(e){this.fail(e.message);}},
   showMenu(){if(this.loading||!this.session)return;this.clearTyping();this.displayText=this.fullText;this.resumeMode=this.mode;this.mode='menu';console.log('ATRI_RW5 menu');},
-  resume(){this.mode=this.resumeMode||'play';},
+  resume(){this.mode=this.resumeMode||'play';this.armAuto();},
   goNextChapter(){if(this.loading||this.mode!=='menu')return;try{skipChapter(graph,this.session);this.renderFrame();}catch(e){this.fail(e.message);}},
   swipe(event){if(this.mode==='play'&&event.direction==='left')this.advance();},
   continueGame(){this.openSlots('load');},saveGame(){this.openSlots('save');},loadGame(){this.openSlots('load');},
@@ -131,20 +151,20 @@ export default {
   },
   refreshSlots(){this.slotPageLabel='30 个栏位 · 第 '+(this.slotPage+1)+' / 8 页';this.slotRows=[];for(let index=this.slotPage*4;index<Math.min(30,this.slotPage*4+4);index++){const saved=this._slotData[index],node=saved&&saved.state&&graph.nodes[saved.state.node];this.slotRows.push({index,number:index+1,title:'存档 '+('0'+(index+1)).slice(-2),occupied:!!saved,metaFont:FONT,previewFont:FONT,meta:!saved?'空栏位':node?node.title:'存档无法读取',preview:saved&&saved.state?(saved.state.preview||'章节开头').slice(0,20):''});}},
   previousSlotPage(){if(!this.loading&&this.slotPage>0){this.slotPage--;this.refreshSlots();}},nextSlotPage(){if(!this.loading&&this.slotPage<7){this.slotPage++;this.refreshSlots();}},
-  closeSlots(){if(this.storageBusy)return;this.slotSequence++;this.loading=false;this.mode=this._slotsReturnMode;},
+  closeSlots(){if(this.storageBusy)return;this.slotSequence++;this.loading=false;this.mode=this._slotsReturnMode;this.armAuto();},
   selectSlot(index){if(this.loading||this.storageBusy)return;const saved=this._slotData[index];if(this._slotRole==='load'){if(!saved){this.toast('此栏位尚未保存');return;}try{this.session=restore(graph,saved.state);if(this.session.progression!=='chapter')this.session.progress=Object.assign({},this.session.progress,this._progress);this.cachedFile='';this.slotSequence++;console.log('ATRI_RW5 slot loaded',index+1,this.session.node,this.session.index);this.renderFrame();}catch(e){this.toast('此存档无法读取');}return;}this._pendingSlot=index;this._pendingSave={version:1,state:checkpoint(this.session),savedAt:Date.now()};if(saved){this.overwriteTitle='覆盖存档 '+('0'+(index+1)).slice(-2)+'？';this.overwriteDetail=(saved.state&&saved.state.preview||'已有进度').slice(0,45);this.mode='overwrite';console.log('ATRI_RW5 overwrite',index+1);return;}this.commitSlot();},
   confirmOverwrite(){this.commitSlot();},cancelOverwrite(){if(!this.storageBusy)this.mode='slots';},
-  commitSlot(){if(this.storageBusy)return;this.storageBusy=true;this.loading=true;const index=this._pendingSlot;storage.set({key:PREFIX+'slot_v1_'+(index+1),value:JSON.stringify(this._pendingSave),success:()=>{this._slotData[index]=this._pendingSave;this.storageBusy=false;this.loading=false;this.mode=this._slotsReturnMode;this.toast('已保存到存档 '+('0'+(index+1)).slice(-2));console.log('ATRI_RW5 slot saved',index+1,this.session.node,this.session.index);},fail:()=>{this.storageBusy=false;this.loading=false;this.toast('保存失败，请重试');},complete:()=>{}});},
+  commitSlot(){if(this.storageBusy)return;this.storageBusy=true;this.loading=true;const index=this._pendingSlot;storage.set({key:PREFIX+'slot_v1_'+(index+1),value:JSON.stringify(this._pendingSave),success:()=>{this._slotData[index]=this._pendingSave;this.storageBusy=false;this.loading=false;this.mode=this._slotsReturnMode;this.toast('已保存到存档 '+('0'+(index+1)).slice(-2));console.log('ATRI_RW5 slot saved',index+1,this.session.node,this.session.index);this.armAuto();},fail:()=>{this.storageBusy=false;this.loading=false;this.toast('保存失败，请重试');},complete:()=>{}});},
   openGallery(){if(this.loading)return;this.mode='gallery';if(this._gallery.length){this.refreshGallery();return;}this.loading=true;const token=++this.sequence;file.readText({uri:'/common/gallery.txt',success:data=>{if(token!==this.sequence)return;try{this._gallery=JSON.parse(data.text);this.galleryPage=0;this.loading=false;this.refreshGallery();}catch(e){this.fail('CG目录读取失败');}},fail:()=>{if(token===this.sequence)this.fail('CG目录读取失败');},complete:()=>{}});},
   refreshGallery(){const rows=this._gallery.slice(this.galleryPage*4,this.galleryPage*4+4).map((x,i)=>({image:x.variants[0],src:x.variants[0],index:this.galleryPage*4+i,label:x.label+'\n'+x.variants.length+' 张',font:FONT}));this.galleryTop=rows.slice(0,2);this.galleryBottom=rows.slice(2);this.galleryPageLabel=this._gallery.length+' 组 · 第 '+(this.galleryPage+1)+' / '+Math.ceil(this._gallery.length/4)+' 页';},
   previousGalleryPage(){if(this.galleryPage>0){this.galleryPage--;this.refreshGallery();}},nextGalleryPage(){if(this.galleryPage<Math.ceil(this._gallery.length/4)-1){this.galleryPage++;this.refreshGallery();}},
   viewCg(index){if(this.loading)return;this.cgIndex=index;this.cgVariant=0;this.mode='cg';this.renderCg();},
   renderCg(){const group=this._gallery[this.cgIndex];this.cgSrc=group.variants[this.cgVariant];this.cgLabel=group.label+' · '+(this.cgVariant+1)+' / '+group.variants.length+' · 点击切换';console.log('ATRI_RW5 cg',this.cgIndex,this.cgVariant);},cycleCg(){const group=this._gallery[this.cgIndex];this.cgVariant=(this.cgVariant+1)%group.variants.length;this.renderCg();},previousCg(){if(this.cgIndex>0)this.viewCg(this.cgIndex-1);},nextCg(){if(this.cgIndex<this._gallery.length-1)this.viewCg(this.cgIndex+1);},backToGallery(){this.galleryPage=Math.floor(this.cgIndex/4);this.mode='gallery';this.refreshGallery();},
-  refreshSettings(){this.speedLabel=this.textSpeed===0?'显示速度：即时':'显示速度：逐字';this.fontLabel=this.fontSize===28?'字号：大':'字号：标准';},
-  persistSettings(){storage.set({key:PREFIX+'settings_v1',value:JSON.stringify({fontSize:this.fontSize,textSpeed:this.textSpeed}),success:()=>{},fail:()=>{},complete:()=>{}});},toggleSpeed(){this.textSpeed=this.textSpeed===0?30:0;this.refreshSettings();this.persistSettings();},toggleFont(){this.fontSize=this.fontSize===24?28:24;this.sizeDialogue();this.refreshSettings();this.persistSettings();},
-  toTitle(){if(this.storageBusy)return;this.syncProgress();this.writeProgress();this.clearTyping();this.sequence++;this.slotSequence++;this.loading=false;this.mode='title';this.cachedFile='';this.frames=[];this.backgroundSrc='/common/title_bg.jpg';this.bodySrc='';this.bodySecond='';this.bodyThird='';console.log('ATRI_RW5 title ready');},
+  refreshSettings(){this.speedLabel=this.textSpeed===0?'显示速度：即时':'显示速度：逐字';this.fontLabel=this.fontSize===28?'字号：大':'字号：标准';this.autoLabel='自动播放：'+(this.autoEnabled?'开启':'关闭');this.autoSpeedLabel='自动速度：'+autoSpeeds[this.autoSpeed];},
+  persistSettings(){storage.set({key:PREFIX+'settings_v1',value:JSON.stringify({fontSize:this.fontSize,textSpeed:this.textSpeed,autoSpeed:this.autoSpeed}),success:()=>{},fail:()=>{},complete:()=>{}});},toggleSpeed(){this.textSpeed=this.textSpeed===0?30:0;this.refreshSettings();this.persistSettings();},toggleFont(){this.fontSize=this.fontSize===24?28:24;this.sizeDialogue();this.refreshSettings();this.persistSettings();},
+  toTitle(){if(this.storageBusy)return;this.stopAuto();this.syncProgress();this.writeProgress();this.clearTyping();this.sequence++;this.slotSequence++;this.loading=false;this.mode='title';this.cachedFile='';this.frames=[];this.backgroundSrc='/common/title_bg.jpg';this.bodySrc='';this.bodySecond='';this.bodyThird='';console.log('ATRI_RW5 title ready');},
   toast(message){prompt.showToast({message,duration:1500,success:()=>{},fail:()=>{},complete:()=>{}});},
-  fail(message){this.clearTyping();this.loading=false;this.mode='error';this.errorText=String(message);console.error('ATRI_RW5 error',message);}
+  fail(message){this.stopAuto();this.clearTyping();this.loading=false;this.mode='error';this.errorText=String(message);console.error('ATRI_RW5 error',message);}
 }
 </script>
 
@@ -187,6 +207,7 @@ export default {
 .overlay{position:absolute;top:0px;left:0px;width:432px;height:514px;background-color:#edf7fc;flex-direction:column;padding:22px 32px;}
 .menu-title{height:36px;font-size:28px;color:#176690;text-align:left;margin-bottom:12px;}
 .menu-action{height:50px;font-size:22px;color:#176690;background-color:#dfedf6;border-radius:8px;margin-bottom:8px;text-align:left;padding-left:16px;}
+.reading-action{height:40px;margin-bottom:6px;font-size:21px;flex-shrink:0;}
 .muted{color:#6d91aa;}
 .full-panel{position:absolute;top:0px;left:0px;width:432px;height:514px;background-color:#edf7fc;flex-direction:column;padding:16px 18px;}
 .panel-title{height:36px;font-size:28px;color:#176690;text-align:left;margin-bottom:4px;}

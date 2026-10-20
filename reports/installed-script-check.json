@@ -6,7 +6,7 @@
     "common/story/b101/start-000.txt",
     "common/images/016b4570821368fe.png"
   ],
-  "packageSha256": "96be13097273fa2a25373269d5984f57384bae29acdaec2c454afb660f178d78",
-  "expectedSHA256": "d1f1fdaa6900ff3cc797d4c0b09cf6c8fdf62dc9ecb4587be64c0231084d5bc4",
-  "actualSHA256": "d1f1fdaa6900ff3cc797d4c0b09cf6c8fdf62dc9ecb4587be64c0231084d5bc4"
+  "packageSha256": "07afd16f09afbc342790ff669efb9317ca014f89d278e4b655387c9839995190",
+  "expectedSHA256": "78d07f51ffa7bd1c8879343f05a436ac67324fa3efc5b9d6399ecb93735d7de4",
+  "actualSHA256": "78d07f51ffa7bd1c8879343f05a436ac67324fa3efc5b9d6399ecb93735d7de4"
 }

@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "packageSha256": "07afd16f09afbc342790ff669efb9317ca014f89d278e4b655387c9839995190",
+  "realUIClicks": true,
+  "sceneInjection": false,
+  "legacySlot1Restored": true,
+  "automaticAdvanceAfterResume": true,
+  "firstAutoAdvanceMs": 1673,
+  "threeSpeedMenuCycle": true,
+  "menuPause": true,
+  "saveAndLoadPause": true,
+  "choiceNeverAutoSelected": true,
+  "resumesAfterManualChoice": true,
+  "previousDisablesAuto": true,
+  "autoOffAfterRestart": true,
+  "speedPersistsAfterRestart": true,
+  "physicalDeviceTested": false
+}

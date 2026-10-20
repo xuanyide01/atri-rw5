@@ -37,6 +37,7 @@
 .overlay{position:absolute;top:0px;left:0px;width:432px;height:514px;background-color:#edf7fc;flex-direction:column;padding:22px 32px;}
 .menu-title{height:36px;font-size:28px;color:#176690;text-align:left;margin-bottom:12px;}
 .menu-action{height:50px;font-size:22px;color:#176690;background-color:#dfedf6;border-radius:8px;margin-bottom:8px;text-align:left;padding-left:16px;}
+.reading-action{height:40px;margin-bottom:6px;font-size:21px;flex-shrink:0;}
 .muted{color:#6d91aa;}
 .full-panel{position:absolute;top:0px;left:0px;width:432px;height:514px;background-color:#edf7fc;flex-direction:column;padding:16px 18px;}
 .panel-title{height:36px;font-size:28px;color:#176690;text-align:left;margin-bottom:4px;}

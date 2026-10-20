@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "tests": 9,
+  "cases": [
+    "three speeds and bounded extra time for long paragraphs",
+    "auto remains off at boot; only speed persists; old settings compatible",
+    "wait starts after final glyph; manual completion restarts the whole wait",
+    "menus and save/load selection pause, then resume with a fresh timer",
+    "choices never auto-select; manual selection resumes typing and auto",
+    "touch hold and drag suspend progression without treating scroll as click",
+    "background suspends timers, foreground restarts reading wait",
+    "previous, title, ending, error and destruction cancel automatic reading",
+    "cancelled callbacks cannot advance even when delivered late"
+  ],
+  "actualPageMethods": true,
+  "deterministicClock": true,
+  "choiceFixturesOnlyInUnitTests": true
+}

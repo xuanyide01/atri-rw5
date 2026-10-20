@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "packageSha256": "07afd16f09afbc342790ff669efb9317ca014f89d278e4b655387c9839995190",
+  "realUIClicks": true,
+  "sceneInjection": false,
+  "dragDoesNotAdvance": true,
+  "automaticReadingResumesAfterActualScroll": true,
+  "physicalDeviceTested": false
+}
