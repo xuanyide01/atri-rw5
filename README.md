@@ -97,3 +97,8 @@ node tools/test-story-engine.cjs
 参考：[@liuyuze61 的《ATRI》移植](https://github.com/liuyuze61/ATRI-miband)、[GARbro-Mod](https://github.com/nanami5270/GARbro-Mod)、[GARbro](https://github.com/morkt/GARbro)、[FreeMote](https://github.com/UlyssesWu/FreeMote)及 [xp3-brute 的 PBD 格式实现](https://github.com/xmoezzz/xp3-brute)。感谢[表盘自定义工具及相关团队](https://www.bandbbs.cn/)提供安装工具。各依赖按各自许可证使用。
 
 验证记录分开保留：完整30存档、5条普通路线和真结局、5处CG像素核对来自原生测试基线，保留其原包摘要；0.1.2另做准确包的全新安装、冷启动、分页存档保存读取、长对白滚动与大字号检查，并由用户报告实机通过。0.1.3完成换图标的打包校验与差异检查，维护者另确认实机测试通过；没有重跑全部剧情或穷举所有固件。字体全部映射字形轮廓和字宽与旧版一致，不把旧测试报告冒充本版重新跑过的结果。此前模拟器退出后约0.5秒立即重开曾触发SDK异常，同包冷启动及等待清理后重开通过；尚未确认实机存在同一问题。
+
+
+## 联系方式
+
+问题反馈与交流：[shining237841@gmail.com](mailto:shining237841@gmail.com)。
