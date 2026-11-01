@@ -1,0 +1,151 @@
+{
+  "archived_at": "2026-11-01",
+  "repository": "xuanyide01/atri-rw5",
+  "versions": [
+    {
+      "tag": "v0.1.0",
+      "files": [
+        {
+          "name": "ATRI-RW5-0.1.0-SHA256.txt",
+          "bytes": 172,
+          "sha256": "bc47af133d66dba76dfec7b390d37662636c2766bd97a87d9ca2c2ca95f40530"
+        },
+        {
+          "name": "ATRI-RW5-0.1.0-安装说明.md",
+          "bytes": 5379,
+          "sha256": "a2fadd0609e021f0558b63dbf00bdb3cb09d98dbef6ae51bd3a2d734215fe3c3"
+        },
+        {
+          "name": "ATRI-RW5-0.1.0-检查报告.json",
+          "bytes": 4454,
+          "sha256": "ecacc2dc33f2d87341a90ac1e47e53ca794a68be991c17995ec46648ab3013b0"
+        },
+        {
+          "name": "ATRI-RW5-0.1.0-源码.zip",
+          "bytes": 14660973,
+          "sha256": "59a83b006cd42d076392fce1985422957b3a8362f653310c46c15146b5564819"
+        },
+        {
+          "name": "ATRI-RW5-0.1.0.bin",
+          "bytes": 14580721,
+          "sha256": "ab0ce272e1020c989e149b1b599c1cb1a774ee2c5d8595bbc2a054a26c0ec1d8"
+        },
+        {
+          "name": "ATRI-RW5-0.1.0.rpk",
+          "bytes": 14580721,
+          "sha256": "ab0ce272e1020c989e149b1b599c1cb1a774ee2c5d8595bbc2a054a26c0ec1d8"
+        }
+      ]
+    },
+    {
+      "tag": "v0.1.1",
+      "files": [
+        {
+          "name": "ATRI-RW5-0.1.1-SHA256.txt",
+          "bytes": 172,
+          "sha256": "a25be4ae3a5a7f0fb746a6faccdf35ad7f4cfcf95bf7dd475d6a6791f891fe4f"
+        },
+        {
+          "name": "ATRI-RW5-0.1.1-安装说明.md",
+          "bytes": 6606,
+          "sha256": "e3b5dd04b1ec2be2b7482d9e79f49af333261c4da01771ed0a50974d6930d969"
+        },
+        {
+          "name": "ATRI-RW5-0.1.1-检查报告.json",
+          "bytes": 9831,
+          "sha256": "150ed2014e0b50ac804ca3fd63db3ba5f791f04cacb6559609f7ee61bec67368"
+        },
+        {
+          "name": "ATRI-RW5-0.1.1-源码.zip",
+          "bytes": 14974334,
+          "sha256": "5d29ab92b82da9a94acb482eb2baa1c13c004c1f166652a73d15ce9ddebdd289"
+        },
+        {
+          "name": "ATRI-RW5-0.1.1.bin",
+          "bytes": 14874577,
+          "sha256": "77d6dbbf9e6dce1acb191c57e48368e9d7ba1a9634272debcf06521d732be7c7"
+        },
+        {
+          "name": "ATRI-RW5-0.1.1.rpk",
+          "bytes": 14874577,
+          "sha256": "77d6dbbf9e6dce1acb191c57e48368e9d7ba1a9634272debcf06521d732be7c7"
+        }
+      ]
+    },
+    {
+      "tag": "v0.1.2",
+      "files": [
+        {
+          "name": "ATRI-RW5-0.1.2-SHA256.txt",
+          "bytes": 172,
+          "sha256": "e0d47a40a60339c625f728a408a36f87a2fadcfea33a1eb00f15c7dc2b478d9b"
+        },
+        {
+          "name": "ATRI-RW5-0.1.2-安装说明.md",
+          "bytes": 7490,
+          "sha256": "8ea845dd6247d134a69e50d470b31439522fb5631a691b8425270283cdb66b8e"
+        },
+        {
+          "name": "ATRI-RW5-0.1.2-检查报告.json",
+          "bytes": 10396,
+          "sha256": "3759998d48a12a99528c01bb56dd07bfec027bd2727c833c07e9de12fcebbccf"
+        },
+        {
+          "name": "ATRI-RW5-0.1.2-源码.zip",
+          "bytes": 14515552,
+          "sha256": "9f453793a98691e0cc499f0f22ad2f41acac99a00bfab5ea6726e37593032e40"
+        },
+        {
+          "name": "ATRI-RW5-0.1.2.bin",
+          "bytes": 14404801,
+          "sha256": "f908461d57415aab93f9c5c64640912c99316e4dac1249b897d8ab58992f808b"
+        },
+        {
+          "name": "ATRI-RW5-0.1.2.rpk",
+          "bytes": 14404801,
+          "sha256": "f908461d57415aab93f9c5c64640912c99316e4dac1249b897d8ab58992f808b"
+        }
+      ]
+    },
+    {
+      "tag": "v0.1.4",
+      "files": [
+        {
+          "name": "ATRI-RW5-0.1.4-轻量版-SHA256.txt",
+          "bytes": 192,
+          "sha256": "183b1cc2c12cb077d97f5d16347f7f89fb1246fca86ca3b04c3a347ccb888235"
+        },
+        {
+          "name": "ATRI-RW5-0.1.4-轻量版-安装说明.md",
+          "bytes": 8843,
+          "sha256": "8301eca36468bc1de34bc1a58f6c0cdb9af47de43f97980c03e9301953842235"
+        },
+        {
+          "name": "ATRI-RW5-0.1.4-轻量版-检查报告.json",
+          "bytes": 40306,
+          "sha256": "3576d3b21e91b62dbb63d898884d9aff2084f44fba7110a2fd113ed4f21ffde2"
+        },
+        {
+          "name": "ATRI-RW5-0.1.4-轻量版-源码.zip",
+          "bytes": 10566294,
+          "sha256": "fc9ea7c88c097136ef59a3e4af93546541dfead139ccda3bb202a6e0fca2f2ed"
+        },
+        {
+          "name": "ATRI-RW5-0.1.4-轻量版-立绘预览.png",
+          "bytes": 111943,
+          "sha256": "6a577c339ca4d4ae05064aab5c626727ba1ef6bbf59997109118d15591cc25fb"
+        },
+        {
+          "name": "ATRI-RW5-0.1.4-轻量版.bin",
+          "bytes": 10317681,
+          "sha256": "3b971542bb25e78be2d9c0c7fa1b1a88d2ef8074ec3ea210cf2fad813c51252d"
+        },
+        {
+          "name": "ATRI-RW5-0.1.4-轻量版.rpk",
+          "bytes": 10317681,
+          "sha256": "3b971542bb25e78be2d9c0c7fa1b1a88d2ef8074ec3ea210cf2fad813c51252d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,0 @@
-<script>
-export default {
-  onCreate() { console.log('STELLA_RW5 app created'); },
-  onDestroy() { console.log('STELLA_RW5 app destroyed'); }
-}
-</script>
-
