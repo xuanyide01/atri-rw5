@@ -1,3 +1,4 @@
+require('./check-portrait-policy.cjs');
 // Keep the compiler version used by the supplied working physical-watch app.
 const fs=require('fs'),path=require('path');
 const watchConfig=path.resolve('src/config-watch.json');

@@ -139,7 +139,7 @@ export default {
   dialogueTouchEnd(){this._touchReading=false;this.armAuto();},
   dialogueTap(){if(!this._dialogueDragged)this.advance();},
   dialogueScrolled(){if(this.mode==='play')this.armAuto();},
-  pick(index){if(this.loading||this.mode!=='choice')return;try{choose(graph,this.session,index);this.renderFrame();}catch(e){this.fail(e.message);}},
+  pick(index){if(this.loading||this.mode!=='choice')return;try{const selected=this.options[index];choose(graph,this.session,index);console.log('ATRI_RW5 picked',selected?selected.text:'',this.session.flag,this.session.node);this.renderFrame();}catch(e){this.fail(e.message);}},
   goBack(){if(this.loading||this.mode!=='play')return;this.stopAuto();try{previous(graph,this.session);this.renderFrame();}catch(e){this.fail(e.message);}},
   showMenu(){if(this.loading||!this.session)return;this.clearTyping();this.displayText=this.fullText;this.resumeMode=this.mode;this.mode='menu';console.log('ATRI_RW5 menu');},
   resume(){this.mode=this.resumeMode||'play';this.armAuto();},

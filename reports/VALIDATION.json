@@ -1,0 +1,474 @@
+{
+  "game": "ATRI",
+  "author": "xuanyide",
+  "implementation": "Codex",
+  "version": "0.1.8",
+  "device": "RW5",
+  "physicalDeviceTested": true,
+  "status": "维护者确认本版实机测试通过。保留同一安装包和原验证记录。",
+  "installerBytes": 9715121,
+  "installerSha256": "45bbc73b48a880fd3d37ee0a5a727d25dcf350a634bcd109bb28018dd44b7314",
+  "rootCause": "非亚托莉立绘已剔除，但关联waku框曾烘焙进背景，移除人物后留下方框。",
+  "package": {
+    "file": "com.codex.atri.rw5.debug.0.1.8.rpk",
+    "version": "0.1.8",
+    "bytes": 9715121,
+    "expandedBytes": 11527516,
+    "entries": 1157,
+    "sha256": "45bbc73b48a880fd3d37ee0a5a727d25dcf350a634bcd109bb28018dd44b7314",
+    "certificateSha256": "4e8e1ee24968b0dad6d0956a7e14d848b38b22a203f39c389a45d8737bdc4585",
+    "zipCRCValid": true,
+    "outerSignatureValid": true,
+    "innerSignatureValid": true,
+    "allFileDigestsValid": true,
+    "signedFiles": 1116,
+    "passed": true,
+    "baseline": "ATRI-RW5-0.1.7-轻量版.bin",
+    "baselineSha256": "017ea2f1dca4903f100a0240e62894283f7fa233cf39a86f4d75f86e0cf59917",
+    "passages": 12172,
+    "modifiedBackgroundPassages": 284,
+    "changedStoryChunks": 61,
+    "removedCharacterWindowBackgrounds": 66,
+    "newCleanBackgrounds": [
+      "common/images/8e4ebb0dd9f68c25.jpg",
+      "common/images/ec0a6e60b22ceb11.jpg"
+    ],
+    "remainingJPEGAssets": 405,
+    "retainedAtriPortraits": 418,
+    "portraitReferences": 5065,
+    "nonAtriPortraitsAndReferences": 0,
+    "maxDecodedSceneImageBytes": 230400,
+    "allOtherAssetsAndCGVariantsUnchanged": true,
+    "fullFrameDiffsMatchOnlyExpectedBackgroundRemap": true,
+    "compiledUIAndGameLogicByteIdentical": true,
+    "allWindowFrameAssetsRemoved": true,
+    "sourceImageAdlerChecksVerified": true,
+    "physicalDeviceTested": true
+  },
+  "cleanup": {
+    "version": "0.1.8",
+    "changedStoryChunks": 61,
+    "changedBackgroundReferences": 284,
+    "removedWindowAssets": [
+      {
+        "file": "/common/images/66ce804544da344b.jpg",
+        "bytes": 11825
+      },
+      {
+        "file": "/common/images/65879ee431f32c53.jpg",
+        "bytes": 10514
+      },
+      {
+        "file": "/common/images/a43d9765cf7a2544.jpg",
+        "bytes": 9031
+      },
+      {
+        "file": "/common/images/64c68189282d11c7.jpg",
+        "bytes": 8873
+      },
+      {
+        "file": "/common/images/42276dc993f0be0f.jpg",
+        "bytes": 9018
+      },
+      {
+        "file": "/common/images/db8041d50dfae3b2.jpg",
+        "bytes": 10274
+      },
+      {
+        "file": "/common/images/f562e16b4c58b0f3.jpg",
+        "bytes": 10167
+      },
+      {
+        "file": "/common/images/719fe0aa0e5e704b.jpg",
+        "bytes": 5055
+      },
+      {
+        "file": "/common/images/c75f4ad53ec79f30.jpg",
+        "bytes": 6110
+      },
+      {
+        "file": "/common/images/f9f8f20e42569ba1.jpg",
+        "bytes": 6023
+      },
+      {
+        "file": "/common/images/8a0debc76ac15199.jpg",
+        "bytes": 10584
+      },
+      {
+        "file": "/common/images/bda88cd340549788.jpg",
+        "bytes": 13791
+      },
+      {
+        "file": "/common/images/5315edb10e670625.jpg",
+        "bytes": 13464
+      },
+      {
+        "file": "/common/images/0ef28ce878ec080a.jpg",
+        "bytes": 13725
+      },
+      {
+        "file": "/common/images/7f619422c44af128.jpg",
+        "bytes": 13164
+      },
+      {
+        "file": "/common/images/c44d6588eebe19a0.jpg",
+        "bytes": 10202
+      },
+      {
+        "file": "/common/images/9f6726a129722847.jpg",
+        "bytes": 9845
+      },
+      {
+        "file": "/common/images/a3651f2298925675.jpg",
+        "bytes": 10185
+      },
+      {
+        "file": "/common/images/439013870eb2f6b8.jpg",
+        "bytes": 10762
+      },
+      {
+        "file": "/common/images/cbf568f3b4e51098.jpg",
+        "bytes": 10243
+      },
+      {
+        "file": "/common/images/e9e0417f85ed5707.jpg",
+        "bytes": 4068
+      },
+      {
+        "file": "/common/images/0d2bb4be1dda8a2b.jpg",
+        "bytes": 11898
+      },
+      {
+        "file": "/common/images/db0a4e0c398c5153.jpg",
+        "bytes": 5018
+      },
+      {
+        "file": "/common/images/6241bf58d59b86fe.jpg",
+        "bytes": 5067
+      },
+      {
+        "file": "/common/images/3342d688279ab667.jpg",
+        "bytes": 5949
+      },
+      {
+        "file": "/common/images/39f9a13ca63e5b45.jpg",
+        "bytes": 10760
+      },
+      {
+        "file": "/common/images/df4eb4d244d521b9.jpg",
+        "bytes": 10697
+      },
+      {
+        "file": "/common/images/2afe1079631032fa.jpg",
+        "bytes": 8312
+      },
+      {
+        "file": "/common/images/12617ad49b67503e.jpg",
+        "bytes": 8054
+      },
+      {
+        "file": "/common/images/fae2e874b16aa307.jpg",
+        "bytes": 10496
+      },
+      {
+        "file": "/common/images/4e72808d36a4a1e3.jpg",
+        "bytes": 3940
+      },
+      {
+        "file": "/common/images/45d455a4b25d067c.jpg",
+        "bytes": 10523
+      },
+      {
+        "file": "/common/images/d35e5e3099c3e266.jpg",
+        "bytes": 10409
+      },
+      {
+        "file": "/common/images/adcee17833269bca.jpg",
+        "bytes": 8275
+      },
+      {
+        "file": "/common/images/6cb5803fc9182ab1.jpg",
+        "bytes": 10508
+      },
+      {
+        "file": "/common/images/9c3e88877d274070.jpg",
+        "bytes": 6307
+      },
+      {
+        "file": "/common/images/06ce27501e64bbea.jpg",
+        "bytes": 10087
+      },
+      {
+        "file": "/common/images/e0414e71fbc4348e.jpg",
+        "bytes": 13769
+      },
+      {
+        "file": "/common/images/2a2a47053d0fb28f.jpg",
+        "bytes": 13513
+      },
+      {
+        "file": "/common/images/7842447889bd9a36.jpg",
+        "bytes": 6369
+      },
+      {
+        "file": "/common/images/8341e32b5fee6c06.jpg",
+        "bytes": 6344
+      },
+      {
+        "file": "/common/images/61d68c15b6823592.jpg",
+        "bytes": 14759
+      },
+      {
+        "file": "/common/images/845b554eb217fa8d.jpg",
+        "bytes": 11158
+      },
+      {
+        "file": "/common/images/7dbb579d8d05e660.jpg",
+        "bytes": 5217
+      },
+      {
+        "file": "/common/images/02750359cbb4e69b.jpg",
+        "bytes": 8945
+      },
+      {
+        "file": "/common/images/89507d0ade17a11d.jpg",
+        "bytes": 4393
+      },
+      {
+        "file": "/common/images/d988a6843f7e4403.jpg",
+        "bytes": 9593
+      },
+      {
+        "file": "/common/images/305f8f4c0f00e594.jpg",
+        "bytes": 10322
+      },
+      {
+        "file": "/common/images/843857ebd90dd6bf.jpg",
+        "bytes": 9539
+      },
+      {
+        "file": "/common/images/d911a0d644f4c15c.jpg",
+        "bytes": 9203
+      },
+      {
+        "file": "/common/images/4243330ad32c663f.jpg",
+        "bytes": 12974
+      },
+      {
+        "file": "/common/images/9ada0f3d5683e0c1.jpg",
+        "bytes": 10393
+      },
+      {
+        "file": "/common/images/f2b88b9d13da9ea1.jpg",
+        "bytes": 9963
+      },
+      {
+        "file": "/common/images/2f74ae63ae8f00a5.jpg",
+        "bytes": 9946
+      },
+      {
+        "file": "/common/images/8f00996627d9d1f8.jpg",
+        "bytes": 10267
+      },
+      {
+        "file": "/common/images/c485619010751fc9.jpg",
+        "bytes": 10554
+      },
+      {
+        "file": "/common/images/2a9997713c361b3b.jpg",
+        "bytes": 10227
+      },
+      {
+        "file": "/common/images/1c2f6802f6192cae.jpg",
+        "bytes": 9943
+      },
+      {
+        "file": "/common/images/6b9e75ffb55aa3b6.jpg",
+        "bytes": 10106
+      },
+      {
+        "file": "/common/images/30a9bde3c8d1bb1b.jpg",
+        "bytes": 5116
+      },
+      {
+        "file": "/common/images/dbd4eed786db3b97.jpg",
+        "bytes": 2167
+      },
+      {
+        "file": "/common/images/85616129ac8e5142.jpg",
+        "bytes": 11232
+      },
+      {
+        "file": "/common/images/7016d0dfb863ea71.jpg",
+        "bytes": 13479
+      },
+      {
+        "file": "/common/images/a500d3a950dc4d25.jpg",
+        "bytes": 6794
+      },
+      {
+        "file": "/common/images/a6ceb999afcdea59.jpg",
+        "bytes": 7180
+      },
+      {
+        "file": "/common/images/5c349650c7e4ba17.jpg",
+        "bytes": 7160
+      }
+    ],
+    "newBackgroundAssets": [
+      "/common/images/8e4ebb0dd9f68c25.jpg",
+      "/common/images/ec0a6e60b22ceb11.jpg"
+    ],
+    "retainedPortraitAssets": 418,
+    "jpegAssetCount": 405,
+    "removedOtherCharacterReferences": 0,
+    "rootCause": "waku character-window overlay had been baked into backgrounds after non-Atri standing sprites were filtered",
+    "videoScene": "b121:*start/2",
+    "replacementForVideo": "/common/images/d2e0764b2ef90ebf.jpg"
+  },
+  "nativeVideoScene": {
+    "passed": true,
+    "packageSha256": "45bbc73b48a880fd3d37ee0a5a727d25dcf350a634bcd109bb28018dd44b7314",
+    "device": "RW5",
+    "realUIClicks": true,
+    "sceneInjection": false,
+    "videoSceneReached": "b121:*start/2",
+    "speaker": "凛凛花",
+    "nextAndPreviousAroundVideoScene": true,
+    "installedManifestScriptAndChangedChunkPulled": [
+      "manifest-watch.json",
+      "pages/index/index.js",
+      "common/story/b121/start-000.txt",
+      "common/images/d2e0764b2ef90ebf.jpg"
+    ],
+    "legacySlots1And30Restored": false,
+    "physicalDeviceTested": false
+  },
+  "nativePixelAudit": {
+    "passed": true,
+    "packageSha256": "45bbc73b48a880fd3d37ee0a5a727d25dcf350a634bcd109bb28018dd44b7314",
+    "installedFilesMatchExactPackage": true,
+    "scene": "b121:*start/2",
+    "background": "/common/images/d2e0764b2ef90ebf.jpg",
+    "onlyCleanBackgroundNoPortraitLayers": true,
+    "screenshotMeanChannelError": 5.431596952430286,
+    "physicalDeviceTested": false
+  },
+  "storyLogic": {
+    "passed": true,
+    "cases": [
+      {
+        "choices": [
+          "把亚托莉交出去",
+          "静静地看她",
+          "捡起鞋子"
+        ],
+        "ending": "bad",
+        "normalSteps": 9489,
+        "skipSteps": 34
+      },
+      {
+        "choices": [
+          "把亚托莉交出去",
+          "静静地看她",
+          "放着不管"
+        ],
+        "ending": "bad",
+        "normalSteps": 9490,
+        "skipSteps": 34
+      },
+      {
+        "choices": [
+          "把亚托莉交出去",
+          "吻她",
+          "捡起鞋子"
+        ],
+        "ending": "bad",
+        "normalSteps": 9508,
+        "skipSteps": 34
+      },
+      {
+        "choices": [
+          "把亚托莉交出去",
+          "吻她",
+          "放着不管"
+        ],
+        "ending": "bad",
+        "normalSteps": 9509,
+        "skipSteps": 34
+      },
+      {
+        "choices": [
+          "亚托莉先放在我这",
+          "静静地看她",
+          "捡起鞋子"
+        ],
+        "ending": "bad",
+        "normalSteps": 9492,
+        "skipSteps": 34
+      },
+      {
+        "choices": [
+          "亚托莉先放在我这",
+          "静静地看她",
+          "放着不管"
+        ],
+        "ending": "bad",
+        "normalSteps": 9493,
+        "skipSteps": 34
+      },
+      {
+        "choices": [
+          "亚托莉先放在我这",
+          "吻她",
+          "捡起鞋子"
+        ],
+        "ending": "good",
+        "normalSteps": 11809,
+        "skipSteps": 38
+      },
+      {
+        "choices": [
+          "亚托莉先放在我这",
+          "吻她",
+          "放着不管"
+        ],
+        "ending": "bad",
+        "normalSteps": 9512,
+        "skipSteps": 34
+      }
+    ],
+    "note": "Pure JavaScript engine, not device performance or UI validation."
+  },
+  "pageAndAutoReading": {
+    "passed": true,
+    "tests": 9,
+    "cases": [
+      "three speeds and bounded extra time for long paragraphs",
+      "auto remains off at boot; only speed persists; old settings compatible",
+      "wait starts after final glyph; manual completion restarts the whole wait",
+      "menus and save/load selection pause, then resume with a fresh timer",
+      "choices never auto-select; manual selection resumes typing and auto",
+      "touch hold and drag suspend progression without treating scroll as click",
+      "background suspends timers, foreground restarts reading wait",
+      "previous, title, ending, error and destruction cancel automatic reading",
+      "cancelled callbacks cannot advance even when delivered late"
+    ],
+    "actualPageMethods": true,
+    "deterministicClock": true,
+    "choiceFixturesOnlyInUnitTests": true
+  },
+  "baseline": {
+    "version": "ATRI-RW5-0.1.7-轻量版.bin",
+    "sha256": "017ea2f1dca4903f100a0240e62894283f7fa233cf39a86f4d75f86e0cf59917",
+    "compiledPageByteIdentical": true,
+    "appEntryOnlyVersionMetadataChanged": true
+  },
+  "verificationScope": "本版重新跑八种顺读/跳跃策略与页面方法测试，原生UI复查b121/2及邻句/回退；没有冒充重跑本版全部八种原生UI路线。所有正文/姓名/旗标/结局/立绘/字体/图标/CG差分字节一致，仅批准的背景映射变化。",
+  "physicalDevice": {
+    "model": "REDMI Watch 5",
+    "result": "passed_as_reported_by_maintainer",
+    "reportedOn": "2026-11-05",
+    "testedInstallerSha256": "45bbc73b48a880fd3d37ee0a5a727d25dcf350a634bcd109bb28018dd44b7314"
+  }
+}

@@ -80,7 +80,10 @@ def main():
         for item in node['choices']+node['next']:
             assert item['to'] in (None,'@title') or item['to'] in nodes,(key,item)
     graph={'format':1,'initial':'b999:*start','trueEnding':'b701:*start','trueRequires':['b501','b601'],'chapters':chapters,'nodes':nodes}
-    write(OUT/'graph.json',graph);write(OUT/'visual-snapshots.json',visuals)
+    write(OUT/'graph.json',graph);
+    import subprocess,sys
+    subprocess.run([sys.executable,str(ROOT/'tools/apply-choice-policy.py')],check=True)
+    write(OUT/'visual-snapshots.json',visuals)
     report={'chapters':len(chapters),'nodes':len(nodes),'passages':passages,'nullTextRecords':nulls,'uniqueVisualSnapshots':len(visuals),'choiceNodes':sum(bool(n['choices']) for n in nodes.values()),'chunks':sum(len(n['chunks']) for n in nodes.values()),'maxChunkBytes':max(p.stat().st_size for p in (OUT/'story').rglob('*.json')),'status':'intermediate; watch UI and visual mapping pending'}
     write(ROOT/'reports/story-conversion.json',report);print(json.dumps(report,ensure_ascii=False))
 

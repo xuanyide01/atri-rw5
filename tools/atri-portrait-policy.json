@@ -1,0 +1,1965 @@
+{
+  "description": "Only tatr01/tatr02/tatr03 standing portraits; omit all character-window frame overlays while preserving other item/SD/CG art",
+  "atriPortraitWhitelist": {
+    "common/images/c5a10217fc3fc173.png": "tatr03",
+    "common/images/0641920b04aa73de.png": "tatr01",
+    "common/images/83f7a29e9f4aacf4.png": "tatr01",
+    "common/images/45a9da5ca486f1b9.png": "tatr02",
+    "common/images/6d16189bfea3b91c.png": "tatr02",
+    "common/images/6462374ee2696af5.png": "tatr02",
+    "common/images/ab966bad109cbf3c.png": "tatr01",
+    "common/images/ad195eb83ee0e051.png": "tatr01",
+    "common/images/03202ebc29987430.png": "tatr01",
+    "common/images/6fb764c5e081a107.png": "tatr01",
+    "common/images/2e55594b2f9862ba.png": "tatr01",
+    "common/images/eba4fa1ba64e9804.png": "tatr01",
+    "common/images/1f722fdb60e971c1.png": "tatr01",
+    "common/images/fb2270034510f5c7.png": "tatr02",
+    "common/images/cccb7a8bebf94a0f.png": "tatr01",
+    "common/images/1d0aaff00232a24c.png": "tatr01",
+    "common/images/9447acbe1ef7dca7.png": "tatr01",
+    "common/images/c8558967db60238b.png": "tatr02",
+    "common/images/28dff57dc9452260.png": "tatr02",
+    "common/images/a4ed1ae65890391b.png": "tatr01",
+    "common/images/f9298ee58ec10030.png": "tatr01",
+    "common/images/69134b2d55956509.png": "tatr01",
+    "common/images/fa6b52636bff3eea.png": "tatr02",
+    "common/images/6805aee8b8afab7c.png": "tatr02",
+    "common/images/ffdd0d12aab75742.png": "tatr02",
+    "common/images/5c46d07e67b720be.png": "tatr01",
+    "common/images/0b3d90660d39d989.png": "tatr02",
+    "common/images/bc25b46fcbfa14ce.png": "tatr02",
+    "common/images/58a0a506671cd0e2.png": "tatr01",
+    "common/images/6ba46d56d3f0991b.png": "tatr01",
+    "common/images/34b368095c864397.png": "tatr01",
+    "common/images/a7bd511fe9bc04df.png": "tatr01",
+    "common/images/de39855033a7092d.png": "tatr01",
+    "common/images/ed4fdae4a30f84e1.png": "tatr02",
+    "common/images/cf7db275b311ad64.png": "tatr01",
+    "common/images/2400b9ef2b1ba243.png": "tatr01",
+    "common/images/e1a6c1a8f8a472b7.png": "tatr02",
+    "common/images/1b76512a9b6bdb02.png": "tatr02",
+    "common/images/57d65be3b92af6a0.png": "tatr01",
+    "common/images/7239a038fd1efe4d.png": "tatr02",
+    "common/images/7b3c5835353e3386.png": "tatr01",
+    "common/images/698d3f5e11333240.png": "tatr01",
+    "common/images/1268b0110881e6bc.png": "tatr01",
+    "common/images/6ee6dd74e0e93ee1.png": "tatr01",
+    "common/images/cb1922dd8237c48c.png": "tatr01",
+    "common/images/9875e0a11112b801.png": "tatr01",
+    "common/images/e4f4b78817b67f11.png": "tatr01",
+    "common/images/6c3db7504084396c.png": "tatr01",
+    "common/images/94c45e780287ebb8.png": "tatr01",
+    "common/images/26d3b20a97366e62.png": "tatr01",
+    "common/images/6f291c457a1dea2f.png": "tatr01",
+    "common/images/9bbac3af7a93b899.png": "tatr01",
+    "common/images/c9179881caeabe66.png": "tatr02",
+    "common/images/19dfaee08ba5de9d.png": "tatr01",
+    "common/images/761e6ba240a9a8dc.png": "tatr02",
+    "common/images/e34f541f83168217.png": "tatr02",
+    "common/images/043401e05fe51b37.png": "tatr01",
+    "common/images/602d16254eea2eb4.png": "tatr01",
+    "common/images/d3db6bb818bf8fa0.png": "tatr01",
+    "common/images/6ecb7dd659df8459.png": "tatr01",
+    "common/images/8fc6c5a93b27385c.png": "tatr01",
+    "common/images/b244810c6e990ac6.png": "tatr01",
+    "common/images/0ccebbd0242a39ca.png": "tatr01",
+    "common/images/b0150401a1e0a98c.png": "tatr02",
+    "common/images/dbbbdd8bd054459e.png": "tatr02",
+    "common/images/2b61c1c19e83f12b.png": "tatr01",
+    "common/images/0a57bafaf028e783.png": "tatr01",
+    "common/images/2305728d4c4b7e6f.png": "tatr01",
+    "common/images/f33be5dbf065da43.png": "tatr01",
+    "common/images/d07b852f9ff30ef9.png": "tatr01",
+    "common/images/ba76d638da01b08e.png": "tatr01",
+    "common/images/bdfe950bc1dc411d.png": "tatr01",
+    "common/images/a0a44f3d0ecf325e.png": "tatr01",
+    "common/images/2299ca4170d6eca9.png": "tatr01",
+    "common/images/102ca2dd5bd77ff2.png": "tatr01",
+    "common/images/93613f80c308f548.png": "tatr01",
+    "common/images/512574ab8f3ad6ad.png": "tatr01",
+    "common/images/8921e366a6a7e4b0.png": "tatr01",
+    "common/images/e44dd002a88264e3.png": "tatr01",
+    "common/images/b9f69d5caabf049a.png": "tatr02",
+    "common/images/2310adb28d15fd1a.png": "tatr01",
+    "common/images/3c6772302210f03b.png": "tatr01",
+    "common/images/80d59f38e2902265.png": "tatr01",
+    "common/images/744e969f712cc0d5.png": "tatr01",
+    "common/images/3ee20e98ede97e6a.png": "tatr01",
+    "common/images/93688023ef21ee0b.png": "tatr01",
+    "common/images/407493ae66ccb288.png": "tatr01",
+    "common/images/39ca93bdf4e05b2d.png": "tatr01",
+    "common/images/979c59827166fbb1.png": "tatr01",
+    "common/images/1fb7e8c8a667998b.png": "tatr01",
+    "common/images/f508ebd17581c293.png": "tatr01",
+    "common/images/d60c3e5dfd5f9b90.png": "tatr01",
+    "common/images/e0b84ef1675cd6f4.png": "tatr01",
+    "common/images/aa7a1a07e05465a7.png": "tatr01",
+    "common/images/ece1c32e13e0b629.png": "tatr01",
+    "common/images/72bcfb291a856ce1.png": "tatr01",
+    "common/images/0a92374340aae864.png": "tatr01",
+    "common/images/c066cdb1f3505451.png": "tatr01",
+    "common/images/cbeffe8177c8f49d.png": "tatr02",
+    "common/images/5bcce7e44cd890be.png": "tatr02",
+    "common/images/4ae4a76cb98ad6b4.png": "tatr01",
+    "common/images/2733bf873d331ec2.png": "tatr01",
+    "common/images/b33462dbae7d086a.png": "tatr01",
+    "common/images/d227efa23c645346.png": "tatr01",
+    "common/images/4da8dada8158af2a.png": "tatr01",
+    "common/images/ebeca63895267ecb.png": "tatr01",
+    "common/images/df1c1dcc671629ca.png": "tatr01",
+    "common/images/de9aed14a9788614.png": "tatr01",
+    "common/images/9278ebd725ab8acc.png": "tatr01",
+    "common/images/952972f84dc88b37.png": "tatr01",
+    "common/images/be76b89eed681a7d.png": "tatr01",
+    "common/images/5b39a5803441b081.png": "tatr01",
+    "common/images/d78f4951d674dd21.png": "tatr01",
+    "common/images/7d77273e4da2f422.png": "tatr01",
+    "common/images/d28b4c1dbd39ccd7.png": "tatr02",
+    "common/images/39a983a914d62b53.png": "tatr01",
+    "common/images/5b4756e642d56e0a.png": "tatr01",
+    "common/images/eef2a76093d412e1.png": "tatr01",
+    "common/images/0b523f8d24fddf49.png": "tatr01",
+    "common/images/77be8c8f86dcde5a.png": "tatr01",
+    "common/images/f0e176c8b9568951.png": "tatr01",
+    "common/images/54a88aa68751d8ae.png": "tatr01",
+    "common/images/7d1c48f59af684a3.png": "tatr01",
+    "common/images/31ab3ec4a7a6f6d0.png": "tatr01",
+    "common/images/2909fe936efa7c57.png": "tatr01",
+    "common/images/0e5ca374ea8c30f5.png": "tatr01",
+    "common/images/9e5009a2874dc0aa.png": "tatr01",
+    "common/images/a347d30c4895d144.png": "tatr01",
+    "common/images/36d65eec176c424d.png": "tatr01",
+    "common/images/af20461fc0086669.png": "tatr01",
+    "common/images/d822c4c499578d36.png": "tatr01",
+    "common/images/10415e04f6b08fd9.png": "tatr01",
+    "common/images/b5da440796232ff2.png": "tatr02",
+    "common/images/53fe00dab5806f5c.png": "tatr01",
+    "common/images/fa4fff827785640a.png": "tatr01",
+    "common/images/53b5ee6d3261daa8.png": "tatr02",
+    "common/images/a0bf3f50a8ef6d12.png": "tatr01",
+    "common/images/4a55fe209915b6ef.png": "tatr01",
+    "common/images/d726dbc0a8d87d2d.png": "tatr01",
+    "common/images/e60c1c3ad3623255.png": "tatr01",
+    "common/images/12c70123060eae67.png": "tatr01",
+    "common/images/218a83dca2bb1471.png": "tatr02",
+    "common/images/1ad9638dbd1e18e4.png": "tatr02",
+    "common/images/1d03dacf3163e4eb.png": "tatr02",
+    "common/images/264065b756d635ba.png": "tatr02",
+    "common/images/4e6ea6b73e7d4ae6.png": "tatr01",
+    "common/images/401905d558fded9f.png": "tatr01",
+    "common/images/0e40623506c433e2.png": "tatr02",
+    "common/images/647ecf1a725b5f52.png": "tatr01",
+    "common/images/75fe890a84d672ba.png": "tatr01",
+    "common/images/a7e95a3cfc172800.png": "tatr01",
+    "common/images/d3b57b6fc26993bc.png": "tatr02",
+    "common/images/52957b6b638034ba.png": "tatr02",
+    "common/images/34e073ca0d9c2b16.png": "tatr01",
+    "common/images/b2481df0b0919236.png": "tatr01",
+    "common/images/9b7f7d406fe7ca79.png": "tatr01",
+    "common/images/08d9f7d5bcf98591.png": "tatr02",
+    "common/images/d48dfa11e1699d4b.png": "tatr01",
+    "common/images/e0e11f68fa8e93da.png": "tatr01",
+    "common/images/3883b49296bb3a4e.png": "tatr01",
+    "common/images/ea1fcb5611a36781.png": "tatr01",
+    "common/images/ecb6a5f2c3dbc241.png": "tatr02",
+    "common/images/a4a8914944d4ab6f.png": "tatr01",
+    "common/images/ded3513567aad755.png": "tatr02",
+    "common/images/8be9e284daf7ea57.png": "tatr01",
+    "common/images/ab589e63c64cdd39.png": "tatr01",
+    "common/images/c18556992e47a96c.png": "tatr02",
+    "common/images/06cc904e57637f8b.png": "tatr02",
+    "common/images/7beb7bb33c363fc8.png": "tatr01",
+    "common/images/5a81938531b7e1cd.png": "tatr01",
+    "common/images/e7256a50dbc690bb.png": "tatr01",
+    "common/images/aa8f7ba1b275b98d.png": "tatr01",
+    "common/images/41d338ac07432ba1.png": "tatr01",
+    "common/images/edbc7b6d6f6561b2.png": "tatr01",
+    "common/images/07d144333027f77a.png": "tatr01",
+    "common/images/9338a2933b7befa8.png": "tatr01",
+    "common/images/1c966237cf456d4b.png": "tatr01",
+    "common/images/db8ffce4feb931a9.png": "tatr01",
+    "common/images/078efdbf68c21c98.png": "tatr02",
+    "common/images/6549d5cb747fbc87.png": "tatr01",
+    "common/images/37511c5a9ab1fba7.png": "tatr01",
+    "common/images/cf7277cdaa5c46c7.png": "tatr01",
+    "common/images/edf1a66245152784.png": "tatr01",
+    "common/images/29a677adbdb2131a.png": "tatr01",
+    "common/images/cace4b3c1b6e3acf.png": "tatr01",
+    "common/images/fea7e87820ab417b.png": "tatr01",
+    "common/images/baf4e8e73ac99287.png": "tatr02",
+    "common/images/5e32842c352d7b2a.png": "tatr01",
+    "common/images/d9f8381bdc064715.png": "tatr02",
+    "common/images/7dc44ccdf9816547.png": "tatr02",
+    "common/images/246eb822ea68c8b9.png": "tatr01",
+    "common/images/3c47a169f7c86ae7.png": "tatr01",
+    "common/images/306088047d29f0d1.png": "tatr01",
+    "common/images/e05ceb972cc630e3.png": "tatr01",
+    "common/images/57878719bc517821.png": "tatr01",
+    "common/images/8ac16d5e193b2654.png": "tatr01",
+    "common/images/6e0b8397b5e5cbb1.png": "tatr01",
+    "common/images/cafbb8c99ea100b9.png": "tatr01",
+    "common/images/f72376e9d33fd2bc.png": "tatr01",
+    "common/images/49e8d5ea8b7c22ca.png": "tatr01",
+    "common/images/4b3766da3b581172.png": "tatr01",
+    "common/images/af7b75cb4aac6fd5.png": "tatr01",
+    "common/images/65e50b7a9ce46f06.png": "tatr01",
+    "common/images/aa2e4c136ee1e654.png": "tatr01",
+    "common/images/3ce9330dca47586c.png": "tatr02",
+    "common/images/ba4eb41d0fc585ae.png": "tatr01",
+    "common/images/a52d30d909da1461.png": "tatr01",
+    "common/images/96d450c487c069a6.png": "tatr01",
+    "common/images/609e2777d35a03d1.png": "tatr01",
+    "common/images/be815893112acd92.png": "tatr02",
+    "common/images/5fe20d57e319c18c.png": "tatr01",
+    "common/images/56450ebed4d747f8.png": "tatr01",
+    "common/images/d66b5816241524f7.png": "tatr01",
+    "common/images/96a32f9ea71a30a5.png": "tatr01",
+    "common/images/ac098e3b92548a5c.png": "tatr01",
+    "common/images/d2e406b1e512f844.png": "tatr01",
+    "common/images/6af12349c63d2801.png": "tatr01",
+    "common/images/3e15f3a01b04dd23.png": "tatr01",
+    "common/images/4f9b9aa23f54545c.png": "tatr01",
+    "common/images/fb7cd9d482e64551.png": "tatr02",
+    "common/images/6fcf25be039cdd34.png": "tatr02",
+    "common/images/07202c7d6b700243.png": "tatr01",
+    "common/images/c48f96ff603da898.png": "tatr01",
+    "common/images/f4890c1e6024c5ef.png": "tatr02",
+    "common/images/96762c2257c25363.png": "tatr02",
+    "common/images/c5f40d9ffed20c22.png": "tatr02",
+    "common/images/08b19fa68127ea82.png": "tatr01",
+    "common/images/7b641b6a6a1c0987.png": "tatr01",
+    "common/images/9d14ab1220b84ad6.png": "tatr01",
+    "common/images/ad326383d8ae0ab8.png": "tatr01",
+    "common/images/8db53ed64035137f.png": "tatr01",
+    "common/images/9a3d65624835171f.png": "tatr01",
+    "common/images/8948688ff1eb5b0f.png": "tatr01",
+    "common/images/3360a64e4ba86303.png": "tatr01",
+    "common/images/ff7b747ef9640e8d.png": "tatr01",
+    "common/images/1ae700cd47fa7f80.png": "tatr01",
+    "common/images/11c0e78856eeaf96.png": "tatr01",
+    "common/images/1a068974a0dbd06f.png": "tatr01",
+    "common/images/78b61ce110c234bb.png": "tatr01",
+    "common/images/c04ad37a613075ee.png": "tatr01",
+    "common/images/d849132ed773e6fb.png": "tatr01",
+    "common/images/4b437db96e22c623.png": "tatr01",
+    "common/images/830ca7367d4c9fc8.png": "tatr01",
+    "common/images/4957f641a24a81db.png": "tatr01",
+    "common/images/944cbd1ad7f44f70.png": "tatr01",
+    "common/images/702866fca519a544.png": "tatr01",
+    "common/images/0adca9e0fe267cab.png": "tatr01",
+    "common/images/e4c9a370c0abd7f0.png": "tatr01",
+    "common/images/d74dd785592f2c5a.png": "tatr01",
+    "common/images/70527c88cad88f63.png": "tatr01",
+    "common/images/1b8571a056b697ab.png": "tatr01",
+    "common/images/76dcfea2ffabe6be.png": "tatr01",
+    "common/images/89cf91b33cfdf252.png": "tatr01",
+    "common/images/51bb67beceff18c5.png": "tatr02",
+    "common/images/510e50262d1f41c9.png": "tatr01",
+    "common/images/0e074d4e79459382.png": "tatr01",
+    "common/images/0f6dfafea471cbe6.png": "tatr01",
+    "common/images/fb2756e92398bd5f.png": "tatr01",
+    "common/images/b2137983e124ff11.png": "tatr02",
+    "common/images/7e736ccd94c441b4.png": "tatr02",
+    "common/images/d9b69dd5b42ef6ed.png": "tatr01",
+    "common/images/4b0951c291d9821b.png": "tatr01",
+    "common/images/5c840dacdaf806ba.png": "tatr01",
+    "common/images/32367f659984c122.png": "tatr01",
+    "common/images/ef270c7ec72eac99.png": "tatr01",
+    "common/images/cc27648c2c739572.png": "tatr01",
+    "common/images/80c1d1d358126595.png": "tatr01",
+    "common/images/e3c47b334a45bd5a.png": "tatr01",
+    "common/images/74dbdc7b07b300a3.png": "tatr01",
+    "common/images/894ea090b26337de.png": "tatr01",
+    "common/images/79ed4cbdcfd8ed1a.png": "tatr01",
+    "common/images/a10d144b0307128d.png": "tatr01",
+    "common/images/969d962019ebe104.png": "tatr02",
+    "common/images/34487c17fff6bc2d.png": "tatr01",
+    "common/images/458549e2fd9c0a39.png": "tatr01",
+    "common/images/a07d840e6cd769bb.png": "tatr01",
+    "common/images/7cac43b14184f9c2.png": "tatr01",
+    "common/images/9fa6e10268af351c.png": "tatr01",
+    "common/images/25449d64980472a3.png": "tatr01",
+    "common/images/6758673d78294509.png": "tatr01",
+    "common/images/19877b4d1ac414fb.png": "tatr01",
+    "common/images/3a7ed5fafb7c6719.png": "tatr01",
+    "common/images/770e308b9f9e35b5.png": "tatr01",
+    "common/images/59717463658ddcbe.png": "tatr01",
+    "common/images/a2d55fe9205d2aaf.png": "tatr01",
+    "common/images/58ee471406fc9f3d.png": "tatr02",
+    "common/images/8ffe20a2ef8e7fbd.png": "tatr01",
+    "common/images/4e1cc3d7f0b6cf42.png": "tatr01",
+    "common/images/9b2a66907cc8db83.png": "tatr01",
+    "common/images/a9f1370b3b6641a0.png": "tatr02",
+    "common/images/6e97793e467137c4.png": "tatr02",
+    "common/images/93275a4962732f1d.png": "tatr01",
+    "common/images/96edceba3241be40.png": "tatr01",
+    "common/images/a35d69dc1d10ddfc.png": "tatr02",
+    "common/images/679782ee21c36391.png": "tatr01",
+    "common/images/137a2091729932a0.png": "tatr01",
+    "common/images/e5893e70ca9bcb6e.png": "tatr01",
+    "common/images/3744d4db4ed35298.png": "tatr01",
+    "common/images/31b05e4c8a4a90de.png": "tatr01",
+    "common/images/ffe8fa70e9958b43.png": "tatr01",
+    "common/images/dd37549e8f5a92fb.png": "tatr02",
+    "common/images/73c467772a88efaa.png": "tatr02",
+    "common/images/2ef8e4fff186438a.png": "tatr02",
+    "common/images/b07d66481d632559.png": "tatr02",
+    "common/images/79388410afe9c1b3.png": "tatr02",
+    "common/images/3c83f3f2c72005c8.png": "tatr02",
+    "common/images/8f7611f50e906c3c.png": "tatr02",
+    "common/images/cecccf3e1123c439.png": "tatr02",
+    "common/images/5501d5a51e580263.png": "tatr02",
+    "common/images/ec04e0611b381b7f.png": "tatr02",
+    "common/images/189c974185672b93.png": "tatr02",
+    "common/images/d90b0fcf41dffda4.png": "tatr02",
+    "common/images/73beee48455d8dc1.png": "tatr02",
+    "common/images/bc616464e38b828f.png": "tatr01",
+    "common/images/546fdd7e699b1606.png": "tatr02",
+    "common/images/da499420203298af.png": "tatr01",
+    "common/images/6a486d89046eae5c.png": "tatr01",
+    "common/images/f6ef37c769b8a4a5.png": "tatr01",
+    "common/images/faec39f1286c7e89.png": "tatr01",
+    "common/images/2c0228b8a6ecdca7.png": "tatr01",
+    "common/images/b6926bdc4b506be2.png": "tatr02",
+    "common/images/e0408469f5b605a8.png": "tatr02",
+    "common/images/1690b9240df955d3.png": "tatr02",
+    "common/images/287ad3f7331e8b12.png": "tatr01",
+    "common/images/83364c3ba0401664.png": "tatr01",
+    "common/images/a2bd14955551e518.png": "tatr02",
+    "common/images/adc88850bbce1873.png": "tatr01",
+    "common/images/8208d57235c5155e.png": "tatr01",
+    "common/images/86dadef443d73526.png": "tatr01",
+    "common/images/9a42727c71c43839.png": "tatr01",
+    "common/images/b118738511c01706.png": "tatr01",
+    "common/images/d0321777be59c46e.png": "tatr01",
+    "common/images/9ec17307e40ed4a3.png": "tatr01",
+    "common/images/85fa374d27ae2914.png": "tatr01",
+    "common/images/d415a35705fa5ab2.png": "tatr01",
+    "common/images/f5a839ded1cd0590.png": "tatr01",
+    "common/images/1045b0090c29d6c6.png": "tatr01",
+    "common/images/42a096b108b1758c.png": "tatr02",
+    "common/images/8b282564a88f1ba3.png": "tatr02",
+    "common/images/0f02c852baee27d6.png": "tatr01",
+    "common/images/0fb197f7e4106cc6.png": "tatr01",
+    "common/images/7913f420b10ff70a.png": "tatr02",
+    "common/images/1003a664f6ab6a79.png": "tatr01",
+    "common/images/b34024eab72f419f.png": "tatr01",
+    "common/images/7cfb05f347e6eee8.png": "tatr01",
+    "common/images/1e76d7617abc61a0.png": "tatr01",
+    "common/images/fa57e8d0f5860162.png": "tatr01",
+    "common/images/6db9834d5189aa19.png": "tatr01",
+    "common/images/cc0d09680866d816.png": "tatr01",
+    "common/images/cfc2a6255025d999.png": "tatr01",
+    "common/images/95ea3682ade34a71.png": "tatr02",
+    "common/images/7447fe44ac19a5b5.png": "tatr01",
+    "common/images/8d1a742105b7c8bc.png": "tatr01",
+    "common/images/1f25f4377022a9b4.png": "tatr01",
+    "common/images/fd84ef924efecc52.png": "tatr02",
+    "common/images/e74e6396db05044f.png": "tatr01",
+    "common/images/e31d3aab9f8c4d77.png": "tatr01",
+    "common/images/276a409588eed3c8.png": "tatr01",
+    "common/images/6c84dbf13a80d5f3.png": "tatr01",
+    "common/images/d11b5847fede658b.png": "tatr02",
+    "common/images/df27d8da7218b9d8.png": "tatr01",
+    "common/images/9290d29b9f86065d.png": "tatr01",
+    "common/images/c4a472c0765058b3.png": "tatr01",
+    "common/images/a42de4fc0432c787.png": "tatr01",
+    "common/images/91a0dfd553d87965.png": "tatr01",
+    "common/images/51b9a1fe44596ac2.png": "tatr01",
+    "common/images/a180428aeae2595a.png": "tatr01",
+    "common/images/452a6ef2de938c19.png": "tatr01",
+    "common/images/24d26ac2249c2e93.png": "tatr02",
+    "common/images/4253b30ecc9808e4.png": "tatr02",
+    "common/images/ba1c006623a08c58.png": "tatr02",
+    "common/images/9598a4b1b36aa7a6.png": "tatr01",
+    "common/images/ea32325603ce36ed.png": "tatr02",
+    "common/images/ebc6b0a373bdb63a.png": "tatr01",
+    "common/images/fb279e6c13c044ec.png": "tatr01",
+    "common/images/d96d86edcaac9e95.png": "tatr01",
+    "common/images/afcca854c91ea8bc.png": "tatr01",
+    "common/images/47806737b665cec5.png": "tatr01",
+    "common/images/7f33310db1e3c081.png": "tatr01",
+    "common/images/e56cb127eb26eecf.png": "tatr02",
+    "common/images/aee57253627f7fa0.png": "tatr01",
+    "common/images/0a9702c07bca7ee0.png": "tatr01",
+    "common/images/ad2866f0ba888128.png": "tatr01",
+    "common/images/2ce2787fde3ff953.png": "tatr01",
+    "common/images/0e3b329eb19e05ec.png": "tatr02",
+    "common/images/cecb89bff1c4465a.png": "tatr01",
+    "common/images/a64aeef5caad5039.png": "tatr02",
+    "common/images/d403e41ca673a6d6.png": "tatr02",
+    "common/images/dec128302ee54306.png": "tatr01",
+    "common/images/7f30ad312f702161.png": "tatr02",
+    "common/images/f0e9cf53ef76e998.png": "tatr02",
+    "common/images/b0a6f9fd5bbe7b82.png": "tatr02",
+    "common/images/07261a3b52d45c5c.png": "tatr01",
+    "common/images/f9935ae3ad8c72a4.png": "tatr02",
+    "common/images/dde32d47a680cb52.png": "tatr02",
+    "common/images/e819e06fc3131ac7.png": "tatr01",
+    "common/images/c63acf74c47ed9f7.png": "tatr01",
+    "common/images/c5232918e9b6dd85.png": "tatr02",
+    "common/images/2f205a1c704319fc.png": "tatr01",
+    "common/images/edeb6a94215f6e26.png": "tatr01",
+    "common/images/8285997cb8b1ca42.png": "tatr01",
+    "common/images/8f3792d2eba06f90.png": "tatr01",
+    "common/images/134cfa1d9fddac3a.png": "tatr01",
+    "common/images/4d36cb2c009909f1.png": "tatr02",
+    "common/images/fe923815d257d2ad.png": "tatr01",
+    "common/images/d37ad8b4ca3c88bf.png": "tatr01",
+    "common/images/0420e39cc5730fbe.png": "tatr02",
+    "common/images/09368f6155c8fcc0.png": "tatr01",
+    "common/images/ba842d8ff6d03d13.png": "tatr01",
+    "common/images/0f9fd8e45ec0de4f.png": "tatr01",
+    "common/images/b60ea315028160ad.png": "tatr01",
+    "common/images/388d995e5faf684f.png": "tatr01",
+    "common/images/504a1ecc23e8309f.png": "tatr02",
+    "common/images/caf0b9b5c2474525.png": "tatr02",
+    "common/images/9111fb42991b68b8.png": "tatr02",
+    "common/images/25daa9dbaeeb1b3f.png": "tatr02",
+    "common/images/8e7e07f404bec3fe.png": "tatr01",
+    "common/images/016b4570821368fe.png": "tatr01"
+  },
+  "backgroundReplacements": {
+    "/common/images/66ce804544da344b.jpg": "/common/images/89bb90fdac540ee8.jpg",
+    "/common/images/65879ee431f32c53.jpg": "/common/images/ae61266170bb7bab.jpg",
+    "/common/images/a43d9765cf7a2544.jpg": "/common/images/1c902f7413f89547.jpg",
+    "/common/images/64c68189282d11c7.jpg": "/common/images/1c902f7413f89547.jpg",
+    "/common/images/42276dc993f0be0f.jpg": "/common/images/d7c7b1f7e4ff45df.jpg",
+    "/common/images/db8041d50dfae3b2.jpg": "/common/images/29fa90bca82f5633.jpg",
+    "/common/images/f562e16b4c58b0f3.jpg": "/common/images/29fa90bca82f5633.jpg",
+    "/common/images/719fe0aa0e5e704b.jpg": "/common/images/105a682fa5afa2ce.jpg",
+    "/common/images/c75f4ad53ec79f30.jpg": "/common/images/fb0885c806e7576b.jpg",
+    "/common/images/f9f8f20e42569ba1.jpg": "/common/images/fb0885c806e7576b.jpg",
+    "/common/images/8a0debc76ac15199.jpg": "/common/images/57fcf06f3e8fa313.jpg",
+    "/common/images/bda88cd340549788.jpg": "/common/images/e25bb04a02e280df.jpg",
+    "/common/images/5315edb10e670625.jpg": "/common/images/d05a8835da8b8341.jpg",
+    "/common/images/0ef28ce878ec080a.jpg": "/common/images/d05a8835da8b8341.jpg",
+    "/common/images/7f619422c44af128.jpg": "/common/images/d05a8835da8b8341.jpg",
+    "/common/images/c44d6588eebe19a0.jpg": "/common/images/1d44e4d5dcb11ef3.jpg",
+    "/common/images/9f6726a129722847.jpg": "/common/images/e91d7f38caca6521.jpg",
+    "/common/images/a3651f2298925675.jpg": "/common/images/e91d7f38caca6521.jpg",
+    "/common/images/439013870eb2f6b8.jpg": "/common/images/f14c5da79b2c6edc.jpg",
+    "/common/images/cbf568f3b4e51098.jpg": "/common/images/f14c5da79b2c6edc.jpg",
+    "/common/images/e9e0417f85ed5707.jpg": "/common/images/cf00c09f5c899e01.jpg",
+    "/common/images/0d2bb4be1dda8a2b.jpg": "/common/images/d2e0764b2ef90ebf.jpg",
+    "/common/images/db0a4e0c398c5153.jpg": "/common/images/105a682fa5afa2ce.jpg",
+    "/common/images/6241bf58d59b86fe.jpg": "/common/images/105a682fa5afa2ce.jpg",
+    "/common/images/3342d688279ab667.jpg": "/common/images/0898fe9c55e3f378.jpg",
+    "/common/images/39f9a13ca63e5b45.jpg": "/common/images/196cdc434c3da778.jpg",
+    "/common/images/df4eb4d244d521b9.jpg": "/common/images/1e24787b2dd30562.jpg",
+    "/common/images/2afe1079631032fa.jpg": "/common/images/dbdb373c0f177c11.jpg",
+    "/common/images/12617ad49b67503e.jpg": "/common/images/dbdb373c0f177c11.jpg",
+    "/common/images/fae2e874b16aa307.jpg": "/common/images/196cdc434c3da778.jpg",
+    "/common/images/4e72808d36a4a1e3.jpg": "/common/images/a090a113f0e88d9a.jpg",
+    "/common/images/45d455a4b25d067c.jpg": "/common/images/238cfe24ec5863c3.jpg",
+    "/common/images/d35e5e3099c3e266.jpg": "/common/images/8e4ebb0dd9f68c25.jpg",
+    "/common/images/adcee17833269bca.jpg": "/common/images/85ead31fa4e1ce12.jpg",
+    "/common/images/6cb5803fc9182ab1.jpg": "/common/images/f14c5da79b2c6edc.jpg",
+    "/common/images/9c3e88877d274070.jpg": "/common/images/4a4fd9aab07715d6.jpg",
+    "/common/images/06ce27501e64bbea.jpg": "/common/images/27c65886f4816a63.jpg",
+    "/common/images/e0414e71fbc4348e.jpg": "/common/images/7c33410259e2785c.jpg",
+    "/common/images/2a2a47053d0fb28f.jpg": "/common/images/7c33410259e2785c.jpg",
+    "/common/images/7842447889bd9a36.jpg": "/common/images/41504b2c83f469b9.jpg",
+    "/common/images/8341e32b5fee6c06.jpg": "/common/images/4b02e8f7b80a10f4.jpg",
+    "/common/images/61d68c15b6823592.jpg": "/common/images/f46f594e4ea15d9e.jpg",
+    "/common/images/845b554eb217fa8d.jpg": "/common/images/ec0a6e60b22ceb11.jpg",
+    "/common/images/7dbb579d8d05e660.jpg": "/common/images/01fe46917221f76a.jpg",
+    "/common/images/02750359cbb4e69b.jpg": "/common/images/f8d90cc35271a3bc.jpg",
+    "/common/images/89507d0ade17a11d.jpg": "/common/images/00901b7dde29545d.jpg",
+    "/common/images/d988a6843f7e4403.jpg": "/common/images/146bb46e86e5d277.jpg",
+    "/common/images/305f8f4c0f00e594.jpg": "/common/images/31e7a6a623662e8e.jpg",
+    "/common/images/843857ebd90dd6bf.jpg": "/common/images/1e49ce0fceeab3cd.jpg",
+    "/common/images/d911a0d644f4c15c.jpg": "/common/images/1e49ce0fceeab3cd.jpg",
+    "/common/images/4243330ad32c663f.jpg": "/common/images/99eb7261f569a953.jpg",
+    "/common/images/9ada0f3d5683e0c1.jpg": "/common/images/6071daee3307be5f.jpg",
+    "/common/images/f2b88b9d13da9ea1.jpg": "/common/images/6071daee3307be5f.jpg",
+    "/common/images/2f74ae63ae8f00a5.jpg": "/common/images/768c463da71e18e5.jpg",
+    "/common/images/8f00996627d9d1f8.jpg": "/common/images/768c463da71e18e5.jpg",
+    "/common/images/c485619010751fc9.jpg": "/common/images/ae61266170bb7bab.jpg",
+    "/common/images/2a9997713c361b3b.jpg": "/common/images/c422006a868f8d01.jpg",
+    "/common/images/1c2f6802f6192cae.jpg": "/common/images/c422006a868f8d01.jpg",
+    "/common/images/6b9e75ffb55aa3b6.jpg": "/common/images/27c65886f4816a63.jpg",
+    "/common/images/30a9bde3c8d1bb1b.jpg": "/common/images/ace2588e1216960a.jpg",
+    "/common/images/dbd4eed786db3b97.jpg": "/common/images/dd0107cef8c8ec66.jpg",
+    "/common/images/85616129ac8e5142.jpg": "/common/images/e8ea000a9b386f9b.jpg",
+    "/common/images/7016d0dfb863ea71.jpg": "/common/images/b1c9926a6beaadb1.jpg",
+    "/common/images/a500d3a950dc4d25.jpg": "/common/images/9810f25ff5aae056.jpg",
+    "/common/images/a6ceb999afcdea59.jpg": "/common/images/e491d782dfdf1763.jpg",
+    "/common/images/801db3ad57403029.jpg": "/common/images/801db3ad57403029.jpg",
+    "/common/images/5c349650c7e4ba17.jpg": "/common/images/801db3ad57403029.jpg"
+  },
+  "sourceSnapshotCorrections": [
+    {
+      "snapshot": "4e9be763f56f7936e059",
+      "old": "/common/images/66ce804544da344b.jpg",
+      "new": "/common/images/89bb90fdac540ee8.jpg",
+      "primary": "bg001ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "7004c56aa4c393b43dd1",
+      "old": "/common/images/65879ee431f32c53.jpg",
+      "new": "/common/images/ae61266170bb7bab.jpg",
+      "primary": "bg003all",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "9b2773a31948cd6148b2",
+      "old": "/common/images/65879ee431f32c53.jpg",
+      "new": "/common/images/ae61266170bb7bab.jpg",
+      "primary": "bg003all",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "42c963e8ca16c3828068",
+      "old": "/common/images/a43d9765cf7a2544.jpg",
+      "new": "/common/images/1c902f7413f89547.jpg",
+      "primary": "bg001d",
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "726a9a1d2e2d07405af9",
+      "old": "/common/images/a43d9765cf7a2544.jpg",
+      "new": "/common/images/1c902f7413f89547.jpg",
+      "primary": "bg001d",
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "9dedfd5348c03ee47343",
+      "old": "/common/images/64c68189282d11c7.jpg",
+      "new": "/common/images/1c902f7413f89547.jpg",
+      "primary": "bg001d",
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "ea086905ee59a9a564f7",
+      "old": "/common/images/64c68189282d11c7.jpg",
+      "new": "/common/images/1c902f7413f89547.jpg",
+      "primary": "bg001d",
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "6726dace3528b83a5bc8",
+      "old": "/common/images/42276dc993f0be0f.jpg",
+      "new": "/common/images/d7c7b1f7e4ff45df.jpg",
+      "primary": "bg001dll",
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "48aeb1930816c7221764",
+      "old": "/common/images/db8041d50dfae3b2.jpg",
+      "new": "/common/images/29fa90bca82f5633.jpg",
+      "primary": "bg017cl",
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "77e22b569e81ff5058f8",
+      "old": "/common/images/db8041d50dfae3b2.jpg",
+      "new": "/common/images/29fa90bca82f5633.jpg",
+      "primary": "bg017cl",
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "ad4435bb7e5753fc805f",
+      "old": "/common/images/db8041d50dfae3b2.jpg",
+      "new": "/common/images/29fa90bca82f5633.jpg",
+      "primary": "bg017cl",
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "1fb169aad6d297047a95",
+      "old": "/common/images/db8041d50dfae3b2.jpg",
+      "new": "/common/images/29fa90bca82f5633.jpg",
+      "primary": "bg017cl",
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "f5c3ea09a2c4dad01604",
+      "old": "/common/images/f562e16b4c58b0f3.jpg",
+      "new": "/common/images/29fa90bca82f5633.jpg",
+      "primary": "bg017cl",
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "a9acd5d317df714d061c",
+      "old": "/common/images/f562e16b4c58b0f3.jpg",
+      "new": "/common/images/29fa90bca82f5633.jpg",
+      "primary": "bg017cl",
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "626d8a316aaa6efc87db",
+      "old": "/common/images/f562e16b4c58b0f3.jpg",
+      "new": "/common/images/29fa90bca82f5633.jpg",
+      "primary": "bg017cl",
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "fd161fc68547fe7e22f7",
+      "old": "/common/images/f562e16b4c58b0f3.jpg",
+      "new": "/common/images/29fa90bca82f5633.jpg",
+      "primary": "bg017cl",
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "1a69c5fc3199cd11b2d7",
+      "old": "/common/images/f562e16b4c58b0f3.jpg",
+      "new": "/common/images/29fa90bca82f5633.jpg",
+      "primary": "bg017cl",
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "db19b7d99213854cbeb9",
+      "old": "/common/images/f562e16b4c58b0f3.jpg",
+      "new": "/common/images/29fa90bca82f5633.jpg",
+      "primary": "bg017cl",
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "1f11176d7427fcad10f7",
+      "old": "/common/images/719fe0aa0e5e704b.jpg",
+      "new": "/common/images/105a682fa5afa2ce.jpg",
+      "primary": null,
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "ce3081283e99cdc5ba92",
+      "old": "/common/images/c75f4ad53ec79f30.jpg",
+      "new": "/common/images/fb0885c806e7576b.jpg",
+      "primary": "bg006nll",
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "de610f3723c53340cbd1",
+      "old": "/common/images/c75f4ad53ec79f30.jpg",
+      "new": "/common/images/fb0885c806e7576b.jpg",
+      "primary": "bg006nll",
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "a0931bc19b943f0c84c7",
+      "old": "/common/images/f9f8f20e42569ba1.jpg",
+      "new": "/common/images/fb0885c806e7576b.jpg",
+      "primary": "bg006nll",
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "9c60930a73c78fb2d0e3",
+      "old": "/common/images/f9f8f20e42569ba1.jpg",
+      "new": "/common/images/fb0885c806e7576b.jpg",
+      "primary": "bg006nll",
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "58d886ba7ddbd63fa789",
+      "old": "/common/images/f9f8f20e42569ba1.jpg",
+      "new": "/common/images/fb0885c806e7576b.jpg",
+      "primary": "bg006nll",
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "7d452807c3cd4cf20b65",
+      "old": "/common/images/f9f8f20e42569ba1.jpg",
+      "new": "/common/images/fb0885c806e7576b.jpg",
+      "primary": "bg006nll",
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "0c6e228872ae105606c3",
+      "old": "/common/images/8a0debc76ac15199.jpg",
+      "new": "/common/images/57fcf06f3e8fa313.jpg",
+      "primary": "bg003al",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "ecaa1ef4b1fd65d77416",
+      "old": "/common/images/bda88cd340549788.jpg",
+      "new": "/common/images/e25bb04a02e280df.jpg",
+      "primary": "bg008",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "7e207ca0c0e1d10debcb",
+      "old": "/common/images/5315edb10e670625.jpg",
+      "new": "/common/images/d05a8835da8b8341.jpg",
+      "primary": "bg008ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "7e9e30ace665ca669751",
+      "old": "/common/images/0ef28ce878ec080a.jpg",
+      "new": "/common/images/d05a8835da8b8341.jpg",
+      "primary": "bg008ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "336fece81e93096f6785",
+      "old": "/common/images/7f619422c44af128.jpg",
+      "new": "/common/images/d05a8835da8b8341.jpg",
+      "primary": "bg008ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "335660f9fefa739b5ddd",
+      "old": "/common/images/7f619422c44af128.jpg",
+      "new": "/common/images/d05a8835da8b8341.jpg",
+      "primary": "bg008ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "33aae2e98cbf5ad3a4ab",
+      "old": "/common/images/7f619422c44af128.jpg",
+      "new": "/common/images/d05a8835da8b8341.jpg",
+      "primary": "bg008ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "57c2e0b9bc12bc022bb3",
+      "old": "/common/images/7f619422c44af128.jpg",
+      "new": "/common/images/d05a8835da8b8341.jpg",
+      "primary": "bg008ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "c46fc8782b383c086e2e",
+      "old": "/common/images/5315edb10e670625.jpg",
+      "new": "/common/images/d05a8835da8b8341.jpg",
+      "primary": "bg008ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "4c3dc7f6a134ccc42b80",
+      "old": "/common/images/c44d6588eebe19a0.jpg",
+      "new": "/common/images/1d44e4d5dcb11ef3.jpg",
+      "primary": "bg003all",
+      "preservedOverlays": [
+        [
+          "item032b_15",
+          {
+            "ypos": 17,
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "57c46c5c6b0605eb8197",
+      "old": "/common/images/9f6726a129722847.jpg",
+      "new": "/common/images/e91d7f38caca6521.jpg",
+      "primary": "bg004l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "970fb52006bfe77ac0ea",
+      "old": "/common/images/9f6726a129722847.jpg",
+      "new": "/common/images/e91d7f38caca6521.jpg",
+      "primary": "bg004l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "bbda4247172b69b8ab43",
+      "old": "/common/images/9f6726a129722847.jpg",
+      "new": "/common/images/e91d7f38caca6521.jpg",
+      "primary": "bg004l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "504347e00fecced38807",
+      "old": "/common/images/9f6726a129722847.jpg",
+      "new": "/common/images/e91d7f38caca6521.jpg",
+      "primary": "bg004l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "bf962ce48441cea8d485",
+      "old": "/common/images/9f6726a129722847.jpg",
+      "new": "/common/images/e91d7f38caca6521.jpg",
+      "primary": "bg004l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "88a9e51198045365fe35",
+      "old": "/common/images/9f6726a129722847.jpg",
+      "new": "/common/images/e91d7f38caca6521.jpg",
+      "primary": "bg004l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "f57f6c63829b4a1e6138",
+      "old": "/common/images/a3651f2298925675.jpg",
+      "new": "/common/images/e91d7f38caca6521.jpg",
+      "primary": "bg004l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "fc3cd634622f2d3b3898",
+      "old": "/common/images/a3651f2298925675.jpg",
+      "new": "/common/images/e91d7f38caca6521.jpg",
+      "primary": "bg004l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "bcbfc36fe4aeefb55172",
+      "old": "/common/images/439013870eb2f6b8.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "388bd0520f5919151d57",
+      "old": "/common/images/439013870eb2f6b8.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "63165da044cb2923b517",
+      "old": "/common/images/439013870eb2f6b8.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "6e549973f5d896747dd7",
+      "old": "/common/images/439013870eb2f6b8.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "b1c5fac3c9442443d41b",
+      "old": "/common/images/439013870eb2f6b8.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "07827543729509667708",
+      "old": "/common/images/439013870eb2f6b8.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "08b705a9c82b582b6da7",
+      "old": "/common/images/439013870eb2f6b8.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "22d9fc99c23c4727b1a9",
+      "old": "/common/images/cbf568f3b4e51098.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "06cf823adaf4069ac06f",
+      "old": "/common/images/e9e0417f85ed5707.jpg",
+      "new": "/common/images/cf00c09f5c899e01.jpg",
+      "primary": "bg004n",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "cddc572ef45e9bf407db",
+      "old": "/common/images/e9e0417f85ed5707.jpg",
+      "new": "/common/images/cf00c09f5c899e01.jpg",
+      "primary": "bg004n",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "63796ce44af3d4d21712",
+      "old": "/common/images/0d2bb4be1dda8a2b.jpg",
+      "new": "/common/images/d2e0764b2ef90ebf.jpg",
+      "primary": "bg001l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "7bfa4a57bffbb9724a55",
+      "old": "/common/images/0d2bb4be1dda8a2b.jpg",
+      "new": "/common/images/d2e0764b2ef90ebf.jpg",
+      "primary": "bg001l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "785091e3466d24606ede",
+      "old": "/common/images/db0a4e0c398c5153.jpg",
+      "new": "/common/images/105a682fa5afa2ce.jpg",
+      "primary": null,
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "order": 1,
+            "zpos": 233.33333333333337
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "a2107454f0feec9e9afe",
+      "old": "/common/images/6241bf58d59b86fe.jpg",
+      "new": "/common/images/105a682fa5afa2ce.jpg",
+      "primary": null,
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "order": 1,
+            "zpos": 233.33333333333337
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "605fdb601f8ee5600d52",
+      "old": "/common/images/6241bf58d59b86fe.jpg",
+      "new": "/common/images/105a682fa5afa2ce.jpg",
+      "primary": null,
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "order": 1,
+            "zpos": 233.33333333333337
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "73965ad6feb63d47cc04",
+      "old": "/common/images/db0a4e0c398c5153.jpg",
+      "new": "/common/images/105a682fa5afa2ce.jpg",
+      "primary": null,
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "order": 1,
+            "zpos": 233.33333333333337
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "cfe5d8c5dcc6bc2c7e28",
+      "old": "/common/images/db0a4e0c398c5153.jpg",
+      "new": "/common/images/105a682fa5afa2ce.jpg",
+      "primary": null,
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "order": 1,
+            "zpos": 233.33333333333337
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "d1716a1f82bf596ba977",
+      "old": "/common/images/3342d688279ab667.jpg",
+      "new": "/common/images/0898fe9c55e3f378.jpg",
+      "primary": "bg009nll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "d5c5b8798ac6b0ba7e94",
+      "old": "/common/images/39f9a13ca63e5b45.jpg",
+      "new": "/common/images/196cdc434c3da778.jpg",
+      "primary": "bg005ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "6e1779e51a01868cae5b",
+      "old": "/common/images/df4eb4d244d521b9.jpg",
+      "new": "/common/images/1e24787b2dd30562.jpg",
+      "primary": "bg005ell",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "ecaa261a434a78557229",
+      "old": "/common/images/2afe1079631032fa.jpg",
+      "new": "/common/images/dbdb373c0f177c11.jpg",
+      "primary": "bg001del",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "770179f7a2e38fefceab",
+      "old": "/common/images/2afe1079631032fa.jpg",
+      "new": "/common/images/dbdb373c0f177c11.jpg",
+      "primary": "bg001del",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "28ba7df70edba1d5c632",
+      "old": "/common/images/12617ad49b67503e.jpg",
+      "new": "/common/images/dbdb373c0f177c11.jpg",
+      "primary": "bg001del",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "0b7c0efb76820235f196",
+      "old": "/common/images/5315edb10e670625.jpg",
+      "new": "/common/images/d05a8835da8b8341.jpg",
+      "primary": "bg008ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "fc065e5addd80291a80a",
+      "old": "/common/images/fae2e874b16aa307.jpg",
+      "new": "/common/images/196cdc434c3da778.jpg",
+      "primary": "bg005ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "eebb567ecff038827e78",
+      "old": "/common/images/fae2e874b16aa307.jpg",
+      "new": "/common/images/196cdc434c3da778.jpg",
+      "primary": "bg005ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "aabf870b3ed02aac356a",
+      "old": "/common/images/4e72808d36a4a1e3.jpg",
+      "new": "/common/images/a090a113f0e88d9a.jpg",
+      "primary": "bg004nl",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "2c764b7c4c0024d638f4",
+      "old": "/common/images/45d455a4b25d067c.jpg",
+      "new": "/common/images/238cfe24ec5863c3.jpg",
+      "primary": "bg005all",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "abb2fba9c0187b3e07d6",
+      "old": "/common/images/d35e5e3099c3e266.jpg",
+      "new": "/common/images/8e4ebb0dd9f68c25.jpg",
+      "primary": "bg005bell",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "5559e47dfe5913b7eeb1",
+      "old": "/common/images/4e72808d36a4a1e3.jpg",
+      "new": "/common/images/a090a113f0e88d9a.jpg",
+      "primary": "bg004nl",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "4118eab9e0b3f359db32",
+      "old": "/common/images/db0a4e0c398c5153.jpg",
+      "new": "/common/images/105a682fa5afa2ce.jpg",
+      "primary": null,
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": 233.33333333333337
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "755554160b9f1418615a",
+      "old": "/common/images/db0a4e0c398c5153.jpg",
+      "new": "/common/images/105a682fa5afa2ce.jpg",
+      "primary": null,
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": 233.33333333333337
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "f58a1e5f02688945c2e0",
+      "old": "/common/images/db0a4e0c398c5153.jpg",
+      "new": "/common/images/105a682fa5afa2ce.jpg",
+      "primary": null,
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "070baf443e4d40314253",
+      "old": "/common/images/6241bf58d59b86fe.jpg",
+      "new": "/common/images/105a682fa5afa2ce.jpg",
+      "primary": null,
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "46525dad13f4a2c0e3ab",
+      "old": "/common/images/adcee17833269bca.jpg",
+      "new": "/common/images/85ead31fa4e1ce12.jpg",
+      "primary": "bg001dell",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "08c7dae6130834cd7f20",
+      "old": "/common/images/fae2e874b16aa307.jpg",
+      "new": "/common/images/196cdc434c3da778.jpg",
+      "primary": "bg005ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "15bdd6b68df139c4548d",
+      "old": "/common/images/fae2e874b16aa307.jpg",
+      "new": "/common/images/196cdc434c3da778.jpg",
+      "primary": "bg005ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "8ad081ea92ba6b7637cc",
+      "old": "/common/images/6cb5803fc9182ab1.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "c7381f33e42e902e602b",
+      "old": "/common/images/6cb5803fc9182ab1.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "cb88ff7a6b53d59b2950",
+      "old": "/common/images/9c3e88877d274070.jpg",
+      "new": "/common/images/4a4fd9aab07715d6.jpg",
+      "primary": "bg008nl",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "29574e3153e72bb07a7e",
+      "old": "/common/images/9c3e88877d274070.jpg",
+      "new": "/common/images/4a4fd9aab07715d6.jpg",
+      "primary": "bg008nl",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "3ebb14c6c28ba0286aa6",
+      "old": "/common/images/06ce27501e64bbea.jpg",
+      "new": "/common/images/27c65886f4816a63.jpg",
+      "primary": "bg005n2l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "f9131aea95e4071ce72f",
+      "old": "/common/images/06ce27501e64bbea.jpg",
+      "new": "/common/images/27c65886f4816a63.jpg",
+      "primary": "bg005n2l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "13a95b252b1ce6d65978",
+      "old": "/common/images/06ce27501e64bbea.jpg",
+      "new": "/common/images/27c65886f4816a63.jpg",
+      "primary": "bg005n2l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "dd8c2747b626a6988f09",
+      "old": "/common/images/06ce27501e64bbea.jpg",
+      "new": "/common/images/27c65886f4816a63.jpg",
+      "primary": "bg005n2l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "00e0ffed2e870fb0315b",
+      "old": "/common/images/e0414e71fbc4348e.jpg",
+      "new": "/common/images/7c33410259e2785c.jpg",
+      "primary": "bg008l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "920e3dd02a7d5b6ac7b9",
+      "old": "/common/images/e0414e71fbc4348e.jpg",
+      "new": "/common/images/7c33410259e2785c.jpg",
+      "primary": "bg008l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "2a7ede4c189077578a9e",
+      "old": "/common/images/2a2a47053d0fb28f.jpg",
+      "new": "/common/images/7c33410259e2785c.jpg",
+      "primary": "bg008l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "6778777e0172e3b3c7bb",
+      "old": "/common/images/2a2a47053d0fb28f.jpg",
+      "new": "/common/images/7c33410259e2785c.jpg",
+      "primary": "bg008l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "1a1e1b5a2212788bd9bb",
+      "old": "/common/images/0ef28ce878ec080a.jpg",
+      "new": "/common/images/d05a8835da8b8341.jpg",
+      "primary": "bg008ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "f7e7ab83ebfeb7426201",
+      "old": "/common/images/0ef28ce878ec080a.jpg",
+      "new": "/common/images/d05a8835da8b8341.jpg",
+      "primary": "bg008ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "80cf41448980d6a280ee",
+      "old": "/common/images/0ef28ce878ec080a.jpg",
+      "new": "/common/images/d05a8835da8b8341.jpg",
+      "primary": "bg008ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "26cc5b0697e9678ccfa0",
+      "old": "/common/images/439013870eb2f6b8.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "1344c3b1ca4af50ca8a6",
+      "old": "/common/images/439013870eb2f6b8.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "0e2d088effd05b515c94",
+      "old": "/common/images/439013870eb2f6b8.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "81f065043e6e7776c795",
+      "old": "/common/images/7842447889bd9a36.jpg",
+      "new": "/common/images/41504b2c83f469b9.jpg",
+      "primary": "bg017b",
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "b3d2e16b4c7fce75700b",
+      "old": "/common/images/7842447889bd9a36.jpg",
+      "new": "/common/images/41504b2c83f469b9.jpg",
+      "primary": "bg017b",
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "b71a9f664b8fdf2c5f98",
+      "old": "/common/images/8341e32b5fee6c06.jpg",
+      "new": "/common/images/4b02e8f7b80a10f4.jpg",
+      "primary": "bg017fl",
+      "preservedOverlays": [
+        [
+          "item020a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "2f19b40ac0a49b31715a",
+      "old": "/common/images/6cb5803fc9182ab1.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "e84cb279e52b57502ab5",
+      "old": "/common/images/6cb5803fc9182ab1.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "6bb478ebb9599c531f31",
+      "old": "/common/images/6cb5803fc9182ab1.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "7b3626e142ab3e5bb07c",
+      "old": "/common/images/fae2e874b16aa307.jpg",
+      "new": "/common/images/196cdc434c3da778.jpg",
+      "primary": "bg005ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "03277810f94f05c6d128",
+      "old": "/common/images/fae2e874b16aa307.jpg",
+      "new": "/common/images/196cdc434c3da778.jpg",
+      "primary": "bg005ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "6a872f2520854d680886",
+      "old": "/common/images/6cb5803fc9182ab1.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "fd482b9a57b384058a4e",
+      "old": "/common/images/6cb5803fc9182ab1.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "afd6fd4e0cd682d77060",
+      "old": "/common/images/439013870eb2f6b8.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "3ef62187203b2082571b",
+      "old": "/common/images/61d68c15b6823592.jpg",
+      "new": "/common/images/f46f594e4ea15d9e.jpg",
+      "primary": "bg010ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "5e9c074ccc9805eb090d",
+      "old": "/common/images/439013870eb2f6b8.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "606dc7f8557f0faa5290",
+      "old": "/common/images/845b554eb217fa8d.jpg",
+      "new": "/common/images/ec0a6e60b22ceb11.jpg",
+      "primary": "bg003a",
+      "preservedOverlays": [
+        [
+          "item059b",
+          {
+            "zpos": -60.0,
+            "xpos": 320,
+            "zoomy": 130,
+            "ypos": -160,
+            "zoomx": 130
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "7730cf273fe00ae7c3c2",
+      "old": "/common/images/845b554eb217fa8d.jpg",
+      "new": "/common/images/ec0a6e60b22ceb11.jpg",
+      "primary": "bg003a",
+      "preservedOverlays": [
+        [
+          "item059b",
+          {
+            "zpos": -60.0,
+            "xpos": 320,
+            "zoomy": 130,
+            "ypos": -160,
+            "zoomx": 130
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "e7ca6f3846993b5e86c8",
+      "old": "/common/images/845b554eb217fa8d.jpg",
+      "new": "/common/images/ec0a6e60b22ceb11.jpg",
+      "primary": "bg003a",
+      "preservedOverlays": [
+        [
+          "item059b",
+          {
+            "zpos": -60.0,
+            "xpos": 320,
+            "zoomy": 130,
+            "ypos": -160,
+            "zoomx": 130
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "380beb11cc65a6ba5f2b",
+      "old": "/common/images/7dbb579d8d05e660.jpg",
+      "new": "/common/images/01fe46917221f76a.jpg",
+      "primary": "lay_black",
+      "preservedOverlays": [
+        [
+          "item070a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "6210cc87d02489248446",
+      "old": "/common/images/7dbb579d8d05e660.jpg",
+      "new": "/common/images/01fe46917221f76a.jpg",
+      "primary": "lay_black",
+      "preservedOverlays": [
+        [
+          "item070a",
+          {
+            "zpos": -60.0
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "4573c26652b75bb130c0",
+      "old": "/common/images/02750359cbb4e69b.jpg",
+      "new": "/common/images/f8d90cc35271a3bc.jpg",
+      "primary": "bg003ae",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "645c8768a46b906f5589",
+      "old": "/common/images/02750359cbb4e69b.jpg",
+      "new": "/common/images/f8d90cc35271a3bc.jpg",
+      "primary": "bg003ae",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "4cbe7d6535adbb1c596b",
+      "old": "/common/images/89507d0ade17a11d.jpg",
+      "new": "/common/images/00901b7dde29545d.jpg",
+      "primary": "bg012nll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "3688a24d586ea30db570",
+      "old": "/common/images/d988a6843f7e4403.jpg",
+      "new": "/common/images/146bb46e86e5d277.jpg",
+      "primary": "bg001dl",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "6ca91ffd65354a4a4a45",
+      "old": "/common/images/305f8f4c0f00e594.jpg",
+      "new": "/common/images/31e7a6a623662e8e.jpg",
+      "primary": "bg001c",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "340cfbfb2c3b655202b4",
+      "old": "/common/images/305f8f4c0f00e594.jpg",
+      "new": "/common/images/31e7a6a623662e8e.jpg",
+      "primary": "bg001c",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "b664fe6ad0f01c9e3fd8",
+      "old": "/common/images/843857ebd90dd6bf.jpg",
+      "new": "/common/images/1e49ce0fceeab3cd.jpg",
+      "primary": "bg001dll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "d942b69eb42d2a2e017e",
+      "old": "/common/images/843857ebd90dd6bf.jpg",
+      "new": "/common/images/1e49ce0fceeab3cd.jpg",
+      "primary": "bg001dll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "022ec65b369c1a144ec0",
+      "old": "/common/images/d911a0d644f4c15c.jpg",
+      "new": "/common/images/1e49ce0fceeab3cd.jpg",
+      "primary": "bg001dll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "bc0a8a147d0f2905726a",
+      "old": "/common/images/0ef28ce878ec080a.jpg",
+      "new": "/common/images/d05a8835da8b8341.jpg",
+      "primary": "bg008ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "ad60b3c507a02e5fe35e",
+      "old": "/common/images/0ef28ce878ec080a.jpg",
+      "new": "/common/images/d05a8835da8b8341.jpg",
+      "primary": "bg008ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "5c87362c0ba4230d72a8",
+      "old": "/common/images/0ef28ce878ec080a.jpg",
+      "new": "/common/images/d05a8835da8b8341.jpg",
+      "primary": "bg008ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "c7e60619bb5e34adc3a9",
+      "old": "/common/images/0ef28ce878ec080a.jpg",
+      "new": "/common/images/d05a8835da8b8341.jpg",
+      "primary": "bg008ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "4d922aa580dbbaf1126f",
+      "old": "/common/images/4243330ad32c663f.jpg",
+      "new": "/common/images/99eb7261f569a953.jpg",
+      "primary": "bg002n",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "e06b5e8a7c2bff137d61",
+      "old": "/common/images/6cb5803fc9182ab1.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "29344221164cdb05e45e",
+      "old": "/common/images/6cb5803fc9182ab1.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "eec9ed4299f1b2350821",
+      "old": "/common/images/6cb5803fc9182ab1.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "ebf574ce196df5285694",
+      "old": "/common/images/6cb5803fc9182ab1.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "9d9fae4fe6e6b0338977",
+      "old": "/common/images/6cb5803fc9182ab1.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "c4eff61fa3d5e14a2933",
+      "old": "/common/images/6cb5803fc9182ab1.jpg",
+      "new": "/common/images/f14c5da79b2c6edc.jpg",
+      "primary": "bg005l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "f0e58627bdba8c152b36",
+      "old": "/common/images/9ada0f3d5683e0c1.jpg",
+      "new": "/common/images/6071daee3307be5f.jpg",
+      "primary": "bg006ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "db5f32e3096b2f7961fb",
+      "old": "/common/images/f2b88b9d13da9ea1.jpg",
+      "new": "/common/images/6071daee3307be5f.jpg",
+      "primary": "bg006ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "cc3f11e24c7ed77c4be5",
+      "old": "/common/images/f2b88b9d13da9ea1.jpg",
+      "new": "/common/images/6071daee3307be5f.jpg",
+      "primary": "bg006ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "2ef72f7342d03b9c6a2f",
+      "old": "/common/images/2f74ae63ae8f00a5.jpg",
+      "new": "/common/images/768c463da71e18e5.jpg",
+      "primary": "bg004",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "97f779fcf8e107978526",
+      "old": "/common/images/fae2e874b16aa307.jpg",
+      "new": "/common/images/196cdc434c3da778.jpg",
+      "primary": "bg005ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "b6bf9f3f6c6e50a5385f",
+      "old": "/common/images/8f00996627d9d1f8.jpg",
+      "new": "/common/images/768c463da71e18e5.jpg",
+      "primary": "bg004",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "cb83bce9804f513f9020",
+      "old": "/common/images/2f74ae63ae8f00a5.jpg",
+      "new": "/common/images/768c463da71e18e5.jpg",
+      "primary": "bg004",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "068e45add693ab5346e2",
+      "old": "/common/images/c485619010751fc9.jpg",
+      "new": "/common/images/ae61266170bb7bab.jpg",
+      "primary": "bg003all",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "b82ed340f7dd4cf71492",
+      "old": "/common/images/2a9997713c361b3b.jpg",
+      "new": "/common/images/c422006a868f8d01.jpg",
+      "primary": "bg005n2",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "6b66f350bfcfe6605cec",
+      "old": "/common/images/1c2f6802f6192cae.jpg",
+      "new": "/common/images/c422006a868f8d01.jpg",
+      "primary": "bg005n2",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "b63af2130ca48370e0c7",
+      "old": "/common/images/2a9997713c361b3b.jpg",
+      "new": "/common/images/c422006a868f8d01.jpg",
+      "primary": "bg005n2",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "106038724e9c54ca9eca",
+      "old": "/common/images/6b9e75ffb55aa3b6.jpg",
+      "new": "/common/images/27c65886f4816a63.jpg",
+      "primary": "bg005n2l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "d0cd8c60f3317c787502",
+      "old": "/common/images/6b9e75ffb55aa3b6.jpg",
+      "new": "/common/images/27c65886f4816a63.jpg",
+      "primary": "bg005n2l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "2278edd2593064934525",
+      "old": "/common/images/6b9e75ffb55aa3b6.jpg",
+      "new": "/common/images/27c65886f4816a63.jpg",
+      "primary": "bg005n2l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "b18a95d5e7381663a32b",
+      "old": "/common/images/6b9e75ffb55aa3b6.jpg",
+      "new": "/common/images/27c65886f4816a63.jpg",
+      "primary": "bg005n2l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "e1e4b6c5724730b36d28",
+      "old": "/common/images/30a9bde3c8d1bb1b.jpg",
+      "new": "/common/images/ace2588e1216960a.jpg",
+      "primary": "bg007nl",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "67a03872e51c19691730",
+      "old": "/common/images/dbd4eed786db3b97.jpg",
+      "new": "/common/images/dd0107cef8c8ec66.jpg",
+      "primary": "bg015n2l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "359d0f2712d2b1d848f1",
+      "old": "/common/images/dbd4eed786db3b97.jpg",
+      "new": "/common/images/dd0107cef8c8ec66.jpg",
+      "primary": "bg015n2l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "994c9b54eb589cea5efb",
+      "old": "/common/images/85616129ac8e5142.jpg",
+      "new": "/common/images/e8ea000a9b386f9b.jpg",
+      "primary": "bg002",
+      "preservedOverlays": [
+        [
+          "item039b",
+          {
+            "zpos": -60.0,
+            "zoomy": 90,
+            "ypos": -10,
+            "zoomx": 90
+          }
+        ]
+      ]
+    },
+    {
+      "snapshot": "97a4f2dcb829b6a032a0",
+      "old": "/common/images/7016d0dfb863ea71.jpg",
+      "new": "/common/images/b1c9926a6beaadb1.jpg",
+      "primary": "bg002ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "a8d2992bcbe779419f46",
+      "old": "/common/images/7016d0dfb863ea71.jpg",
+      "new": "/common/images/b1c9926a6beaadb1.jpg",
+      "primary": "bg002ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "13caa109c4a5536a5daf",
+      "old": "/common/images/a500d3a950dc4d25.jpg",
+      "new": "/common/images/9810f25ff5aae056.jpg",
+      "primary": "bg003afll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "56199bcaff791d7cdb0c",
+      "old": "/common/images/a6ceb999afcdea59.jpg",
+      "new": "/common/images/e491d782dfdf1763.jpg",
+      "primary": "bg012l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "e8f571fb29ba5455735c",
+      "old": "/common/images/a6ceb999afcdea59.jpg",
+      "new": "/common/images/e491d782dfdf1763.jpg",
+      "primary": "bg012l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "e0c24cb3c8c72163a99c",
+      "old": "/common/images/a6ceb999afcdea59.jpg",
+      "new": "/common/images/e491d782dfdf1763.jpg",
+      "primary": "bg012l",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "fe7b8457bdc7b3451187",
+      "old": "/common/images/801db3ad57403029.jpg",
+      "new": "/common/images/801db3ad57403029.jpg",
+      "primary": "bg012ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "618ef84b2312991a066b",
+      "old": "/common/images/5c349650c7e4ba17.jpg",
+      "new": "/common/images/801db3ad57403029.jpg",
+      "primary": "bg012ll",
+      "preservedOverlays": []
+    },
+    {
+      "snapshot": "72e72d913b54f7e8130d",
+      "old": "/common/images/30a9bde3c8d1bb1b.jpg",
+      "new": "/common/images/ace2588e1216960a.jpg",
+      "primary": "bg007nl",
+      "preservedOverlays": []
+    }
+  ],
+  "sourceImagesAdlerVerified": true,
+  "originalInputs": {
+    "bg003a.png": {
+      "sha256": "c98d2df98228ea0981391840ab7c4e69ac86bdf0594a84933d649210e94537c9",
+      "adler32": 1742575435
+    },
+    "LL/bg005bell.jpg": {
+      "sha256": "58de884ecc773a9aa41c8f003ead431f2a38aee4377b8d896239da14f874a9f3",
+      "adler32": 2777988414
+    },
+    "item/item059b.png": {
+      "sha256": "45744ed2c34557da527817faccecf200810e24fdc168dae3b597eab8f6aab464",
+      "adler32": 3555553065
+    }
+  }
+}

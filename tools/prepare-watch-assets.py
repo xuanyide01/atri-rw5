@@ -13,7 +13,7 @@ portraits=json.loads((PROBE/'portraits/index.json').read_text('utf8'))
 snapshots=json.loads((ROOT/'converted/visual-snapshots.json').read_text('utf8'))
 aliases={'lay_white':'#ffffff','lay_black':'#000000'}
 ignored=set();cached={};stored={};portrait_assets={};meta={};provenance={}
-presentation=re.compile(r'^(?:clip_|mask_|str\d|bgi_|bge|color,|ノイズ|煙|雨|smoke)',re.I)
+presentation=re.compile(r'^(?:waku$|clip_|mask_|str\d|bgi_|bge|color,|ノイズ|煙|雨|smoke)',re.I)
 
 def store(image,transparent=False,colors=160):
     buffer=io.BytesIO()

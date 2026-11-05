@@ -10,7 +10,7 @@ function run(useSkip,choices){
       assert(files.get(frame.file)[frame.index]);
       frame=useSkip?e.skipChapter(g,state):e.advance(g,state);
     }else{
-      seen.push(frame.items.filter(x=>!x.disabled).map(x=>x.text));
+      assert(frame.items.every(x=>!x.disabled&&x.to),'A visible choice is disabled');seen.push(frame.items.map(x=>x.text));
       const requested=choices[pick++];const selected=frame.items.findIndex(x=>!x.disabled&&x.text===requested);assert(selected>=0,JSON.stringify({requested,items:frame.items}));
       const before=JSON.stringify(e.checkpoint(state));assert.equal(e.skipChapter(g,state).type,'choice');assert.equal(JSON.stringify(e.checkpoint(state)),before);
       const disabled=frame.items.findIndex(x=>x.disabled);if(disabled>=0){e.choose(g,state,disabled);assert.equal(JSON.stringify(e.checkpoint(state)),before);}
@@ -19,10 +19,10 @@ function run(useSkip,choices){
   }
   return {flag:state.flag,progress:state.progress,seen,iterations:count};
 }
-const cases=[['亚托莉先放在我这','吻她','捡起鞋子'],['亚托莉先放在我这','吻她','放着不管'],['把亚托莉交出去','吻她','放着不管'],['亚托莉先放在我这','静静地看她','放着不管'],['把亚托莉交出去','静静地看她','放着不管']];
+const cases=[];for(const first of ['把亚托莉交出去','亚托莉先放在我这'])for(const second of ['静静地看她','吻她'])for(const third of ['捡起鞋子','放着不管'])cases.push([first,second,third]);
 const report=[];
-for(const choices of cases){const normal=run(false,choices),skip=run(true,choices);assert.deepEqual(skip.progress,normal.progress);assert.deepEqual(skip.seen,normal.seen);assert.equal(skip.flag,normal.flag);report.push({choices,normalSteps:normal.iterations,skipSteps:skip.iterations});}
+for(const choices of cases){const normal=run(false,choices),skip=run(true,choices);assert.deepEqual(skip.progress,normal.progress);assert.deepEqual(skip.seen,normal.seen);assert.equal(skip.flag,normal.flag);const expectedGood=choices.join('|')==='亚托莉先放在我这|吻她|捡起鞋子';assert.equal(!!normal.progress.b501,expectedGood);assert.equal(!!normal.progress.b601,!expectedGood);report.push({choices,ending:expectedGood?'good':'bad',normalSteps:normal.iterations,skipSteps:skip.iterations});}
 const state=e.create(g);e.advance(g,state);const saved=e.checkpoint(state);assert.deepEqual(e.checkpoint(e.restore(g,saved)),saved);e.previous(g,state);assert.equal(state.index,0);
 assert(!e.startTrue(g,state));state.progress.b501=true;assert(!e.startTrue(g,state));state.progress.b601=true;assert(e.startTrue(g,state));assert.equal(e.locate(g,state).chapter,'b701');
 fs.writeFileSync(path.join(root,'reports/runtime-check.json'),JSON.stringify({passed:true,cases:report,note:'Pure JavaScript engine, not device performance or UI validation.'},null,2));
-console.log('PASS: sequential/skip parity for all 5 routes, disabled choices, save roundtrip, previous, true-ending unlock.');
+console.log('PASS: sequential/skip parity for all 8 routes, every choice clickable, save roundtrip, previous, true-ending unlock.');
