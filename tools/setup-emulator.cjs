@@ -15,9 +15,9 @@ const manager = new VvdManager({ sdkHome: process.env.WATCH_SDK_HOME||path.join(
     dl.on('progress', p => { if (Date.now() - last > 12000) { last = Date.now(); console.log('SDK', p.formattedPercentage, p.formatTotal, p.formattedSpeed); }});
     await dl.downlodPromise;
   }
-  const name = 'AtriRW5-432x514';
+  const name = process.env.WATCH_VVD_NAME || 'AtriBand8Pro-336x480';
   if (!manager.getVvdList().some(x => x.name === name || x.vvdName === name)) {
-    manager.createVvd({ name, arch: IVvdArchType.arm, width: '432', height: '514', density: '320',
+    manager.createVvd({ name, arch: IVvdArchType.arm, width: '336', height: '480', density: '320',
       shape: 'rect', flavor: 'watch', customLcdRadius: '20', imageType: VelaImageType.VELA_WATCH_5,
       imageDir: path.dirname(manager.getLocalSystemPath(VelaImageType.VELA_WATCH_5)) });
   }

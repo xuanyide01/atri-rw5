@@ -19,13 +19,13 @@
     </div>
     <image if="{{mode === 'play'}}" class="dialogue-backdrop" src="/common/dialogue_bg.jpg"></image>
     <div if="{{mode === 'play'}}" class="dialogue-panel">
-      <div class="speaker-row"><text class="speaker" style="font-family: {{speakerFont}};">{{speaker}}</text><text class="chapter" style="font-family: {{chapterFont}};">{{chapterLabel}}</text></div>
-      <scroll id="dialogue-scroll" class="dialogue-scroll" scroll-y="true" ontouchstart="dialogueTouchStart" ontouchmove="dialogueTouchMove" ontouchend="dialogueTouchEnd" onscroll="dialogueScrolled" onclick="dialogueTap"><text class="dialogue" style="font-size: {{fontSize}}px;font-family: {{dialogueFont}};height: {{dialogueHeight}}px;">{{displayText}}</text></scroll>
+      <div class="speaker-row"><div class="speaker-cell"><text  class="speaker">{{speakerFont !== 'atrifont' ? speaker : ''}}</text><text  class="speaker embedded-text">{{speakerFont === 'atrifont' ? speaker : ''}}</text></div><div class="chapter-cell"><text  class="chapter">{{chapterFont !== 'atrifont' ? chapterLabel : ''}}</text><text  class="chapter embedded-text">{{chapterFont === 'atrifont' ? chapterLabel : ''}}</text></div></div>
+      <scroll id="dialogue-scroll" class="dialogue-scroll" scroll-y="true" ontouchstart="dialogueTouchStart" ontouchmove="dialogueTouchMove" ontouchend="dialogueTouchEnd" onscroll="dialogueScrolled" onclick="dialogueTap"><div class="dialogue-content" style="height: {{dialogueHeight}}px;"><text  class="dialogue" style="font-size: {{fontSize}}px;line-height: {{fontSize === 26 ? 36 : 32}}px;">{{dialogueFont !== 'atrifont' ? displayText : ''}}</text><text  class="dialogue embedded-text" style="font-size: {{fontSize}}px;line-height: {{fontSize === 26 ? 36 : 32}}px;">{{dialogueFont === 'atrifont' ? displayText : ''}}</text></div></scroll>
       <div class="toolbar"><text class="tool" onclick="goBack">上一句</text><text class="tool" onclick="showMenu">菜单</text><text class="tool" onclick="advance">下一句 ›</text></div>
     </div>
     <div if="{{mode === 'choice'}}" class="choice-panel">
       <text class="choice-title">选择下一步</text>
-      <scroll class="choice-list" scroll-y="true"><text for="{{options}}" tid="text" class="choice" style="font-family: {{$item.font}};color: {{$item.disabled ? '#8eaac0' : '#176690'}};" onclick="pick($idx)">{{$item.text}}</text></scroll>
+      <scroll class="choice-list" scroll-y="true"><div for="{{options}}" tid="text"><text if="{{$item.font !== 'atrifont'}}"   class="choice" style="color: {{$item.disabled ? '#8eaac0' : '#176690'}};" onclick="pick($idx)">{{$item.text}}</text><text if="{{$item.font === 'atrifont'}}"   class="choice embedded-text" style="color: {{$item.disabled ? '#8eaac0' : '#176690'}};" onclick="pick($idx)">{{$item.text}}</text></div></scroll>
       <text class="small-action" onclick="showMenu">菜单</text>
     </div>
     <div if="{{mode === 'menu'}}" class="overlay">
@@ -45,24 +45,24 @@
       <text class="panel-subtitle">{{slotPageLabel}}</text>
       <div class="slot-list">
         <div for="{{slotRows}}" tid="number" class="slot-card" style="background-color: {{$item.occupied ? '#d8eaf5' : '#e5f1f8'}};" onclick="selectSlot($item.index)">
-          <text class="slot-title">{{$item.title}}</text><text class="slot-meta" style="font-family: {{$item.metaFont}};">{{$item.meta}}</text><text class="slot-preview" style="font-family: {{$item.previewFont}};">{{$item.preview}}</text>
+          <text class="slot-title">{{$item.title}}</text><div class="slot-meta-cell"><text  class="slot-meta">{{$item.metaFont !== 'atrifont' ? $item.meta : ''}}</text><text  class="slot-meta embedded-text">{{$item.metaFont === 'atrifont' ? $item.meta : ''}}</text></div><div class="slot-preview-cell"><text  class="slot-preview">{{$item.previewFont !== 'atrifont' ? $item.preview : ''}}</text><text  class="slot-preview embedded-text">{{$item.previewFont === 'atrifont' ? $item.preview : ''}}</text></div>
         </div>
       </div>
       <div class="pager"><text class="pager-action" onclick="previousSlotPage">‹ 上一页</text><text class="pager-action" onclick="closeSlots">返回</text><text class="pager-action" onclick="nextSlotPage">下一页 ›</text></div>
     </div>
     <div if="{{mode === 'overwrite'}}" class="overlay">
       <text class="menu-title">{{overwriteTitle}}</text>
-      <text class="confirm-text" style="font-family: {{overwriteFont}};">{{overwriteDetail}}</text>
+      <div class="confirm-cell" style="height: {{overwriteHeight}}px;"><text  class="confirm-text">{{overwriteFont !== 'atrifont' ? overwriteDetail : ''}}</text><text  class="confirm-text embedded-text">{{overwriteFont === 'atrifont' ? overwriteDetail : ''}}</text></div>
       <text class="menu-action" onclick="confirmOverwrite">确认覆盖</text><text class="menu-action muted" onclick="cancelOverwrite">取消</text>
     </div>
     <div if="{{mode === 'gallery'}}" class="full-panel">
       <text class="panel-title">CG 鉴赏</text><text class="panel-subtitle">{{galleryPageLabel}}</text>
-      <div class="gallery-row"><div for="{{galleryTop}}" tid="image" class="gallery-card" onclick="viewCg($item.index)"><image class="gallery-thumb" src="{{$item.src}}"></image><text class="gallery-caption" style="font-family: {{$item.font}};">{{$item.label}}</text></div></div>
-      <div class="gallery-row"><div for="{{galleryBottom}}" tid="image" class="gallery-card" onclick="viewCg($item.index)"><image class="gallery-thumb" src="{{$item.src}}"></image><text class="gallery-caption" style="font-family: {{$item.font}};">{{$item.label}}</text></div></div>
+      <div class="gallery-row"><div for="{{galleryTop}}" tid="image" class="gallery-card" onclick="viewCg($item.index)"><image class="gallery-thumb" src="{{$item.src}}"></image><text if="{{$item.font !== 'atrifont'}}"  class="gallery-caption">{{$item.label}}</text><text if="{{$item.font === 'atrifont'}}"  class="gallery-caption embedded-text">{{$item.label}}</text></div></div>
+      <div class="gallery-row"><div for="{{galleryBottom}}" tid="image" class="gallery-card" onclick="viewCg($item.index)"><image class="gallery-thumb" src="{{$item.src}}"></image><text if="{{$item.font !== 'atrifont'}}"  class="gallery-caption">{{$item.label}}</text><text if="{{$item.font === 'atrifont'}}"  class="gallery-caption embedded-text">{{$item.label}}</text></div></div>
       <div class="pager"><text class="pager-action" onclick="previousGalleryPage">‹ 上一页</text><text class="pager-action" onclick="toTitle">返回标题</text><text class="pager-action" onclick="nextGalleryPage">下一页 ›</text></div>
     </div>
     <div if="{{mode === 'cg'}}" class="cg-panel">
-      <image class="cg-image" src="{{cgSrc}}" onclick="cycleCg"></image><text class="cg-caption" style="font-family: {{cgFont}};">{{cgLabel}}</text>
+      <image class="cg-image" src="{{cgSrc}}" onclick="cycleCg"></image><text if="{{cgFont !== 'atrifont'}}"  class="cg-caption">{{cgLabel}}</text><text if="{{cgFont === 'atrifont'}}"  class="cg-caption embedded-text">{{cgLabel}}</text>
       <div class="cg-controls"><text class="pager-action" onclick="previousCg">‹ 上一组</text><text class="pager-action" onclick="backToGallery">返回列表</text><text class="pager-action" onclick="nextCg">下一组 ›</text></div>
     </div>
     <div if="{{mode === 'end'}}" class="end-panel"><text class="game-title">{{endingLabel}}</text><text class="subtitle">可返回标题重新开始游戏</text><text class="action" onclick="toTitle">返回标题</text></div>

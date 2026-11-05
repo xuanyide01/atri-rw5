@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "strategy": "Paper Band 0.1.1: no explicit default family, small conditional supplementary font, preserved source metadata/layout",
+  "referenceFont": "official SDK MiSansW_Normal.ttf",
+  "referenceFontSha256": "f5e769a8c20ae5ee73292ab941329d8ed6836b89c189b56e2558c4d19856131e",
+  "sourceFontFamily": "Noto Sans CJK SC",
+  "sourceFontSha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+  "fontBytes": 213496,
+  "embeddedCodepoints": 608,
+  "affectedStrings": 100,
+  "embeddedFallbackTriggers": [
+    "≪",
+    "≫",
+    "♪",
+    "・",
+    "呣",
+    "蹡",
+    "齁"
+  ],
+  "defaultCGCaptions": true,
+  "allRenderedStringsCovered": true,
+  "allDefaultBranchStoryCharactersCoveredBySDKFont": true,
+  "physicalFirmwareCoverageClaimed": false,
+  "previousPhysicalFeedback": "0.1.0 CG labels displayed tofu around separators and 点击切换",
+  "note": "SDK字形检查不等于实机固件；0.1.1实机待复测。"
+}

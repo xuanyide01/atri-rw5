@@ -3,10 +3,71 @@
   "cases": [
     {
       "choices": [
+        "把亚托莉交出去",
+        "静静地看她",
+        "捡起鞋子"
+      ],
+      "ending": "bad",
+      "normalSteps": 9489,
+      "skipSteps": 34
+    },
+    {
+      "choices": [
+        "把亚托莉交出去",
+        "静静地看她",
+        "放着不管"
+      ],
+      "ending": "bad",
+      "normalSteps": 9490,
+      "skipSteps": 34
+    },
+    {
+      "choices": [
+        "把亚托莉交出去",
+        "吻她",
+        "捡起鞋子"
+      ],
+      "ending": "bad",
+      "normalSteps": 9508,
+      "skipSteps": 34
+    },
+    {
+      "choices": [
+        "把亚托莉交出去",
+        "吻她",
+        "放着不管"
+      ],
+      "ending": "bad",
+      "normalSteps": 9509,
+      "skipSteps": 34
+    },
+    {
+      "choices": [
+        "亚托莉先放在我这",
+        "静静地看她",
+        "捡起鞋子"
+      ],
+      "ending": "bad",
+      "normalSteps": 9492,
+      "skipSteps": 34
+    },
+    {
+      "choices": [
+        "亚托莉先放在我这",
+        "静静地看她",
+        "放着不管"
+      ],
+      "ending": "bad",
+      "normalSteps": 9493,
+      "skipSteps": 34
+    },
+    {
+      "choices": [
         "亚托莉先放在我这",
         "吻她",
         "捡起鞋子"
       ],
+      "ending": "good",
       "normalSteps": 11809,
       "skipSteps": 38
     },
@@ -16,34 +77,8 @@
         "吻她",
         "放着不管"
       ],
+      "ending": "bad",
       "normalSteps": 9512,
-      "skipSteps": 34
-    },
-    {
-      "choices": [
-        "把亚托莉交出去",
-        "吻她",
-        "放着不管"
-      ],
-      "normalSteps": 9509,
-      "skipSteps": 34
-    },
-    {
-      "choices": [
-        "亚托莉先放在我这",
-        "静静地看她",
-        "放着不管"
-      ],
-      "normalSteps": 9493,
-      "skipSteps": 34
-    },
-    {
-      "choices": [
-        "把亚托莉交出去",
-        "静静地看她",
-        "放着不管"
-      ],
-      "normalSteps": 9490,
       "skipSteps": 34
     }
   ],

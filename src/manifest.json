@@ -1,8 +1,8 @@
 {
-  "package": "com.codex.atri.rw5",
+  "package": "com.codex.atri.band8pro",
   "name": "ATRI",
-  "versionName": "0.1.6",
-  "versionCode": 12,
+  "versionName": "0.1.2",
+  "versionCode": 3,
   "minPlatformVersion": 1000,
   "minAPILevel": 1,
   "icon": "/common/logo.png",
@@ -21,7 +21,7 @@
     }
   ],
   "config": {
-    "designWidth": 432,
+    "designWidth": 336,
     "logLevel": "log"
   },
   "router": {

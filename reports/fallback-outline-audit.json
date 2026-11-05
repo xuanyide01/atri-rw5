@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "fontSha256": "9908461cb0c8764fea7d6d92a770e979b664a99f848a89a4c56f059f421be406",
+  "mappedCodepoints": 608,
+  "nonspaceGlyphsWithOutlines": 606,
+  "allSelectedCharactersHaveValidOutlines": true,
+  "note": "Font resource validation, not a claim about physical-firmware rendering."
+}

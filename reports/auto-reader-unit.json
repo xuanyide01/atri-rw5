@@ -1,7 +1,8 @@
 {
   "passed": true,
-  "tests": 9,
+  "tests": 11,
   "cases": [
+    "font branch uses actual text including whole typewriter line and all save previews",
     "three speeds and bounded extra time for long paragraphs",
     "auto remains off at boot; only speed persists; old settings compatible",
     "wait starts after final glyph; manual completion restarts the whole wait",
@@ -10,7 +11,8 @@
     "touch hold and drag suspend progression without treating scroll as click",
     "background suspends timers, foreground restarts reading wait",
     "previous, title, ending, error and destruction cancel automatic reading",
-    "cancelled callbacks cannot advance even when delivered late"
+    "cancelled callbacks cannot advance even when delivered late",
+    "all thirty independent save slots roundtrip with current UI methods"
   ],
   "actualPageMethods": true,
   "deterministicClock": true,
