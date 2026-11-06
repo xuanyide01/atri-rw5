@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "tests": 11,
+  "tests": 14,
   "cases": [
     "font branch uses actual text including whole typewriter line and all save previews",
     "three speeds and bounded extra time for long paragraphs",
@@ -12,7 +12,10 @@
     "background suspends timers, foreground restarts reading wait",
     "previous, title, ending, error and destruction cancel automatic reading",
     "cancelled callbacks cannot advance even when delivered late",
-    "all thirty independent save slots roundtrip with current UI methods"
+    "all thirty independent save slots roundtrip with current UI methods",
+    "save deletion requires a separate tap and cancellation preserves the slot",
+    "delete failure can retry and clears only one slot on the last page",
+    "unreadable slot payload can still be deleted without touching other keys"
   ],
   "actualPageMethods": true,
   "deterministicClock": true,

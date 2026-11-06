@@ -44,7 +44,7 @@
       <text class="panel-title">{{slotTitle}}</text>
       <text class="panel-subtitle">{{slotPageLabel}}</text>
       <div class="slot-list">
-        <div for="{{slotRows}}" tid="number" class="slot-card" style="background-color: {{$item.occupied ? '#d8eaf5' : '#e5f1f8'}};" onclick="selectSlot($item.index)">
+        <div for="{{slotRows}}" tid="number" class="slot-card" style="background-color: {{$item.occupied ? '#d8eaf5' : '#e5f1f8'}};" ontouchstart="beginSlotHold($item.index)" ontouchmove="moveSlotHold" ontouchend="clearSlotHold" ontouchcancel="clearSlotHold" onclick="selectSlot($item.index)">
           <text class="slot-title">{{$item.title}}</text><div class="slot-meta-cell"><text  class="slot-meta">{{$item.metaFont !== 'atrifont' ? $item.meta : ''}}</text><text  class="slot-meta embedded-text">{{$item.metaFont === 'atrifont' ? $item.meta : ''}}</text></div><div class="slot-preview-cell"><text  class="slot-preview">{{$item.previewFont !== 'atrifont' ? $item.preview : ''}}</text><text  class="slot-preview embedded-text">{{$item.previewFont === 'atrifont' ? $item.preview : ''}}</text></div>
         </div>
       </div>
@@ -54,6 +54,12 @@
       <text class="menu-title">{{overwriteTitle}}</text>
       <div class="confirm-cell" style="height: {{overwriteHeight}}px;"><text  class="confirm-text">{{overwriteFont !== 'atrifont' ? overwriteDetail : ''}}</text><text  class="confirm-text embedded-text">{{overwriteFont === 'atrifont' ? overwriteDetail : ''}}</text></div>
       <text class="menu-action" onclick="confirmOverwrite">确认覆盖</text><text class="menu-action muted" onclick="cancelOverwrite">取消</text>
+    </div>
+    <div if="{{mode === 'deleteSlot'}}" class="overlay">
+      <text class="menu-title">{{deleteSlotTitle}}</text>
+      <text class="panel-subtitle">删除后无法恢复</text>
+      <text class="menu-action" ontouchstart="beginSlotTouch" onclick="confirmDeleteSlot">确认删除</text>
+      <text class="menu-action muted" onclick="cancelDeleteSlot">取消</text>
     </div>
     <div if="{{mode === 'gallery'}}" class="full-panel">
       <text class="panel-title">CG 鉴赏</text><text class="panel-subtitle">{{galleryPageLabel}}</text>

@@ -10,16 +10,16 @@ const PREFIX='atri_band8pro_';
 const FONT='';
 export default {
   private:{mode:'title',backgroundSrc:'/common/title_bg.jpg',bodySrc:'',bodySecond:'',bodyThird:'',portraitWidth:200,portraitHeight:286,portraitTop:0,portraitLeft:116,portraitSecondWidth:200,portraitSecondHeight:286,portraitSecondTop:0,portraitSecondLeft:216,portraitThirdWidth:144,portraitThirdHeight:286,portraitThirdTop:0,portraitThirdLeft:288,portraitOpacity:1,portraitSecondOpacity:1,portraitThirdOpacity:1,
-    speaker:'',displayText:'',dialogueHeight:152,chapterLabel:'',speakerFont:FONT,dialogueFont:FONT,chapterFont:FONT,overwriteFont:FONT,cgFont:FONT,options:[],loading:true,errorText:'',hasNextChapter:true,fontSize:22,textSpeed:0,autoEnabled:false,autoSpeed:1,autoLabel:'自动播放：关闭',autoSpeedLabel:'自动速度：标准',speedLabel:'显示速度：即时',fontLabel:'字号：标准',trueUnlocked:false,slotTitle:'',slotPage:0,slotPageLabel:'',slotRows:[],storageBusy:false,overwriteTitle:'',overwriteHeight:30,overwriteDetail:'',endingLabel:'阅读完毕',galleryPage:0,galleryPageLabel:'',galleryTop:[],galleryBottom:[],cgIndex:0,cgVariant:0,cgSrc:'',cgLabel:''},
+    speaker:'',displayText:'',dialogueHeight:152,chapterLabel:'',speakerFont:FONT,dialogueFont:FONT,chapterFont:FONT,overwriteFont:FONT,cgFont:FONT,options:[],loading:true,errorText:'',hasNextChapter:true,fontSize:22,textSpeed:0,autoEnabled:false,autoSpeed:1,autoLabel:'自动播放：关闭',autoSpeedLabel:'自动速度：标准',speedLabel:'显示速度：即时',fontLabel:'字号：标准',trueUnlocked:false,slotTitle:'',slotPage:0,slotPageLabel:'',slotRows:[],storageBusy:false,deleteSlotTitle:'',overwriteTitle:'',overwriteHeight:30,overwriteDetail:'',endingLabel:'阅读完毕',galleryPage:0,galleryPageLabel:'',galleryTop:[],galleryBottom:[],cgIndex:0,cgVariant:0,cgSrc:'',cgLabel:''},
   onInit(){
-    this.session=create(graph);this.sequence=0;this.slotSequence=0;this.timer=null;this._autoTimer=null;this._autoGeneration=0;this._alive=true;this._touchReading=false;this._dialogueDragged=false;this._dialogueTouch=null;this.fullText='';this.cachedFile='';this.frames=[];this._progress={};this._progressReady=false;this._progressBusy=false;this._progressDirty=false;this._slotData=[];this._gallery=[];this._hidden=false;
+    this.session=create(graph);this.sequence=0;this.slotSequence=0;this.timer=null;this._autoTimer=null;this._autoGeneration=0;this._alive=true;this._touchReading=false;this._dialogueDragged=false;this._dialogueTouch=null;this.fullText='';this.cachedFile='';this.frames=[];this._progress={};this._progressReady=false;this._progressBusy=false;this._progressDirty=false;this._slotData=[];this._slotLongPressed=false;this._slotHoldTimer=null;this._slotTouch=null;this._pendingDeleteSlot=null;this._gallery=[];this._hidden=false;
     storage.get({key:PREFIX+'settings_v1',default:'',success:data=>{try{const s=JSON.parse(data);this.fontSize=s.fontSize===26?26:22;this.textSpeed=s.textSpeed===30?30:0;this.autoSpeed=s.autoSpeed===0||s.autoSpeed===2?s.autoSpeed:1;this.refreshSettings();}catch(e){}},fail:()=>{},complete:()=>{}});
     storage.get({key:PREFIX+'progress_v1',default:'{}',success:data=>{try{const p=JSON.parse(data||'{}');this._progress=p&&typeof p==='object'?p:{};this._progressReady=true;this.loading=false;this.refreshProgress();}catch(e){this.fail('通关记录读取失败');}},fail:()=>{this.fail('通关记录读取失败，请返回标题重试');},complete:()=>{}});
     console.log('ATRI_BAND8PRO title ready');
   },
   onShow(){this._hidden=false;this.armAuto();},
-  onHide(){this._hidden=true;this._touchReading=false;this.clearTyping();if(this.mode==='play')this.displayText=this.fullText;},
-  onDestroy(){this._alive=false;this.stopAuto();this.clearTyping();this.sequence++;this.slotSequence++;console.log('ATRI_BAND8PRO destroyed');},
+  onHide(){this.clearSlotHold();this._hidden=true;this._touchReading=false;this.clearTyping();if(this.mode==='play')this.displayText=this.fullText;},
+  onDestroy(){this.clearSlotHold();this._alive=false;this.stopAuto();this.clearTyping();this.sequence++;this.slotSequence++;console.log('ATRI_BAND8PRO destroyed');},
   exitApplication(){if(this.loading||this.storageBusy)return;this._alive=false;this.stopAuto();this.clearTyping();this.sequence++;this.slotSequence++;console.log('ATRI_BAND8PRO exit requested');this.$app.exit();},
   backgroundLoaded(){},backgroundError(){console.error('ATRI_BAND8PRO image failed',this.backgroundSrc);},
   clearTyping(){this.clearAuto();if(this.timer!==null){clearTimeout(this.timer);this.timer=null;}},
@@ -75,13 +75,81 @@ export default {
   goNextChapter(){if(this.loading||this.mode!=='menu')return;try{skipChapter(graph,this.session);this.renderFrame();}catch(e){this.fail(e.message);}},
   swipe(event){if(this.mode==='play'&&event.direction==='left')this.advance();},
   continueGame(){this.openSlots('load');},saveGame(){this.openSlots('save');},loadGame(){this.openSlots('load');},
-  openSlots(role){if(this.loading||this.storageBusy)return;this.clearTyping();this._slotRole=role;this._slotsReturnMode=this.mode==='menu'?(this.resumeMode||'play'):this.mode;this.mode='slots';this.slotPage=0;this.slotTitle=role==='save'?'选择保存栏位':'选择读取栏位';this._slotData=[];this.loading=true;const token=++this.slotSequence;
+  openSlots(role){if(this.loading||this.storageBusy)return;this.clearTyping();this._slotRole=role;this._slotsReturnMode=this.mode==='menu'?(this.resumeMode||'play'):this.mode;this.mode='slots';this._slotLongPressed=false;this.slotPage=0;this.slotTitle=role==='save'?'选择保存栏位':'选择读取栏位';this._slotData=[];this.loading=true;const token=++this.slotSequence;
     const read=index=>{if(token!==this.slotSequence)return;if(index>=30){this.loading=false;this.refreshSlots();console.log('ATRI_BAND8PRO slots ready',role);return;}storage.get({key:PREFIX+'slot_v1_'+(index+1),default:'',success:data=>{if(token!==this.slotSequence)return;try{this._slotData[index]=data?JSON.parse(data):null;}catch(e){this._slotData[index]={invalid:true};}read(index+1);},fail:()=>{if(token!==this.slotSequence)return;this._slotData[index]=null;read(index+1);},complete:()=>{}});};read(0);
   },
-  refreshSlots(){this.slotPageLabel='30 个栏位 · 第 '+(this.slotPage+1)+' / 8 页';this.slotRows=[];for(let index=this.slotPage*4;index<Math.min(30,this.slotPage*4+4);index++){const saved=this._slotData[index],node=saved&&saved.state&&graph.nodes[saved.state.node];this.slotRows.push({index,number:index+1,title:'存档 '+('0'+(index+1)).slice(-2),occupied:!!saved,metaFont:textFont(node?node.title:''),previewFont:textFont(saved&&saved.state?saved.state.preview:''),meta:!saved?'空栏位':node?node.title:'存档无法读取',preview:saved&&saved.state?(saved.state.preview||'章节开头').slice(0,20):''});}},
+  refreshSlots(){this.slotPageLabel='30 个栏位 · 第 '+(this.slotPage+1)+' / 8 页 · 长按删除';this.slotRows=[];for(let index=this.slotPage*4;index<Math.min(30,this.slotPage*4+4);index++){const saved=this._slotData[index],node=saved&&saved.state&&graph.nodes[saved.state.node];this.slotRows.push({index,number:index+1,title:'存档 '+('0'+(index+1)).slice(-2),occupied:!!saved,metaFont:textFont(node?node.title:''),previewFont:textFont(saved&&saved.state?saved.state.preview:''),meta:!saved?'空栏位':node?node.title:'存档无法读取',preview:saved&&saved.state?(saved.state.preview||'章节开头').slice(0,20):''});}},
   previousSlotPage(){if(!this.loading&&this.slotPage>0){this.slotPage--;this.refreshSlots();}},nextSlotPage(){if(!this.loading&&this.slotPage<7){this.slotPage++;this.refreshSlots();}},
-  closeSlots(){if(this.storageBusy)return;this.slotSequence++;this.loading=false;this.mode=this._slotsReturnMode;this.armAuto();},
-  selectSlot(index){if(this.loading||this.storageBusy)return;const saved=this._slotData[index];if(this._slotRole==='load'){if(!saved){this.toast('此栏位尚未保存');return;}try{this.session=restore(graph,saved.state);if(this.session.progression!=='chapter')this.session.progress=Object.assign({},this.session.progress,this._progress);this.cachedFile='';this.slotSequence++;console.log('ATRI_BAND8PRO slot loaded',index+1,this.session.node,this.session.index);this.renderFrame();}catch(e){this.toast('此存档无法读取');}return;}this._pendingSlot=index;this._pendingSave={version:1,state:checkpoint(this.session),savedAt:Date.now()};if(saved){this.overwriteTitle='覆盖存档 '+('0'+(index+1)).slice(-2)+'？';this.overwriteDetail=(saved.state&&saved.state.preview||'已有进度').slice(0,45);this.overwriteHeight=this.overwriteDetail.split('\n').reduce((n,line)=>n+Math.max(1,Math.ceil(line.length/14)),0)*30;this.overwriteFont=textFont(this.overwriteDetail);this.mode='overwrite';console.log('ATRI_BAND8PRO overwrite',index+1);return;}this.commitSlot();},
+  closeSlots(){if(this.storageBusy)return;this.clearSlotHold();this.slotSequence++;this.loading=false;this.mode=this._slotsReturnMode;this.armAuto();},
+  beginSlotTouch(){this._slotLongPressed=false;},
+  selectSlot(index){this.clearSlotHold();if(this.mode!=='slots'||this._slotLongPressed||this.loading||this.storageBusy)return;const saved=this._slotData[index];if(this._slotRole==='load'){if(!saved){this.toast('此栏位尚未保存');return;}try{this.session=restore(graph,saved.state);if(this.session.progression!=='chapter')this.session.progress=Object.assign({},this.session.progress,this._progress);this.cachedFile='';this.slotSequence++;console.log('ATRI_BAND8PRO slot loaded',index+1,this.session.node,this.session.index);this.renderFrame();}catch(e){this.toast('此存档无法读取');}return;}this._pendingSlot=index;this._pendingSave={version:1,state:checkpoint(this.session),savedAt:Date.now()};if(saved){this.overwriteTitle='覆盖存档 '+('0'+(index+1)).slice(-2)+'？';this.overwriteDetail=(saved.state&&saved.state.preview||'已有进度').slice(0,45);this.overwriteHeight=this.overwriteDetail.split('\n').reduce((n,line)=>n+Math.max(1,Math.ceil(line.length/14)),0)*30;this.overwriteFont=textFont(this.overwriteDetail);this.mode='overwrite';console.log('ATRI_BAND8PRO overwrite',index+1);return;}this.commitSlot();},
+  beginSlotHold(index,event){
+    this.clearSlotHold();
+    this.beginSlotTouch();
+    if(this.loading||this.storageBusy)return;
+    const touch=event&&event.touches&&event.touches[0];
+    this._slotTouch=touch?{x:touch.clientX,y:touch.clientY}:null;
+    this._slotHoldTimer=setTimeout(()=>{
+      this.clearSlotHold();
+      this.requestDeleteSlot(index);
+    },650);
+  },
+  moveSlotHold(event){
+    const start=this._slotTouch,touch=event.touches&&event.touches[0];
+    if(!start||!touch)return;
+    if(Math.abs(touch.clientX-start.x)>10||Math.abs(touch.clientY-start.y)>10){
+      this._slotLongPressed=true;
+      this.clearSlotHold();
+    }
+  },
+  clearSlotHold(){
+    if(this._slotHoldTimer!==null)clearTimeout(this._slotHoldTimer);
+    this._slotHoldTimer=null;
+    this._slotTouch=null;
+  },
+  requestDeleteSlot(index){
+    if(this.mode!=='slots'||this.loading||this.storageBusy)return;
+    this._slotLongPressed=true;
+    if(!this._slotData[index])return;
+    this._pendingDeleteSlot=index;
+    this.deleteSlotTitle='删除存档 '+('0'+(index+1)).slice(-2)+'？';
+    this.mode='deleteSlot';
+    console.log('ATRI_BAND8PRO delete confirm',index+1);
+  },
+  cancelDeleteSlot(){
+    if(this.mode!=='deleteSlot'||this.storageBusy)return;
+    this._pendingDeleteSlot=null;
+    this.mode='slots';
+  },
+  confirmDeleteSlot(){
+    if(this.mode!=='deleteSlot'||this._slotLongPressed||this.storageBusy)return;
+    const index=this._pendingDeleteSlot;
+    const sequence=this.slotSequence;
+    this.storageBusy=true;
+    this.loading=true;
+    // An empty value removes this one key in Vela storage.
+    storage.set({
+      key:PREFIX+'slot_v1_'+(index+1),value:'',
+      success:()=>{
+        if(!this._alive||sequence!==this.slotSequence)return;
+        this._slotData[index]=null;
+        this._pendingDeleteSlot=null;
+        this.refreshSlots();
+        this.storageBusy=false;
+        this.loading=false;
+        this.mode='slots';
+        this.toast('存档已删除');
+        console.log('ATRI_BAND8PRO slot deleted',index+1);
+      },
+      fail:()=>{
+        if(!this._alive||sequence!==this.slotSequence)return;
+        this.storageBusy=false;
+        this.loading=false;
+        this.toast('删除失败，请重试');
+      },
+      complete:()=>{}
+    });
+  },
   confirmOverwrite(){this.commitSlot();},cancelOverwrite(){if(!this.storageBusy)this.mode='slots';},
   commitSlot(){if(this.storageBusy)return;this.storageBusy=true;this.loading=true;const index=this._pendingSlot;storage.set({key:PREFIX+'slot_v1_'+(index+1),value:JSON.stringify(this._pendingSave),success:()=>{this._slotData[index]=this._pendingSave;this.storageBusy=false;this.loading=false;this.mode=this._slotsReturnMode;this.toast('已保存到存档 '+('0'+(index+1)).slice(-2));console.log('ATRI_BAND8PRO slot saved',index+1,this.session.node,this.session.index);this.armAuto();},fail:()=>{this.storageBusy=false;this.loading=false;this.toast('保存失败，请重试');},complete:()=>{}});},
   openGallery(){if(this.loading)return;this.mode='gallery';if(this._gallery.length){this.refreshGallery();return;}this.loading=true;const token=++this.sequence;file.readText({uri:'/common/gallery.txt',success:data=>{if(token!==this.sequence)return;try{this._gallery=JSON.parse(data.text);this.galleryPage=0;this.loading=false;this.refreshGallery();}catch(e){this.fail('CG目录读取失败');}},fail:()=>{if(token===this.sequence)this.fail('CG目录读取失败');},complete:()=>{}});},

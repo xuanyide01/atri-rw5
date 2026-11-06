@@ -1,18 +1,16 @@
 # 《ATRI》· 小米手环 8 Pro
 
-作者 xuanyide。移植、资源转换与构建工具由 OpenAI Codex 完成。维护者已确认 **0.1.2** 实机测试通过。
+作者 xuanyide。移植、资源转换与构建工具由 OpenAI Codex 完成。维护者已确认 **0.1.3** 实机测试通过。
 
-[下载 小米手环 8 Pro 0.1.2](https://github.com/xuanyide01/atri-rw5/releases/tag/band8pro-v0.1.2) · [安装说明](docs/INSTALL.md) · [REDMI Watch 5 版](https://github.com/xuanyide01/atri-rw5/releases/tag/v0.1.8)
+[下载 小米手环 8 Pro 0.1.3](https://github.com/xuanyide01/atri-rw5/releases/tag/band8pro-v0.1.3) · [安装说明](docs/INSTALL.md) · [REDMI Watch 5 版](https://github.com/xuanyide01/atri-rw5/releases/tag/v0.1.9)
 
-## 0.1.2 更新
+## 0.1.3 更新
 
-- 清理移除人物后残留的背景小窗边框，包括凛凛花登场时右侧的异常方框。检查 12,172 段剧情，修正 284 处背景引用，移除 66 张带可见残框的背景副本。
-- 核对 418 张独立立绘和 5,065 处引用，全部属于亚托莉。原作 CG 中的人物随 CG 保留。
-- 累计修复手环字体方框，调整圆形图标至 96 × 96，正文从左上方起排并自动换行。
-- 所有选项都可点，前两次选择仍影响结局。
+- 在保存或读取界面，长按已有存档的栏位，再点“确认删除”。短按仍可保存或读取。
+- 确认后只清空所选栏位，可再次保存。取消会保留原存档。模拟器已验证覆盖安装后的旧档兼容及重启后的删除结果。
 - 保留 30 个存档栏位、三档自动播放、安全跳章与 31 组／71 张 CG 差分。包名、签名和存档格式沿用前版。
 
-![模拟器中的修复场景](docs/scene-fix.png)
+![模拟器中的删除确认](docs/delete-confirmation.png)
 
 ## 功能与流程
 
