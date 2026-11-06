@@ -1,9 +1,9 @@
-# 《ATRI》REDMI Watch 5 0.1.8 安装说明
+# 《ATRI》REDMI Watch 5 0.1.9 安装说明
 
-1. 下载 [atri-rw5-v0.1.8-light.bin](https://github.com/xuanyide01/atri-rw5/releases/download/v0.1.8/atri-rw5-v0.1.8-light.bin)，在表盘自定义工具中选择该文件并传输到 REDMI Watch 5。
+1. 下载 [atri-rw5-v0.1.9-light.bin](https://github.com/xuanyide01/atri-rw5/releases/download/v0.1.9/atri-rw5-v0.1.9-light.bin)，在表盘自定义工具中选择该文件并传输到 REDMI Watch 5。
 2. 手机显示传输完成后，继续等待设备解包、安装和显示图标，再打开《ATRI》。
 3. 更新时可覆盖安装。应用包名、签名和存档格式沿用上一版，优先保留应用数据。卸载可能清除存档。
 
-BIN 与 RPK 的内容相同。通过表盘自定义工具安装时使用 BIN 即可。安装包为 9,715,121 字节，维护者已确认本版实机测试通过。
+BIN 与 RPK 的内容相同。通过表盘自定义工具安装时使用 BIN 即可。安装包为 9,715,617 字节，维护者已确认本版实机测试通过。
 
 若传输后暂未出现图标，先等待设备完成安装，再检查应用列表。若正常重启后仍无图标，可在仓库 Issues 提供设备型号、固件、工具版本和所用文件名。若游玩退回桌面，重开后读取最近存档，复现时记下章节、台词和操作。

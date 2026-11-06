@@ -1,0 +1,156 @@
+{
+  "game": "ATRI",
+  "version": "0.1.9",
+  "device": "REDMI Watch 5",
+  "author": "xuanyide",
+  "implementation": "Codex",
+  "physicalDeviceTested": false,
+  "package": {
+    "file": "com.codex.atri.rw5.debug.0.1.9.rpk",
+    "version": "0.1.9",
+    "bytes": 9715617,
+    "expandedBytes": 11530308,
+    "entries": 1157,
+    "sha256": "a8859a3ac56707a8e505457e4d5fb5601647124607c16fa4b4c53e64910a1216",
+    "certificateSha256": "4e8e1ee24968b0dad6d0956a7e14d848b38b22a203f39c389a45d8737bdc4585",
+    "zipCRCValid": true,
+    "outerSignatureValid": true,
+    "innerSignatureValid": true,
+    "allFileDigestsValid": true,
+    "signedFiles": 1116
+  },
+  "baselineSha256": "45bbc73b48a880fd3d37ee0a5a727d25dcf350a634bcd109bb28018dd44b7314",
+  "changedPackageEntries": [
+    "META-INF/CERT",
+    "META-INF/build.txt",
+    "app.js",
+    "manifest-watch.json",
+    "manifest.json",
+    "pages/index/index.js"
+  ],
+  "allCommonResourcesIdentical": true,
+  "native": {
+    "passed": true,
+    "device": "RW5",
+    "version": "0.1.9",
+    "packageSha256": "a8859a3ac56707a8e505457e4d5fb5601647124607c16fa4b4c53e64910a1216",
+    "previousVersionSavesRestored": true,
+    "realLongPress": true,
+    "cancelPreservedSave": true,
+    "shortTapRestoredOriginalSave": true,
+    "isolatedDeletion": true,
+    "deletedSlotStayedEmptyAfterRestart": true,
+    "emptyLongPressDidNotSave": true,
+    "deletedSlotReusable": true,
+    "deletionInBothLists": true,
+    "physicalDeviceTested": false,
+    "installedManifestAndPageByteIdentical": true
+  },
+  "pageTests": {
+    "passed": true,
+    "tests": 12,
+    "cases": [
+      "three speeds and bounded extra time for long paragraphs",
+      "auto remains off at boot; only speed persists; old settings compatible",
+      "wait starts after final glyph; manual completion restarts the whole wait",
+      "menus and save/load selection pause, then resume with a fresh timer",
+      "choices never auto-select; manual selection resumes typing and auto",
+      "touch hold and drag suspend progression without treating scroll as click",
+      "background suspends timers, foreground restarts reading wait",
+      "previous, title, ending, error and destruction cancel automatic reading",
+      "cancelled callbacks cannot advance even when delivered late",
+      "save deletion requires a separate tap and cancellation preserves the slot",
+      "delete failure can retry and clears only one slot on the last page",
+      "unreadable slot payload can still be deleted without touching other keys"
+    ],
+    "actualPageMethods": true,
+    "deterministicClock": true,
+    "choiceFixturesOnlyInUnitTests": true
+  },
+  "storyTests": {
+    "passed": true,
+    "cases": [
+      {
+        "choices": [
+          "把亚托莉交出去",
+          "静静地看她",
+          "捡起鞋子"
+        ],
+        "ending": "bad",
+        "normalSteps": 9489,
+        "skipSteps": 34
+      },
+      {
+        "choices": [
+          "把亚托莉交出去",
+          "静静地看她",
+          "放着不管"
+        ],
+        "ending": "bad",
+        "normalSteps": 9490,
+        "skipSteps": 34
+      },
+      {
+        "choices": [
+          "把亚托莉交出去",
+          "吻她",
+          "捡起鞋子"
+        ],
+        "ending": "bad",
+        "normalSteps": 9508,
+        "skipSteps": 34
+      },
+      {
+        "choices": [
+          "把亚托莉交出去",
+          "吻她",
+          "放着不管"
+        ],
+        "ending": "bad",
+        "normalSteps": 9509,
+        "skipSteps": 34
+      },
+      {
+        "choices": [
+          "亚托莉先放在我这",
+          "静静地看她",
+          "捡起鞋子"
+        ],
+        "ending": "bad",
+        "normalSteps": 9492,
+        "skipSteps": 34
+      },
+      {
+        "choices": [
+          "亚托莉先放在我这",
+          "静静地看她",
+          "放着不管"
+        ],
+        "ending": "bad",
+        "normalSteps": 9493,
+        "skipSteps": 34
+      },
+      {
+        "choices": [
+          "亚托莉先放在我这",
+          "吻她",
+          "捡起鞋子"
+        ],
+        "ending": "good",
+        "normalSteps": 11809,
+        "skipSteps": 38
+      },
+      {
+        "choices": [
+          "亚托莉先放在我这",
+          "吻她",
+          "放着不管"
+        ],
+        "ending": "bad",
+        "normalSteps": 9512,
+        "skipSteps": 34
+      }
+    ],
+    "note": "Pure JavaScript engine, not device performance or UI validation."
+  }
+}

@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "tests": 9,
+  "tests": 12,
   "cases": [
     "three speeds and bounded extra time for long paragraphs",
     "auto remains off at boot; only speed persists; old settings compatible",
@@ -10,7 +10,10 @@
     "touch hold and drag suspend progression without treating scroll as click",
     "background suspends timers, foreground restarts reading wait",
     "previous, title, ending, error and destruction cancel automatic reading",
-    "cancelled callbacks cannot advance even when delivered late"
+    "cancelled callbacks cannot advance even when delivered late",
+    "save deletion requires a separate tap and cancellation preserves the slot",
+    "delete failure can retry and clears only one slot on the last page",
+    "unreadable slot payload can still be deleted without touching other keys"
   ],
   "actualPageMethods": true,
   "deterministicClock": true,
